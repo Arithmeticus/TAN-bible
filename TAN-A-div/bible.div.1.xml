@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-A-div xmlns="tag:textalign.net,2015:ns"
-    TAN-version="1" id="tag:kalvesmaki@gmail.com,2014:Bible-TAN-A-div">
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--> 
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+    id="tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div.1">
     <head>
         <name>Div-based alignment of multiple versions of the Bible</name>
-        <master-location>bible.div.1.xml</master-location>
-      <rights-excluding-sources rights-holder="kalvesmaki">
-            <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI><name>Creative Commons Attribution 4.0 International License</name>
-            <desc>This license is granted independent of rights and licenses associated with
-                the source. </desc>
+        <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/bible.div.1.xml</master-location>
+        <rights-excluding-sources rights-holder="kalvesmaki">
+            <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+            <name>Creative Commons Attribution 4.0 International License</name>
+            <desc>This license is granted independent of rights and licenses associated with the
+                source. </desc>
         </rights-excluding-sources>
         <source xml:id="kjv">
             <IRI>tag:kalvesmaki.com,2014:ot-eng-kjv.001.TAN-T.001</IRI>
             <name>Bible (including apocrypha), King James Version</name>
-            <location when-accessed="2014-10-23">../TAN-T/bible.eng.kjv.xml</location>
+            <location when-accessed="2014-10-23">../bible.eng.kjv.xml</location>
         </source>
         <source xml:id="lxx">
             <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
             <name>Greek Septuagint, Rahlfs's edition</name>
-            <location when-accessed="2014-10-23">../TAN-T/lxx.grc.rahlfs.xml</location>
+            <location when-accessed="2014-10-23">../lxx.grc.rahlfs.xml</location>
         </source>
         <source xml:id="nt-grc">
             <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
             <name>Greek New Testament, SBL edition</name>
-            <location when-accessed="2014-10-23">../TAN-T/nt.grc.sbl-2010.xml</location>
+            <location when-accessed="2014-10-23">../nt.grc.sbl-2010.xml</location>
         </source>
-       <source xml:id="nt-syr">
-          <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
-          <name>1905 Bible Society Syriac New Testament</name>
-           <location when-accessed="2014-11-04">../TAN-T/nt.syr.bfbs-1905.xml</location>
-       </source>
-        <declarations>
-            
-        </declarations>
+        <source xml:id="nt-syr">
+            <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
+            <name>1905 Bible Society Syriac New Testament</name>
+            <location when-accessed="2014-11-04">../nt.syr.bfbs-1905.xml</location>
+        </source>
+        <declarations> </declarations>
         <agent xml:id="kalvesmaki" roles="creator">
             <IRI>http://viaf.org/viaf/299582703</IRI>
             <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
@@ -44,6 +45,8 @@
             <name xml:lang="eng">creator</name>
         </role>
         <change when="2014-10-23" who="kalvesmaki">Started file</change>
+        <comment when="2015-08-06" who="kalvesmaki">File does not yet reconcile Septuagint and
+            non-Septuagint reference systems.</comment>
     </head>
     <body>
         <equate-works src="lxx kjv nt-grc"/>

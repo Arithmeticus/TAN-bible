@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
+    <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--> 
 <TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
-    id="tag:kalvesmaki@gmail.com,2014:Bible-TAN-A-div">
+    id="tag:kalvesmaki@gmail.com,2014:nt.TAN-A-div.1">
     <head>
-        <name>Div-based alignment of multiple versions of the Bible</name>
-        <master-location>bible.div.1.xml</master-location>
+        <name>Div-based alignment of multiple versions of the New Testament</name>
+        <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/nt.div.1.xml</master-location>
         <rights-excluding-sources rights-holder="kalvesmaki">
             <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
             <name>Creative Commons Attribution 4.0 International License</name>
@@ -15,26 +17,25 @@
         <source xml:id="nt-grc">
             <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
             <name>Greek New Testament, SBL edition</name>
-            <location when-accessed="2014-10-23">../TAN-T/nt.grc.sbl-2010.xml</location>
+            <location when-accessed="2014-10-23">../nt.grc.sbl-2010.xml</location>
         </source>
         <source xml:id="nt-cop">
             <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03</IRI>
             <name>Coptic New Testament, CS edition</name>
-            <location when-accessed="2015-03-13">../TAN-T/nt.cop.cs-2015-03-13.xml</location>
+            <location when-accessed="2015-03-13">../nt.cop.cs-2015-03-13.xml</location>
         </source>
         <source xml:id="nt-syr">
             <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
             <name>1905 Bible Society Syriac New Testament</name>
-            <location when-accessed="2014-11-04">../TAN-T/nt.syr.bfbs-1905.xml</location>
+            <location when-accessed="2014-11-04">../nt.syr.bfbs-1905.xml</location>
         </source>
         <source xml:id="kjv">
             <IRI>tag:kalvesmaki.com,2014:ot-eng-kjv.001.TAN-T.001</IRI>
             <name>Bible (including apocrypha), King James Version</name>
-            <location when-accessed="2014-10-23">../TAN-T/bible.eng.kjv.xml</location>
+            <location when-accessed="2014-10-23">../bible.eng.kjv.xml</location>
         </source>
         <declarations>
-            <tokenization src="nt-grc nt-syr" which="general-words-only-1"/>
-            <tokenization src="nt-cop" which="general-words-only-1"/>
+            <tokenization src="nt-grc nt-syr nt-cop" which="general-words-only-1"/>
             <tokenization src="kjv" which="general-1"/>
         </declarations>
         <agent xml:id="kalvesmaki" roles="creator">
