@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+    id="tag:kalvesmaki@gmail.com,2014:Bible-TAN-A-div">
+    <head>
+        <name>Div-based alignment of multiple versions of the Bible</name>
+        <master-location>bible.div.1.xml</master-location>
+        <rights-excluding-sources rights-holder="kalvesmaki">
+            <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+            <name>Creative Commons Attribution 4.0 International License</name>
+            <desc>This license is granted independent of rights and licenses associated with the
+                source. </desc>
+        </rights-excluding-sources>
+        <source xml:id="nt-grc">
+            <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
+            <name>Greek New Testament, SBL edition</name>
+            <location when-accessed="2014-10-23">../TAN-T/nt.grc.sbl-2010.xml</location>
+        </source>
+        <source xml:id="nt-cop">
+            <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03</IRI>
+            <name>Coptic New Testament, CS edition</name>
+            <location when-accessed="2015-03-13">../TAN-T/nt.cop.cs-2015-03-13.xml</location>
+        </source>
+        <source xml:id="nt-syr">
+            <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
+            <name>1905 Bible Society Syriac New Testament</name>
+            <location when-accessed="2014-11-04">../TAN-T/nt.syr.bfbs-1905.xml</location>
+        </source>
+        <source xml:id="kjv">
+            <IRI>tag:kalvesmaki.com,2014:ot-eng-kjv.001.TAN-T.001</IRI>
+            <name>Bible (including apocrypha), King James Version</name>
+            <location when-accessed="2014-10-23">../TAN-T/bible.eng.kjv.xml</location>
+        </source>
+        <declarations>
+            <tokenization src="nt-grc nt-syr" which="general-words-only-1"/>
+            <tokenization src="nt-cop" which="general-words-only-1"/>
+            <tokenization src="kjv" which="general-1"/>
+        </declarations>
+        <agent xml:id="kalvesmaki" roles="creator">
+            <IRI>http://viaf.org/viaf/299582703</IRI>
+            <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+            <name xml:lang="eng">Joel Kalvesmaki</name>
+        </agent>
+        <role xml:id="creator">
+            <IRI>http://schema.org/creator</IRI>
+            <name xml:lang="eng">creator</name>
+        </role>
+        <change when="2014-10-23" who="kalvesmaki">Started file</change>
+    </head>
+    <body>
+        <equate-works src="kjv nt-grc"/>
+        <align>
+            <div-ref src="kjv" ref="bk.Matt"/>
+            <div-ref src="nt-grc" ref="book.Mt"/>
+            <div-ref src="nt-cop" ref="book.Matthew"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.Mark"/>
+            <div-ref src="nt-grc" ref="book.Mk"/>
+            <div-ref src="nt-cop" ref="book.Mark"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.Luke"/>
+            <div-ref src="nt-grc" ref="book.Lu"/>
+            <div-ref src="nt-cop" ref="book.Luke"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.John"/>
+            <div-ref src="nt-grc" ref="book.Jn"/>
+            <div-ref src="nt-cop" ref="book.John"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.Acts"/>
+            <div-ref src="nt-grc" ref="book.Ac"/>
+            <div-ref src="nt-cop" ref="book.Acts"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.Rom"/>
+            <div-ref src="nt-grc" ref="book.Ro"/>
+            <div-ref src="nt-cop" ref="book.Romans"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.1Cor"/>
+            <div-ref src="nt-grc" ref="book.1Co"/>
+            <div-ref src="nt-cop" ref="book.1Corinthians"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.2Cor"/>
+            <div-ref src="nt-grc" ref="book.2Co"/>
+            <div-ref src="nt-cop" ref="book.2Corinthians"/>
+        </align>
+        <align>
+            <div-ref src="nt-grc" ref="book.Gal"/>
+            <div-ref src="nt-cop" ref="book.Galatians"/>
+        </align>
+        <align>
+            <div-ref src="nt-grc" ref="book.Eph"/>
+            <div-ref src="nt-cop" ref="book.Ephesians"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.Phil"/>
+            <div-ref src="nt-cop" ref="book.Philippians"/>
+            <div-ref src="nt-grc" ref="book.Php"/>
+        </align>
+        <align>
+            <div-ref src="nt-grc" ref="book.Col"/>
+            <div-ref src="nt-cop" ref="book.Colossians"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.1Thess"/>
+            <div-ref src="nt-grc" ref="book.1Th"/>
+            <div-ref src="nt-cop" ref="book.1Thessalonians"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.2Thess"/>
+            <div-ref src="nt-grc" ref="book.2Th"/>
+            <div-ref src="nt-cop" ref="book.2Thessalonians"/>
+        </align>
+        <align>
+            <div-ref src="nt-grc" ref="book.1Tim"/>
+            <div-ref src="nt-cop" ref="book.1Timothy"/>
+        </align>
+        <align>
+            <div-ref src="nt-grc" ref="book.2Tim"/>
+            <div-ref src="nt-cop" ref="book.2Timothy"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.Phlm"/>
+            <div-ref src="nt-grc" ref="book.Phm"/>
+            <div-ref src="nt-cop" ref="book.Philemon"/>
+        </align>
+        <align>
+            <div-ref src="nt-grc" ref="book.Heb"/>
+            <div-ref src="nt-cop" ref="book.Hebrews"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.Jas"/>
+            <div-ref src="nt-grc" ref="book.Jam"/>
+            <div-ref src="nt-cop" ref="book.James"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.1Pet"/>
+            <div-ref src="nt-grc" ref="book.1Pe"/>
+            <div-ref src="nt-cop" ref="book.1Peter"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.2Pet"/>
+            <div-ref src="nt-grc" ref="book.2Pe"/>
+            <div-ref src="nt-cop" ref="book.2Peter"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.1John"/>
+            <div-ref src="nt-grc" ref="book.1Jn"/>
+            <div-ref src="nt-cop" ref="book.1John"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.2John"/>
+            <div-ref src="nt-grc" ref="book.2Jn"/>
+            <div-ref src="nt-cop" ref="book.2John"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.3John"/>
+            <div-ref src="nt-grc" ref="book.3Jn"/>
+            <div-ref src="nt-cop" ref="book.3John"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.Jude"/>
+            <div-ref src="nt-grc" ref="book.Jud"/>
+            <div-ref src="nt-cop" ref="book.Jude"/>
+        </align>
+        <align>
+            <div-ref src="kjv" ref="bk.Rev"/>
+            <div-ref src="nt-cop" ref="book.Revelation"/>
+            <div-ref src="nt-grc" ref="book.Re"/>
+        </align>
+    </body>
+</TAN-A-div>
