@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../SERVER/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../SERVER/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<!--<?xml-model href="../../SERVER/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../SERVER/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TAN-T TAN-version="1" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Romanum_v01"
     xmlns="tag:textalign.net,2015:ns">
     <head>
