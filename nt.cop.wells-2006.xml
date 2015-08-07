@@ -15,13 +15,23 @@
             licensed under a Creative Commons Attribution 4.0 International License.</desc>
       </rights-excluding-sources>
       <source>
+         <IRI>tag:kalvesmaki.com,2014:nt-cop-wells-2006</IRI>
+         <name>Sahidic Coptic New Testament collated by J. Warren Wells</name>
+         <desc>For more details see https://unbound.biola.edu/ and </desc>
+         <rights-source-only ed-when="2015-08-05" ed-who="kalvesmaki">
+            <IRI>urn:uuid:ca3a0eed-d581-42b1-9bea-0a5dffec81c6</IRI>
+            <name>Copyright held, but under what conditions unclear</name>
+            <desc>From Unbound Bible: "Sahidica - A New Edition of the New Testament in Sahidic
+               Coptic" Copyright (c)2000-2006 by J Warren Wells. All rights reserved. For more
+               information visit www.sahidica.org.</desc>
+         </rights-source-only>
+      </source>
+      <see-also>
+         <relationship>auxiliary</relationship>
          <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03.coptic_nt_sahidic_lower_utf8_tokenized_1.1.1.txt</IRI>
          <name>Coptic Scriptorium's tokenized rendering of Unbound Bible's Sahidic Coptic New
             Testament</name>
-         <comment when="2014-05-06" who="kalvesmaki">Rights for the source are detailed at the SBL
-            site, http://sblgnt.com/license/, accessed 2014-05-06. To the best of my knowledge, this
-            reuse of the source as a TAN-T file conforms to that agreement. </comment>
-      </source>
+      </see-also>
       <declarations>
          <work>
             <IRI>http://dbpedia.org/resource/New_testament</IRI>
