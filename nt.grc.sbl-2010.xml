@@ -7,6 +7,7 @@
 id="tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001">
     <head>
         <name>SBL Greek New Testament, transcribed in TAN-T format</name>
+        <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml</master-location>
         <rights-excluding-sources rights-holder="kalvesmaki">
             <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
             <name>Creative Commons Attribution 4.0 International License</name>

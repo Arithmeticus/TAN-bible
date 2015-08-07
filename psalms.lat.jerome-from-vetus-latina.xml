@@ -6,10 +6,11 @@
 <TAN-T TAN-version="1" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Romanum_v01"
     xmlns="tag:textalign.net,2015:ns">
     <head>
-        <name>The Latin translation of the Psalter by Jerome, the so-called Psaterium
-            Romanum</name>
-      <rights-excluding-sources rights-holder="kalvesmaki">
-            <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI><name>Creative Commons Attribution 4.0 International License</name>
+        <name>The Latin translation of the Psalter by Jerome, the so-called Psaterium Romanum</name>
+        <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/psalms.lat.jerome-from-vetus-latina.xml</master-location>
+        <rights-excluding-sources rights-holder="kalvesmaki">
+            <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+            <name>Creative Commons Attribution 4.0 International License</name>
             <desc>Exclusive of rights held and licenses offered by rightsholders of the source or
                 sources listed below, this data file, insofar as it constitutes an independent work,
                 is licensed under a Creative Commons Attribution 4.0 International License.</desc>
@@ -76,7 +77,8 @@
             <IRI>http://schema.org/editor</IRI>
             <name xml:lang="eng">Editor</name>
         </role>
-        <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation schema</change>
+        <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation
+            schema</change>
         <change when="2014-05-24" who="kalvesmaki">Started TAN-T file.</change>
     </head>
     <body xml:lang="lat">

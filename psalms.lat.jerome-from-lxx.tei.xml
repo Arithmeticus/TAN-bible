@@ -20,7 +20,8 @@
     </teiHeader>
     <head xmlns="tag:textalign.net,2015:ns">
         <name>LIBER PSALMORUM - Nova Vulgata, Vetus Testamentum</name>
-      <rights-excluding-sources rights-holder="kalvesmaki">
+        <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/psalms.lat.jerome-from-lxx.tei.xml</master-location>
+        <rights-excluding-sources rights-holder="kalvesmaki">
             <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
             <name>Exclusive of rights held and licenses offered by rightsholders of the source or
                 sources listed below, this data file, insofar as it constitutes an independent work,
@@ -100,14 +101,16 @@
             <recommended-tokenization which="general-words-only-1"/>
         </declarations>
         <agent xml:id="kalvesmaki" roles="editor">
-            <IRI>http://viaf.org/viaf/299582703</IRI>             <IRI>tag:kalvesmaki.com,2014:self</IRI>
+            <IRI>http://viaf.org/viaf/299582703</IRI>
+            <IRI>tag:kalvesmaki.com,2014:self</IRI>
             <name xml:lang="eng">Joel Kalvesmaki</name>
         </agent>
         <role xml:id="editor">
             <IRI>http://schema.org/editor</IRI>
             <name xml:lang="eng">Editor</name>
         </role>
-        <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation schema</change>
+        <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation
+            schema</change>
         <change when="2014-05-24" who="kalvesmaki">Started TAN-T file.</change>
         <change when="2014-08-17" who="kalvesmaki">changed @id to @n in root element</change>
     </head>

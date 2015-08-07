@@ -6,6 +6,7 @@
 <TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:nt-cop-cs-2015-03">
    <head>
       <name>Coptic Scriptorium Coptic New Testament</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.cop.cs-2015-03-13.xml</master-location>
       <rights-excluding-sources rights-holder="kalvesmaki">
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
          <name>Creative Commons Attribution 4.0 International License</name>
@@ -13,13 +14,13 @@
             sources listed below, this data file, insofar as it constitutes an independent work, is
             licensed under a Creative Commons Attribution 4.0 International License.</desc>
       </rights-excluding-sources>
-      <comment when="2014-05-06" who="kalvesmaki">Rights for the source are detailed at the SBL
-         site, http://sblgnt.com/license/, accessed 2014-05-06. To the best of my knowledge, this
-         reuse of the source as a TAN-T file conforms to that agreement. </comment>
       <source>
          <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03.coptic_nt_sahidic_lower_utf8_tokenized_1.1.1.txt</IRI>
          <name>Coptic Scriptorium's tokenized rendering of Unbound Bible's Sahidic Coptic New
             Testament</name>
+         <comment when="2014-05-06" who="kalvesmaki">Rights for the source are detailed at the SBL
+            site, http://sblgnt.com/license/, accessed 2014-05-06. To the best of my knowledge, this
+            reuse of the source as a TAN-T file conforms to that agreement. </comment>
       </source>
       <declarations>
          <work>
