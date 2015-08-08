@@ -93,7 +93,7 @@ id="tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001">
             schema</change>
         <change when="2014-05-06" who="kalvesmaki">Started file.</change>
     </head>
-<body xml:lang="grc">
+<body xml:lang="grc" in-progress="false">
 <div type="book" n="Mt">
 <div type="title" n="t">ΚΑΤΑ ΜΑΘΘΑΙΟΝ</div>
 <div type="chapter" n="1">

@@ -93,7 +93,7 @@
       <comment when="2015-03-13" who="kalvesmaki">Tokenization optimized for either larger word-spaced tokens or smaller ZWJ-spaced tokens. 
          The latter are encoded as entities &#x200B;</comment>
    </head>
-   <body xml:lang="cop">
+   <body xml:lang="cop" in-progress="false">
 <div type="book" n="Matthew"><div type="chapter" n="1">
 <div type="verse" n="1">ⲡ&#x200B;ϫⲱⲱⲙⲉ ⲙ&#x200B;ⲡⲉ&#x200B;ϫⲡⲟ ⲛ&#x200B;ⲓⲏⲥⲟⲩⲥ
 ⲡⲉ&#x200B;ⲭⲣⲓⲥⲧⲟⲥ ⲡ&#x200B;ϣⲏⲣⲉ ⲛ&#x200B;ⲇⲁⲩⲉⲓⲇ ⲡ&#x200B;ϣⲏⲣⲉ ⲛ&#x200B;ⲁⲃⲣⲁϩⲁⲙ . </div>
