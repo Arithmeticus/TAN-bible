@@ -69,11 +69,7 @@
             </normalization>
          </filter>
          <recommended-tokenization which="general-words-only-1"/>
-         <recommended-tokenization xml:id="precise">
-            <IRI>tag:textalign.net,2015:tokenization:common.precise</IRI>
-            <name>Precise tokenization pattern for any language</name>
-            <location when-accessed="2015-05-11">../TAN-R-tok/precise-1.xml</location>
-         </recommended-tokenization>
+         <recommended-tokenization which="precise-1"/>
       </declarations>
       <agent xml:id="kalvesmaki" roles="editor">
          <IRI>http://viaf.org/viaf/299582703</IRI>
