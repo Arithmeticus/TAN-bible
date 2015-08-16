@@ -63,6 +63,7 @@
                 <name xml:lang="eng">explicit</name>
             </div-type>
             <recommended-tokenization which="general-words-only-1"/>
+            <recommended-div-type-refs>explicit</recommended-div-type-refs>
         </declarations>
         <agent xml:id="kalvesmaki" roles="editor">
             <IRI>http://viaf.org/viaf/299582703</IRI>
