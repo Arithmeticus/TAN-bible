@@ -22,7 +22,7 @@
         <source xml:id="nt-cop">
             <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03</IRI>
             <name>Coptic New Testament, CS edition</name>
-            <location when-accessed="2015-03-13">../nt.cop.cs-2015-03-13.xml</location>
+            <location when-accessed="2015-03-13">../nt.cop.wells-2006.xml</location>
         </source>
         <source xml:id="nt-syr">
             <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
