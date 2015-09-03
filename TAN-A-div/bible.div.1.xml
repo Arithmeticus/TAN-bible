@@ -34,7 +34,31 @@
             <name>1905 Bible Society Syriac New Testament</name>
             <location when-accessed="2014-11-04">../nt.syr.bfbs-1905.xml</location>
         </source>
-        <declarations> </declarations>
+        <declarations>
+            <implicit-div-type-refs src="lxx kjv nt-grc nt-syr"/>
+            <rename-div-ns src="kjv" div-type-ref="book">
+                <rename old="Matt" new="Mt"/>
+                <rename old="Mark" new="Mk"/>
+                <rename old="Luke" new="Lu"/>
+                <rename old="John" new="Jn"/>
+                <rename old="Acts" new="Ac"/>
+                <rename old="Rom" new="Ro"/>
+                <rename old="1Cor" new="1Co"/>
+                <rename old="2Cor" new="2Co"/>
+                <rename old="Phil" new="Php"/>
+                <rename old="1Thess" new="1Th"/>
+                <rename old="2Thess" new="2Th"/>
+                <rename old="Phlm" new="Phm"/>
+                <rename old="Jas" new="Jam"/>
+                <rename old="1Pet" new="1Pe"/>
+                <rename old="2Pet" new="2Pe"/>
+                <rename old="1John" new="1Jn"/>
+                <rename old="2John" new="2Jn"/>
+                <rename old="3John" new="3Jn"/>
+                <rename old="Jude" new="Jud"/>
+                <rename old="Rev" new="Re"/>
+            </rename-div-ns>
+        </declarations>
         <agent xml:id="kalvesmaki" roles="creator">
             <IRI>http://viaf.org/viaf/299582703</IRI>
             <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
@@ -44,124 +68,62 @@
             <IRI>http://schema.org/creator</IRI>
             <name xml:lang="eng">creator</name>
         </role>
+        <change when="2015-09-03" who="kalvesmaki">Altered aligns to realigns, added Psalm realigns.</change>
         <change when="2014-10-23" who="kalvesmaki">Started file</change>
         <comment when="2015-08-06" who="kalvesmaki">File does not yet reconcile Septuagint and
             non-Septuagint reference systems.</comment>
     </head>
     <body>
         <equate-works src="lxx kjv nt-grc"/>
-        <equate-div-types>
-            <!-- Not actually true, but here for purposes of demo -->
-            <div-type-ref src="nt-grc" div-type-ref="title"/>
-            <div-type-ref src="lxx" div-type-ref="epigraph"/>
-        </equate-div-types>
-        <align>
-            <div-ref src="kjv" ref="bk.1Sm"/>
-            <div-ref src="lxx" ref="bk.1Kgdms"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.2Sm"/>
-            <div-ref src="lxx" ref="bk.2Kgdms"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.1Kgs"/>
-            <div-ref src="lxx" ref="bk.3Kgdms"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.2Kgs"/>
-            <div-ref src="lxx" ref="bk.4Kgdms"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Ezra"/>
-            <div-ref src="lxx" ref="bk.1Esd"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Neh"/>
-            <div-ref src="lxx" ref="bk.2Esd"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Matt"/>
-            <div-ref src="nt-grc" ref="book.Mt"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Mark"/>
-            <div-ref src="nt-grc" ref="book.Mk"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Luke"/>
-            <div-ref src="nt-grc" ref="book.Lu"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.John"/>
-            <div-ref src="nt-grc" ref="book.Jn"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Acts"/>
-            <div-ref src="nt-grc" ref="book.Ac"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Rom"/>
-            <div-ref src="nt-grc" ref="book.Ro"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.1Cor"/>
-            <div-ref src="nt-grc" ref="book.1Co"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.2Cor"/>
-            <div-ref src="nt-grc" ref="book.2Co"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Phil"/>
-            <div-ref src="nt-grc" ref="book.Php"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.1Thess"/>
-            <div-ref src="nt-grc" ref="book.1Th"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.2Thess"/>
-            <div-ref src="nt-grc" ref="book.2Th"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Phlm"/>
-            <div-ref src="nt-grc" ref="book.Phm"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Jas"/>
-            <div-ref src="nt-grc" ref="book.Jam"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.1Pet"/>
-            <div-ref src="nt-grc" ref="book.1Pe"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.2Pet"/>
-            <div-ref src="nt-grc" ref="book.2Pe"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.1John"/>
-            <div-ref src="nt-grc" ref="book.1Jn"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.2John"/>
-            <div-ref src="nt-grc" ref="book.2Jn"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.3John"/>
-            <div-ref src="nt-grc" ref="book.3Jn"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Jude"/>
-            <div-ref src="nt-grc" ref="book.Jud"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.Rev"/>
-            <div-ref src="nt-grc" ref="book.Re"/>
-        </align>
-        <align>
-            <div-ref src="kjv" ref="bk.AddEsth"/>
-            <div-ref src="lxx" ref="bk.Esth"/>
-        </align>
+        <comment when="2015-09-03" who="kalvesmaki">I retain traditional names for LXX books</comment>
+        <realign>
+            <anchor-div-ref src="kjv" ref="1Sm"/>
+            <div-ref src="lxx" ref="1Kgdms"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="2Sm"/>
+            <div-ref src="lxx" ref="2Kgdms"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="1Kgs"/>
+            <div-ref src="lxx" ref="3Kgdms"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="2Kgs"/>
+            <div-ref src="lxx" ref="4Kgdms"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="Ezra"/>
+            <div-ref src="lxx" ref="1Esd"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="Neh"/>
+            <div-ref src="lxx" ref="2Esd"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="AddEsth"/>
+            <div-ref src="lxx" ref="Esth"/>
+        </realign>
+
+        <realign>
+            <anchor-div-ref src="kjv" ref="Ps 9 1 - Ps 10 18"/>
+            <div-ref src="lxx" ref="Ps 9 2 - Ps 9 39"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="Ps 11 - Ps 113 | Ps 117 - Ps 146"/>
+            <div-ref src="lxx" ref="Ps 10 - Ps 112 | Ps 116 - Ps 145"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="Ps 114 1 - Ps 115 18"/>
+            <div-ref src="lxx" ref="Ps 113:1 - Ps 113:26"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="Ps 116 1 - Ps 116 19"/>
+            <div-ref src="lxx" ref="Ps 114 1 - Ps 115 10"/>
+        </realign>
+        <realign>
+            <anchor-div-ref src="kjv" ref="Ps 147 1 - Ps 147 20"/>
+            <div-ref src="lxx" ref="Ps 146 1 - Ps 147 9"/>
+        </realign>
     </body>
 </TAN-A-div>
