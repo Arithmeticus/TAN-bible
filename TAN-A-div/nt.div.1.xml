@@ -42,7 +42,7 @@
             <rename-div-types src="kjv">
                 <rename old="bk" new="book"/>
             </rename-div-types>
-            <rename-div-ns src="kjv" div-type-ref="bk">
+            <rename-div-ns src="kjv" div-type-ref="book">
                 <rename old="Matt" new="Mt"/>
                 <rename old="Mark" new="Mk"/>
                 <rename old="Luke" new="Lu"/>
@@ -75,7 +75,7 @@
                 <rename old="2Corinthians" new="2Co"/>
                 <rename old="Galatians" new="Gal"/>
                 <rename old="Ephesians" new="Eph"/>
-                <rename old="Php" new="Philippians"/>
+                <rename old="Phillipians" new="Php"/>
                 <rename old="Colossians" new="Col"/>
                 <rename old="1Thessalonians" new="1Th"/>
                 <rename old="2Thessalonians" new="2Th"/>
