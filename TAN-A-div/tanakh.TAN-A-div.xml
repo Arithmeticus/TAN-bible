@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+    id="tag:kalvesmaki@gmail.com,2014:tanakh.TAN-A-div">
+   <head>
+      <name>Div-based alignment of multiple versions of the Tanakh</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/tanakh.TAN-A-div.xml</master-location>
+      <rights-excluding-sources include="HEAD"/>
+      <inclusion xml:id="HEAD">
+         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
+         <name>Div-based alignment of multiple versions of the Bible</name>
+         <location when-accessed="2015-10-02-04:00">HEAD.bible.TAN-A-div.xml</location>
+      </inclusion>
+      <source xml:id="bhs">
+         <IRI>tag:kalvesmaki.com,2014:tanakh.hbo.bhs.1993</IRI>
+         <name>Hebrew OT: BHS (Consonants &amp; Vowels)</name>
+         <location when-accessed="2015-10-12-04:00">../tanakh.hbo.bhs.1987.xml</location>
+      </source>
+      <source xml:id="ot-kjv">
+         <IRI>tag:kalvesmaki.com,2014:ot-eng-kjv.1760</IRI>
+         <name>Old Testament, King James Version of the Bible, 1760 edition</name>
+         <location when-accessed="2015-10-12-04:00">../ot.eng.kjv.1760.xml</location>
+      </source>
+      <source xml:id="lxx">
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Greek Septuagint, Rahlfs's edition</name>
+         <location when-accessed="2014-10-23">../lxx.grc.rahlfs.xml</location>
+      </source>
+      <declarations>
+         <implicit-div-type-refs src="ot-kjv lxx"/>
+         <tokenization src="lxx" which="general-words-only-1"/>
+         <tokenization src="ot-kjv" which="general-1"/>
+      </declarations>
+      <agent include="HEAD"/>
+      <role include="HEAD"/>
+      <change when="2015-10-12" who="kalvesmaki">Started file</change>
+   </head>
+    <body>
+       <equate-works src="bhs ot-kjv lxx"/>
+       <comment when="2015-09-03" who="kalvesmaki">I retain traditional names for LXX books</comment>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="1Sm"/>
+          <div-ref src="lxx" ref="1Kgdms"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="2Sm"/>
+          <div-ref src="lxx" ref="2Kgdms"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="1Kgs"/>
+          <div-ref src="lxx" ref="3Kgdms"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="2Kgs"/>
+          <div-ref src="lxx" ref="4Kgdms"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Ezra"/>
+          <div-ref src="lxx" ref="1Esd"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Neh"/>
+          <div-ref src="lxx" ref="2Esd"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Ps 9 1 - Ps 10 18"/>
+          <div-ref src="lxx" ref="Ps 9 2 - Ps 9 39"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Ps 11 - Ps 113, Ps 117 - Ps 146"/>
+          <div-ref src="lxx" ref="Ps 10 - Ps 112, Ps 116 - Ps 145"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Ps 114 1 - Ps 115 18"/>
+          <div-ref src="lxx" ref="Ps 113:1 - Ps 113:26"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Ps 116 1 - Ps 116 13"/>
+          <div-ref src="lxx" ref="Ps 114 1 - Ps 115 4"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Ps 116 15 - Ps 116 19"/>
+          <div-ref src="lxx" ref="Ps 115 6 - Ps 115 10"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Ps 147 1 - Ps 147 20"/>
+          <div-ref src="lxx" ref="Ps 146 1 - Ps 147 9"/>
+       </realign>
+    </body>
+</TAN-A-div>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+    id="tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div">
+   <head>
+      <name>Div-based alignment of multiple versions of the Bible</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/bible.div.1.xml</master-location>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+         <name>Creative Commons Attribution 4.0 International License</name>
+         <desc>This license is granted independent of rights and licenses associated with the
+            source. </desc>
+      </rights-excluding-sources>
+      <inclusion xml:id="nt">
+         <IRI>tag:kalvesmaki@gmail.com,2014:nt.TAN-A-div.1</IRI>
+         <name>Div-based alignment of multiple versions of the New Testament</name>
+         <location when-accessed="2015-10-01">nt.TAN-A-div.xml</location>
+      </inclusion>
+      <inclusion xml:id="tanakh">
+         <IRI>tag:kalvesmaki@gmail.com,2014:tanakh.TAN-A-div</IRI>
+         <name>Div-based alignment of multiple versions of the Tanakh</name>
+         <location when-accessed="2015-10-12-04:00">tanakh.TAN-A-div.xml</location>
+      </inclusion>
+      <source include="nt tanakh"/>
+      <source xml:id="lxx">
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Greek Septuagint, Rahlfs's edition</name>
+         <location when-accessed="2014-10-23">../lxx.grc.rahlfs.xml</location>
+      </source>
+      <source xml:id="bible-ara">
+         <IRI>tag:kalvesmaki.com,2014:bible.ara.svd.1865</IRI>
+         <name>Arabic: Smith &amp; Van Dyke</name>
+         <location when-accessed="2015-10-12-04:00">../bible.ara.smith-and-van-dyke.1865.xml</location>
+      </source>
+      <source xml:id="bible-fra">
+         <IRI>tag:kalvesmaki.com,2014:bible.fra.ostervald.1996</IRI>
+         <name>Bible, French translation by Ostervald (1996 revision)</name>
+         <location when-accessed="2015-10-12-04:00">../bible.fra.ostervald.1996.xml</location>
+      </source>
+      <source xml:id="bible-lat">
+         <IRI>tag:kalvesmaki.com,2014:bible.lat.vulgata-clementina.2005</IRI>
+         <name>Latin: Vulgata Clementina</name>
+         <location when-accessed="2015-10-12-04:00">../bible.lat.vulgata-clementina.2005.xml</location>
+      </source>
+      <declarations>
+         <implicit-div-type-refs src="lxx"/>
+         <implicit-div-type-refs include="nt tanakh"/>
+         <tokenization include="nt tanakh"/>
+         <rename-div-ns include="nt"/>
+      </declarations>
+      <agent xml:id="kalvesmaki" roles="editor">
+         <IRI>http://viaf.org/viaf/299582703</IRI>
+         <IRI>tag:kalvesmaki.com,2014:self</IRI>
+         <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+         <name xml:lang="eng">Joel Kalvesmaki</name>
+      </agent>
+      <role xml:id="editor">
+         <IRI>http://schema.org/editor</IRI>
+         <name xml:lang="eng">editor</name>
+      </role>
+      <change when="2015-10-01" who="kalvesmaki">Adapted for inclusions.</change>
+      <change when="2015-09-03" who="kalvesmaki">Altered aligns to realigns, added Psalm
+         realigns.</change>
+      <change when="2014-10-23" who="kalvesmaki">Started file</change>
+      <comment when="2015-08-06" who="kalvesmaki">File does not yet reconcile Septuagint and
+         non-Septuagint reference systems.</comment>
+   </head>
+   <body/>
+</TAN-A-div>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:bible-eng-kjv.1760.TAN-T.001">
+   <head>
+      <name>King James Version of the Bible (including apocrypha), transcribed in TAN-T
+         format</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/BIBLE.eng.kjv.1760.xml</master-location>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+         <name>Creative Commons Attribution 4.0 International License</name>
+         <desc>Exclusive of rights held and licenses offered by rightsholders of the source or
+            sources listed below, this data file, insofar as it constitutes an independent work, is
+            licensed under a Creative Commons Attribution 4.0 International License.</desc>
+      </rights-excluding-sources>
+      <inclusion xml:id="HEAD">
+         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
+         <name>Div-based alignment of multiple versions of the Bible</name>
+         <location when-accessed="2015-10-02-04:00">TAN-A-div/HEAD.bible.TAN-A-div.xml</location>
+      </inclusion>
+      <inclusion xml:id="ot">
+         <IRI>tag:kalvesmaki.com,2014:ot-eng-kjv.1760</IRI>
+         <name>Old Testament, King James Version of the Bible, 1760 edition</name>
+         <location when-accessed="2015-10-12-04:00">ot.eng.kjv.1760.xml</location>
+      </inclusion>
+      <inclusion xml:id="apocr">
+         <IRI>tag:kalvesmaki.com,2014:apocr-eng-kjv.1760</IRI>
+         <name>Apocrypha, King James Version of the Bible, 1760 edition</name>
+         <location when-accessed="2015-10-12-04:00">apocr.eng.kjv.1760.xml</location>
+      </inclusion>
+      <inclusion xml:id="nt">
+         <IRI>tag:kalvesmaki.com,2014:nt-eng-kjv.1760</IRI>
+         <name>New Testament, King James Version of the Bible, 1760 edition</name>
+         <location when-accessed="2015-10-12-04:00">nt.eng.kjv.1760.xml</location>
+      </inclusion>
+      <source>
+         <IRI>http://id.lib.harvard.edu/aleph/012287584/catalog</IRI>
+         <IRI>urn:uuid:d851b3b0-59a0-11e4-8ed6-0800200c9a66</IRI>
+         <name>King James Version, Francis Parris 1760 edition</name>
+      </source>
+      <see-also>
+         <relationship>auxiliary</relationship>
+         <IRI>tag:kalvesmaki.com,2014:auxiliary:ccat</IRI>
+         <name>Biblical texts supplied by Center for Computer
+            Analysis of Texts (CCAT) at the University of Pennsylvania</name>
+         <location when-accessed="2015-10-09">http://ccat.sas.upenn.edu/gopher/text/religion/biblical/</location>
+      </see-also>
+      <see-also>
+         <relationship>auxiliary</relationship>
+         <IRI>tag:kalvesmaki.com,2014:auxiliary:unboundbible</IRI>
+         <name>Unbound Bible</name>
+         <location when-accessed="2015-10-12">https://unbound.biola.edu/</location>
+      </see-also>
+      <comment when="2015-10-12" who="kalvesmaki">Items retrieved from Unbound Bible, which drew
+         their material, oftentimes from the CCAT.</comment>
+      <declarations>
+         <work>
+            <IRI>http://dbpedia.org/resource/Bible</IRI>
+            <name>Bible</name>
+         </work>
+         <div-type xml:id="bk">
+            <IRI>http://dbpedia.org/resource/Book</IRI>
+            <name>book</name>
+         </div-type>
+         <div-type xml:id="ch">
+            <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
+            <name xml:lang="eng">chapter</name>
+            <name xml:lang="grc">κεφάλαιον</name>
+         </div-type>
+         <div-type xml:id="line">
+            <IRI>http://dbpedia.org/resource/Line_(poetry)</IRI>
+            <name xml:lang="eng">line</name>
+         </div-type>
+         <div-type xml:id="epigraph">
+            <IRI>http://dbpedia.org/resource/Epigraph_(literature)</IRI>
+            <name xml:lang="eng">line</name>
+         </div-type>
+         <div-type xml:id="prologue">
+            <IRI>http://dbpedia.org/resource/Prologue</IRI>
+            <name xml:lang="eng">prologue</name>
+         </div-type>
+         <div-type xml:id="title">
+            <IRI>http://dbpedia.org/resource/Title_(publishing)</IRI>
+            <name xml:lang="eng">title</name>
+         </div-type>
+         <div-type xml:id="v">
+            <IRI>tag:kalvesmaki.com,2014:divtype.verse</IRI>
+            <name xml:lang="eng">verse</name>
+         </div-type>
+         <filter/>
+         <recommended-tokenization which="general-1"/>
+         <recommended-tokenization xml:id="penn">
+            <IRI>tag:kalvesmaki.com,2015:tokenization:eng.1</IRI>
+            <name>Tokenization pattern for English, in Penn Treebank style</name>
+            <location when-accessed="2015-03-17"
+               >http://kalvesmaki.com/tan-library/tan-r-tok/tok.eng.1.xml</location>
+         </recommended-tokenization>
+         <recommended-div-type-refs>implicit</recommended-div-type-refs>
+      </declarations>
+      <agent include="HEAD"/>
+      <role include="HEAD"/>
+      <change when="2015-10-01" who="kalvesmaki">Revised in light of inclusions.</change>
+      <change when="2014-10-21" who="kalvesmaki">Started file.</change>
+   </head>
+   <body xml:lang="eng" in-progress="false">
+      <div include="ot"/>
+      <div include="apocr"/>
+      <div include="nt"/>
+   </body>
+</TAN-T>
