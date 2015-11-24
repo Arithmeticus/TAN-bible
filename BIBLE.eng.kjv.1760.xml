@@ -41,14 +41,14 @@
          <name>King James Version, Francis Parris 1760 edition</name>
       </source>
       <see-also>
-         <relationship>auxiliary</relationship>
+         <relationship which="auxiliary"/>
          <IRI>tag:kalvesmaki.com,2014:auxiliary:ccat</IRI>
          <name>Biblical texts supplied by Center for Computer
             Analysis of Texts (CCAT) at the University of Pennsylvania</name>
          <location when-accessed="2015-10-09">http://ccat.sas.upenn.edu/gopher/text/religion/biblical/</location>
       </see-also>
       <see-also>
-         <relationship>auxiliary</relationship>
+         <relationship which="auxiliary"/>
          <IRI>tag:kalvesmaki.com,2014:auxiliary:unboundbible</IRI>
          <name>Unbound Bible</name>
          <location when-accessed="2015-10-12">https://unbound.biola.edu/</location>
@@ -89,6 +89,10 @@
             <IRI>tag:kalvesmaki.com,2014:divtype.verse</IRI>
             <name xml:lang="eng">verse</name>
          </div-type>
+         <div-type xml:id="pt">
+            <IRI>tag:textalign.net,2015:div-type:part</IRI>
+            <name xml:lang="eng">part</name>
+         </div-type>
          <filter/>
          <recommended-tokenization which="general-1"/>
          <recommended-tokenization xml:id="penn">
@@ -96,6 +100,7 @@
             <name>Tokenization pattern for English, in Penn Treebank style</name>
             <location when-accessed="2015-03-17"
                >http://kalvesmaki.com/tan-library/tan-r-tok/tok.eng.1.xml</location>
+            <location when-accessed="2015-11-24" href="../class-3/TAN-R-tok/tok.eng.1.xml"></location>
          </recommended-tokenization>
          <recommended-div-type-refs>implicit</recommended-div-type-refs>
       </declarations>

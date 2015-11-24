@@ -30,7 +30,7 @@
             <location when-accessed="2014-11-04">../nt.syr.bfbs-1905.xml</location>
         </source>
         <source xml:id="nt-kjv">
-            <IRI>tag:kalvesmaki.com,2014:nt-eng-kjv.1760.TAN-T.001</IRI>
+            <IRI>tag:kalvesmaki.com,2014:nt-eng-kjv.1760</IRI>
             <name>Bible (including apocrypha), King James Version</name>
             <location when-accessed="2014-10-23">../nt.eng.kjv.1760.xml</location>
         </source>

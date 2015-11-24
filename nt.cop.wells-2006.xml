@@ -32,7 +32,7 @@
          </rights-source-only>
       </source>
       <see-also>
-         <relationship>auxiliary</relationship>
+         <relationship which="auxiliary" />
          <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03.coptic_nt_sahidic_lower_utf8_tokenized_1.1.1.txt</IRI>
          <name>Coptic Scriptorium's tokenized rendering of Unbound Bible's Sahidic Coptic New
             Testament</name>

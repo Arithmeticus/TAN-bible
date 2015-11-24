@@ -30,7 +30,7 @@
          <location when-accessed="2014-10-23">../lxx.grc.rahlfs.xml</location>
       </source>
       <declarations>
-         <implicit-div-type-refs src="ot-kjv lxx"/>
+         <implicit-div-type-refs src="ot-kjv lxx bhs"/>
          <tokenization src="lxx" which="general-words-only-1"/>
          <tokenization src="ot-kjv" which="general-1"/>
       </declarations>
@@ -88,6 +88,23 @@
        <realign>
           <anchor-div-ref src="ot-kjv" ref="Ps 147 1 - Ps 147 20"/>
           <div-ref src="lxx" ref="Ps 146 1 - Ps 147 9"/>
+       </realign>
+       <!-- The next items are cases where the bho and lxx are numbered identically, so the kjv is brought into conformity with them -->
+       <realign>
+          <anchor-div-ref src="lxx" ref="Mal 3 19 - Mal 3 24"/>
+          <div-ref src="ot-kjv" ref="Mal 4 1 - Mal 4 6"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="lxx" ref="Joel 3 1 - Joel 3 5"/>
+          <div-ref src="ot-kjv" ref="Joel 2 28 - Joel 2 32"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="lxx" ref="Joel 4 1 - Joel 4 21"/>
+          <div-ref src="ot-kjv" ref="Joel 3 1 - Joel 3 21"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="lxx" ref="Hos 2 1 - Hos 2 25"/>
+          <div-ref src="ot-kjv" ref="Hos 1 10 - Hos 2 23"/>
        </realign>
     </body>
 </TAN-A-div>
