@@ -3,36 +3,35 @@
 <?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
-    id="tag:kalvesmaki@gmail.com,2014:nt.TAN-A-div.1">
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki@gmail.com,2014:nt.TAN-A-div.1">
     <head>
         <name>Div-based alignment of multiple versions of the New Testament</name>
-        <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/nt.TAN-A-div.xml</master-location>
+        <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/nt.TAN-A-div.xml"/>
         <rights-excluding-sources include="HEAD"/>
         <inclusion xml:id="HEAD">
             <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
             <name>Div-based alignment of multiple versions of the Bible</name>
-            <location when-accessed="2015-10-02-04:00">HEAD.bible.TAN-A-div.xml</location>
+            <location href="HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
         </inclusion>
         <source xml:id="nt-grc">
             <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
             <name>Greek New Testament, SBL edition</name>
-            <location when-accessed="2014-10-23">../NT.grc.sbl-2010.xml</location>
-        </source>
-        <source xml:id="nt-cop">
-            <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03</IRI>
-            <name>Coptic New Testament, CS edition</name>
-            <location when-accessed="2015-03-13">../nt.cop.wells-2006.xml</location>
+            <location href="../NT.grc.sbl-2010.xml" when-accessed="2014-10-23"/>
         </source>
         <source xml:id="nt-syr">
             <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
             <name>1905 Bible Society Syriac New Testament</name>
-            <location when-accessed="2014-11-04">../nt.syr.bfbs-1905.xml</location>
+            <location href="../nt.syr.bfbs-1905.xml" when-accessed="2014-11-04"/>
+        </source>
+        <source xml:id="nt-cop">
+            <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03</IRI>
+            <name>Coptic New Testament, CS edition</name>
+            <location href="../nt.cop.wells-2006.xml" when-accessed="2015-03-13"/>
         </source>
         <source xml:id="nt-kjv">
             <IRI>tag:kalvesmaki.com,2014:nt-eng-kjv.1760</IRI>
             <name>Bible (including apocrypha), King James Version</name>
-            <location when-accessed="2014-10-23">../nt.eng.kjv.1760.xml</location>
+            <location href="../nt.eng.kjv.1760.xml" when-accessed="2014-10-23"/>
         </source>
         <declarations>
             <implicit-div-type-refs src="nt-kjv nt-grc nt-syr nt-cop"/>
@@ -40,7 +39,7 @@
             <tokenization src="nt-kjv" which="general-1"/>
             <comment when="2015-09-02" who="kalvesmaki">Renaming assumes nt-grc as the
                 benchmark.</comment>
-            <rename-div-ns src="nt-kjv" div-type-ref="bk">
+            <rename-div-ns src="nt-kjv" div-type-ref="bk" ed-when="2016-02-19" ed-who="kalvesmaki">
                 <rename old="Matt" new="Mt"/>
                 <rename old="Mark" new="Mk"/>
                 <rename old="Luke" new="Lu"/>
@@ -52,6 +51,7 @@
                 <rename old="Phil" new="Php"/>
                 <rename old="1Thess" new="1Th"/>
                 <rename old="2Thess" new="2Th"/>
+                <rename old="Titus" new="Tit"/>
                 <rename old="Phlm" new="Phm"/>
                 <rename old="Jas" new="Jam"/>
                 <rename old="1Pet" new="1Pe"/>

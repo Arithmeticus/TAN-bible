@@ -3,11 +3,10 @@
 <?xml-model href="../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T TAN-version="1" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Romanum_v01"
-    xmlns="tag:textalign.net,2015:ns">
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Romanum_v01">
     <head>
         <name>The Latin translation of the Psalter by Jerome, the so-called Psaterium Romanum</name>
-        <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/psalms.lat.jerome-from-vetus-latina.xml</master-location>
+        <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/psalms.lat.jerome-from-vetus-latina.xml"/>
         <rights-excluding-sources rights-holder="kalvesmaki">
             <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
             <name>Creative Commons Attribution 4.0 International License</name>
@@ -19,8 +18,7 @@
             <IRI>urn:uuid:842b9a1e-7456-4ab2-99f8-364b3640eaad</IRI>
             <name>Transcription of Weber's critical edition, using musall.de transcription as an
                 auxiliary</name>
-            <location when-accessed="2014-05-24"
-                >http://www.liberpsalmorum.info/Psalterium%20Romanum.html</location>
+            <location href="http://www.liberpsalmorum.info/Psalterium%20Romanum.html" when-accessed="2014-05-24"/>
         </source>
         <declarations>
             <work>

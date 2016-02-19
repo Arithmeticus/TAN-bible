@@ -7,7 +7,7 @@
    <head>
       <name>King James Version of the Bible (including apocrypha), transcribed in TAN-T
          format</name>
-      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/BIBLE.eng.kjv.1760.xml</master-location>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/BIBLE.eng.kjv.1760.xml"/>
       <rights-excluding-sources rights-holder="kalvesmaki">
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
          <name>Creative Commons Attribution 4.0 International License</name>
@@ -18,22 +18,22 @@
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
          <name>Div-based alignment of multiple versions of the Bible</name>
-         <location when-accessed="2015-10-02-04:00">TAN-A-div/HEAD.bible.TAN-A-div.xml</location>
+         <location href="TAN-A-div/HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
       </inclusion>
       <inclusion xml:id="ot">
          <IRI>tag:kalvesmaki.com,2014:ot-eng-kjv.1760</IRI>
          <name>Old Testament, King James Version of the Bible, 1760 edition</name>
-         <location when-accessed="2015-10-12-04:00">ot.eng.kjv.1760.xml</location>
+         <location href="ot.eng.kjv.1760.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <inclusion xml:id="apocr">
          <IRI>tag:kalvesmaki.com,2014:apocr-eng-kjv.1760</IRI>
          <name>Apocrypha, King James Version of the Bible, 1760 edition</name>
-         <location when-accessed="2015-10-12-04:00">apocr.eng.kjv.1760.xml</location>
+         <location href="apocr.eng.kjv.1760.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <inclusion xml:id="nt">
          <IRI>tag:kalvesmaki.com,2014:nt-eng-kjv.1760</IRI>
          <name>New Testament, King James Version of the Bible, 1760 edition</name>
-         <location when-accessed="2015-10-12-04:00">nt.eng.kjv.1760.xml</location>
+         <location href="nt.eng.kjv.1760.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <source>
          <IRI>http://id.lib.harvard.edu/aleph/012287584/catalog</IRI>
@@ -45,13 +45,13 @@
          <IRI>tag:kalvesmaki.com,2014:auxiliary:ccat</IRI>
          <name>Biblical texts supplied by Center for Computer
             Analysis of Texts (CCAT) at the University of Pennsylvania</name>
-         <location when-accessed="2015-10-09">http://ccat.sas.upenn.edu/gopher/text/religion/biblical/</location>
+         <location href="http://ccat.sas.upenn.edu/gopher/text/religion/biblical/" when-accessed="2015-10-09"/>
       </see-also>
       <see-also>
          <relationship which="auxiliary"/>
          <IRI>tag:kalvesmaki.com,2014:auxiliary:unboundbible</IRI>
          <name>Unbound Bible</name>
-         <location when-accessed="2015-10-12">https://unbound.biola.edu/</location>
+         <location href="https://unbound.biola.edu/" when-accessed="2015-10-12"/>
       </see-also>
       <comment when="2015-10-12" who="kalvesmaki">Items retrieved from Unbound Bible, which drew
          their material, oftentimes from the CCAT.</comment>
@@ -98,9 +98,8 @@
          <recommended-tokenization xml:id="penn">
             <IRI>tag:kalvesmaki.com,2015:tokenization:eng.1</IRI>
             <name>Tokenization pattern for English, in Penn Treebank style</name>
-            <location when-accessed="2015-03-17"
-               >http://kalvesmaki.com/tan-library/tan-r-tok/tok.eng.1.xml</location>
-            <location when-accessed="2015-11-24" href="../class-3/TAN-R-tok/tok.eng.1.xml"></location>
+            <location href="http://kalvesmaki.com/tan-library/tan-r-tok/tok.eng.1.xml" when-accessed="2015-03-17"/>
+            <location href="../class-3/TAN-R-tok/tok.eng.1.xml" when-accessed="2015-11-24"/>
          </recommended-tokenization>
          <recommended-div-type-refs>implicit</recommended-div-type-refs>
       </declarations>

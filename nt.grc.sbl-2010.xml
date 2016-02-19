@@ -3,22 +3,21 @@
 <?xml-model href="../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1"
-id="tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001">
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001">
    <head>
       <name>SBL Greek New Testament, transcribed in TAN-T format</name>
-      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml</master-location>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml"/>
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
          <name>Div-based alignment of multiple versions of the Bible</name>
-         <location when-accessed="2015-10-02-04:00">TAN-A-div/HEAD.bible.TAN-A-div.xml</location>
+         <location href="TAN-A-div/HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
       </inclusion>
       <inclusion xml:id="BIBLE">
          <IRI>tag:kalvesmaki.com,2014:bible-eng-kjv.1760.TAN-T.001</IRI>
          <name>King James Version of the Bible (including apocrypha), transcribed in TAN-T
             format</name>
-         <location when-accessed="2015-10-12-04:00">BIBLE.eng.kjv.1760.xml</location>
+         <location href="BIBLE.eng.kjv.1760.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <source>
          <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.xml</IRI>

@@ -3,11 +3,10 @@
 <?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
-   id="tag:kalvesmaki@gmail.com,2014:nt-quotes-from-ot.TAN-A-div">
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki@gmail.com,2014:nt-quotes-from-ot.TAN-A-div">
    <head>
       <name>New Testament quotations from the Old Testament</name>
-      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/nt-quotes-from-ot.TAN-A-div.xml</master-location>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/nt-quotes-from-ot.TAN-A-div.xml"/>
       <rights-excluding-sources include="tanakh"/>
       <!--<inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
@@ -22,22 +21,22 @@
       <inclusion xml:id="tanakh">
          <IRI>tag:kalvesmaki@gmail.com,2014:tanakh.TAN-A-div</IRI>
          <name>Div-based alignment of multiple versions of the Tanakh</name>
-         <location when-accessed="2015-10-15-04:00">tanakh.TAN-A-div.xml</location>
+         <location href="tanakh.TAN-A-div.xml" when-accessed="2015-10-15-04:00"/>
       </inclusion>
       <inclusion xml:id="lxx-al">
          <IRI>tag:kalvesmaki@gmail.com,2014:lxx.TAN-A-div</IRI>
          <name>Div-based alignment of multiple versions of the LXX</name>
-         <location when-accessed="2015-10-15-04:00">lxx.TAN-A-div.xml</location>
+         <location href="lxx.TAN-A-div.xml" when-accessed="2015-10-15-04:00"/>
       </inclusion>
       <source xml:id="nt-grc">
          <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
          <name>Greek New Testament, SBL edition</name>
-         <location when-accessed="2014-10-23">../NT.grc.sbl-2010.xml</location>
+         <location href="../NT.grc.sbl-2010.xml" when-accessed="2014-10-23"/>
       </source>
       <source xml:id="nt-kjv">
          <IRI>tag:kalvesmaki.com,2014:nt-eng-kjv.1760</IRI>
          <name>Bible (including apocrypha), King James Version</name>
-         <location when-accessed="2014-10-23">../nt.eng.kjv.1760.xml</location>
+         <location href="../nt.eng.kjv.1760.xml" when-accessed="2014-10-23"/>
       </source>
       <source include="tanakh lxx-al"/>
       <declarations>
