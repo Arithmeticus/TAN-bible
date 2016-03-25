@@ -24,11 +24,6 @@
          <location href="tanakh.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <source include="nt tanakh"/>
-      <source xml:id="lxx">
-         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
-         <name>Greek Septuagint, Rahlfs's edition</name>
-         <location href="../lxx.grc.rahlfs.xml" when-accessed="2014-10-23"/>
-      </source>
       <source xml:id="bible-ara">
          <IRI>tag:kalvesmaki.com,2014:bible.ara.svd.1865</IRI>
          <name>Arabic: Smith &amp; Van Dyke</name>
@@ -45,9 +40,7 @@
          <location href="../bible.lat.vulgata-clementina.2005.xml" when-accessed="2015-10-12-04:00"/>
       </source>
       <declarations>
-         <implicit-div-type-refs src="lxx"/>
-         <implicit-div-type-refs include="nt tanakh"/>
-         <tokenization include="nt tanakh"/>
+         <token-definition include="nt tanakh"/>
          <rename-div-ns include="nt"/>
       </declarations>
       <agent xml:id="kalvesmaki" roles="editor">

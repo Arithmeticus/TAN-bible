@@ -36,9 +36,9 @@
             <name>Tokenization pattern for English, in Penn Treebank style</name>
             <location when-accessed="2015-03-17">http://kalvesmaki.com/tan-library/tan-r-tok/tok.eng.1.xml</location>
          </recommended-tokenization>-->
-         <recommended-tokenization include="BIBLE"/>
+         
          <!--<recommended-div-type-refs>implicit</recommended-div-type-refs>-->
-         <recommended-div-type-refs include="BIBLE"/>
+         
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>

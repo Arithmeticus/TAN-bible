@@ -60,8 +60,8 @@
                 <IRI>tag:kalvesmaki.com,2014:div-type:explicit</IRI>
                 <name xml:lang="eng">explicit</name>
             </div-type>
-            <recommended-tokenization which="general-words-only-1"/>
-            <recommended-div-type-refs>explicit</recommended-div-type-refs>
+            
+            
         </declarations>
         <agent xml:id="kalvesmaki" roles="editor">
             <IRI>http://viaf.org/viaf/299582703</IRI>
@@ -77,7 +77,7 @@
         <change when="2014-05-24" who="kalvesmaki">Started TAN-T file.</change>
     </head>
     <body xml:lang="lat">
-<div type="title" n="">INCIPIT LIBER PSALMORUM IUXTA HEBRAICUM TRANSLATUS</div>
+<div type="title" n="ti">INCIPIT LIBER PSALMORUM IUXTA HEBRAICUM TRANSLATUS</div>
 <div type="psalm" n="I">
 <div type="verse" n="1">
 <div type="line" n="a">Beatus vir qui non abiit in consilio impiorum</div>
@@ -165,7 +165,7 @@ aquarum</div>
 </div>
 <div type="psalm" n="III">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM DAVID CUM FUGERET A FACIE ABESSALON FILII SUI</div>
+<div type="rubric" n="rub~b">CANTICUM DAVID CUM FUGERET A FACIE ABESSALON FILII SUI</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Domine quare multiplicati sunt hostes mei</div>
@@ -174,7 +174,7 @@ aquarum</div>
 <div type="verse" n="3">
 <div type="line" n="a">multi dicunt animae meae</div>
 <div type="line" n="b">non est salus huic in Deo</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="4">
 <div type="line" n="a">tu autem Domine clipeus circa me</div>
@@ -183,7 +183,7 @@ aquarum</div>
 <div type="verse" n="5">
 <div type="line" n="a">voce mea ad Dominum clamabo</div>
 <div type="line" n="b">et exaudiet me de monte sancto suo</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">ego dormivi et soporatus sum</div>
@@ -199,13 +199,13 @@ aquarum</div>
 </div>
 <div type="verse" n="9">
 <div type="line" n="a">Domini est salus super populum tuum benedictio tua</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
 <div type="psalm" n="IIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI IN PSALMIS CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI IN PSALMIS CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Invocante me exaudi me Deus iustitiae meae</div>
@@ -215,7 +215,7 @@ aquarum</div>
 <div type="verse" n="3">
 <div type="line" n="a">filii viri usquequo incliti mei ignominiose diligitis
 vanitatem quaerentes mendacium</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="4">
 <div type="line" n="a">et cognoscite quoniam mirabilem reddidit Dominus sanctum
@@ -226,7 +226,7 @@ suum</div>
 <div type="line" n="a">irascimini et nolite peccare</div>
 <div type="line" n="b">loquimini in cordibus vestris super cubilia vestra et
 tacete</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">sacrificate sacrificium iustitiae et fidite in Domino</div>
@@ -248,7 +248,7 @@ tacete</div>
 </div>
 <div type="psalm" n="V">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO HEREDITATIBUS CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI PRO HEREDITATIBUS CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Verba mea audi Domine</div>
@@ -304,7 +304,7 @@ meos</div>
 </div>
 <div type="psalm" n="VI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI IN PSALMIS SUPER OCTAVA CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI IN PSALMIS SUPER OCTAVA CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Domine ne in furore tuo arguas me</div>
@@ -351,7 +351,7 @@ mei</div>
 </div>
 <div type="psalm" n="VII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO IGNORATIONE DAVID QUOD CECINIT DOMINO SUPER VERBIS
+<div type="rubric" n="rub~b">PRO IGNORATIONE DAVID QUOD CECINIT DOMINO SUPER VERBIS
 AETHIOPIS FILII IEMINI</div>
 </div>
 <div type="verse" n="2">
@@ -374,7 +374,7 @@ AETHIOPIS FILII IEMINI</div>
 <div type="line" n="a">persequatur inimicus animam meam</div>
 <div type="line" n="b">et adprehendat et conculcet in terra vitam meam</div>
 <div type="line" n="c">et gloriam meam in pulverem conlocet</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="7">
 <div type="line" n="a">surge Domine in furore tuo</div>
@@ -428,7 +428,7 @@ mendacium</div>
 </div>
 <div type="psalm" n="VIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO TORCULARIBUS CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI PRO TORCULARIBUS CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Domine Dominator noster quam grande est nomen tuum in
@@ -469,7 +469,7 @@ universa terra.</div>
 </div>
 <div type="psalm" n="IX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO MORTE FILII CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI PRO MORTE FILII CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Confitebor Domino in toto corde meo</div>
@@ -536,7 +536,7 @@ meis</div>
 <div type="verse" n="17">
 <div type="line" n="a">agnitus est Dominus iudicium faciens</div>
 <div type="line" n="b">in opere manuum suarum corruit impius</div>
-<div type="rubric" n="rub">SONITU SEMPITERNO</div>
+<div type="rubric" n="rub~b">SONITU SEMPITERNO</div>
 </div>
 <div type="verse" n="18">
 <div type="line" n="a">convertantur impii in infernum</div>
@@ -553,7 +553,7 @@ meis</div>
 <div type="verse" n="21">
 <div type="line" n="a">pone Domine terrorem eis</div>
 <div type="line" n="b">sciant gentes homines se esse</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="22">
 <div type="line" n="a">quare Domine stas a longe</div>
@@ -634,7 +634,7 @@ tua</div>
 </div>
 <div type="psalm" n="X">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI DAVID</div>
+<div type="rubric" n="rub~b">VICTORI DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">In Domino speravi quomodo dicitis animae meae</div>
@@ -671,7 +671,7 @@ eorum</div>
 </div>
 <div type="psalm" n="XI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO OCTAVA CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI PRO OCTAVA CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Salva Domine quoniam defecit sanctus</div>
@@ -710,7 +710,7 @@ septuplum</div>
 </div>
 <div type="psalm" n="XII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI CANTICUM DAVID</div>
 <div type="line" n="a">Usquequo Domine oblivisceris mei penitus</div>
 <div type="line" n="b">usquequo abscondes faciem tuam a me</div>
 </div>
@@ -737,7 +737,7 @@ septuplum</div>
 </div>
 <div type="psalm" n="XIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI DAVID</div>
+<div type="rubric" n="rub~b">VICTORI DAVID</div>
 <div type="line" n="a">Dixit stultus in corde suo non est Deus</div>
 <div type="line" n="b">corrupti sunt et abominabiles facti sunt studiose</div>
 <div type="line" n="c">non est qui faciat bonum</div>
@@ -771,7 +771,7 @@ septuplum</div>
 </div>
 <div type="psalm" n="XIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">CANTICUM DAVID</div>
 <div type="line" n="a">Domine quis peregrinabitur in tentorio tuo</div>
 <div type="line" n="b">et quis habitabit in monte sancto tuo</div>
 </div>
@@ -797,7 +797,7 @@ septuplum</div>
 </div>
 <div type="psalm" n="XV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">HUMILIS ET SIMPLICIS DAVID</div>
+<div type="rubric" n="rub~b">HUMILIS ET SIMPLICIS DAVID</div>
 <div type="line" n="a">Custodi me Deus quoniam speravi in te</div>
 </div>
 <div type="verse" n="2">
@@ -844,7 +844,7 @@ septuplum</div>
 </div>
 <div type="psalm" n="XVI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ORATIO DAVID</div>
+<div type="rubric" n="rub~b">ORATIO DAVID</div>
 <div type="line" n="a">Audi Deus iustum intende deprecationem meam</div>
 <div type="line" n="b">auribus percipe orationem meam</div>
 <div type="line" n="c">absque labiis mendacii</div>
@@ -912,7 +912,7 @@ eorum</div>
 </div>
 <div type="psalm" n="XVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI SERVO DOMINI DAVID QUAE LOCUTUS EST DOMINO VERBA
+<div type="rubric" n="rub~b">VICTORI SERVO DOMINI DAVID QUAE LOCUTUS EST DOMINO VERBA
 CANTICI HUIUS IN DIE QUA LIBERAVIT EUM DOMINUS DE MANU OMNIUM INIMICORUM SUORUM
 ET DE MANU SAUL ET AIT</div>
 </div>
@@ -1132,7 +1132,7 @@ eius</div>
 </div>
 <div type="psalm" n="XVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Caeli enarrant gloriam Dei</div>
@@ -1197,7 +1197,7 @@ eius</div>
 </div>
 <div type="psalm" n="XIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Exaudiat te Dominus in die tribulationis</div>
@@ -1210,7 +1210,7 @@ eius</div>
 <div type="verse" n="4">
 <div type="line" n="a">memor sit omnis sacrificii tui</div>
 <div type="line" n="b">et holocaustum tuum pingue fiat</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="5">
 <div type="line" n="a">det tibi secundum cor tuum</div>
@@ -1241,7 +1241,7 @@ eius</div>
 </div>
 <div type="psalm" n="XX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Domine in fortitudine tua laetabitur rex</div>
@@ -1250,7 +1250,7 @@ eius</div>
 <div type="verse" n="3">
 <div type="line" n="a">desiderium cordis eius dedisti ei</div>
 <div type="line" n="b">et voluntate labiorum eius non fraudasti eum</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="4">
 <div type="line" n="a">quoniam praevenies eum benedictionibus bonitatis</div>
@@ -1300,7 +1300,7 @@ ignis</div>
 </div>
 <div type="psalm" n="XXI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO CERVO MATUTINO CANTICUM</div>
+<div type="rubric" n="rub~b">VICTORI PRO CERVO MATUTINO CANTICUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Deus Deus meus quare dereliquisti me</div>
@@ -1437,7 +1437,7 @@ pulverem</div>
 </div>
 <div type="psalm" n="XXII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">CANTICUM DAVID</div>
 <div type="line" n="a">Dominus pascit me nihil mihi deerit</div>
 </div>
 <div type="verse" n="2">
@@ -1466,7 +1466,7 @@ diebus vitae meae</div>
 </div>
 <div type="psalm" n="XXIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID CANTICUM</div>
+<div type="rubric" n="rub~b">DAVID CANTICUM</div>
 <div type="line" n="a">Domini est terra et plenitudo eius</div>
 <div type="line" n="b">orbis et habitatores eius</div>
 </div>
@@ -1490,7 +1490,7 @@ diebus vitae meae</div>
 <div type="verse" n="6">
 <div type="line" n="a">haec generatio quaerentium eum</div>
 <div type="line" n="b">quaerentium faciem tuam Iacob</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="7">
 <div type="line" n="a">levate portae capita vestra</div>
@@ -1509,13 +1509,13 @@ diebus vitae meae</div>
 <div type="verse" n="10">
 <div type="line" n="a">quis est iste rex gloriae</div>
 <div type="line" n="b">Dominus exercituum ipse est rex gloriae</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 <div type="line" n="c">.</div>
 </div>
 </div>
 <div type="psalm" n="XXIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID</div>
+<div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Ad te Domine animam meam levabo</div>
 </div>
 <div type="verse" n="2">
@@ -1606,7 +1606,7 @@ est</div>
 </div>
 <div type="psalm" n="XXV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID</div>
+<div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Iudica me Deus quoniam ego in simplicitate mea ambulavi</div>
 <div type="line" n="b">et in Domino confidens non deficiam</div>
 </div>
@@ -1657,7 +1657,7 @@ est</div>
 </div>
 <div type="psalm" n="XXVI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID</div>
+<div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Dominus lux mea et salutare meum quem timebo</div>
 <div type="line" n="b">Dominus fortitudo vitae meae quem formidabo</div>
 </div>
@@ -1725,7 +1725,7 @@ viventium</div>
 </div>
 <div type="psalm" n="XXVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID</div>
+<div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Ad te Domine clamabo Fortis meus ne obsurdescas mihi</div>
 <div type="line" n="b">ne forte tacente te mihi conparer his qui descendunt in
 lacum</div>
@@ -1769,7 +1769,7 @@ est</div>
 </div>
 <div type="psalm" n="XXVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">CANTICUM DAVID</div>
 <div type="line" n="a">Adferte Domino filios arietum</div>
 </div>
 <div type="verse" n="2">
@@ -1815,7 +1815,7 @@ est</div>
 </div>
 <div type="psalm" n="XXIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PSALMUS CANTICI PRO DEDICATIONE DOMUS DAVID</div>
+<div type="rubric" n="rub~b">PSALMUS CANTICI PRO DEDICATIONE DOMUS DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Exaltabo te Domine quoniam salvasti me</div>
@@ -1870,7 +1870,7 @@ corruptionem</div>
 </div>
 <div type="psalm" n="XXX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">In te Domine speravi non confundar in aeternum</div>
@@ -1985,7 +1985,7 @@ Dominum.</div>
 </div>
 <div type="psalm" n="XXXI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID ERUDITI</div>
+<div type="rubric" n="rub~b">DAVID ERUDITI</div>
 <div type="line" n="a">Beatus cui dimissa est iniquitas</div>
 <div type="line" n="b">et absconditum est peccatum</div>
 </div>
@@ -2006,7 +2006,7 @@ iugiter</div>
 <div type="line" n="b">et iniquitatem meam non abscondo</div>
 <div type="line" n="c">dixi confitebor scelus meum Domino</div>
 <div type="line" n="d">et tu dimisisti iniquitatem peccati mei</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">pro hoc orat omnis sanctus ad te tempus inveniens</div>
@@ -2015,7 +2015,7 @@ iugiter</div>
 <div type="verse" n="7">
 <div type="line" n="a">tu es protectio mea ab hoste custodies me</div>
 <div type="line" n="b">laus mea salvans circumdabis me</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="8">
 <div type="line" n="a">doceam te et monstrabo tibi viam per quam ambules</div>
@@ -2126,7 +2126,7 @@ te.</div>
 </div>
 <div type="psalm" n="XXXIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID QUANDO COMMUTAVIT OS SUUM CORAM ABIMELECH ET EIECIT
+<div type="rubric" n="rub~b">DAVID QUANDO COMMUTAVIT OS SUUM CORAM ABIMELECH ET EIECIT
 EUM ET ABIIT</div>
 </div>
 <div type="verse" n="2">
@@ -2219,7 +2219,7 @@ eos</div>
 </div>
 <div type="psalm" n="XXXIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID</div>
+<div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Iudica Domine adversarios meos</div>
 <div type="line" n="b">pugna contra pugnantes me</div>
 </div>
@@ -2343,7 +2343,7 @@ tuam.</div>
 </div>
 <div type="psalm" n="XXXV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA SERVI DOMINI DAVID</div>
+<div type="rubric" n="rub~b">PRO VICTORIA SERVI DOMINI DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Dixit scelus impii in medio cordis eius</div>
@@ -2398,8 +2398,8 @@ bona</div>
 </div>
 <div type="psalm" n="XXXVI">
 <div type="verse" n="1">
-<div type="rubric" n="a">DAVID</div>
-<div type="rubric" n="b">ALEPH</div>
+<div type="rubric" n="rub~a">DAVID</div>
+<div type="rubric" n="rub~b">ALEPH</div>
 <div type="line" n="a">Noli contendere cum malignis</div>
 <div type="line" n="b">neque aemuleris facientes iniquitatem</div>
 </div>
@@ -2408,7 +2408,7 @@ bona</div>
 <div type="line" n="b">et sicut holus viride arescent</div>
 </div>
 <div type="verse" n="3">
-<div type="rubric" n="rub">BETH</div>
+<div type="rubric" n="rub~b">BETH</div>
 <div type="line" n="a">spera in Domino et fac bonum</div>
 <div type="line" n="b">peregrinare in terra et pascere fide</div>
 </div>
@@ -2417,7 +2417,7 @@ bona</div>
 <div type="line" n="b">et dabit tibi petitiones cordis tui</div>
 </div>
 <div type="verse" n="5">
-<div type="rubric" n="rub">GIMEL</div>
+<div type="rubric" n="rub~b">GIMEL</div>
 <div type="line" n="a">volve super Dominum viam tuam</div>
 <div type="line" n="b">et confide in eo et ipse faciet</div>
 </div>
@@ -2426,13 +2426,13 @@ bona</div>
 <div type="line" n="b">et iudicium tuum sicut meridiem</div>
 </div>
 <div type="verse" n="7">
-<div type="rubric" n="rub">DELETH</div>
+<div type="rubric" n="rub~b">DELETH</div>
 <div type="line" n="a">tace Domino et expecta eum</div>
 <div type="line" n="b">noli contendere adversum eum qui proficit in via sua</div>
 <div type="line" n="c">adversum virum qui facit quae cogitat</div>
 </div>
 <div type="verse" n="8">
-<div type="rubric" n="rub">HE</div>
+<div type="rubric" n="rub~b">HE</div>
 <div type="line" n="a">dimitte iram et relinque furorem</div>
 <div type="line" n="b">noli contendere ut malefacias</div>
 </div>
@@ -2441,7 +2441,7 @@ bona</div>
 <div type="line" n="b">expectantes autem Dominum ipsi hereditabunt terram</div>
 </div>
 <div type="verse" n="10">
-<div type="rubric" n="rub">VAV</div>
+<div type="rubric" n="rub~b">VAV</div>
 <div type="line" n="a">adhuc enim modicum et non erit impius</div>
 <div type="line" n="b">et cogitabis de loco eius et non subsistet</div>
 </div>
@@ -2450,7 +2450,7 @@ bona</div>
 <div type="line" n="b">et delectabuntur in multitudine pacis</div>
 </div>
 <div type="verse" n="12">
-<div type="rubric" n="rub">ZAI</div>
+<div type="rubric" n="rub~b">ZAI</div>
 <div type="line" n="a">cogitat impius de iusto</div>
 <div type="line" n="b">et frendet adversum eum dentibus suis</div>
 </div>
@@ -2458,7 +2458,7 @@ bona</div>
 <div type="line" n="a">Dominus deridebit eum videns quod venit dies eius</div>
 </div>
 <div type="verse" n="14">
-<div type="rubric" n="rub">HETH</div>
+<div type="rubric" n="rub~b">HETH</div>
 <div type="line" n="a">gladium evaginaverunt impii</div>
 <div type="line" n="b">tetenderunt arcum suum</div>
 <div type="line" n="c">ut percutiant egenum et pauperem</div>
@@ -2469,7 +2469,7 @@ bona</div>
 <div type="line" n="b">et arcus eorum confringantur</div>
 </div>
 <div type="verse" n="16">
-<div type="rubric" n="rub">TETH</div>
+<div type="rubric" n="rub~b">TETH</div>
 <div type="line" n="a">melius est parum iusto quam divitiae impiorum multae</div>
 </div>
 <div type="verse" n="17">
@@ -2477,7 +2477,7 @@ bona</div>
 <div type="line" n="b">sublevat autem iustos Dominus</div>
 </div>
 <div type="verse" n="18">
-<div type="rubric" n="rub">IOTH</div>
+<div type="rubric" n="rub~b">IOTH</div>
 <div type="line" n="a">novit Dominus diem inmaculatorum</div>
 <div type="line" n="b">et hereditas eorum aeterna erit</div>
 </div>
@@ -2486,13 +2486,13 @@ bona</div>
 <div type="line" n="b">et in diebus famis saturabuntur</div>
 </div>
 <div type="verse" n="20">
-<div type="rubric" n="rub">CAPH</div>
+<div type="rubric" n="rub~b">CAPH</div>
 <div type="line" n="a">quia impii peribunt et inimici Domini gloriantes ut
 monocerotes</div>
 <div type="line" n="b">consumentur sicut fumus consumitur</div>
 </div>
 <div type="verse" n="21">
-<div type="rubric" n="rub">LAMETH</div>
+<div type="rubric" n="rub~b">LAMETH</div>
 <div type="line" n="a">fenus accipit impius et non reddit</div>
 <div type="line" n="b">iustus autem donat et tribuit</div>
 </div>
@@ -2501,7 +2501,7 @@ monocerotes</div>
 <div type="line" n="b">et qui maledicti interibunt</div>
 </div>
 <div type="verse" n="23">
-<div type="rubric" n="rub">MEM</div>
+<div type="rubric" n="rub~b">MEM</div>
 <div type="line" n="a">a Domino gressus viri firmantur</div>
 <div type="line" n="b">et viam eius volet</div>
 </div>
@@ -2510,7 +2510,7 @@ monocerotes</div>
 <div type="line" n="b">quia Dominus sustentat manum eius</div>
 </div>
 <div type="verse" n="25">
-<div type="rubric" n="rub">NUN</div>
+<div type="rubric" n="rub~b">NUN</div>
 <div type="line" n="a">puer fui siquidem senui</div>
 <div type="line" n="b">et non vidi iustum derelictum</div>
 <div type="line" n="c">neque semen eius quaerens panem</div>
@@ -2520,14 +2520,14 @@ monocerotes</div>
 <div type="line" n="b">et semen eius in benedictione</div>
 </div>
 <div type="verse" n="27">
-<div type="rubric" n="rub">SAMECH</div>
+<div type="rubric" n="rub~b">SAMECH</div>
 <div type="line" n="a">recede a malo et fac bonum</div>
 <div type="line" n="b">et habita in sempiterno</div>
 </div>
 <div type="verse" n="28">
 <div type="line" n="a">quia Dominus diligit iudicium</div>
 <div type="line" n="b">et non derelinquet sanctos suos</div>
-<div type="rubric" n="rub">AIN</div>
+<div type="rubric" n="rub~b">AIN</div>
 <div type="line" n="c">in aeternum custoditi sunt</div>
 <div type="line" n="d">et semen impiorum periit</div>
 </div>
@@ -2536,7 +2536,7 @@ monocerotes</div>
 <div type="line" n="b">et habitabunt in saeculum super eam</div>
 </div>
 <div type="verse" n="30">
-<div type="rubric" n="rub">FE</div>
+<div type="rubric" n="rub~b">FE</div>
 <div type="line" n="a">os iusti meditabitur sapientiam</div>
 <div type="line" n="b">et lingua eius loquetur iudicium</div>
 </div>
@@ -2544,7 +2544,7 @@ monocerotes</div>
 <div type="line" n="a">lex Dei eius in corde eius non deficient gressus eius</div>
 </div>
 <div type="verse" n="32">
-<div type="rubric" n="rub">SADE</div>
+<div type="rubric" n="rub~b">SADE</div>
 <div type="line" n="a">considerat impius iustum</div>
 <div type="line" n="b">et quaerit ut occidat eum</div>
 </div>
@@ -2553,13 +2553,13 @@ monocerotes</div>
 <div type="line" n="b">et non condemnabit eum cum iudicatur</div>
 </div>
 <div type="verse" n="34">
-<div type="rubric" n="rub">COPH</div>
+<div type="rubric" n="rub~b">COPH</div>
 <div type="line" n="a">expecta Dominum et custodi viam eius</div>
 <div type="line" n="b">et exaltabit te ut possideas terram</div>
 <div type="line" n="c">cum interibunt impii videbis</div>
 </div>
 <div type="verse" n="35">
-<div type="rubric" n="rub">RES</div>
+<div type="rubric" n="rub~b">RES</div>
 <div type="line" n="a">vidi impium robustum et fortissimum sicut indigenam
 virentem</div>
 </div>
@@ -2568,7 +2568,7 @@ virentem</div>
 <div type="line" n="b">et quaesivi eum et non est inventus</div>
 </div>
 <div type="verse" n="37">
-<div type="rubric" n="rub">SEN</div>
+<div type="rubric" n="rub~b">SEN</div>
 <div type="line" n="a">custodi simplicitatem et vide rectum</div>
 <div type="line" n="b">quia erit ad extremum viro pax</div>
 </div>
@@ -2577,7 +2577,7 @@ virentem</div>
 <div type="line" n="b">et novissimum impiorum peribit</div>
 </div>
 <div type="verse" n="39">
-<div type="rubric" n="rub">THAV</div>
+<div type="rubric" n="rub~b">THAV</div>
 <div type="line" n="a">salus iustorum a Domino</div>
 <div type="line" n="b">fortitudo eorum in tempore tribulationis</div>
 </div>
@@ -2588,7 +2588,7 @@ virentem</div>
 </div>
 <div type="psalm" n="XXXVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM DAVID IN COMMEMORATIONE</div>
+<div type="rubric" n="rub~b">CANTICUM DAVID IN COMMEMORATIONE</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Domine ne in ira tua arguas me</div>
@@ -2681,7 +2681,7 @@ mihi</div>
 </div>
 <div type="psalm" n="XXXVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA IDITHUN CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">PRO VICTORIA IDITHUN CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Dixi custodiam vias meas ne peccem in lingua mea</div>
@@ -2705,7 +2705,7 @@ mihi</div>
 <div type="line" n="a">ecce breves posuisti dies meos</div>
 <div type="line" n="b">et vita mea quasi non sit in conspectu tuo</div>
 <div type="line" n="c">omnia enim vanitas omnis homo stans</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="7">
 <div type="line" n="a">tantum in imagine ambulat homo</div>
@@ -2730,7 +2730,7 @@ mihi</div>
 <div type="line" n="b">in increpationibus pro iniquitate corripuisti virum</div>
 <div type="line" n="c">et posuisti quasi tineam desiderabilia eius</div>
 <div type="line" n="d">verumtamen vanitas omnis homo</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="13">
 <div type="line" n="a">audi orationem meam Domine et clamorem meum exaudi</div>
@@ -2745,7 +2745,7 @@ mihi</div>
 </div>
 <div type="psalm" n="XXXIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA DAVID CANTICUM</div>
+<div type="rubric" n="rub~b">PRO VICTORIA DAVID CANTICUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Expectans expectavi Dominum et inclinatus est ad me</div>
@@ -2830,7 +2830,7 @@ mihi</div>
 </div>
 <div type="psalm" n="XL">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">PRO VICTORIA CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Beatus qui cogitat de paupere</div>
@@ -2889,7 +2889,7 @@ mihi</div>
 </div>
 <div type="psalm" n="XLI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA DOCTISSIMI FILIORUM CORE</div>
+<div type="rubric" n="rub~b">PRO VICTORIA DOCTISSIMI FILIORUM CORE</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Sicut areola praeparata ad inrigationes aquarum</div>
@@ -2971,7 +2971,7 @@ mei et Deo meo.</div>
 </div>
 <div type="psalm" n="XLIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA FILIORUM CORE ERUDITIONIS</div>
+<div type="rubric" n="rub~b">PRO VICTORIA FILIORUM CORE ERUDITIONIS</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Deus auribus nostris audivimus</div>
@@ -3007,7 +3007,7 @@ antiquis</div>
 <div type="verse" n="9">
 <div type="line" n="a">in Domino gaudebimus tota die</div>
 <div type="line" n="b">et in nomine tuo in aeternum confitebimur</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="10">
 <div type="line" n="a">verum tu proiecisti et confudisti nos</div>
@@ -3083,7 +3083,7 @@ nostras ad deum alienum</div>
 </div>
 <div type="psalm" n="XLIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO LILIIS FILIORUM CORE ERUDITIONIS CANTICUM
+<div type="rubric" n="rub~b">VICTORI PRO LILIIS FILIORUM CORE ERUDITIONIS CANTICUM
 AMANTISSIMI</div>
 </div>
 <div type="verse" n="2">
@@ -3162,7 +3162,7 @@ aeternum.</div>
 </div>
 <div type="psalm" n="XLV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI FILIORUM CORE PRO IUVENTUTIBUS CANTICUM</div>
+<div type="rubric" n="rub~b">VICTORI FILIORUM CORE PRO IUVENTUTIBUS CANTICUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Deus nostra spes et fortitudo</div>
@@ -3175,7 +3175,7 @@ aeternum.</div>
 <div type="verse" n="4">
 <div type="line" n="a">sonantibus et intumescentibus gurgitibus eius</div>
 <div type="line" n="b">et agitatis montibus in potentia eius</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="5">
 <div type="line" n="a">fluminis divisiones laetificant civitatem Dei</div>
@@ -3191,7 +3191,7 @@ aeternum.</div>
 </div>
 <div type="verse" n="8">
 <div type="line" n="a">Dominus exercituum nobiscum protector noster Deus Iacob</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="9">
 <div type="line" n="a">venite et videte opera Domini</div>
@@ -3208,13 +3208,13 @@ aeternum.</div>
 </div>
 <div type="verse" n="12">
 <div type="line" n="a">Dominus exercituum nobiscum fortitudo nostra Deus Iacob</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
 <div type="psalm" n="XLVI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI FILIORUM CORE CANTICUM</div>
+<div type="rubric" n="rub~b">VICTORI FILIORUM CORE CANTICUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Omnes populi plaudite manibus</div>
@@ -3231,7 +3231,7 @@ aeternum.</div>
 <div type="verse" n="5">
 <div type="line" n="a">elegit nobis hereditatem nostram</div>
 <div type="line" n="b">gloriam Iacob quam dilexit</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">ascendit Deus in iubilo Deus in voce bucinae</div>
@@ -3254,7 +3254,7 @@ aeternum.</div>
 </div>
 <div type="psalm" n="XLVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM PSALMI FILIORUM CORE</div>
+<div type="rubric" n="rub~b">CANTICUM PSALMI FILIORUM CORE</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Magnus Dominus et laudabilis nimis</div>
@@ -3285,7 +3285,7 @@ aeternum.</div>
 <div type="line" n="a">sicut audivimus ita vidimus</div>
 <div type="line" n="b">in civitate Dei exercituum in civitate Dei nostri</div>
 <div type="line" n="c">Deus fundavit eam usque in aeternum</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="10">
 <div type="line" n="a">aestimavimus Deus misericordiam tuam in medio templi
@@ -3314,7 +3314,7 @@ tua</div>
 </div>
 <div type="psalm" n="XLVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI FILIORUM CORE CANTICUM</div>
+<div type="rubric" n="rub~b">VICTORI FILIORUM CORE CANTICUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Audite hoc omnes populi</div>
@@ -3369,7 +3369,7 @@ morientes</div>
 <div type="verse" n="14">
 <div type="line" n="a">haec est via insipientiae eorum</div>
 <div type="line" n="b">et post eos iuxta os eorum current</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="15">
 <div type="line" n="a">quasi grex in inferno positi sunt mors pascet eos</div>
@@ -3380,7 +3380,7 @@ suum</div>
 <div type="verse" n="16">
 <div type="line" n="a">verumtamen Deus redimet animam meam</div>
 <div type="line" n="b">de manu inferi cum adsumpserit me</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="17">
 <div type="line" n="a">noli timere cum ditatus fuerit vir</div>
@@ -3405,7 +3405,7 @@ suum</div>
 </div>
 <div type="psalm" n="XLIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM ASAPH</div>
+<div type="rubric" n="rub~b">CANTICUM ASAPH</div>
 <div type="line" n="a">Fortis Deus Dominus locutus est et vocavit terram</div>
 <div type="line" n="b">ab ortu solis usque ad occasum eius</div>
 </div>
@@ -3428,7 +3428,7 @@ suum</div>
 <div type="verse" n="6">
 <div type="line" n="a">et adnuntiabunt caeli iustitiam eius quia Deus iudex
 est</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="7">
 <div type="line" n="a">audi popule meus et loquar Israhel et contestabor te</div>
@@ -3501,10 +3501,10 @@ est</div>
 </div>
 <div type="psalm" n="L">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
-<div type="rubric" n="rub">CUM VENISSET AD EUM NATHAN PROPHETA QUANDO INGRESSUS EST AD
+<div type="rubric" n="rub~b">CUM VENISSET AD EUM NATHAN PROPHETA QUANDO INGRESSUS EST AD
 BETHSABEE</div>
 </div>
 <div type="verse" n="3">
@@ -3589,10 +3589,10 @@ holocausta</div>
 </div>
 <div type="psalm" n="LI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI AB ERUDITO DAVID</div>
+<div type="rubric" n="rub~b">VICTORI AB ERUDITO DAVID</div>
 </div>
 <div type="verse" n="2">
-<div type="rubric" n="rub">CUM VENISSET DOEC IDUMEUS ET ADNUNTIASSET SAUL DICENS EI
+<div type="rubric" n="rub~b">CUM VENISSET DOEC IDUMEUS ET ADNUNTIASSET SAUL DICENS EI
 VENIT DAVID IN DOMUM ACHIMELECH</div>
 </div>
 <div type="verse" n="3">
@@ -3606,7 +3606,7 @@ VENIT DAVID IN DOMUM ACHIMELECH</div>
 <div type="verse" n="5">
 <div type="line" n="a">dilexisti malum magis quam bonum</div>
 <div type="line" n="b">mendacium magis quam loqui iustitiam</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">dilexisti omnia verba ad devorandum lingua dolosa</div>
@@ -3615,7 +3615,7 @@ VENIT DAVID IN DOMUM ACHIMELECH</div>
 <div type="line" n="a">sed Deus destruet te in sempiternum</div>
 <div type="line" n="b">terrebit et evellet te de tabernaculo</div>
 <div type="line" n="c">et eradicabit te de terra viventium</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="8">
 <div type="line" n="a">videbunt iusti et timebunt</div>
@@ -3638,7 +3638,7 @@ tuorum.</div>
 </div>
 <div type="psalm" n="LII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PER CHORUM ERUDITI DAVID</div>
+<div type="rubric" n="rub~b">VICTORI PER CHORUM ERUDITI DAVID</div>
 <div type="line" n="a">Dixit stultus in corde suo non est Deus</div>
 </div>
 <div type="verse" n="2">
@@ -3671,10 +3671,10 @@ tuorum.</div>
 </div>
 <div type="psalm" n="LIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI IN PSALMIS ERUDITI DAVID</div>
+<div type="rubric" n="rub~b">VICTORI IN PSALMIS ERUDITI DAVID</div>
 </div>
 <div type="verse" n="2">
-<div type="rubric" n="rub">QUANDO VENERUNT ZIPHEI ET DIXERUNT SAUL NONNE DAVID
+<div type="rubric" n="rub~b">QUANDO VENERUNT ZIPHEI ET DIXERUNT SAUL NONNE DAVID
 ABSCONDITUS EST APUD NOS</div>
 </div>
 <div type="verse" n="3">
@@ -3689,7 +3689,7 @@ ABSCONDITUS EST APUD NOS</div>
 <div type="line" n="a">quia alieni insurrexerunt adversus me</div>
 <div type="line" n="b">et fortes quaesierunt animam meam</div>
 <div type="line" n="c">et non posuerunt Deum in conspectu suo</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">ecce Deus auxiliatur mihi</div>
@@ -3710,7 +3710,7 @@ ABSCONDITUS EST APUD NOS</div>
 </div>
 <div type="psalm" n="LIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI IN PSALMIS ERUDITI DAVID</div>
+<div type="rubric" n="rub~b">VICTORI IN PSALMIS ERUDITI DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Exaudi Deus orationem meam</div>
@@ -3739,7 +3739,7 @@ requiescam</div>
 </div>
 <div type="verse" n="8">
 <div type="line" n="a">ut procul abeam et commorer in deserto</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="9">
 <div type="line" n="a">festinabo ut salver ab spiritu tempestatis et turbinis</div>
@@ -3785,7 +3785,7 @@ ab eo</div>
 </div>
 <div type="verse" n="20">
 <div type="line" n="a">exaudiet Deus et humiliabit eos qui iudex est ab initio</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 <div type="line" n="b">non enim mutantur neque timent Deum</div>
 </div>
 <div type="verse" n="21">
@@ -3809,7 +3809,7 @@ ab eo</div>
 </div>
 <div type="psalm" n="LV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO COLUMBA MUTA EO QUOD PROCUL ABIERIT DAVID
+<div type="rubric" n="rub~b">VICTORI PRO COLUMBA MUTA EO QUOD PROCUL ABIERIT DAVID
 HUMILIS ET SIMPLEX QUANDO TENUERUNT EUM PALESTINI IN GETH</div>
 </div>
 <div type="verse" n="2">
@@ -3863,7 +3863,7 @@ lapsu</div>
 </div>
 <div type="psalm" n="LVI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA UT NON DISPERDAS DAVID HUMILEM ET SIMPLICEM
+<div type="rubric" n="rub~b">PRO VICTORIA UT NON DISPERDAS DAVID HUMILEM ET SIMPLICEM
 QUANDO FUGIT A FACIE SAUL IN SPELUNCA</div>
 </div>
 <div type="verse" n="2">
@@ -3877,7 +3877,7 @@ QUANDO FUGIT A FACIE SAUL IN SPELUNCA</div>
 <div type="verse" n="4">
 <div type="line" n="a">mittet de caelo et salvabit me</div>
 <div type="line" n="b">exprobrabit conculcantibus me</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 <div type="line" n="c">mittet Deus misericordiam suam et veritatem suam</div>
 </div>
 <div type="verse" n="5">
@@ -3892,7 +3892,7 @@ gladius acutus</div>
 <div type="line" n="a">rete paraverunt gressibus meis ad incurvandam animam
 meam</div>
 <div type="line" n="b">foderunt ante me foveam ceciderunt in medium eius</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="8">
 <div type="line" n="a">paratum cor meum Deus paratum cor meum cantabo et
@@ -3916,7 +3916,7 @@ gentibus</div>
 </div>
 <div type="psalm" n="LVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI UT NON DISPERDAS DAVID HUMILEM ET SIMPLICEM</div>
+<div type="rubric" n="rub~b">VICTORI UT NON DISPERDAS DAVID HUMILEM ET SIMPLICEM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Si vere utique iustitiam loquimini recta iudicate filii
@@ -3965,7 +3965,7 @@ hominum</div>
 </div>
 <div type="psalm" n="LVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI UT NON DISPERDAS DAVID HUMILEM ET SIMPLICEM QUANDO
+<div type="rubric" n="rub~b">VICTORI UT NON DISPERDAS DAVID HUMILEM ET SIMPLICEM QUANDO
 MISIT SAUL ET CUSTODIERUNT DOMUM UT OCCIDERENT EUM</div>
 </div>
 <div type="verse" n="2">
@@ -3989,7 +3989,7 @@ MISIT SAUL ET CUSTODIERUNT DOMUM UT OCCIDERENT EUM</div>
 <div type="line" n="b">et tu Domine Deus exercituum Deus Israhel</div>
 <div type="line" n="c">evigila ut visites omnes gentes</div>
 <div type="line" n="d">non miserearis universis qui operantur iniquitatem</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="7">
 <div type="line" n="a">revertantur ad vesperam et latrent ut canis et circumeant
@@ -4024,7 +4024,7 @@ audiat</div>
 <div type="line" n="a">consume in furore consume ut non subsistant</div>
 <div type="line" n="b">et sciant quoniam Deus dominatur Iacob in finibus
 terrae</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="15">
 <div type="line" n="a">et convertantur ad vesperam et latrent ut canis</div>
@@ -4047,11 +4047,11 @@ tuam</div>
 </div>
 <div type="psalm" n="LIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO LILIIS TESTIMONIUM HUMILIS ET PERFECTI DAVID AD
+<div type="rubric" n="rub~b">VICTORI PRO LILIIS TESTIMONIUM HUMILIS ET PERFECTI DAVID AD
 DOCENDUM</div>
 </div>
 <div type="verse" n="2">
-<div type="rubric" n="rub">QUANDO PUGNAVIT ADVERSUM SYRIAM MESOPOTAMIAE ET ADVERSUM
+<div type="rubric" n="rub~b">QUANDO PUGNAVIT ADVERSUM SYRIAM MESOPOTAMIAE ET ADVERSUM
 SYRIAM SUBA ET REVERSUS EST IOAB ET PERCUSSIT EDOM IN VALLE SALINARUM DUODECIM
 MILIA</div>
 </div>
@@ -4068,7 +4068,7 @@ MILIA</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">dedisti timentibus te signum ut fugerent a facie arcus</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 <div type="line" n="b">ut liberentur amici tui</div>
 </div>
 <div type="verse" n="7">
@@ -4106,7 +4106,7 @@ MILIA</div>
 </div>
 <div type="psalm" n="LX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI IN PSALMIS DAVID</div>
+<div type="rubric" n="rub~b">VICTORI IN PSALMIS DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Exaudi Deus laudationem meam</div>
@@ -4123,7 +4123,7 @@ MILIA</div>
 <div type="verse" n="5">
 <div type="line" n="a">habitabo in tabernaculo tuo iugiter</div>
 <div type="line" n="b">sperabo in protectione alarum tuarum</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">tu enim Deus exaudisti orationem meam</div>
@@ -4144,7 +4144,7 @@ MILIA</div>
 </div>
 <div type="psalm" n="LXI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PER IDITHUN CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI PER IDITHUN CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Attamen apud Deum silebit anima mea ex eo salus mea</div>
@@ -4162,7 +4162,7 @@ MILIA</div>
 <div type="line" n="a">partem enim eius cogitaverunt expellere</div>
 <div type="line" n="b">placuerunt sibi in mendacio</div>
 <div type="line" n="c">ore suo singuli benedicunt et corde suo maledicunt</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">verumtamen Deo retice anima mea ab ipso enim praestolatio
@@ -4179,7 +4179,7 @@ mea</div>
 <div type="verse" n="9">
 <div type="line" n="a">sperate in eo omni tempore populi</div>
 <div type="line" n="b">effundite coram eo cor vestrum Deus spes nostra est</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="10">
 <div type="line" n="a">verumtamen vanitas filii Adam mendacium filii viri in
@@ -4202,7 +4202,7 @@ stateris dolosis</div>
 </div>
 <div type="psalm" n="LXII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM DAVID CUM ESSET IN DESERTO IUDA</div>
+<div type="rubric" n="rub~b">CANTICUM DAVID CUM ESSET IN DESERTO IUDA</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Deus fortitudo mea tu es de luce consurgam ad te</div>
@@ -4252,7 +4252,7 @@ gloriam tuam</div>
 </div>
 <div type="psalm" n="LXIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">VICTORI CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Audi Deus vocem meam loquentis</div>
@@ -4299,7 +4299,7 @@ gloriam tuam</div>
 </div>
 <div type="psalm" n="LXIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI CARMEN DAVID CANTICI</div>
+<div type="rubric" n="rub~b">VICTORI CARMEN DAVID CANTICI</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Tibi silens laus Deus in Sion et tibi reddetur votum</div>
@@ -4355,7 +4355,7 @@ gloriam tuam</div>
 </div>
 <div type="psalm" n="LXV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI CANTICUM PSALMI</div>
+<div type="rubric" n="rub~b">VICTORI CANTICUM PSALMI</div>
 <div type="line" n="a">Iubilate Deo omnis terra 2 cantate gloriam nomini eius</div>
 <div type="line" n="b">date gloriam laudi eius</div>
 </div>
@@ -4366,7 +4366,7 @@ tui</div>
 </div>
 <div type="verse" n="4">
 <div type="line" n="a">omnis terra adoret te et cantet tibi cantet nomini tuo</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="5">
 <div type="line" n="a">venite et videte opera Dei</div>
@@ -4381,7 +4381,7 @@ tui</div>
 <div type="line" n="a">qui dominatur in fortitudine sua saeculo</div>
 <div type="line" n="b">oculi eius gentes aspiciunt</div>
 <div type="line" n="c">qui increduli sunt non exaltentur in semet ipsis</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="8">
 <div type="line" n="a">benedicite populi Deo nostro</div>
@@ -4412,7 +4412,7 @@ refrigerium</div>
 <div type="verse" n="15">
 <div type="line" n="a">holocausta medullata offeram tibi cum incensu arietum</div>
 <div type="line" n="b">faciam boves cum hircis</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="16">
 <div type="line" n="a">venite audite et narrabo omnes qui timetis Deum</div>
@@ -4435,12 +4435,12 @@ misericordiam suam a me.</div>
 </div>
 <div type="psalm" n="LXVI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI IN PSALMIS CANTICUM CARMINIS</div>
+<div type="rubric" n="rub~b">VICTORI IN PSALMIS CANTICUM CARMINIS</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Deus misereatur nostri et benedicat nobis</div>
 <div type="line" n="b">inlustret faciem suam super nos</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="3">
 <div type="line" n="a">ut nota fiat in terra via tua</div>
@@ -4470,7 +4470,7 @@ misericordiam suam a me.</div>
 </div>
 <div type="psalm" n="LXVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI DAVID PSALMUS CANTICI</div>
+<div type="rubric" n="rub~b">VICTORI DAVID PSALMUS CANTICI</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Exsurgat Deus et dissipentur inimici eius</div>
@@ -4502,7 +4502,7 @@ in laetitia</div>
 <div type="verse" n="8">
 <div type="line" n="a">Deus cum egredereris ante populum tuum et ambulares per
 desertum</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="9">
 <div type="line" n="a">terra commota est et caeli stillaverunt a facie tua
@@ -4554,7 +4554,7 @@ accepisti dona in hominibus</div>
 <div type="verse" n="20">
 <div type="line" n="a">benedictus Dominus per singulos dies</div>
 <div type="line" n="b">portabit nos Deus salutis nostrae</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="21">
 <div type="line" n="a">Deus noster Deus salutis et Domini Dei mortis egressus</div>
@@ -4607,7 +4607,7 @@ populorum</div>
 </div>
 <div type="verse" n="33">
 <div type="line" n="a">regna terrae cantate Deo canite Domino</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="34">
 <div type="line" n="a">qui ascendit super caelum caeli a principio</div>
@@ -4626,7 +4626,7 @@ benedictus Deus.</div>
 </div>
 <div type="psalm" n="LXVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO LILIIS DAVID</div>
+<div type="rubric" n="rub~b">VICTORI PRO LILIIS DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Salva me Deus quoniam venerunt aquae usque ad animam</div>
@@ -4782,7 +4782,7 @@ dispexit</div>
 </div>
 <div type="psalm" n="LXIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI DAVID AD RECORDANDUM</div>
+<div type="rubric" n="rub~b">VICTORI DAVID AD RECORDANDUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Deus ut liberes me Domine ut auxilieris mihi festina</div>
@@ -4916,7 +4916,7 @@ tuam</div>
 </div>
 <div type="psalm" n="LXXI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">SALOMONIS</div>
+<div type="rubric" n="rub~b">SALOMONIS</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Deus iudicium regi da et iustitiam tuam filio regis</div>
@@ -4993,13 +4993,13 @@ solus</div>
 <div type="line" n="b">et implebitur gloria eius universa terra amen amen</div>
 </div>
 <div type="verse" n="20">
-<div type="rubric" n="rub">CONPLETAE SUNT ORATIONES DAVID FILII IESSE</div>
+<div type="rubric" n="rub~b">CONPLETAE SUNT ORATIONES DAVID FILII IESSE</div>
 <div type="line" n="a">.</div>
 </div>
 </div>
 <div type="psalm" n="LXXII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM ASAPH</div>
+<div type="rubric" n="rub~b">CANTICUM ASAPH</div>
 <div type="line" n="a">Attamen bonus est Israhel Deus his qui mundo sunt corde</div>
 </div>
 <div type="verse" n="2">
@@ -5113,7 +5113,7 @@ rediges</div>
 </div>
 <div type="psalm" n="LXXIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ERUDITIONIS ASAPH</div>
+<div type="rubric" n="rub~b">ERUDITIONIS ASAPH</div>
 <div type="line" n="a">Ut quid Deus reppulisti in finem</div>
 <div type="line" n="b">fumavit furor tuus in gregem pascuae tuae</div>
 </div>
@@ -5208,7 +5208,7 @@ habitationes iniquae subrutae</div>
 </div>
 <div type="psalm" n="LXXIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI UT NON DISPERDAS PSALMUS ASAPH CANTICI</div>
+<div type="rubric" n="rub~b">VICTORI UT NON DISPERDAS PSALMUS ASAPH CANTICI</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Confitebimur tibi Deus confitebimur</div>
@@ -5220,7 +5220,7 @@ habitationes iniquae subrutae</div>
 <div type="verse" n="4">
 <div type="line" n="a">dissolvetur terra cum omnibus habitatoribus suis</div>
 <div type="line" n="b">ego adpendi columnas eius</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="5">
 <div type="line" n="a">dixi inique agentibus nolite inique agere</div>
@@ -5253,7 +5253,7 @@ terrae</div>
 </div>
 <div type="psalm" n="LXXV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI IN PSALMIS CANTICUM ASAPH CARMINIS</div>
+<div type="rubric" n="rub~b">VICTORI IN PSALMIS CANTICUM ASAPH CARMINIS</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Cognoscetur in Iudaea Deus</div>
@@ -5266,7 +5266,7 @@ terrae</div>
 <div type="verse" n="4">
 <div type="line" n="a">ibi confringet volatilia arcus</div>
 <div type="line" n="b">scutum et gladium et bellum</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="5">
 <div type="line" n="a">lumen tu es Magnifice a montibus captivitatis</div>
@@ -5290,7 +5290,7 @@ tua</div>
 <div type="verse" n="10">
 <div type="line" n="a">cum surrexerit ad iudicandum Deus</div>
 <div type="line" n="b">ut salvos faciat omnes mites terrae</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="11">
 <div type="line" n="a">quia ira hominis confitebitur tibi</div>
@@ -5306,7 +5306,7 @@ tua</div>
 </div>
 <div type="psalm" n="LXXVI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PER IDITHUN PSALMUS ASAPH</div>
+<div type="rubric" n="rub~b">VICTORI PER IDITHUN PSALMUS ASAPH</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Voce mea ad Dominum clamavi</div>
@@ -5320,7 +5320,7 @@ tua</div>
 <div type="verse" n="4">
 <div type="line" n="a">recordans Dei conturbabar</div>
 <div type="line" n="b">loquebar in memet ipso et deficiebat spiritus meus</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="5">
 <div type="line" n="a">prohibebam suspectum oculorum meorum</div>
@@ -5345,7 +5345,7 @@ meum</div>
 <div type="verse" n="10">
 <div type="line" n="a">numquid oblitus est misereri Deus</div>
 <div type="line" n="b">aut conplebit in furore misericordias suas</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="11">
 <div type="line" n="a">et dixi inbecillitas mea est haec commutatio dexterae
@@ -5370,7 +5370,7 @@ Excelsi</div>
 <div type="verse" n="16">
 <div type="line" n="a">redemisti in brachio populum tuum filios Iacob et
 Ioseph</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="17">
 <div type="line" n="a">videntes te aquae Deus videntes te aquae parturierunt</div>
@@ -5396,7 +5396,7 @@ Aaron.</div>
 </div>
 <div type="psalm" n="LXXVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ERUDITIONIS ASAPH</div>
+<div type="rubric" n="rub~b">ERUDITIONIS ASAPH</div>
 <div type="line" n="a">Ausculta populus meus legem meam</div>
 <div type="line" n="b">inclinate aurem vestram ad verba oris mei</div>
 </div>
@@ -5699,7 +5699,7 @@ eius</div>
 </div>
 <div type="psalm" n="LXXVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM ASAPH</div>
+<div type="rubric" n="rub~b">CANTICUM ASAPH</div>
 <div type="line" n="a">Deus venerunt gentes in hereditatem tuam</div>
 <div type="line" n="b">polluerunt templum sanctum tuum</div>
 <div type="line" n="c">posuerunt Hierusalem in acervis lapidum</div>
@@ -5761,7 +5761,7 @@ servorum tuorum qui effusus est</div>
 </div>
 <div type="psalm" n="LXXIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO LILIIS TESTIMONII ASAPH CANTICUM</div>
+<div type="rubric" n="rub~b">VICTORI PRO LILIIS TESTIMONII ASAPH CANTICUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Qui pascis Israhel ausculta qui ducis quasi gregem
@@ -5843,7 +5843,7 @@ vocabimur</div>
 </div>
 <div type="psalm" n="LXXX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI IN TORCULARIBUS ASAPH</div>
+<div type="rubric" n="rub~b">VICTORI IN TORCULARIBUS ASAPH</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Laudate Deum fortitudinem nostram</div>
@@ -5873,7 +5873,7 @@ Aegypti</div>
 <div type="line" n="a">in tribulatione invocasti et erui te</div>
 <div type="line" n="b">exaudivi te in abscondito tonitrui</div>
 <div type="line" n="c">probavi te super aquam Contradictionis</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="9">
 <div type="line" n="a">audi populus meus et contestor te Israhel si audieris
@@ -5914,13 +5914,13 @@ eos.</div>
 </div>
 <div type="psalm" n="LXXXI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM ASAPH</div>
+<div type="rubric" n="rub~b">CANTICUM ASAPH</div>
 <div type="line" n="a">Deus stetit in coetu Dei in medio Deus iudicat</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">usquequo iudicatis iniquitatem et facies impiorum
 suscipitis</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="3">
 <div type="line" n="a">iudicate pauperi et pupillo</div>
@@ -5947,7 +5947,7 @@ gentes.</div>
 </div>
 <div type="psalm" n="LXXXII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM PSALMI ASAPH</div>
+<div type="rubric" n="rub~b">CANTICUM PSALMI ASAPH</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Deus ne taceas ne sileas et non quiescas Deus</div>
@@ -5976,7 +5976,7 @@ gentes.</div>
 <div type="verse" n="9">
 <div type="line" n="a">sed et Assur venit cum eis</div>
 <div type="line" n="b">facti sunt brachium filiorum Loth</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="10">
 <div type="line" n="a">fac illis sicut Madian et Sisarae</div>
@@ -6020,7 +6020,7 @@ Domine</div>
 </div>
 <div type="psalm" n="LXXXIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI PRO TORCULARI FILIORUM CORE CANTICUM</div>
+<div type="rubric" n="rub~b">VICTORI PRO TORCULARI FILIORUM CORE CANTICUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Quam dilecta tabernacula tua Domine exercituum</div>
@@ -6036,7 +6036,7 @@ pullos suos</div>
 </div>
 <div type="verse" n="5">
 <div type="line" n="a">beati qui habitant in domo tua adhuc laudabunt te</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">beatus homo cuius fortitudo est in te</div>
@@ -6054,7 +6054,7 @@ Sion</div>
 <div type="verse" n="9">
 <div type="line" n="a">Domine Deus exercituum exaudi orationem meam</div>
 <div type="line" n="b">ausculta Deus Iacob</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="10">
 <div type="line" n="a">clipeus noster vide Deus et adtende faciem christi tui</div>
@@ -6075,7 +6075,7 @@ Sion</div>
 </div>
 <div type="psalm" n="LXXXIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">VICTORI FILIORUM CORE CANTICUM</div>
+<div type="rubric" n="rub~b">VICTORI FILIORUM CORE CANTICUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Placatus es Domine terrae tuae</div>
@@ -6084,7 +6084,7 @@ Sion</div>
 <div type="verse" n="3">
 <div type="line" n="a">dimisisti iniquitatem populo tuo</div>
 <div type="line" n="b">operuisti omnes iniquitates eorum</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="4">
 <div type="line" n="a">continuisti omnem indignationem tuam</div>
@@ -6133,7 +6133,7 @@ suum</div>
 </div>
 <div type="psalm" n="LXXXV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ORATIO DAVID</div>
+<div type="rubric" n="rub~b">ORATIO DAVID</div>
 <div type="line" n="a">Inclina Domine aurem tuam exaudi me</div>
 <div type="line" n="b">quia egenus et pauper ego sum</div>
 </div>
@@ -6204,7 +6204,7 @@ tuae</div>
 </div>
 <div type="psalm" n="LXXXVI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">FILIORUM CORE PSALMUS CANTICI</div>
+<div type="rubric" n="rub~b">FILIORUM CORE PSALMUS CANTICI</div>
 <div type="line" n="a">Fundamentum eius in montibus sanctuarii</div>
 </div>
 <div type="verse" n="2">
@@ -6213,7 +6213,7 @@ Iacob</div>
 </div>
 <div type="verse" n="3">
 <div type="line" n="a">gloriosa dicta sunt in te civitas Dei</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="4">
 <div type="line" n="a">commemorabo superbiae et Babylonis scientes me</div>
@@ -6226,7 +6226,7 @@ ibi</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">Dominus numerabit scribens populos ipse natus est in ea</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="7">
 <div type="line" n="a">et cantabunt quasi in choris omnes fontes mei in te.</div>
@@ -6234,7 +6234,7 @@ ibi</div>
 </div>
 <div type="psalm" n="LXXXVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM CARMINIS FILIORUM CORE VICTORI PER CHORUM AD
+<div type="rubric" n="rub~b">CANTICUM CARMINIS FILIORUM CORE VICTORI PER CHORUM AD
 PRAECINENDUM ERUDITIONIS EMAN EZRAITAE</div>
 </div>
 <div type="verse" n="2">
@@ -6262,7 +6262,7 @@ recordaris amplius</div>
 <div type="verse" n="8">
 <div type="line" n="a">super me confirmatus est furor tuus</div>
 <div type="line" n="b">et cunctis fluctibus tuis adflixisti me</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="9">
 <div type="line" n="a">longe fecisti notos meos a me</div>
@@ -6276,7 +6276,7 @@ recordaris amplius</div>
 <div type="verse" n="11">
 <div type="line" n="a">numquid mortuis facies mirabilia</div>
 <div type="line" n="b">aut gigantes surgent et confitebuntur tibi</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="12">
 <div type="line" n="a">numquid narrabitur in sepulchro misericordia tua</div>
@@ -6313,7 +6313,7 @@ me</div>
 </div>
 <div type="psalm" n="LXXXVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ERUDITIONIS AETHAN EZRAITAE</div>
+<div type="rubric" n="rub~b">ERUDITIONIS AETHAN EZRAITAE</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Misericordias Domini in aeternum cantabo</div>
@@ -6331,7 +6331,7 @@ ore meo</div>
 <div type="line" n="a">usque in aeternum stabiliam semen tuum</div>
 <div type="line" n="b">et aedificabo in generationem et generationem thronum
 tuum</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">confitebuntur caeli mirabilia tua Domine</div>
@@ -6463,7 +6463,7 @@ terrae</div>
 <div type="line" n="a">et thronus eius sicut sol in conspectu meo</div>
 <div type="line" n="b">sicut luna stabilietur in sempiternum</div>
 <div type="line" n="c">et testis in caelo fidelis</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="39">
 <div type="line" n="a">tu autem reppulisti et proiecisti</div>
@@ -6508,7 +6508,7 @@ proelio</div>
 <div type="verse" n="49">
 <div type="line" n="a">quis est vir qui vivat et non videat mortem</div>
 <div type="line" n="b">salvans animam suam de manu inferi</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="50">
 <div type="line" n="a">ubi sunt misericordiae tuae antiquae Domine</div>
@@ -6528,7 +6528,7 @@ proelio</div>
 </div>
 <div type="psalm" n="LXXXIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ORATIO MOSI VIRI DEI</div>
+<div type="rubric" n="rub~b">ORATIO MOSI VIRI DEI</div>
 <div type="line" n="a">Domine habitaculum tu factus es nobis</div>
 <div type="line" n="b">in generatione et generatione</div>
 </div>
@@ -6671,7 +6671,7 @@ tuus</div>
 </div>
 <div type="psalm" n="XCI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PSALMUS CANTICI IN DIE SABBATI</div>
+<div type="rubric" n="rub~b">PSALMUS CANTICI IN DIE SABBATI</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Bonum est confiteri Domino</div>
@@ -7002,7 +7002,7 @@ fecit</div>
 </div>
 <div type="psalm" n="XCVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM</div>
+<div type="rubric" n="rub~b">CANTICUM</div>
 <div type="line" n="a">Cantate Domino canticum novum quia mirabilia fecit</div>
 <div type="line" n="b">salvavit sibi dextera eius et brachium sanctum eius</div>
 </div>
@@ -7080,7 +7080,7 @@ noster.</div>
 </div>
 <div type="psalm" n="XCIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM IN GRATIARUM ACTIONE</div>
+<div type="rubric" n="rub~b">CANTICUM IN GRATIARUM ACTIONE</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Iubilate Domino omnis terra servite Domino in laetitia</div>
@@ -7104,7 +7104,7 @@ eius</div>
 </div>
 <div type="psalm" n="C">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID CANTICUM</div>
+<div type="rubric" n="rub~b">DAVID CANTICUM</div>
 <div type="line" n="a">Misericordiam et iudicium cantabo tibi Domine psallam</div>
 </div>
 <div type="verse" n="2">
@@ -7140,7 +7140,7 @@ iniquitatem.</div>
 </div>
 <div type="psalm" n="CI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ORATIO PAUPERIS QUANDO SOLLICITUS FUERIT ET CORAM DOMINO
+<div type="rubric" n="rub~b">ORATIO PAUPERIS QUANDO SOLLICITUS FUERIT ET CORAM DOMINO
 FUDERIT ELOQUIUM SUUM</div>
 </div>
 <div type="verse" n="2">
@@ -7257,7 +7257,7 @@ eius miserabilem</div>
 </div>
 <div type="psalm" n="CII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID</div>
+<div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Benedic anima mea Domino</div>
 <div type="line" n="b">et omnia viscera mea nomini sancto eius</div>
 </div>
@@ -7496,7 +7496,7 @@ eis</div>
 </div>
 <div type="psalm" n="CIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Confitemini Domino invocate nomen eius</div>
 <div type="line" n="b">notas facite populis cogitationes eius</div>
 </div>
@@ -7670,13 +7670,13 @@ suo</div>
 </div>
 <div type="verse" n="45">
 <div type="line" n="a">ut custodirent caerimonias eius et leges eius servarent</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
 <div type="psalm" n="CV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Confitemini Domino quoniam bonus</div>
 <div type="line" n="b">quoniam in aeternum misericordia eius</div>
 </div>
@@ -7872,7 +7872,7 @@ suae</div>
 <div type="line" n="a">benedictus Dominus Deus Israhel ab aeterno et usque in
 aeternum</div>
 <div type="line" n="b">et dicet omnis populus amen</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="c">.</div>
 </div>
 </div>
@@ -8051,7 +8051,7 @@ doloris</div>
 </div>
 <div type="psalm" n="CVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM PSALMI DAVID</div>
+<div type="rubric" n="rub~b">CANTICUM PSALMI DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Paratum cor meum Deus cantabo et psallam sed et gloria
@@ -8108,7 +8108,7 @@ nostros.</div>
 </div>
 <div type="psalm" n="CVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA DAVID CANTICUM</div>
+<div type="rubric" n="rub~b">PRO VICTORIA DAVID CANTICUM</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Deus laudabilis mihi ne taceas</div>
@@ -8235,7 +8235,7 @@ lucusta</div>
 </div>
 <div type="psalm" n="CIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID CANTICUM</div>
+<div type="rubric" n="rub~b">DAVID CANTICUM</div>
 <div type="line" n="a">Dixit Dominus Domino meo sede a dextris meis</div>
 <div type="line" n="b">donec ponam inimicos tuos scabillum pedum tuorum</div>
 </div>
@@ -8267,142 +8267,142 @@ reges</div>
 </div>
 <div type="psalm" n="CX">
 <div type="verse" n="1">
-<div type="rubric" n="a">ALLELUIA</div>
-<div type="rubric" n="b">ALEPH</div>
+<div type="rubric" n="rub~a">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALEPH</div>
 <div type="line" n="a">Confitebor Domino in toto corde</div>
-<div type="rubric" n="c">BETH</div>
+<div type="rubric" n="rub~c">BETH</div>
 <div type="line" n="b">in consilio iustorum et congregatione</div>
 </div>
 <div type="verse" n="2">
-<div type="rubric" n="a">GIMEL</div>
+<div type="rubric" n="rub~a">GIMEL</div>
 <div type="line" n="a">magna opera Domini</div>
-<div type="rubric" n="b">DELETH</div>
+<div type="rubric" n="rub~b">DELETH</div>
 <div type="line" n="b">exquirenda in cunctis voluntatibus suis</div>
 </div>
 <div type="verse" n="3">
-<div type="rubric" n="a">HE</div>
+<div type="rubric" n="rub~a">HE</div>
 <div type="line" n="a">gloria et decor opus eius</div>
-<div type="rubric" n="b">VAV</div>
+<div type="rubric" n="rub~b">VAV</div>
 <div type="line" n="b">et iustitia eius perseverans semper</div>
 </div>
 <div type="verse" n="4">
-<div type="rubric" n="a">ZAI</div>
+<div type="rubric" n="rub~a">ZAI</div>
 <div type="line" n="a">memoriam fecit mirabilium suorum</div>
-<div type="rubric" n="b">HETH</div>
+<div type="rubric" n="rub~b">HETH</div>
 <div type="line" n="b">clemens et misericors Dominus</div>
 </div>
 <div type="verse" n="5">
-<div type="rubric" n="a">TETH</div>
+<div type="rubric" n="rub~a">TETH</div>
 <div type="line" n="a">escam dedit timentibus se</div>
-<div type="rubric" n="b">IOTH</div>
+<div type="rubric" n="rub~b">IOTH</div>
 <div type="line" n="b">memor erit in sempiternum pacti sui</div>
 </div>
 <div type="verse" n="6">
-<div type="rubric" n="rub">CAPH</div>
+<div type="rubric" n="rub~b">CAPH</div>
 <div type="line" n="a">fortitudinem operum suorum adnuntiabit populo suo</div>
 </div>
 <div type="verse" n="7">
-<div type="rubric" n="a">LAMETH</div>
+<div type="rubric" n="rub~a">LAMETH</div>
 <div type="line" n="a">ut det eis hereditatem gentium</div>
-<div type="rubric" n="b">MEM</div>
+<div type="rubric" n="rub~b">MEM</div>
 <div type="line" n="b">opus manuum eius veritas et iudicium</div>
 </div>
 <div type="verse" n="8">
-<div type="rubric" n="a">NUN</div>
+<div type="rubric" n="rub~a">NUN</div>
 <div type="line" n="a">fidelia omnia praecepta eius</div>
-<div type="rubric" n="b">SAMECH</div>
+<div type="rubric" n="rub~b">SAMECH</div>
 <div type="line" n="b">firmata in sempiternum iugiter</div>
-<div type="rubric" n="c">AIN</div>
+<div type="rubric" n="rub~c">AIN</div>
 <div type="line" n="c">facta in veritate et aequitate</div>
 </div>
 <div type="verse" n="9">
-<div type="rubric" n="a">FE</div>
+<div type="rubric" n="rub~a">FE</div>
 <div type="line" n="a">redemptionem misit populo suo</div>
-<div type="rubric" n="b">SADE</div>
+<div type="rubric" n="rub~b">SADE</div>
 <div type="line" n="b">mandavit in aeternum pactum suum</div>
-<div type="rubric" n="c">COPH</div>
+<div type="rubric" n="rub~c">COPH</div>
 <div type="line" n="c">sanctum et terribile nomen eius</div>
 </div>
 <div type="verse" n="10">
-<div type="rubric" n="a">RES</div>
+<div type="rubric" n="rub~a">RES</div>
 <div type="line" n="a">principium sapientiae timor Domini</div>
-<div type="rubric" n="b">SEN</div>
+<div type="rubric" n="rub~b">SEN</div>
 <div type="line" n="b">doctrina bona cunctis qui faciunt ea</div>
-<div type="rubric" n="c">THAV</div>
+<div type="rubric" n="rub~c">THAV</div>
 <div type="line" n="c">laus eius perseverans iugiter</div>
-<div type="rubric" n="d">ALLELUIA</div>
+<div type="rubric" n="rub~d">ALLELUIA</div>
 <div type="line" n="d">.</div>
 </div>
 </div>
 <div type="psalm" n="CXI">
 <div type="verse" n="1">
-<div type="rubric" n="a">ALEPH</div>
+<div type="rubric" n="rub~a">ALEPH</div>
 <div type="line" n="a">Beatus vir qui timet Dominum</div>
-<div type="rubric" n="b">BETH</div>
+<div type="rubric" n="rub~b">BETH</div>
 <div type="line" n="b">in mandatis eius volet nimis</div>
 </div>
 <div type="verse" n="2">
-<div type="rubric" n="a">GIMEL</div>
+<div type="rubric" n="rub~a">GIMEL</div>
 <div type="line" n="a">potens in terra erit semen eius</div>
-<div type="rubric" n="b">DELETH</div>
+<div type="rubric" n="rub~b">DELETH</div>
 <div type="line" n="b">generatio iustorum benedicetur</div>
 </div>
 <div type="verse" n="3">
-<div type="rubric" n="a">HE</div>
+<div type="rubric" n="rub~a">HE</div>
 <div type="line" n="a">substantia et divitiae in domo eius</div>
-<div type="rubric" n="b">VAV</div>
+<div type="rubric" n="rub~b">VAV</div>
 <div type="line" n="b">et iustitia eius perseverans semper</div>
 </div>
 <div type="verse" n="4">
-<div type="rubric" n="a">ZAI</div>
+<div type="rubric" n="rub~a">ZAI</div>
 <div type="line" n="a">ortum est in tenebris lumen iustis</div>
-<div type="rubric" n="b">HETH</div>
+<div type="rubric" n="rub~b">HETH</div>
 <div type="line" n="b">clemens et misericors et iustus</div>
 </div>
 <div type="verse" n="5">
-<div type="rubric" n="a">TETH</div>
+<div type="rubric" n="rub~a">TETH</div>
 <div type="line" n="a">bonus vir clemens et fenerans</div>
-<div type="rubric" n="b">IOTH</div>
+<div type="rubric" n="rub~b">IOTH</div>
 <div type="line" n="b">dispensabit verba sua in iudicio</div>
 </div>
 <div type="verse" n="6">
-<div type="rubric" n="rub">CAPH</div>
+<div type="rubric" n="rub~b">CAPH</div>
 <div type="line" n="a">quia in aeternum non commovebitur</div>
 </div>
 <div type="verse" n="7">
-<div type="rubric" n="a">LAMETH</div>
+<div type="rubric" n="rub~a">LAMETH</div>
 <div type="line" n="a">in memoria sempiterna erit iustus</div>
-<div type="rubric" n="b">MEM</div>
+<div type="rubric" n="rub~b">MEM</div>
 <div type="line" n="b">ab auditu malo non timebit</div>
-<div type="rubric" n="c">NUN</div>
+<div type="rubric" n="rub~c">NUN</div>
 <div type="line" n="c">paratum cor eius confidens in Domino</div>
 </div>
 <div type="verse" n="8">
-<div type="rubric" n="a">SAMECH</div>
+<div type="rubric" n="rub~a">SAMECH</div>
 <div type="line" n="a">firmum cor eius non timebit</div>
-<div type="rubric" n="b">AIN</div>
+<div type="rubric" n="rub~b">AIN</div>
 <div type="line" n="b">donec aspiciat hostibus suis</div>
 </div>
 <div type="verse" n="9">
-<div type="rubric" n="a">PHE</div>
+<div type="rubric" n="rub~a">PHE</div>
 <div type="line" n="a">dispersit dedit pauperibus</div>
-<div type="rubric" n="b">SADE</div>
+<div type="rubric" n="rub~b">SADE</div>
 <div type="line" n="b">iustitia eius permanet in aeternum</div>
-<div type="rubric" n="c">COPH</div>
+<div type="rubric" n="rub~c">COPH</div>
 <div type="line" n="c">cornu eius exaltabitur in gloria</div>
 </div>
 <div type="verse" n="10">
-<div type="rubric" n="a">RES</div>
+<div type="rubric" n="rub~a">RES</div>
 <div type="line" n="a">impius videbit et irascetur</div>
-<div type="rubric" n="b">SEN</div>
+<div type="rubric" n="rub~b">SEN</div>
 <div type="line" n="b">dentibus suis frendet et tabescet</div>
-<div type="rubric" n="c">THAV</div>
+<div type="rubric" n="rub~c">THAV</div>
 <div type="line" n="c">desiderium impiorum peribit.</div>
 </div>
 </div>
 <div type="psalm" n="CXII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Laudate servi Dominum laudate nomen Domini</div>
 </div>
 <div type="verse" n="2">
@@ -8432,7 +8432,7 @@ pauperem</div>
 <div type="verse" n="9">
 <div type="line" n="a">qui conlocat sterilem in domo</div>
 <div type="line" n="b">matrem filiorum laetantem</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="c">.</div>
 </div>
 </div>
@@ -8535,7 +8535,7 @@ hominum</div>
 </div>
 <div type="verse" n="26">
 <div type="line" n="a">sed nos benedicimus Domino amodo et usque in aeternum</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
@@ -8608,7 +8608,7 @@ tibi</div>
 </div>
 <div type="verse" n="10">
 <div type="line" n="a">in atriis domus Domini in medio tui Hierusalem</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
@@ -8620,7 +8620,7 @@ tibi</div>
 <div type="verse" n="2">
 <div type="line" n="a">quia confortata est super nos misericordia eius</div>
 <div type="line" n="b">et veritas Domini in aeternum</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="c">.</div>
 </div>
 </div>
@@ -8739,7 +8739,7 @@ altaris</div>
 </div>
 <div type="psalm" n="CXVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALEPH</div>
+<div type="rubric" n="rub~b">ALEPH</div>
 <div type="line" n="a">Beati inmaculati in via qui ambulant in lege Domini</div>
 </div>
 <div type="verse" n="2">
@@ -8768,7 +8768,7 @@ iustitiae tuae</div>
 <div type="line" n="a">praecepta tua custodiam ne derelinquas me nimis</div>
 </div>
 <div type="verse" n="9">
-<div type="rubric" n="rub">BETH</div>
+<div type="rubric" n="rub~b">BETH</div>
 <div type="line" n="a">in quo corrigit iuvenis semitam suam cum custodierit verba
 tua</div>
 </div>
@@ -8797,7 +8797,7 @@ tuas</div>
 <div type="line" n="a">iustitiis tuis delectabor non obliviscar verba tua</div>
 </div>
 <div type="verse" n="17">
-<div type="rubric" n="rub">GIMEL</div>
+<div type="rubric" n="rub~b">GIMEL</div>
 <div type="line" n="a">tribue servo tuo vivam et custodiam verba tua</div>
 </div>
 <div type="verse" n="18">
@@ -8827,7 +8827,7 @@ autem tuus meditabatur praecepta tua</div>
 mei</div>
 </div>
 <div type="verse" n="25">
-<div type="rubric" n="rub">DELETH</div>
+<div type="rubric" n="rub~b">DELETH</div>
 <div type="line" n="a">adhesit pulveri anima mea vivifica me iuxta verbum tuum</div>
 </div>
 <div type="verse" n="26">
@@ -8855,7 +8855,7 @@ tuum</div>
 meum</div>
 </div>
 <div type="verse" n="33">
-<div type="rubric" n="rub">HE</div>
+<div type="rubric" n="rub~b">HE</div>
 <div type="line" n="a">ostende mihi Domine viam praeceptorum tuorum et custodiam eam
 per vestigium</div>
 </div>
@@ -8884,7 +8884,7 @@ bona</div>
 <div type="line" n="a">ecce desideravi praecepta tua iustitia tua vivifica me</div>
 </div>
 <div type="verse" n="41">
-<div type="rubric" n="rub">VAV</div>
+<div type="rubric" n="rub~b">VAV</div>
 <div type="line" n="a">et veniant mihi misericordiae tuae Domine et salus tua iuxta
 eloquium tuum</div>
 </div>
@@ -8914,7 +8914,7 @@ confundar</div>
 praeceptis tuis</div>
 </div>
 <div type="verse" n="49">
-<div type="rubric" n="rub">ZAI</div>
+<div type="rubric" n="rub~b">ZAI</div>
 <div type="line" n="a">memento sermonis servo tuo quem me sperare fecisti</div>
 </div>
 <div type="verse" n="50">
@@ -8944,7 +8944,7 @@ tuam</div>
 <div type="line" n="a">hoc factum est mihi quia praecepta tua custodivi</div>
 </div>
 <div type="verse" n="57">
-<div type="rubric" n="rub">HETH</div>
+<div type="rubric" n="rub~b">HETH</div>
 <div type="line" n="a">pars mea Domine dixi ut custodiam verbum tuum</div>
 </div>
 <div type="verse" n="58">
@@ -8975,7 +8975,7 @@ praecepta tua</div>
 me</div>
 </div>
 <div type="verse" n="65">
-<div type="rubric" n="rub">TETH</div>
+<div type="rubric" n="rub~b">TETH</div>
 <div type="line" n="a">benefecisti servo tuo Domine secundum verbum tuum</div>
 </div>
 <div type="verse" n="66">
@@ -9005,7 +9005,7 @@ delectabar</div>
 argenti</div>
 </div>
 <div type="verse" n="73">
-<div type="rubric" n="rub">IOTH</div>
+<div type="rubric" n="rub~b">IOTH</div>
 <div type="line" n="a">manus tuae fecerunt me et firmaverunt me doce me et discam
 mandata tua</div>
 </div>
@@ -9038,7 +9038,7 @@ tuum</div>
 confundar</div>
 </div>
 <div type="verse" n="81">
-<div type="rubric" n="rub">CAPH</div>
+<div type="rubric" n="rub~b">CAPH</div>
 <div type="line" n="a">defecit in salutare tuum anima mea verbum tuum
 expectavi</div>
 </div>
@@ -9071,7 +9071,7 @@ praecepta tua</div>
 testimonium oris tui</div>
 </div>
 <div type="verse" n="89">
-<div type="rubric" n="rub">LAMETH</div>
+<div type="rubric" n="rub~b">LAMETH</div>
 <div type="line" n="a">in aeternum Domine verbum tuum perstat in caelo</div>
 </div>
 <div type="verse" n="90">
@@ -9100,7 +9100,7 @@ considerabo</div>
 <div type="line" n="a">omni consummationi vidi finem latum mandatum tuum nimis</div>
 </div>
 <div type="verse" n="97">
-<div type="rubric" n="rub">MEM</div>
+<div type="rubric" n="rub~b">MEM</div>
 <div type="line" n="a">quam dilexi legem tuam tota die haec meditatio mea</div>
 </div>
 <div type="verse" n="98">
@@ -9129,7 +9129,7 @@ tua</div>
 mendacii</div>
 </div>
 <div type="verse" n="105">
-<div type="rubric" n="rub">NUN</div>
+<div type="rubric" n="rub~b">NUN</div>
 <div type="line" n="a">lucerna pedi meo verbum tuum et lux semitae meae</div>
 </div>
 <div type="verse" n="106">
@@ -9161,7 +9161,7 @@ cordis mei sunt</div>
 retributionem</div>
 </div>
 <div type="verse" n="113">
-<div type="rubric" n="rub">SAMECH</div>
+<div type="rubric" n="rub~b">SAMECH</div>
 <div type="line" n="a">tumultuosos odivi et legem tuam dilexi</div>
 </div>
 <div type="verse" n="114">
@@ -9191,7 +9191,7 @@ testimonia tua</div>
 <div type="line" n="a">horripilavit a timore tuo caro mea et iudicia tua timui</div>
 </div>
 <div type="verse" n="121">
-<div type="rubric" n="rub">AIN</div>
+<div type="rubric" n="rub~b">AIN</div>
 <div type="line" n="a">feci iudicium et iustitiam ne derelinquas me his qui
 calumniantur me</div>
 </div>
@@ -9222,7 +9222,7 @@ tuam</div>
 odio habui</div>
 </div>
 <div type="verse" n="129">
-<div type="rubric" n="rub">FE</div>
+<div type="rubric" n="rub~b">FE</div>
 <div type="line" n="a">mirabilia testimonia tua idcirco custodivit ea anima
 mea</div>
 </div>
@@ -9252,7 +9252,7 @@ universae iniquitati</div>
 legem tuam</div>
 </div>
 <div type="verse" n="137">
-<div type="rubric" n="rub">SADE</div>
+<div type="rubric" n="rub~b">SADE</div>
 <div type="line" n="a">iustus es Domine et rectum iudicium tuum</div>
 </div>
 <div type="verse" n="138">
@@ -9280,7 +9280,7 @@ mea</div>
 <div type="line" n="a">iusta testimonia tua semper doce me et vivam</div>
 </div>
 <div type="verse" n="145">
-<div type="rubric" n="rub">COPH</div>
+<div type="rubric" n="rub~b">COPH</div>
 <div type="line" n="a">clamavi in toto corde exaudi me Domine praecepta tua
 custodiam</div>
 </div>
@@ -9311,7 +9311,7 @@ procul facti sunt</div>
 fundaveris ea</div>
 </div>
 <div type="verse" n="153">
-<div type="rubric" n="rub">RES</div>
+<div type="rubric" n="rub~b">RES</div>
 <div type="line" n="a">vide adflictionem meam et eripe me quia legis tuae non sum
 oblitus</div>
 </div>
@@ -9343,7 +9343,7 @@ tuam vivifica me</div>
 iustitiae tuae</div>
 </div>
 <div type="verse" n="161">
-<div type="rubric" n="rub">SEN</div>
+<div type="rubric" n="rub~b">SEN</div>
 <div type="line" n="a">principes persecuti sunt me sine causa verba autem tua timuit
 cor meum</div>
 </div>
@@ -9373,7 +9373,7 @@ scandalum</div>
 meae in conspectu tuo</div>
 </div>
 <div type="verse" n="169">
-<div type="rubric" n="rub">THAV</div>
+<div type="rubric" n="rub~b">THAV</div>
 <div type="line" n="a">ingrediatur laus mea coram te Domine secundum verbum tuum
 doce me</div>
 </div>
@@ -9405,7 +9405,7 @@ tuorum non sum oblitus.</div>
 </div>
 <div type="psalm" n="CXIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Ad Dominum in tribulatione mea clamavi et exaudivit me</div>
 </div>
 <div type="verse" n="2">
@@ -9433,7 +9433,7 @@ bellantia.</div>
 </div>
 <div type="psalm" n="CXX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Levavi oculos meos in montes unde veniet auxilium meum</div>
 </div>
 <div type="verse" n="2">
@@ -9463,7 +9463,7 @@ usque in aeternum.</div>
 </div>
 <div type="psalm" n="CXXI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM DAVID</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM DAVID</div>
 <div type="line" n="a">Laetatus sum eo quod dixerint mihi in domum Domini
 ibimus</div>
 </div>
@@ -9496,7 +9496,7 @@ ibimus</div>
 </div>
 <div type="psalm" n="CXXII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTUUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTUUM GRADUUM</div>
 <div type="line" n="a">Ad te levavi oculos meos qui habitas in caelis</div>
 </div>
 <div type="verse" n="2">
@@ -9516,7 +9516,7 @@ despectionis superborum.</div>
 </div>
 <div type="psalm" n="CXXIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM DAVID</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM DAVID</div>
 <div type="line" n="a">Nisi Dominus fuisset in nobis dicat nunc Israhel</div>
 </div>
 <div type="verse" n="2">
@@ -9550,7 +9550,7 @@ terram.</div>
 </div>
 <div type="psalm" n="CXXIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Qui confidunt in Domino quasi mons Sion inmobilis in aeternum
 habitabilis</div>
 </div>
@@ -9575,7 +9575,7 @@ super Israhel.</div>
 </div>
 <div type="psalm" n="CXXV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Cum converteret Dominus captivitatem Sion facti sumus quasi
 somniantes</div>
 </div>
@@ -9603,7 +9603,7 @@ sementem</div>
 </div>
 <div type="psalm" n="CXXVI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM SALOMONIS</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM SALOMONIS</div>
 <div type="line" n="a">Nisi Dominus aedificaverit domum in vanum laboraverunt qui
 aedificant eam</div>
 <div type="line" n="b">nisi Dominus custodierit civitatem frustra vigilat qui
@@ -9627,7 +9627,7 @@ manducatis panem idolorum</div>
 </div>
 <div type="psalm" n="CXXVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Beatus omnis qui timet Dominum qui ambulat in viis eius</div>
 </div>
 <div type="verse" n="2">
@@ -9653,7 +9653,7 @@ omnibus diebus vitae tuae</div>
 </div>
 <div type="psalm" n="CXXVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Saepe expugnaverunt me ab adulescentia mea dicat nunc
 Israhel</div>
 </div>
@@ -9688,7 +9688,7 @@ faciens</div>
 </div>
 <div type="psalm" n="CXXIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">De profundis clamavi ad te Domine</div>
 </div>
 <div type="verse" n="2">
@@ -9716,7 +9716,7 @@ multa apud eum redemptio</div>
 </div>
 <div type="psalm" n="CXXX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Domine non est exaltatum cor meum neque elati sunt oculi
 mei</div>
 <div type="line" n="b">et non ambulavi in magnis et in mirabilibus super me</div>
@@ -9732,7 +9732,7 @@ mea</div>
 </div>
 <div type="psalm" n="CXXXI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Memento Domine David et omnis adflictionis eius</div>
 </div>
 <div type="verse" n="2">
@@ -9803,7 +9803,7 @@ suum</div>
 </div>
 <div type="psalm" n="CXXXII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM DAVID</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM DAVID</div>
 <div type="line" n="a">Ecce quam bonum et quam decorum habitare fratres in uno</div>
 </div>
 <div type="verse" n="2">
@@ -9819,7 +9819,7 @@ aeternum.</div>
 </div>
 <div type="psalm" n="CXXXIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM GRADUUM</div>
+<div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Ecce benedicite Domino omnes servi Domini qui statis in domo
 Domini</div>
 </div>
@@ -9833,7 +9833,7 @@ Domino</div>
 </div>
 <div type="psalm" n="CXXXIIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Laudate nomen Domini laudate servi Dominum</div>
 </div>
 <div type="verse" n="2">
@@ -9911,7 +9911,7 @@ eis</div>
 </div>
 <div type="verse" n="21">
 <div type="line" n="a">benedictus Dominus ex Sion qui habitat in Hierusalem</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
@@ -10064,7 +10064,7 @@ retribuisti nobis</div>
 </div>
 <div type="psalm" n="CXXXVII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID</div>
+<div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Confitebor tibi in toto corde meo</div>
 <div type="line" n="b">in conspectu deorum cantabo tibi</div>
 </div>
@@ -10101,7 +10101,7 @@ retribuisti nobis</div>
 </div>
 <div type="psalm" n="CXXXVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA DAVID CANTICUM</div>
+<div type="rubric" n="rub~b">PRO VICTORIA DAVID CANTICUM</div>
 <div type="line" n="a">Domine investigasti me et cognovisti</div>
 </div>
 <div type="verse" n="2">
@@ -10201,7 +10201,7 @@ abscondito</div>
 </div>
 <div type="psalm" n="CXXXIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">PRO VICTORIA CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">PRO VICTORIA CANTICUM DAVID</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Erue me Domine ab homine malo</div>
@@ -10214,7 +10214,7 @@ abscondito</div>
 <div type="verse" n="4">
 <div type="line" n="a">exacuerunt linguam suam quasi serpens</div>
 <div type="line" n="b">venenum aspidis sub labiis eorum</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="5">
 <div type="line" n="a">custodi me Domine de manu impii a viro iniquitatum serva
@@ -10225,7 +10225,7 @@ me</div>
 <div type="line" n="a">absconderunt superbi laqueum mihi et funibus extenderunt
 rete</div>
 <div type="line" n="b">iuxta semitam offendiculum posuerunt mihi</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="7">
 <div type="line" n="a">dixi Domino Deus meus tu</div>
@@ -10238,7 +10238,7 @@ die belli</div>
 <div type="verse" n="9">
 <div type="line" n="a">ne des Domine desideria impii</div>
 <div type="line" n="b">scelera eius ne effundantur et eleventur</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="10">
 <div type="line" n="a">amaritudo convivarum meorum</div>
@@ -10262,7 +10262,7 @@ die belli</div>
 </div>
 <div type="psalm" n="CXL">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">CANTICUM DAVID</div>
 <div type="line" n="a">Domine clamavi ad te festina mihi</div>
 <div type="line" n="b">exaudi vocem meam clamantis ad te</div>
 </div>
@@ -10308,7 +10308,7 @@ iniquitatem</div>
 </div>
 <div type="psalm" n="CXLI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ERUDITIO DAVID CUM ESSET IN SPELUNCA ORATIO</div>
+<div type="rubric" n="rub~b">ERUDITIO DAVID CUM ESSET IN SPELUNCA ORATIO</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Voce mea ad Dominum clamavi</div>
@@ -10345,7 +10345,7 @@ me</div>
 </div>
 <div type="psalm" n="CXLII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">CANTICUM DAVID</div>
+<div type="rubric" n="rub~b">CANTICUM DAVID</div>
 <div type="line" n="a">Domine exaudi orationem meam</div>
 <div type="line" n="b">ausculta deprecationem meam in veritate tua</div>
 <div type="line" n="c">exaudi me in iustitia tua</div>
@@ -10371,7 +10371,7 @@ me</div>
 <div type="verse" n="6">
 <div type="line" n="a">expandi manus meas ad te</div>
 <div type="line" n="b">anima mea quasi terra sitiens ad te</div>
-<div type="rubric" n="rub">SEMPER</div>
+<div type="rubric" n="rub~b">SEMPER</div>
 </div>
 <div type="verse" n="7">
 <div type="line" n="a">cito exaudi me Domine defecit spiritus meus</div>
@@ -10403,7 +10403,7 @@ meam</div>
 </div>
 <div type="psalm" n="CXLIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">DAVID</div>
+<div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Benedictus Dominus fortis meus</div>
 <div type="line" n="b">qui docet manus meas ad proelium</div>
 <div type="line" n="c">digitos meos ad bellum</div>
@@ -10476,113 +10476,113 @@ nostris</div>
 </div>
 <div type="psalm" n="CXLIIII">
 <div type="verse" n="1">
-<div type="rubric" n="a">HYMNUS DAVID</div>
-<div type="rubric" n="b">ALEPH</div>
+<div type="rubric" n="rub~a">HYMNUS DAVID</div>
+<div type="rubric" n="rub~b">ALEPH</div>
 <div type="line" n="a">Exaltabo te Deus meus rex et benedicam nomini tuo in aeternum
 et ultra</div>
 </div>
 <div type="verse" n="2">
-<div type="rubric" n="rub">BETH</div>
+<div type="rubric" n="rub~b">BETH</div>
 <div type="line" n="a">in omni die benedicam tibi et laudabo nomen tuum in
 sempiternum iugiter</div>
 </div>
 <div type="verse" n="3">
-<div type="rubric" n="rub">GIMEL</div>
+<div type="rubric" n="rub~b">GIMEL</div>
 <div type="line" n="a">magnus Deus et laudabilis nimis et magnificentiae eius non
 est inventio</div>
 </div>
 <div type="verse" n="4">
-<div type="rubric" n="rub">DELETH</div>
+<div type="rubric" n="rub~b">DELETH</div>
 <div type="line" n="a">generatio ad generationem laudabit opera tua et fortitudines
 tuas adnuntiabunt</div>
 </div>
 <div type="verse" n="5">
-<div type="rubric" n="rub">HE</div>
+<div type="rubric" n="rub~b">HE</div>
 <div type="line" n="a">decorem gloriae magnitudinis tuae et verba mirabilium tuorum
 loquar</div>
 </div>
 <div type="verse" n="6">
-<div type="rubric" n="rub">VAV</div>
+<div type="rubric" n="rub~b">VAV</div>
 <div type="line" n="a">et fortitudinem horribilium tuorum loquentur et magnitudines
 tuas narrabo</div>
 </div>
 <div type="verse" n="7">
-<div type="rubric" n="rub">ZAI</div>
+<div type="rubric" n="rub~b">ZAI</div>
 <div type="line" n="a">memoriam multae bonitatis tuae loquentur et iustitias tuas
 laudabunt</div>
 </div>
 <div type="verse" n="8">
-<div type="rubric" n="rub">HETH</div>
+<div type="rubric" n="rub~b">HETH</div>
 <div type="line" n="a">clemens et misericors Dominus patiens et multae
 miserationis</div>
 </div>
 <div type="verse" n="9">
-<div type="rubric" n="rub">TETH</div>
+<div type="rubric" n="rub~b">TETH</div>
 <div type="line" n="a">bonus Dominus omnibus et misericordiae eius in universa opera
 eius</div>
 </div>
 <div type="verse" n="10">
-<div type="rubric" n="rub">IOTH</div>
+<div type="rubric" n="rub~b">IOTH</div>
 <div type="line" n="a">confiteantur tibi Domine omnia opera tua et sancti tui
 benedicant tibi</div>
 </div>
 <div type="verse" n="11">
-<div type="rubric" n="rub">CAPH</div>
+<div type="rubric" n="rub~b">CAPH</div>
 <div type="line" n="a">gloriam regni tui dicent et fortitudines tuas loquentur</div>
 </div>
 <div type="verse" n="12">
-<div type="rubric" n="rub">LAMETH</div>
+<div type="rubric" n="rub~b">LAMETH</div>
 <div type="line" n="a">ut ostendant filiis hominum fortitudines eius et gloriam
 decoris regni eius</div>
 </div>
 <div type="verse" n="13">
-<div type="rubric" n="rub">MEM</div>
+<div type="rubric" n="rub~b">MEM</div>
 <div type="line" n="a">regnum tuum regnum omnium saeculorum et potestas tua in omni
 generatione et generatione</div>
 </div>
 <div type="verse" n="14">
-<div type="rubric" n="rub">SAMECH</div>
+<div type="rubric" n="rub~b">SAMECH</div>
 <div type="line" n="a">sustentat Dominus omnes corruentes et erigit universos
 iacentes</div>
 </div>
 <div type="verse" n="15">
-<div type="rubric" n="rub">AIN</div>
+<div type="rubric" n="rub~b">AIN</div>
 <div type="line" n="a">oculi eorum in te sperant et tu das eis escam suam in tempore
 suo</div>
 </div>
 <div type="verse" n="16">
-<div type="rubric" n="rub">FE</div>
+<div type="rubric" n="rub~b">FE</div>
 <div type="line" n="a">aperis manus tuas et imples omne animal refectione</div>
 </div>
 <div type="verse" n="17">
-<div type="rubric" n="rub">SADE</div>
+<div type="rubric" n="rub~b">SADE</div>
 <div type="line" n="a">iustus Dominus in omnibus viis suis et sanctus in omnibus
 operibus suis</div>
 </div>
 <div type="verse" n="18">
-<div type="rubric" n="rub">COPH</div>
+<div type="rubric" n="rub~b">COPH</div>
 <div type="line" n="a">iuxta est Dominus omnibus qui invocant eum omnibus qui
 invocant eum in veritate</div>
 </div>
 <div type="verse" n="19">
-<div type="rubric" n="rub">RES</div>
+<div type="rubric" n="rub~b">RES</div>
 <div type="line" n="a">placitum timentium se faciet et clamorem eorum audiet et
 salvabit eos</div>
 </div>
 <div type="verse" n="20">
-<div type="rubric" n="rub">SEN</div>
+<div type="rubric" n="rub~b">SEN</div>
 <div type="line" n="a">custodit Dominus omnes diligentes se et universos impios
 conteret</div>
 </div>
 <div type="verse" n="21">
-<div type="rubric" n="rub">THAV</div>
+<div type="rubric" n="rub~b">THAV</div>
 <div type="line" n="a">laudem Domini loquetur os meum et benedicet omnis caro nomini
 sancto eius in aeternum et iugiter.</div>
 </div>
 </div>
 <div type="psalm" n="CXLV">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 </div>
 <div type="verse" n="2">
 <div type="line" n="a">Lauda anima mea Dominum</div>
@@ -10626,7 +10626,7 @@ sunt</div>
 </div>
 <div type="psalm" n="CXLVI">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Laudate Dominum quoniam bonum est canticum Dei nostri</div>
 <div type="line" n="b">quoniam decorum est pulchra laudatio</div>
 </div>
@@ -10704,13 +10704,13 @@ fluent aquae</div>
 <div type="verse" n="9">
 <div type="line" n="a">non fecit similiter omni genti et iudicia eius non
 cognoscent</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
 <div type="psalm" n="CXLVIII">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Laudate Dominum de caelis laudate eum in excelsis</div>
 </div>
 <div type="verse" n="2">
@@ -10763,13 +10763,13 @@ Domini</div>
 <div type="line" n="b">et exaltavit cornu populi sui</div>
 <div type="line" n="c">laus omnibus sanctis eius</div>
 <div type="line" n="d">filiis Israhel populo adpropinquanti sibi</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="e">.</div>
 </div>
 </div>
 <div type="psalm" n="CXLIX">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Cantate Domino canticum novum</div>
 <div type="line" n="b">laus eius in congregatione sanctorum</div>
 </div>
@@ -10804,13 +10804,13 @@ ferreis</div>
 <div type="verse" n="9">
 <div type="line" n="a">ut faciant in eis iudicium scriptum</div>
 <div type="line" n="b">decor est omnium sanctorum eius</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="c">.</div>
 </div>
 </div>
 <div type="psalm" n="CL">
 <div type="verse" n="1">
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Laudate Deum in sancto eius</div>
 <div type="line" n="b">laudate eum in fortitudine potentiae eius</div>
 </div>
@@ -10832,10 +10832,10 @@ ferreis</div>
 </div>
 <div type="verse" n="6">
 <div type="line" n="a">omne quod spirat laudet Dominum</div>
-<div type="rubric" n="rub">ALLELUIA</div>
+<div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
-<div type="explicit" n="">EXPLICIT PSALTERIUM</div>
+<div type="explicit" n="ex">EXPLICIT PSALTERIUM</div>
 </body>
 </TAN-T>

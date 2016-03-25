@@ -27,8 +27,8 @@
             <name>Old Testament</name>
          </work>
          <div-type include="BIBLE"/>
-         <recommended-tokenization include="BIBLE"/>
-         <recommended-div-type-refs include="BIBLE"/>
+         
+         
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>

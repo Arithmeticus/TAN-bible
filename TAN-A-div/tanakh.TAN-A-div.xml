@@ -32,9 +32,8 @@
          <location href="../lxx.grc.rahlfs.xml" when-accessed="2014-10-23"/>
       </source>
       <declarations>
-         <implicit-div-type-refs src="ot-kjv lxx bhs"/>
-         <tokenization src="lxx" which="general-words-only-1"/>
-         <tokenization src="ot-kjv" which="general-1"/>
+         <token-definition src="lxx" which="general-words-only-1"/>
+         <token-definition src="ot-kjv" which="general-1"/>
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>

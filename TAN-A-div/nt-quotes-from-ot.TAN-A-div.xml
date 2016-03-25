@@ -8,16 +8,6 @@
       <name>New Testament quotations from the Old Testament</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/nt-quotes-from-ot.TAN-A-div.xml"/>
       <rights-excluding-sources include="tanakh"/>
-      <!--<inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
-         <name>Div-based alignment of multiple versions of the Bible</name>
-         <location when-accessed="2015-10-02-04:00">HEAD.bible.TAN-A-div.xml</location>
-      </inclusion>-->
-      <!--<inclusion xml:id="nt">
-         <IRI>tag:kalvesmaki@gmail.com,2014:nt.TAN-A-div.1</IRI>
-         <name>Div-based alignment of multiple versions of the New Testament</name>
-         <location when-accessed="2015-10-15-04:00">nt.TAN-A-div.xml</location>
-      </inclusion>-->
       <inclusion xml:id="tanakh">
          <IRI>tag:kalvesmaki@gmail.com,2014:tanakh.TAN-A-div</IRI>
          <name>Div-based alignment of multiple versions of the Tanakh</name>
@@ -52,6 +42,7 @@
             <rename old="Phil" new="Php"/>
             <rename old="1Thess" new="1Th"/>
             <rename old="2Thess" new="2Th"/>
+            <rename old="Titus" new="Tit"/>
             <rename old="Phlm" new="Phm"/>
             <rename old="Jas" new="Jam"/>
             <rename old="1Pet" new="1Pe"/>
@@ -62,10 +53,8 @@
             <rename old="Jude" new="Jud"/>
             <rename old="Rev" new="Re"/>
          </rename-div-ns>
-         <tokenization src="nt-kjv nt-grc" which="general-words-only-1"/>
-         <tokenization include="tanakh lxx-al"/>
-         <implicit-div-type-refs src="nt-grc nt-kjv"/>
-         <implicit-div-type-refs include="tanakh lxx-al"/>
+         <token-definition src="nt-kjv nt-grc" which="general-words-only-1"/>
+         <token-definition include="tanakh lxx-al"/>
       </declarations>
       <agent xml:id="kalvesmaki" roles="editor">
          <IRI>http://viaf.org/viaf/299582703</IRI>
@@ -77,8 +66,6 @@
          <IRI>http://schema.org/editor</IRI>
          <name xml:lang="eng">editor</name>
       </role>
-      <!--<agent include="HEAD"/>
-      <role include="HEAD"/>-->
       <change when="2015-10-15" who="kalvesmaki">Started file</change>
    </head>
    <body>

@@ -57,9 +57,9 @@
                <name>Renamed duplicate verse names: Mark 16.9b</name>
             </normalization>
          </filter>
-         <recommended-tokenization which="general-words-only-1"/>
-         <recommended-tokenization which="precise-1"/>
-         <recommended-div-type-refs>implicit</recommended-div-type-refs>
+         
+         
+         
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>

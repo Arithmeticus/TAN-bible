@@ -3,11 +3,13 @@
 <?xml-model href="../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:bible-eng-kjv.1760.TAN-T.001">
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+   id="tag:kalvesmaki.com,2014:bible-eng-kjv.1760.TAN-T.001">
    <head>
       <name>King James Version of the Bible (including apocrypha), transcribed in TAN-T
          format</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/BIBLE.eng.kjv.1760.xml"/>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/BIBLE.eng.kjv.1760.xml"/>
       <rights-excluding-sources rights-holder="kalvesmaki">
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
          <name>Creative Commons Attribution 4.0 International License</name>
@@ -43,9 +45,10 @@
       <see-also>
          <relationship which="auxiliary"/>
          <IRI>tag:kalvesmaki.com,2014:auxiliary:ccat</IRI>
-         <name>Biblical texts supplied by Center for Computer
-            Analysis of Texts (CCAT) at the University of Pennsylvania</name>
-         <location href="http://ccat.sas.upenn.edu/gopher/text/religion/biblical/" when-accessed="2015-10-09"/>
+         <name>Biblical texts supplied by Center for Computer Analysis of Texts (CCAT) at the
+            University of Pennsylvania</name>
+         <location href="http://ccat.sas.upenn.edu/gopher/text/religion/biblical/"
+            when-accessed="2015-10-09"/>
       </see-also>
       <see-also>
          <relationship which="auxiliary"/>
@@ -60,48 +63,15 @@
             <IRI>http://dbpedia.org/resource/Bible</IRI>
             <name>Bible</name>
          </work>
-         <div-type xml:id="bk">
-            <IRI>http://dbpedia.org/resource/Book</IRI>
-            <name>book</name>
-         </div-type>
-         <div-type xml:id="ch">
-            <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
-            <name xml:lang="eng">chapter</name>
-            <name xml:lang="grc">κεφάλαιον</name>
-         </div-type>
-         <div-type xml:id="line">
-            <IRI>http://dbpedia.org/resource/Line_(poetry)</IRI>
-            <name xml:lang="eng">line</name>
-         </div-type>
-         <div-type xml:id="epigraph">
-            <IRI>http://dbpedia.org/resource/Epigraph_(literature)</IRI>
-            <name xml:lang="eng">line</name>
-         </div-type>
-         <div-type xml:id="prologue">
-            <IRI>http://dbpedia.org/resource/Prologue</IRI>
-            <name xml:lang="eng">prologue</name>
-         </div-type>
-         <div-type xml:id="title">
-            <IRI>http://dbpedia.org/resource/Title_(publishing)</IRI>
-            <name xml:lang="eng">title</name>
-         </div-type>
-         <div-type xml:id="v">
-            <IRI>tag:kalvesmaki.com,2014:divtype.verse</IRI>
-            <name xml:lang="eng">verse</name>
-         </div-type>
-         <div-type xml:id="pt">
-            <IRI>tag:textalign.net,2015:div-type:part</IRI>
-            <name xml:lang="eng">part</name>
-         </div-type>
+         <div-type xml:id="bk" which="book"/>
+         <div-type xml:id="ch" which="chapter"/>
+         <div-type xml:id="line" which="line (verse)"/>
+         <div-type xml:id="epigraph" which="epigraph"/>
+         <div-type xml:id="prologue" which="prologue"/>
+         <div-type xml:id="title" which="title"/>
+         <div-type xml:id="v" which="verse (scripture)"/>
+         <div-type xml:id="pt" which="part"/>
          <filter/>
-         <recommended-tokenization which="general-1"/>
-         <recommended-tokenization xml:id="penn">
-            <IRI>tag:kalvesmaki.com,2015:tokenization:eng.1</IRI>
-            <name>Tokenization pattern for English, in Penn Treebank style</name>
-            <location href="http://kalvesmaki.com/tan-library/tan-r-tok/tok.eng.1.xml" when-accessed="2015-03-17"/>
-            <location href="../class-3/TAN-R-tok/tok.eng.1.xml" when-accessed="2015-11-24"/>
-         </recommended-tokenization>
-         <recommended-div-type-refs>implicit</recommended-div-type-refs>
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>

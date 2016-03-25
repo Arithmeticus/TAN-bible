@@ -37,8 +37,8 @@
             <name>New Testament</name>
          </work>
          <div-type include="BIBLE"/>
-         <recommended-tokenization which="general-words-only-1"/>
-         <recommended-div-type-refs>implicit</recommended-div-type-refs>
+         
+         
          <filter>
             <normalization>
                <IRI>tag:textalign.net,2015:normalization:nfc</IRI>

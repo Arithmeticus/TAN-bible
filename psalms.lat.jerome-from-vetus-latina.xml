@@ -64,8 +64,6 @@
                 <IRI>http://dbpedia.org/resource/Rubric</IRI>
                 <name xml:lang="eng">title</name>
             </div-type>
-            <recommended-tokenization which="general-1"/>
-            <recommended-div-type-refs>explicit</recommended-div-type-refs>
         </declarations>
         <agent xml:id="kalvesmaki" roles="editor">
             <IRI>http://viaf.org/viaf/299582703</IRI>
@@ -81,7 +79,7 @@
         <change when="2014-05-24" who="kalvesmaki">Started TAN-T file.</change>
     </head>
     <body xml:lang="lat">
-<div type="title" n="">Psalterium Romanum</div>
+<div type="title" n="ti">Psalterium Romanum</div>
 <div type="psalm" n="I">
 <div type="verse" n="1">
 <div type="line" n="a">Beatus vir qui non abiit in consilio impiorum</div>
@@ -2936,7 +2934,7 @@ subplantationem</div>
 <div type="line" n="b">et confirmasti me in conspectu tuo in aeternum.</div>
 </div>
 </div>
-<div type="psalm" n="1">14 Benedictus Dominus Deus Israhel a saeculo et usque in
+<div type="verse" n="14">Benedictus Dominus Deus Israhel a saeculo et usque in
 saeculum fiat fiat.</div>
 </div>
 <div type="psalm" n="XLI">
@@ -5116,10 +5114,10 @@ solus</div>
 <div type="line" n="a">et benedictum nomen maiestatis eius in aeternum</div>
 <div type="line" n="b">et in saeculum saeculi et replebitur maiestate eius omnis
 terra fiat fiat.</div>
+<div type="rubric" n="rub">DEFECERUNT LAUDES DAVID FILII
+IESSE.</div>
 </div>
 </div>
-<div type="psalm" n=""><div type="rubric" n="rub">DEFECERUNT LAUDES DAVID FILII
-IESSE.</div></div>
 <div type="psalm" n="LXXII">
 <div type="verse" n="1">
 <div type="rubric" n="rub">PSALMUS ASAPH</div>

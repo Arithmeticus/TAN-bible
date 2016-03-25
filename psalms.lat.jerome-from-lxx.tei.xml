@@ -96,8 +96,8 @@
                 <IRI>http://dbpedia.org/resource/Rubric</IRI>
                 <name xml:lang="eng">title</name>
             </div-type>
-            <recommended-tokenization which="general-words-only-1"/>
-            <recommended-div-type-refs>implicit</recommended-div-type-refs>
+            
+            
         </declarations>
         <agent xml:id="kalvesmaki" roles="editor">
             <IRI>http://viaf.org/viaf/299582703</IRI>

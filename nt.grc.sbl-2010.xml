@@ -82,8 +82,8 @@
                <name>Normalized white space per oXygen XML settings.</name>
             </normalization>
          </filter>
-         <recommended-tokenization which="general-words-only-1"/>
-         <recommended-div-type-refs>implicit</recommended-div-type-refs>
+         
+         
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>

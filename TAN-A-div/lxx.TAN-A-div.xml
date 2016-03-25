@@ -24,18 +24,25 @@
          <location href="../lxx.eng.brenton.1851.xml" when-accessed="2014-10-23"/>
       </source>
       <declarations>
-         <implicit-div-type-refs src="brenton lxx"/>
-         <tokenization src="lxx" which="general-words-only-1"/>
-         <tokenization src="brenton" which="general-1"/>
+         <token-definition src="lxx" which="general-words-only-1"/>
+         <token-definition src="brenton" which="general-1"/>
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>
       <change when="2015-10-15" who="kalvesmaki">Started file</change>
    </head>
     <body>
-       <realign>
+       <!--<align>
+          <div-ref src="lxx" ref="πετειν"/>
+       </align>-->
+       <!--<realign>
           <anchor-div-ref src="lxx" ref="Mic 4 14 - Mic 5 14"/>
           <div-ref src="brenton" ref="Mic 5 1 - Mic 5 15"/>
-       </realign>
+       </realign>-->
+       <align>
+          <div-ref src="lxx" ref="Mic 4"/>
+          <!--<div-ref src="lxx" ref="grabby 27"/>-->
+          <div-ref src="brenton" ref="Gen"/>
+       </align>
     </body>
 </TAN-A-div>
