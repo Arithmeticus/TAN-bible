@@ -54,6 +54,14 @@
                reuse of the source as a TAN-T file conforms to that agreement. </comment>
          </rights-source-only>
       </source>
+      <see-also>
+         <relationship which="context"/>
+         <IRI>tag:kalvesmaki.com,2014:sblgnt-morph-01</IRI>
+         <name>Lexico-morphological data for the SBL Greek New Testament</name>
+         <location
+            href="TAN-LM/nt.grc-sbl-2010-TAN-LM.xml"
+            when-accessed="2016-04-12T19:34:46.03-04:00"/>
+      </see-also>
       <declarations>
          <work>
             <IRI>http://dbpedia.org/resource/New_testament</IRI>
@@ -82,8 +90,6 @@
                <name>Normalized white space per oXygen XML settings.</name>
             </normalization>
          </filter>
-         
-         
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>

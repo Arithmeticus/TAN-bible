@@ -26,6 +26,14 @@
             1905-1920.</name>
       </source>
       <see-also>
+         <relationship which="context"/>
+         <IRI>tag:kalvesmaki.com,2015:tan-lm:syr:nt.syr.bfbs</IRI>
+         <name>Lexico-morphological data for the Peshitta New Testament</name>
+         <location
+            href="TAN-LM/nt.syr.bfbs.TAN-LM.xml"
+            when-accessed="2016-04-28T07:49:30.616-04:00"/>
+      </see-also>
+      <see-also>
          <relationship which="auxiliary"/>
          <IRI>tag:kalvesmaki.com,2014:auxiliary-RogerPearse</IRI>
          <name>Roger Pearse's Syriac Peshitta Resources page</name>
@@ -37,8 +45,6 @@
             <name>New Testament</name>
          </work>
          <div-type include="BIBLE"/>
-         
-         
          <filter>
             <normalization>
                <IRI>tag:textalign.net,2015:normalization:nfc</IRI>
