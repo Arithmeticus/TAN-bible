@@ -107,5 +107,53 @@
           <anchor-div-ref src="lxx" ref="Hos 2 1 - Hos 2 25"/>
           <div-ref src="ot-kjv" ref="Hos 1 10 - Hos 2 23"/>
        </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 49 34 - Jer 49 39"/>
+          <div-ref src="lxx" ref="Jer 25 14 - Jer 25 19"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 49 34"/>
+          <div-ref src="lxx" ref="Jer 25 20"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 46 2 - Jer 46 28"/>
+          <div-ref src="lxx" ref="Jer 26 2 - Jer 26 28"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 50 - Jer 51"/>
+          <div-ref src="lxx" ref="Jer 27 - Jer 28"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 47"/>
+          <div-ref src="lxx" ref="Jer 29"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 49 7 - Jer 49 22"/>
+          <div-ref src="lxx" ref="Jer 30 1 - Jer 30 16"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 49 1 - Jer 49 5"/>
+          <div-ref src="lxx" ref="Jer 30 17 - Jer 30 21"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 49 28 - Jer 49 33"/>
+          <div-ref src="lxx" ref="Jer 30 23 - Jer 30 28"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 49 23 - Jer 49 27"/>
+          <div-ref src="lxx" ref="Jer 30 29 - Jer 30 33"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 48 1 - Jer 48 44"/>
+          <div-ref src="lxx" ref="Jer 31 1 - Jer 31 44"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 25 - Jer 43"/>
+          <div-ref src="lxx" ref="Jer 32 - Jer 50"/>
+       </realign>
+       <realign>
+          <anchor-div-ref src="ot-kjv" ref="Jer 44 1 - Jer 45 5"/>
+          <div-ref src="lxx" ref="Jer 51 1 - Jer 51 35"/>
+       </realign>
     </body>
 </TAN-A-div>
