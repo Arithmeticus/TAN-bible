@@ -55,7 +55,7 @@
          </rights-source-only>
       </source>
       <see-also>
-         <relationship which="context"/>
+         <relationship which="class 2"/>
          <IRI>tag:kalvesmaki.com,2014:sblgnt-morph-01</IRI>
          <name>Lexico-morphological data for the SBL Greek New Testament</name>
          <location
