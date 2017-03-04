@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Romanum_v01">
+<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Romanum_v01">
     <head>
         <name>The Latin translation of the Psalter by Jerome, the so-called Psaterium Romanum</name>
         <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/psalms.lat.jerome-from-vetus-latina.xml"/>
@@ -8945,8 +8945,8 @@ maioribus</div>
 </div>
 <div type="psalm" n="CXVIII">
 <div type="verse" n="1">
-<div type="rubric" n="1">ALLELUIA</div>
-<div type="rubric" n="2">ALEPH</div>
+<div type="rubric" n="rub1">ALLELUIA</div>
+<div type="rubric" n="rub2">ALEPH</div>
 <div type="line" n="a">Beati inmaculati in via qui ambulant in lege Domini </div>
 </div>
 <div type="verse" n="2">

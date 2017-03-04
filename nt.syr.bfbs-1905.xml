@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:nt-syr-1905-BFBS">
+<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:nt-syr-1905-BFBS">
    <head>
       <name>The Syriac New Testament, according to the British and Foreign Bible Society's Edition
          of 1905.</name>
@@ -62,7 +62,7 @@
    <body xml:lang="syr" in-progress="false">
 <div type="bk" n="Mt">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܡܬܝ ܐܐ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܐܐ </div>
 <div type="v" n="1">ܟ݁ܬ݂ܳܒ݂ܳܐ
 ܕ݁ܺܝܠܺܝܕ݂ܽܘܬ݂ܶܗ
 ܕ݁ܝܶܫܽܘܥ
@@ -320,7 +320,7 @@
 ܝܶܫܽܘܥ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܡܬܝ ܒܒ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܒܒ </div>
 <div type="v" n="1">ܟ݁ܰܕ݂
 ܕ݁ܶܝܢ
 ܐܶܬ݂ܺܝܠܶܕ݂
@@ -603,7 +603,7 @@
 ܢܶܬ݂ܩܪܶܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܡܬܝ ܓܓ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܓܓ </div>
 <div type="v" n="1">ܒ݁ܗܽܘܢ
 ܕ݁ܶܝܢ
 ܒ݁ܝܰܘܡܳܬ݂ܳܐ
@@ -794,7 +794,7 @@
 ܐܶܨܛܒ݂ܺܝܬ݂܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܡܬܝ ܕܕ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܕܕ </div>
 <div type="v" n="1">ܗܳܝܕ݁ܶܝܢ
 ܝܶܫܽܘܥ
 ܐܶܬ݂ܕ݁ܒ݂ܰܪ
@@ -1060,7 +1060,7 @@
 ܕ݁ܝܽܘܪܕ݁ܢܳܢ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܡܬܝ ܗܗ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܗܗ </div>
 <div type="v" n="1">ܟ݁ܰܕ݂ ܚܙܳܐ
 ܕ݁ܶܝܢ ܝܶܫܽܘܥ
 ܠܟ݂ܶܢܫܶܐ ܣܠܶܩ
@@ -1556,7 +1556,7 @@
 ܓ݁ܡܺܝܪ ܗ݈ܽܘ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܡܬܝ ܘܘ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܘܘ </div>
 <div type="v" n="1">ܚܽܘܪܘ
 ܕ݁ܶܝܢ
 ܒ݁ܙܶܕ݂ܩܰܬ݂ܟ݂ܽܘܢ
@@ -1960,7 +1960,7 @@
 ܒ݁ܺܝܫܬ݁ܶܗ܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀ ܡܬܝ ܙܙ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܙܙ </div>
 <div type="v" n="1">ܠܳܐ
 ܬ݁ܕ݂ܽܘܢܽܘܢ
 ܕ݁ܠܳܐ
@@ -2262,7 +2262,7 @@
 ܘܰܦ݂ܪܺܝܫܶܐ܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀ ܡܬܝ ܚܚ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܚܚ </div>
 <div type="v" n="1">ܟ݁ܰܕ݂
 ܢܚܶܬ݂ ܕ݁ܶܝܢ
 ܡܶܢ ܛܽܘܪܳܐ
@@ -2617,7 +2617,7 @@
 ܬ݁ܚܽܘܡܰܝܗܽܘܢ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀ ܡܬܝ ܛܛ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܛܛ </div>
 <div type="v" n="1">ܘܰܣܠܶܩ
 ܠܶܐܠܦ݂ܳܐ
 ܘܰܥܒ݂ܰܪ
@@ -2987,7 +2987,7 @@
 ܠܰܚܨܳܕ݂ܶܗ܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܝ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܝ </div>
 <div type="v" n="1">ܘܰܩܪܳܐ
 ܠܰܬ݂ܪܶܥܣܰܪ
 ܬ݁ܰܠܡܺܝܕ݂ܰܘܗ݈ܝ
@@ -3422,7 +3422,7 @@
 ܐܰܓ݂ܪܶܗ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܐܐ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܐܐ </div>
 <div type="v" n="1">ܘܰܗܘܳܐ
 ܕ݁ܟ݂ܰܕ݂ ܫܰܠܶܡ
 ܝܶܫܽܘܥ
@@ -3735,7 +3735,7 @@
 ܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܒܒ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܒܒ </div>
 <div type="v" n="1">ܒ݁ܗܰܘ
 ܙܰܒ݂ܢܳܐ
 ܡܗܰܠܶܟ݂ ܗ݈ܘܳܐ
@@ -4262,7 +4262,7 @@
 ܘܶܐܡܝ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܓܓ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܓܓ </div>
 <div type="v" n="1">ܒ݁ܗܰܘ
 ܕ݁ܶܝܢ ܝܰܘܡܳܐ
 ܢܦ݂ܰܩ ܝܶܫܽܘܥ
@@ -4889,7 +4889,7 @@
 ܗܰܝܡܳܢܽܘܬ݂ܗܽܘܢ܂</div>
 </div>
 <div type="ch" n="14">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܕܕ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܕܕ </div>
 <div type="v" n="1">ܒ݁ܗܰܘ
 ܕ݁ܶܝܢ ܙܰܒ݂ܢܳܐ
 ܫܡܰܥ
@@ -5228,7 +5228,7 @@
 ܐܶܬ݂ܰܐܣܺܝܘ܂</div>
 </div>
 <div type="ch" n="15">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܗܗ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܗܗ </div>
 <div type="v" n="1">ܗܳܝܕ݁ܶܝܢ
 ܩܪܶܒ݂ܘ ܠܘܳܬ݂
 ܝܶܫܽܘܥ
@@ -5612,7 +5612,7 @@
 ܕ݁ܡܰܓ݂ܕ݁ܽܘ܂</div>
 </div>
 <div type="ch" n="16">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܘܘ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܘܘ </div>
 <div type="v" n="1">ܘܰܩܪܶܒ݂ܘ
 ܦ݁ܪܺܝܫܶܐ
 ܘܙܰܕ݁ܽܘܩܳܝܶܐ
@@ -5935,7 +5935,7 @@
 ܒ݁ܡܰܠܟ݁ܽܘܬ݂ܶܗ܂</div>
 </div>
 <div type="ch" n="17">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܙܙ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܙܙ </div>
 <div type="v" n="1">ܘܒ݂ܳܬ݂ܰܪ
 ܫܬ݁ܳܐ ܝܰܘܡܺܝܢ
 ܕ݁ܒ݂ܰܪ ܝܶܫܽܘܥ
@@ -6225,7 +6225,7 @@
 ܘܰܚܠܳܦ݂ܰܝܟ݁܂</div>
 </div>
 <div type="ch" n="18">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܚܚ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܚܚ </div>
 <div type="v" n="1">ܒ݁ܗܳܝ
 ܫܳܥܬ݂ܳܐ
 ܩܪܶܒ݂ܘ
@@ -6605,7 +6605,7 @@
 ܣܰܟ݂ܠܽܘܬ݂ܶܗ܂</div>
 </div>
 <div type="ch" n="19">
-<div type="title" n="t"> ܀ ܡܬܝ ܝܛܛ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܝܛܛ </div>
 <div type="v" n="1">ܘܰܗܘܳܐ
 ܕ݁ܟ݂ܰܕ݂ ܫܰܠܶܡ
 ܝܶܫܽܘܥ ܡܶܠܶܐ
@@ -6947,7 +6947,7 @@
 ܩܰܕ݂ܡܳܝܶܐ܂</div>
 </div>
 <div type="ch" n="20">
-<div type="title" n="t"> ܀ ܡܬܝ ܟܟ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܟܟ </div>
 <div type="v" n="1">ܕ݁ܳܡܝܳܐ
 ܓ݁ܶܝܪ
 ܡܰܠܟ݁ܽܘܬ݂ܳܐ
@@ -7294,7 +7294,7 @@
 ܒ݁ܳܬ݂ܪܶܗ܂</div>
 </div>
 <div type="ch" n="21">
-<div type="title" n="t"> ܀ ܡܬܝ ܟܐܐ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܟܐܐ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܩܪܶܒ݂
 ܠܽܐܘܪܺܫܠܶܡ
@@ -7830,7 +7830,7 @@
 ܗ݈ܘܰܘ ܠܶܗ܂</div>
 </div>
 <div type="ch" n="22">
-<div type="title" n="t"> ܀ ܡܬܝ ܟܒܒ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܟܒܒ </div>
 <div type="v" n="1">ܘܰܥܢܳܐ
 ܬ݁ܽܘܒ݂ ܝܶܫܽܘܥ
 ܒ݁ܡܰܬ݂ܠܶܐ
@@ -8222,7 +8222,7 @@
 ܠܰܡܫܰܐܳܠܽܘܬ݂ܶܗ܂</div>
 </div>
 <div type="ch" n="23">
-<div type="title" n="t"> ܀ ܡܬܝ ܟܓܓ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܟܓܓ </div>
 <div type="v" n="1">ܗܳܝܕ݁ܶܝܢ
 ܝܶܫܽܘܥ ܡܰܠܶܠ
 ܥܰܡ ܟ݁ܶܢܫܶܐ
@@ -8661,7 +8661,7 @@
 ܕ݁ܡܳܪܝܳܐ܂</div>
 </div>
 <div type="ch" n="24">
-<div type="title" n="t"> ܀ ܡܬܝ ܟܕܕ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܟܕܕ </div>
 <div type="v" n="1">ܘܰܢܦ݂ܰܩ
 ܝܶܫܽܘܥ ܡܶܢ
 ܗܰܝܟ݁ܠܳܐ
@@ -9158,7 +9158,7 @@
 ܫܶܢܶܐ܂</div>
 </div>
 <div type="ch" n="25">
-<div type="title" n="t"> ܀ ܡܬܝ ܟܗܗ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܟܗܗ </div>
 <div type="v" n="1">ܗܳܝܕ݁ܶܝܢ
 ܬ݁ܶܕ݁ܰܡܶܐ
 ܡܰܠܟ݁ܽܘܬ݂ܳܐ
@@ -9612,7 +9612,7 @@
 ܕ݁ܰܠܥܳܠܰܡ܂</div>
 </div>
 <div type="ch" n="26">
-<div type="title" n="t"> ܀ ܡܬܝ ܟܘܘ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܟܘܘ </div>
 <div type="v" n="1">ܘܰܗܘܳܐ
 ܕ݁ܟ݂ܰܕ݂ ܫܰܠܶܡ
 ܝܶܫܽܘܥ
@@ -10366,7 +10366,7 @@
 ܡܰܪܺܝܪܳܐܝܺܬ݂܂</div>
 </div>
 <div type="ch" n="27">
-<div type="title" n="t"> ܀ ܡܬܝ ܟܙܙ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܟܙܙ </div>
 <div type="v" n="1">ܟ݁ܰܕ݂
 ܕ݁ܶܝܢ ܗܘܳܐ
 ܨܰܦ݂ܪܳܐ
@@ -11004,7 +11004,7 @@
 ܩܶܣܛܽܘܢܳܪܶܐ܂</div>
 </div>
 <div type="ch" n="28">
-<div type="title" n="t"> ܀ ܡܬܝ ܟܚܚ </div>
+<div type="title" n="title"> ܀ ܡܬܝ ܟܚܚ </div>
 <div type="v" n="1">ܒ݁ܪܰܡܫܳܐ
 ܕ݁ܶܝܢ
 ܒ݁ܫܰܒ݁ܬ݂ܳܐ
@@ -11224,7 +11224,7 @@
 </div>
 <div type="bk" n="Mk">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܐܐ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܐܐ </div>
 <div type="v" n="1">ܪܺܫܳܐ
 ܕ݁ܶܐܘܰܢܓ݁ܶܠܺܝܳܘܢ
 ܕ݁ܝܶܫܽܘܥ
@@ -11646,7 +11646,7 @@
 ܕ݁ܽܘܟ݁ܳܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܒܒ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܒܒ </div>
 <div type="v" n="1">ܘܥܰܠ
 ܬ݁ܽܘܒ݂ ܝܶܫܽܘܥ
 ܠܰܟ݂ܦ݂ܰܪܢܰܚܽܘܡ
@@ -11959,7 +11959,7 @@
 ܕ݁ܐ݈ܢܳܫܳܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܓܓ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܓܓ </div>
 <div type="v" n="1">ܘܥܰܠ
 ܬ݁ܽܘܒ݂ ܝܶܫܽܘܥ
 ܠܰܟ݂ܢܽܘܫܬ݁ܳܐ
@@ -12262,7 +12262,7 @@
 ܘܶܐܡܝ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܕܕ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܕܕ </div>
 <div type="v" n="1">ܬ݁ܽܘܒ݂
 ܕ݁ܶܝܢ ܫܰܪܺܝ
 ܗ݈ܘܳܐ ܡܰܠܶܦ݂
@@ -12675,7 +12675,7 @@
 ܠܶܗ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܗܗ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܗܗ </div>
 <div type="v" n="1">ܘܶܐܬ݂ܳܐ
 ܠܥܶܒ݂ܪܳܐ
 ܕ݁ܝܰܡܳܐ
@@ -13090,7 +13090,7 @@
 ܠܳܗ ܠܡܶܠܥܰܣ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܘܘ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܘܘ </div>
 <div type="v" n="1">ܘܰܢܦ݂ܰܩ
 ܡܶܢ ܬ݁ܰܡܳܢ
 ܘܶܐܬ݂ܳܐ
@@ -13697,7 +13697,7 @@
 ܗ݈ܘܰܘ܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܙܙ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܙܙ </div>
 <div type="v" n="1">ܘܰܟ݂ܢܰܫܘ
 ܠܘܳܬ݂ܶܗ
 ܦ݁ܪܺܝܫܶܐ
@@ -14080,7 +14080,7 @@
 ܕ݁ܰܢܡܰܠܠܽܘܢ܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܚܚ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܚܚ </div>
 <div type="v" n="1">ܒ݁ܗܳܢܽܘܢ
 ܕ݁ܶܝܢ
 ܝܰܘܡܳܬ݂ܳܐ
@@ -14468,7 +14468,7 @@
 ܩܰܕ݁ܺܝܫܶܐ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܛܛ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܛܛ </div>
 <div type="v" n="1">ܘܶܐܡܰܪ
 ܗ݈ܘܳܐ ܠܗܽܘܢ
 ܐܰܡܺܝܢ ܐܳܡܰܪ
@@ -15002,7 +15002,7 @@
 ܚܰܕ݂܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ ܝܝ </div>
+<div type="title" n="title"> ܀ ܡܪܩܘܣ ܝܝ </div>
 <div type="v" n="1">ܘܩܳܡ ܡܶܢ
 ܬ݁ܰܡܳܢ
 ܘܶܐܬ݂ܳܐ
@@ -15544,7 +15544,7 @@
 ܒ݁ܽܐܘܪܚܳܐ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ
+<div type="title" n="title"> ܀ ܡܪܩܘܣ
 ܝܐܐ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܩܪܶܒ݂
@@ -15911,7 +15911,7 @@
 ܐ݈ܢܳܐ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ
+<div type="title" n="title"> ܀ ܡܪܩܘܣ
 ܝܒܒ </div>
 <div type="v" n="1">ܘܫܰܪܺܝ
 ܕ݁ܰܢܡܰܠܶܠ
@@ -16404,7 +16404,7 @@
 ܩܶܢܝܳܢܳܗ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ
+<div type="title" n="title"> ܀ ܡܪܩܘܣ
 ܝܓܓ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܢܦ݂ܰܩ ܝܶܫܽܘܥ
@@ -16792,7 +16792,7 @@
 ܥܺܝܪܺܝܢ܂</div>
 </div>
 <div type="ch" n="14">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ
+<div type="title" n="title"> ܀ ܡܪܩܘܣ
 ܝܕܕ </div>
 <div type="v" n="1">ܒ݁ܳܬ݂ܰܪ
 ܕ݁ܶܝܢ ܬ݁ܪܶܝܢ
@@ -17533,7 +17533,7 @@
 ܕ݁ܢܶܒ݂ܟ݁ܶܐ܂</div>
 </div>
 <div type="ch" n="15">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ
+<div type="title" n="title"> ܀ ܡܪܩܘܣ
 ܝܗܗ </div>
 <div type="v" n="1">ܘܡܶܚܕ݂ܳܐ
 ܒ݁ܨܰܦ݂ܪܳܐ
@@ -17953,7 +17953,7 @@
 ܕ݁ܶܐܬ݁ܬ݁ܣܺܝܡ܂</div>
 </div>
 <div type="ch" n="16">
-<div type="title" n="t"> ܀ ܡܪܩܘܣ
+<div type="title" n="title"> ܀ ܡܪܩܘܣ
 ܝܘܘ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܥܶܒ݂ܪܰܬ݂
@@ -18159,7 +18159,7 @@
 </div>
 <div type="bk" n="Lu">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܐܐ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܐܐ </div>
 <div type="v" n="1">ܡܶܛܽܠ
 ܕ݁ܣܰܓ݁ܺܝܶܐܐ
 ܨܒ݂ܰܘ
@@ -18862,7 +18862,7 @@
 ܐܺܝܣܪܳܝܶܠ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܒܒ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܒܒ </div>
 <div type="v" n="1">ܗܘܳܐ ܕ݁ܶܝܢ
 ܒ݁ܝܰܘܡܳܬ݂ܳܐ
 ܗܳܢܽܘܢ
@@ -19383,7 +19383,7 @@
 ܘܰܒ݂ܢܰܝܢܳܫܳܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܓܓ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܓܓ </div>
 <div type="v" n="1">ܒ݁ܰܫܢܰܬ݂
 ܚܰܡܫܰܥܶܣܪܶܐ
 ܕ݁ܶܝܢ
@@ -19761,7 +19761,7 @@
 ܐܰܠܳܗܳܐ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܕܕ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܕܕ </div>
 <div type="v" n="1">ܝܶܫܽܘܥ
 ܕ݁ܶܝܢ ܟ݁ܰܕ݂
 ܡܠܶܐ ܪܽܘܚܳܐ
@@ -20233,7 +20233,7 @@
 ܕ݁ܰܓ݂ܠܺܝܠܳܐ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܗܗ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܗܗ </div>
 <div type="v" n="1">ܗܘܳܐ ܕ݁ܶܝܢ
 ܟ݁ܰܕ݂ ܟ݁ܢܰܫ
 ܥܠܰܘܗ݈ܝ
@@ -20686,7 +20686,7 @@
 ܒ݁ܰܣܺܝܡ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܘܘ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܘܘ </div>
 <div type="v" n="1">ܗܘܳܐ ܕ݁ܶܝܢ
 ܒ݁ܫܰܒ݁ܬ݂ܳܐ
 ܟ݁ܰܕ݂ ܡܗܰܠܶܟ݂
@@ -21255,7 +21255,7 @@
 ܗܰܘ܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܙܙ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܙܙ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܫܰܠܶܡ ܡܶܠܶܐ
 ܟ݁ܽܠܗܶܝܢ
@@ -21819,7 +21819,7 @@
 ܒ݁ܰܫܠܳܡܳܐ܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܚܚ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܚܚ </div>
 <div type="v" n="1">ܘܰܗܘܳܐ ܡܶܢ
 ܒ݁ܳܬ݂ܰܪ
 ܗܳܠܶܝܢ
@@ -22489,7 +22489,7 @@
 ܕ݁ܰܗܘܳܐ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܛܛ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܛܛ </div>
 <div type="v" n="1">ܘܰܩܪܳܐ
 ܝܶܫܽܘܥ
 ܠܰܬ݂ܪܶܥܣܰܪܬ݁ܶܗ
@@ -23195,7 +23195,7 @@
 ܕ݁ܰܐܠܳܗܳܐ܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܝ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܝ </div>
 <div type="v" n="1">ܒ݁ܳܬ݂ܰܪ
 ܗܳܠܶܝܢ ܦ݁ܪܰܫ
 ܝܶܫܽܘܥ ܡܶܢ
@@ -23665,7 +23665,7 @@
 ܡܶܢܳܗ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܐܐ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܐܐ </div>
 <div type="v" n="1">ܘܰܗܘܳܐ
 ܕ݁ܟ݂ܰܕ݂ ܗܽܘ
 ܡܨܰܠܶܐ
@@ -24296,7 +24296,7 @@
 ܩܰܪܨܰܘܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܒܒ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܒܒ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܐܶܬ݂ܟ݁ܰܢܰܫܘ
 ܪܶܒ݁ܘܳܬ݂ܳܐ
@@ -24952,7 +24952,7 @@
 ܐ݈ܚܪܳܝܳܐ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܓܓ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܓܓ </div>
 <div type="v" n="1">ܒ݁ܗܰܘ
 ܕ݁ܶܝܢ ܙܰܒ݂ܢܳܐ
 ܐܶܬ݂ܰܘ
@@ -25362,7 +25362,7 @@
 ܕ݁ܡܳܪܝܳܐ܂</div>
 </div>
 <div type="ch" n="14">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܕܕ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܕܕ </div>
 <div type="v" n="1">ܘܰܗܘܳܐ
 ܕ݁ܟ݂ܰܕ݂ ܥܰܠ
 ܠܒ݂ܰܝܬ݁ܳܐ
@@ -25743,7 +25743,7 @@
 ܢܶܫܡܰܥ܂</div>
 </div>
 <div type="ch" n="15">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܗܗ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܗܗ </div>
 <div type="v" n="1">ܡܶܬ݂ܩܰܪܒ݂ܺܝܢ
 ܗ݈ܘܰܘ ܕ݁ܶܝܢ
 ܠܘܳܬ݂ܶܗ
@@ -26064,7 +26064,7 @@
 ܘܶܐܫܬ݁ܟ݂ܰܚ܂</div>
 </div>
 <div type="ch" n="16">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܘܘ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܘܘ </div>
 <div type="v" n="1">ܘܶܐܡܰܪ
 ܡܰܬ݂ܠܳܐ ܠܘܳܬ݂
 ܬ݁ܰܠܡܺܝܕ݂ܰܘܗ݈ܝ
@@ -26436,7 +26436,7 @@
 ܠܶܗ܂</div>
 </div>
 <div type="ch" n="17">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܙܙ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܙܙ </div>
 <div type="v" n="1">ܘܶܐܡܰܪ
 ܗ݈ܘܳܐ ܝܶܫܽܘܥ
 ܠܬ݂ܰܠܡܺܝܕ݂ܰܘܗ݈ܝ
@@ -26809,7 +26809,7 @@
 ܢܶܫܪܶܐ܂</div>
 </div>
 <div type="ch" n="18">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܚܚ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܚܚ </div>
 <div type="v" n="1">ܐܶܡܰܪ
 ܠܗܽܘܢ ܕ݁ܶܝܢ
 ܐܳܦ݂ ܡܰܬ݂ܠܳܐ
@@ -27243,7 +27243,7 @@
 ܠܰܐܠܳܗܳܐ܂</div>
 </div>
 <div type="ch" n="19">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܝܛܛ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܝܛܛ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂ ܥܰܠ
 ܝܶܫܽܘܥ
 ܘܰܥܒ݂ܰܪ
@@ -27703,7 +27703,7 @@
 ܠܡܶܫܡܥܶܗ܂</div>
 </div>
 <div type="ch" n="20">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܟܟ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܟܟ </div>
 <div type="v" n="1">ܘܰܗܘܳܐ
 ܒ݁ܚܰܕ݂ ܡܶܢ
 ܝܰܘܡܳܬ݂ܳܐ
@@ -28145,7 +28145,7 @@
 ܝܰܬ݁ܺܝܪܳܐ܂</div>
 </div>
 <div type="ch" n="21">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܟܐܐ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܟܐܐ </div>
 <div type="v" n="1">ܚܳܪ ܕ݁ܶܝܢ
 ܝܶܫܽܘܥ
 ܒ݁ܥܰܬ݁ܺܝܪܶܐ
@@ -28523,7 +28523,7 @@
 ܡܶܠܬ݂ܶܗ܂</div>
 </div>
 <div type="ch" n="22">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܟܒܒ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܟܒܒ </div>
 <div type="v" n="1">ܩܰܪܺܝܒ݂
 ܗ݈ܘܳܐ ܕ݁ܶܝܢ
 ܥܰܕ݂ܥܺܕ݂ܳܐ
@@ -29181,7 +29181,7 @@
 ܦ݁ܽܘܡܶܗ܂</div>
 </div>
 <div type="ch" n="23">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܟܓܓ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܟܓܓ </div>
 <div type="v" n="1">ܘܩܳܡܘ
 ܟ݁ܽܠܶܗ
 ܟ݁ܶܢܫܗܽܘܢ
@@ -29747,7 +29747,7 @@
 ܕ݁ܰܦ݂ܩܺܝܕ݂܂</div>
 </div>
 <div type="ch" n="24">
-<div type="title" n="t"> ܀ ܠܘܩܐ ܟܕܕ </div>
+<div type="title" n="title"> ܀ ܠܘܩܐ ܟܕܕ </div>
 <div type="v" n="1">ܒ݁ܚܰܕ݂
 ܒ݁ܫܰܒ݁ܳܐ
 ܕ݁ܶܝܢ
@@ -30256,7 +30256,7 @@
 </div>
 <div type="bk" n="Jn">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܐܐ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܐܐ </div>
 <div type="v" n="1">ܒ݁ܪܺܫܺܝܬ݂
 ܐܺܝܬ݂ܰܘܗ݈ܝ
 ܗ݈ܘܳܐ ܡܶܠܬ݂ܳܐ
@@ -30741,7 +30741,7 @@
 ܕ݁ܐ݈ܢܳܫܳܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܒܒ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܒܒ </div>
 <div type="v" n="1">ܘܰܠܝܰܘܡܳܐ
 ܕ݁ܰܬ݂ܠܳܬ݂ܳܐ
 ܗܘܳܬ݂
@@ -30980,7 +30980,7 @@
 ܒ݁ܒ݂ܰܪܢܳܫܳܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܓܓ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܓܓ </div>
 <div type="v" n="1">ܐܺܝܬ݂
 ܗ݈ܘܳܐ ܕ݁ܶܝܢ
 ܬ݁ܰܡܳܢ ܚܰܕ݂
@@ -31381,7 +31381,7 @@
 ܥܠܰܘܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܕܕ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܕܕ </div>
 <div type="v" n="1">ܝܺܕ݂ܰܥ
 ܕ݁ܶܝܢ ܝܶܫܽܘܥ
 ܕ݁ܰܫܡܰܥܘ
@@ -31938,7 +31938,7 @@
 ܠܰܓ݂ܠܺܝܠܳܐ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܗܗ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܗܗ </div>
 <div type="v" n="1">ܒ݁ܳܬ݂ܰܪ
 ܗܳܠܶܝܢ ܗܘܳܐ
 ܥܰܕ݂ܥܺܕ݂ܳܐ
@@ -32448,7 +32448,7 @@
 ܬ݁ܗܰܝܡܢܽܘܢ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܘܘ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܘܘ </div>
 <div type="v" n="1">ܒ݁ܳܬ݂ܰܪ
 ܗܳܠܶܝܢ ܐܶܙܰܠ
 ܝܶܫܽܘܥ
@@ -33163,7 +33163,7 @@
 ܬ݁ܪܶܥܣܰܪ܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܙܙ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܙܙ </div>
 <div type="v" n="1">ܒ݁ܳܬ݂ܰܪ
 ܗܳܠܶܝܢ
 ܡܗܰܠܶܟ݂ ܗ݈ܘܳܐ
@@ -33698,7 +33698,7 @@
 ܠܒ݂ܰܝܬ݁ܶܗ܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܚܚ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܚܚ </div>
 <div type="v" n="1">ܝܶܫܽܘܥ
 ܕ݁ܶܝܢ ܐܶܙܰܠ
 ܠܛܽܘܪܳܐ
@@ -34364,7 +34364,7 @@
 ܘܶܐܙܰܠ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܛܛ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܛܛ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܥܳܒ݂ܰܪ ܚܙܳܐ
 ܓ݁ܰܒ݂ܪܳܐ
@@ -34780,7 +34780,7 @@
 ܩܰܝܳܡܳܐ ܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܝܝ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܝܝ </div>
 <div type="v" n="1">ܐܰܡܺܝܢ
 ܐܰܡܺܝܢ ܐܳܡܰܪ
 ܐ݈ܢܳܐ ܠܟ݂ܽܘܢ
@@ -35196,7 +35196,7 @@
 ܒ݁ܶܗ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܝܐܐ </div>
 <div type="v" n="1">ܐܺܝܬ݂
 ܗ݈ܘܳܐ ܕ݁ܶܝܢ
@@ -35756,7 +35756,7 @@
 ܕ݁ܢܶܐܚܕ݁ܽܘܢܳܝܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܝܒܒ </div>
 <div type="v" n="1">ܝܶܫܽܘܥ
 ܕ݁ܶܝܢ ܩܕ݂ܳܡ
@@ -36280,7 +36280,7 @@
 ܐ݈ܢܳܐ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܝܓܓ </div>
 <div type="v" n="1">ܩܕ݂ܳܡ
 ܕ݁ܶܝܢ ܥܺܐܕ݂ܳܐ
@@ -36707,7 +36707,7 @@
 ܙܰܒ݂ܢܺܝܢ܂</div>
 </div>
 <div type="ch" n="14">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܝܕܕ </div>
 <div type="v" n="1">ܠܳܐ
 ܢܶܬ݁ܕ݁ܰܘܰܕ݂
@@ -37040,7 +37040,7 @@
 ܡܶܟ݁ܳܐ܂</div>
 </div>
 <div type="ch" n="15">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܝܗܗ </div>
 <div type="v" n="1">ܐܶܢܳܐ
 ܐ݈ܢܳܐ
@@ -37325,7 +37325,7 @@
 ܐܰܢ݈ܬ݁ܽܘܢ܂</div>
 </div>
 <div type="ch" n="16">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܝܘܘ </div>
 <div type="v" n="1">ܗܳܠܶܝܢ
 ܡܰܠܠܶܬ݂
@@ -37677,7 +37677,7 @@
 ܠܥܳܠܡܳܐ܂</div>
 </div>
 <div type="ch" n="17">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܝܙܙ </div>
 <div type="v" n="1">ܗܳܠܶܝܢ
 ܡܰܠܶܠ ܝܶܫܽܘܥ
@@ -37969,7 +37969,7 @@
 ܒ݁ܗܽܘܢ܂</div>
 </div>
 <div type="ch" n="18">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܝܚܚ </div>
 <div type="v" n="1">ܗܳܠܶܝܢ
 ܐܶܡܰܪ ܝܶܫܽܘܥ
@@ -38449,7 +38449,7 @@
 ܓ݁ܰܝܳܣܳܐ܂</div>
 </div>
 <div type="ch" n="19">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܝܛܛ </div>
 <div type="v" n="1">ܗܳܝܕ݁ܶܝܢ
 ܦ݁ܺܝܠܰܛܳܘܣ
@@ -38948,7 +38948,7 @@
 ܩܰܒ݂ܪܳܐ܂</div>
 </div>
 <div type="ch" n="20">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ ܟܟ </div>
+<div type="title" n="title"> ܀ ܝܘܚܢܢ ܟܟ </div>
 <div type="v" n="1">ܒ݁ܚܰܕ݂
 ܒ݁ܫܰܒ݁ܳܐ
 ܕ݁ܶܝܢ ܐܶܬ݂ܳܬ݂
@@ -39302,7 +39302,7 @@
 ܕ݁ܰܠܥܳܠܰܡ܂</div>
 </div>
 <div type="ch" n="21">
-<div type="title" n="t"> ܀ ܝܘܚܢܢ
+<div type="title" n="title"> ܀ ܝܘܚܢܢ
 ܟܐܐ </div>
 <div type="v" n="1">ܒ݁ܳܬ݂ܰܪ
 ܗܳܠܶܝܢ ܚܰܘܺܝ
@@ -39659,7 +39659,7 @@
 </div>
 <div type="bk" n="Ac">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܐܐ </div>
 <div type="v" n="1">ܟ݁ܬ݂ܳܒ݂ܳܐ
 ܩܰܕ݂ܡܳܝܳܐ
@@ -39994,7 +39994,7 @@
 ܫܠܺܝܚܶܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܒܒ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܐܶܬ݂ܡܰܠܺܝܘ
@@ -40510,7 +40510,7 @@
 ܒ݁ܥܺܕ݈݁ܬ݁ܳܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܓܓ </div>
 <div type="v" n="1">ܘܰܗܘܳܐ
 ܕ݁ܟ݂ܰܕ݂
@@ -40815,7 +40815,7 @@
 ܒ݁ܺܝܫܳܬ݂ܟ݂ܽܘܢ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܕܕ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܗܳܠܶܝܢ ܡܶܠܶܐ
@@ -41255,7 +41255,7 @@
 ܕ݁ܰܫܠܺܝܚܶܐ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܗܗ </div>
 <div type="v" n="1">ܘܓ݂ܰܒ݂ܪܳܐ
 ܚܰܕ݂ ܕ݁ܰܫܡܶܗ
@@ -41778,7 +41778,7 @@
 ܡܫܺܝܚܳܐ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܘܘ </div>
 <div type="v" n="1">ܘܰܒ݂ܗܽܘܢ
 ܒ݁ܝܰܘܡܳܬ݂ܳܐ
@@ -41966,7 +41966,7 @@
 ܕ݁ܡܰܠܰܐܟ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܙܙ </div>
 <div type="v" n="1">ܘܫܰܐܠܶܗ
 ܪܰܒ݁ ܟ݁ܳܗܢܶܐ
@@ -42679,7 +42679,7 @@
 ܫܟ݂ܶܒ݂܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܚܚ </div>
 <div type="v" n="1">ܫܳܐܘܳܠ
 ܕ݁ܶܝܢ ܨܳܒ݂ܶܐ
@@ -43149,7 +43149,7 @@
 ܠܩܶܣܰܪܺܝܰܐ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܛܛ </div>
 <div type="v" n="1">ܫܳܐܘܳܠ
 ܕ݁ܶܝܢ
@@ -43667,7 +43667,7 @@
 ܒ݁ܽܘܪܣܳܝܳܐ܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܝ </div>
 <div type="v" n="1">ܒ݁ܩܶܣܰܪܺܝܰܐ
 ܕ݁ܶܝܢ ܐܺܝܬ݂
@@ -44224,7 +44224,7 @@
 ܝܰܘܡܳܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܐܐ </div>
 <div type="v" n="1">ܘܶܐܫܬ݁ܰܡܥܰܬ݂
 ܗ݈ܘܳܬ݂
@@ -44570,7 +44570,7 @@
 ܕ݁ܬ݂ܰܡܳܢ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܒܒ </div>
 <div type="v" n="1">ܒ݁ܗܰܘ
 ܕ݁ܶܝܢ ܙܰܒ݂ܢܳܐ
@@ -44899,7 +44899,7 @@
 ܡܰܪܩܳܘܣ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܓܓ </div>
 <div type="v" n="1">ܐܺܝܬ݂
 ܗ݈ܘܳܐ ܕ݁ܶܝܢ
@@ -45534,7 +45534,7 @@
 ܕ݁ܩܽܘܕ݂ܫܳܐ܂</div>
 </div>
 <div type="ch" n="14">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܕܕ </div>
 <div type="v" n="1">ܘܶܐܬ݂ܰܘ
 ܘܥܰܠܘ ܠܗܽܘܢ
@@ -45876,7 +45876,7 @@
 ܬ݁ܰܠܡܺܝܕ݂ܶܐ܂</div>
 </div>
 <div type="ch" n="15">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܗܗ </div>
 <div type="v" n="1">ܢܚܶܬ݂ܘ
 ܗ݈ܘܰܘ ܕ݁ܶܝܢ
@@ -46349,7 +46349,7 @@
 ܥܺܕ݂ܳܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="16">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܘܘ </div>
 <div type="v" n="1">ܘܡܰܛܺܝ
 ܗ݈ܘܳܐ
@@ -46859,7 +46859,7 @@
 ܘܰܢܦ݂ܰܩܘ܂</div>
 </div>
 <div type="ch" n="17">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܙܙ </div>
 <div type="v" n="1">ܘܰܥܒ݂ܰܪܘ
 ܥܰܠ
@@ -47347,7 +47347,7 @@
 ܥܰܡܗܽܘܢ܂</div>
 </div>
 <div type="ch" n="18">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܚܚ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܢܦ݂ܰܩ
@@ -47717,7 +47717,7 @@
 ܗ݈ܘ܂</div>
 </div>
 <div type="ch" n="19">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܝܛܛ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܐܺܝܬ݂ܰܘܗ݈ܝ
@@ -48271,7 +48271,7 @@
 ܠܟ݂ܶܢܫܳܐ܂</div>
 </div>
 <div type="ch" n="20">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܟܟ </div>
 <div type="v" n="1">ܘܒ݂ܳܬ݂ܰܪ
 ܕ݁ܰܫܠܺܝ
@@ -48744,7 +48744,7 @@
 ܠܶܐܠܦ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="21">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܟܐܐ </div>
 <div type="v" n="1">ܘܰܦ݂ܪܰܫܢ
 ܡܶܢܗܽܘܢ
@@ -49271,7 +49271,7 @@
 ܠܗܽܘܢ܂</div>
 </div>
 <div type="ch" n="22">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܟܒܒ </div>
 <div type="v" n="1">ܐܰܚܶܐ
 ܘܰܐܒ݂ܳܗܳܬ݂ܳܐ
@@ -49642,7 +49642,7 @@
 ܒ݁ܰܝܢܳܬ݂ܗܽܘܢ܂</div>
 </div>
 <div type="ch" n="23">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܟܓܓ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂ ܚܳܪ
 ܦ݁ܰܘܠܳܘܣ
@@ -50086,7 +50086,7 @@
 ܕ݁ܗܶܪܳܘܕ݂ܶܣ܂</div>
 </div>
 <div type="ch" n="24">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܟܕܕ </div>
 <div type="v" n="1">ܘܡܶܢ
 ܒ݁ܳܬ݂ܰܪ
@@ -50432,7 +50432,7 @@
 ܐܰܣܺܝܪ܂</div>
 </div>
 <div type="ch" n="25">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܟܗܗ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܐܶܬ݂ܳܐ
@@ -50795,7 +50795,7 @@
 ܣܰܟ݂ܠܽܘܬ݂ܶܗ܂</div>
 </div>
 <div type="ch" n="26">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܟܘܘ </div>
 <div type="v" n="1">ܘܶܐܡܰܪ
 ܐܰܓ݂ܪܺܦ݁ܰܘܣ
@@ -51213,7 +51213,7 @@
 ܩܪܳܐ܂</div>
 </div>
 <div type="ch" n="27">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܟܙܙ </div>
 <div type="v" n="1">ܘܰܦ݂ܩܰܕ݂
 ܥܠܰܘܗ݈ܝ
@@ -51781,7 +51781,7 @@
 ܠܰܐܪܥܳܐ܂</div>
 </div>
 <div type="ch" n="28">
-<div type="title" n="t"> ܀ ܦܪܟܣܣ
+<div type="title" n="title"> ܀ ܦܪܟܣܣ
 ܕܫܠܝ̈ܚܐ ܟܚܚ </div>
 <div type="v" n="1">ܘܡܶܢ
 ܒ݁ܳܬ݂ܰܪܟ݁ܶܢ
@@ -52204,7 +52204,7 @@
 </div>
 <div type="bk" n="Ro">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
 ܥܰܒ݂ܕ݁ܳܐ
@@ -52569,7 +52569,7 @@
 ܥܳܒ݂ܕ݁ܺܝܢ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܒܒ </div>
 <div type="v" n="1">ܡܶܛܽܠ
 ܗܳܢܳܐ ܠܰܝܬ݁
@@ -52905,7 +52905,7 @@
 ܡܶܢ ܐܰܠܳܗܳܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܓܓ </div>
 <div type="v" n="1">ܡܳܢܳܐ ܗ݈ܝ
 ܗܳܟ݂ܺܝܠ
@@ -53182,7 +53182,7 @@
 ܡܩܺܝܡܺܝܢܰܢ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܕܕ </div>
 <div type="v" n="1">ܡܳܢܳܐ
 ܗܳܟ݂ܺܝܠ
@@ -53464,7 +53464,7 @@
 ܕ݁ܰܢܙܰܕ݁ܩܰܢ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܗܗ </div>
 <div type="v" n="1">ܡܶܛܽܠ
 ܕ݁ܶܐܙܕ݁ܰܕ݁ܰܩܢ
@@ -53738,7 +53738,7 @@
 ܡܫܺܝܚܳܐ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܘܘ </div>
 <div type="v" n="1">ܡܳܢܳܐ
 ܗܳܟ݂ܺܝܠ
@@ -53989,7 +53989,7 @@
 ܡܫܺܝܚܳܐ܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܙܙ </div>
 <div type="v" n="1">ܐܰܘ ܠܳܐ
 ܝܳܕ݂ܥܺܝܢ
@@ -54288,7 +54288,7 @@
 ܕ݁ܰܚܛܺܝܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܚܚ </div>
 <div type="v" n="1">ܡܶܟ݁ܺܝܠ
 ܠܰܝܬ݁
@@ -54714,7 +54714,7 @@
 ܡܫܺܝܚܳܐ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܛܛ </div>
 <div type="v" n="1">ܩܽܘܫܬ݁ܳܐ
 ܐܳܡܰܪ ܐ݈ܢܳܐ
@@ -55053,7 +55053,7 @@
 ܢܶܒ݂ܗܰܬ݂܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܝܝ </div>
 <div type="v" n="1">ܐܰܚܰܝ
 ܨܶܒ݂ܝܳܢܳܐ
@@ -55268,7 +55268,7 @@
 ܡܶܬ݁ܛܦ݁ܺܝܣ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܝܐܐ </div>
 <div type="v" n="1">ܐܶܠܳܐ
 ܐܳܡܰܪ ܐ݈ܢܳܐ
@@ -55661,7 +55661,7 @@
 ܐܰܡܺܝܢ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܝܒܒ </div>
 <div type="v" n="1">ܒ݁ܳܥܶܢܳܐ
 ܗܳܟ݂ܺܝܠ
@@ -55898,7 +55898,7 @@
 ܒ݁ܛܳܒ݂ܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܝܓܓ </div>
 <div type="v" n="1">ܟ݁ܽܠ ܢܦ݂ܶܫ
 ܠܫܽܘܠܛܳܢܶܐ
@@ -56082,7 +56082,7 @@
 ܠܰܪܓ݂ܺܝܓ݂ܳܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="14">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܝܕܕ </div>
 <div type="v" n="1">ܠܰܐܝܢܳܐ
 ܕ݁ܶܝܢ
@@ -56336,7 +56336,7 @@
 ܗܽܘ܂</div>
 </div>
 <div type="ch" n="15">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܝܗܗ </div>
 <div type="v" n="1">ܚܰܝܳܒ݂ܺܝܢܰܢ
 ܗܳܟ݂ܺܝܠ ܚܢܰܢ
@@ -56691,7 +56691,7 @@
 ܐܰܡܺܝܢ܂</div>
 </div>
 <div type="ch" n="16">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܪ̈ܗܘܡܢܐ ܝܘܘ </div>
 <div type="v" n="1">ܡܰܓ݂ܥܶܠ
 ܐ݈ܢܳܐ ܠܟ݂ܽܘܢ
@@ -56989,7 +56989,7 @@
 </div>
 <div type="bk" n="1Co">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
@@ -57313,7 +57313,7 @@
 ܢܶܫܬ݁ܰܒ݂ܗܰܪ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܒܒ </div>
 <div type="v" n="1">ܘܶܐܢܳܐ
@@ -57497,7 +57497,7 @@
 ܐܺܝܬ݂ ܠܰܢ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܓܓ </div>
 <div type="v" n="1">ܘܶܐܢܳܐ
@@ -57748,7 +57748,7 @@
 ܕ݁ܰܐܠܳܗܳܐ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܕܕ </div>
 <div type="v" n="1">ܗܳܟ݂ܰܢܳܐ
@@ -57992,7 +57992,7 @@
 ܡܰܟ݁ܺܝܟ݂ܬ݁ܳܐ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܗܗ </div>
 <div type="v" n="1">ܣܳܟ݂ܳܐ
@@ -58160,7 +58160,7 @@
 ܒ݁ܰܝܢܳܬ݂ܟ݂ܽܘܢ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܘܘ </div>
 <div type="v" n="1">ܡܰܡܪܰܚ
@@ -58392,7 +58392,7 @@
 ܕ݁ܰܐܠܳܗܳܐ܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܙܙ </div>
 <div type="v" n="1">ܥܰܠ
@@ -58875,7 +58875,7 @@
 ܐܺܝܬ݂ ܒ݁ܺܝ܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܚܚ </div>
 <div type="v" n="1">ܥܰܠ
@@ -59024,7 +59024,7 @@
 ܠܳܐܚܝ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܛܛ </div>
 <div type="v" n="1">ܠܡܳܐ ܠܳܐ
@@ -59346,7 +59346,7 @@
 ܠܺܝ܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܝܝ </div>
 <div type="v" n="1">ܨܳܒ݂ܶܐ
@@ -59691,7 +59691,7 @@
 ܕ݁ܢܺܚܽܘܢ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܝܐܐ </div>
 <div type="v" n="1">ܐܶܬ݁ܕ݁ܰܡܰܘ
@@ -60061,7 +60061,7 @@
 ܐܶܦ݁ܰܩܶܕ݂ܟ݂ܽܘܢ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܝܒܒ </div>
 <div type="v" n="1">ܥܰܠ
@@ -60400,7 +60400,7 @@
 ܕ݁ܰܡܝܰܬ݁ܪܳܐ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܝܓܓ </div>
 <div type="v" n="1">ܐܶܢ ܒ݁ܟ݂ܽܠ
@@ -60547,7 +60547,7 @@
 ܚܽܘܒ݁ܳܐ܂</div>
 </div>
 <div type="ch" n="14">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܝܕܕ </div>
 <div type="v" n="1">ܗܰܪ݈ܛܘ
@@ -61007,7 +61007,7 @@
 ܢܶܗܘܶܐ܂</div>
 </div>
 <div type="ch" n="15">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܝܗܗ </div>
 <div type="v" n="1">ܡܰܘܕ݁ܰܥ
@@ -61572,7 +61572,7 @@
 ܒ݁ܡܳܪܝܳܐ܂</div>
 </div>
 <div type="ch" n="16">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܩܕܡܝܬܐ ܝܘܘ </div>
 <div type="v" n="1">ܥܰܠ ܡܶܕ݁ܶܡ
@@ -61809,7 +61809,7 @@
 </div>
 <div type="bk" n="2Co">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
@@ -62102,7 +62102,7 @@
 ܐܢ݈ܬ݁ܽܘܢ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܒܒ </div>
 <div type="v" n="1">ܕ݁ܳܢܶܬ݂
@@ -62287,7 +62287,7 @@
 ܡܡܰܠܠܺܝܢܰܢ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܓܓ </div>
 <div type="v" n="1">ܡܫܰܪܶܝܢܰܢ
@@ -62500,7 +62500,7 @@
 ܪܽܘܚܳܐ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܕܕ </div>
 <div type="v" n="1">ܡܶܛܽܠ
@@ -62714,7 +62714,7 @@
 ܐܶܢܶܝܢ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܗܗ </div>
 <div type="v" n="1">ܝܳܕ݂ܥܺܝܢܰܢ
@@ -62936,7 +62936,7 @@
 ܕ݁ܰܐܠܳܗܳܐ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܘܘ </div>
 <div type="v" n="1">ܘܰܐܝܟ݂
@@ -63133,7 +63133,7 @@
 ܐܰܚܺܝܕ݂܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܙܙ </div>
 <div type="v" n="1">ܡܶܛܽܠ
@@ -63359,7 +63359,7 @@
 ܥܠܰܝܟ݁ܽܘܢ܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܚܚ </div>
 <div type="v" n="1">ܡܰܘܕ݁ܥܺܝܢܰܢ
@@ -63632,7 +63632,7 @@
 ܟ݁ܽܠܗܶܝܢ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܛܛ </div>
 <div type="v" n="1">ܥܰܠ
@@ -63824,7 +63824,7 @@
 ܡܶܬ݂ܡܰܠܠܳܐ܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܝܝ </div>
 <div type="v" n="1">ܐܶܢܳܐ
@@ -64046,7 +64046,7 @@
 ܢܫܰܒ݁ܚܺܝܘܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܝܐܐ </div>
 <div type="v" n="1">ܐܶܫܬ݁ܽܘܦ݂
@@ -64432,7 +64432,7 @@
 ܐܺܝܕ݂ܰܘܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܝܒܒ </div>
 <div type="v" n="1">ܠܡܶܫܬ݁ܰܒ݂ܗܳܪܽܘ
@@ -64725,7 +64725,7 @@
 ܕ݁ܰܥܒ݂ܰܕ݂ܘ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܩܘܪ̈ܢܬܝܐ
 ܕܬܪ̈ܬܝܢ ܝܓܓ </div>
 <div type="v" n="1">ܗܳܕ݂ܶܐ
@@ -64902,7 +64902,7 @@
 </div>
 <div type="bk" n="Gal">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܓܠܛܝ̈ܐ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
 ܫܠܺܝܚܳܐ ܠܳܐ
@@ -65133,7 +65133,7 @@
 ܠܰܐܠܳܗܳܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܓܠܛܝ̈ܐ ܒܒ </div>
 <div type="v" n="1">ܬ݁ܽܘܒ݂
 ܕ݁ܶܝܢ ܡܶܢ
@@ -65410,7 +65410,7 @@
 ܡܺܝܬ݂܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܓܠܛܝ̈ܐ ܓܓ </div>
 <div type="v" n="1">ܐܳܘ
 ܚܰܣܺܝܪܰܝ
@@ -65739,7 +65739,7 @@
 ܒ݁ܡܽܘܠܟ݁ܳܢܳܐ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܓܠܛܝ̈ܐ ܕܕ </div>
 <div type="v" n="1">ܐܳܡܰܪ
 ܐ݈ܢܳܐ ܕ݁ܶܝܢ
@@ -66046,7 +66046,7 @@
 ܚܺܐܪܬ݁ܳܐ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܓܠܛܝ̈ܐ ܗܗ </div>
 <div type="v" n="1">ܩܽܘܡܘ
 ܗܳܟ݂ܺܝܠ
@@ -66296,7 +66296,7 @@
 ܒ݁ܚܰܕ݂܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܓܠܛܝ̈ܐ ܘܘ </div>
 <div type="v" n="1">ܐܰܚܰܝ ܐܶܢ
 ܐ݈ܢܳܫ
@@ -66476,7 +66476,7 @@
 </div>
 <div type="bk" n="Eph">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܐܦܣܝ̈ܐ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
 ܫܠܺܝܚܳܐ
@@ -66700,7 +66700,7 @@
 ܡܫܰܡܠܶܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܐܦܣܝ̈ܐ ܒܒ </div>
 <div type="v" n="1">ܘܳܐܦ݂
 ܠܟ݂ܽܘܢ
@@ -66936,7 +66936,7 @@
 ܒ݁ܪܽܘܚ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܐܦܣܝ̈ܐ ܓܓ </div>
 <div type="v" n="1">ܡܶܛܽܠ
 ܗܳܢܳܐ ܐܶܢܳܐ
@@ -67135,7 +67135,7 @@
 ܐܰܡܺܝܢ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܐܦܣܝ̈ܐ ܕܕ </div>
 <div type="v" n="1">ܒ݁ܳܥܶܐ
 ܐ݈ܢܳܐ ܗܳܟ݂ܺܝܠ
@@ -67443,7 +67443,7 @@
 ܫܒ݂ܰܩ ܠܰܢ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܐܦܣܝ̈ܐ ܗܗ </div>
 <div type="v" n="1">ܗܘܰܝܬ݁ܽܘܢ
 ܗܳܟ݂ܺܝܠ
@@ -67763,7 +67763,7 @@
 ܒ݁ܰܥܠܳܗ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܐܦܣܝ̈ܐ ܘܘ </div>
 <div type="v" n="1">ܒ݁ܢܰܝܳܐ
 ܐܶܫܬ݁ܰܡ݈ܥܘ
@@ -68017,7 +68017,7 @@
 </div>
 <div type="bk" n="Php">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܦܝܠܝܦܣܝ̈ܐ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
 ܘܛܺܝܡܳܬ݂ܶܐܳܘܣ
@@ -68331,7 +68331,7 @@
 ܥܠܰܝ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܦܝܠܝܦܣܝ̈ܐ ܒܒ </div>
 <div type="v" n="1">ܐܶܢ ܐܺܝܬ݂
 ܠܟ݂ܽܘܢ
@@ -68640,7 +68640,7 @@
 ܕ݁ܰܠܘܳܬ݂ܝ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܦܝܠܝܦܣܝ̈ܐ ܓܓ </div>
 <div type="v" n="1">ܡܶܟ݁ܺܝܠ
 ܐܰܚܰܝ ܚܕ݂ܰܘ
@@ -68883,7 +68883,7 @@
 ܠܶܗ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܦܝܠܝܦܣܝ̈ܐ ܕܕ </div>
 <div type="v" n="1">ܡܶܟ݁ܺܝܠ
 ܐܰܚܰܝ
@@ -69125,7 +69125,7 @@
 </div>
 <div type="bk" n="Col">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܩܘܠܣܝ̈ܐ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
 ܫܠܺܝܚܳܐ
@@ -69451,7 +69451,7 @@
 ܠܺܝ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܩܘܠܣܝ̈ܐ ܒܒ </div>
 <div type="v" n="1">ܨܳܒ݂ܶܐ
 ܐ݈ܢܳܐ ܕ݁ܶܝܢ
@@ -69702,7 +69702,7 @@
 ܕ݁ܒ݂ܶܣܪܳܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܩܘܠܣܝ̈ܐ ܓܓ </div>
 <div type="v" n="1">ܐܶܢ
 ܗܳܟ݂ܺܝܠ
@@ -69952,7 +69952,7 @@
 ܒ݁ܰܐܦ݁ܶܐ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܩܘܠܣܝ̈ܐ ܕܕ </div>
 <div type="v" n="1">ܡܳܪܰܝܳܐ
 ܥܒ݂ܶܕ݂ܘ
@@ -70150,7 +70150,7 @@
 </div>
 <div type="bk" n="1Th">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܬܣܠܘܢܝ̈ܩܝܐ
 ܩܕܡܝܬܐ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
@@ -70278,7 +70278,7 @@
 ܕ݁ܳܐܬ݂ܶܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܬܣܠܘܢܝ̈ܩܝܐ
 ܩܕܡܝܬܐ ܒܒ </div>
 <div type="v" n="1">ܘܰܐܢ݈ܬ݁ܽܘܢ
@@ -70534,7 +70534,7 @@
 ܘܚܰܕ݂ܽܘܬ݂ܰܢ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܬܣܠܘܢܝ̈ܩܝܐ
 ܩܕܡܝܬܐ ܓܓ </div>
 <div type="v" n="1">ܘܡܶܛܽܠ
@@ -70688,7 +70688,7 @@
 ܩܰܕ݁ܺܝܫܰܘܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܬܣܠܘܢܝ̈ܩܝܐ
 ܩܕܡܝܬܐ ܕܕ </div>
 <div type="v" n="1">ܡܶܟ݁ܺܝܠ
@@ -70895,7 +70895,7 @@
 ܗܳܠܶܝܢ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܬܣܠܘܢܝ̈ܩܝܐ
 ܩܕܡܝܬܐ ܗܗ </div>
 <div type="v" n="1">ܥܰܠ
@@ -71130,7 +71130,7 @@
 </div>
 <div type="bk" n="2Th">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܬܣܠܘܢܝ̈ܩܝܐ
 ܕܬܪ̈ܬܝܢ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
@@ -71268,7 +71268,7 @@
 ܡܫܺܝܚܳܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܬܣܠܘܢܝ̈ܩܝܐ
 ܕܬܪ̈ܬܝܢ ܒܒ </div>
 <div type="v" n="1">ܒ݁ܳܥܶܝܢܰܢ
@@ -71459,7 +71459,7 @@
 ܥܒ݂ܳܕ݂ ܛܳܒ݂܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀
+<div type="title" n="title"> ܀
 ܕܬܣܠܘܢܝ̈ܩܝܐ
 ܕܬܪ̈ܬܝܢ ܓܓ </div>
 <div type="v" n="1">ܡܶܢ ܗܳܫܳܐ
@@ -71652,7 +71652,7 @@
 </div>
 <div type="bk" n="1Tim">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܩܕܡܝܬܐ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
 ܫܠܺܝܚܳܐ
@@ -71885,7 +71885,7 @@
 ܡܓ݂ܰܕ݁ܦ݂ܺܝܢ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܩܕܡܝܬܐ ܒܒ </div>
 <div type="v" n="1">ܒ݁ܳܥܶܐ
 ܐ݈ܢܳܐ ܗܳܟ݂ܺܝܠ
@@ -72035,7 +72035,7 @@
 ܘܰܒ݂ܢܰܟ݂ܦ݁ܽܘܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܩܕܡܝܬܐ ܓܓ </div>
 <div type="v" n="1">ܡܗܰܝܡܢܳܐ
 ܗ݈ܝ ܡܶܠܬ݂ܳܐ
@@ -72219,7 +72219,7 @@
 ܒ݁ܫܽܘܒ݂ܚܳܐ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܩܕܡܝܬܐ ܕܕ </div>
 <div type="v" n="1">ܪܽܘܚܳܐ
 ܕ݁ܶܝܢ
@@ -72388,7 +72388,7 @@
 ܠܳܟ݂܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܩܕܡܝܬܐ ܗܗ </div>
 <div type="v" n="1">ܒ݁ܩܰܫܺܝܫܳܐ
 ܠܳܐ ܬ݁ܶܓ݂ܥܽܘܪ
@@ -72670,7 +72670,7 @@
 ܡܶܫܟ݁ܚܺܝܢ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܩܕܡܝܬܐ ܘܘ </div>
 <div type="v" n="1">ܐܰܝܠܶܝܢ
 ܕ݁ܺܐܝܬ݂ܰܝܗܽܘܢ
@@ -72951,7 +72951,7 @@
 </div>
 <div type="bk" n="2Tim">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܕܬܪ̈ܬܝܢ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
 ܫܠܺܝܚܳܐ
@@ -73148,7 +73148,7 @@
 ܐܰܢ݈ܬ݁܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܕܬܪ̈ܬܝܢ ܒܒ </div>
 <div type="v" n="1">ܐܰܢ݈ܬ݁
 ܗܳܟ݂ܺܝܠ ܒ݁ܶܪܝ
@@ -73431,7 +73431,7 @@
 ܠܨܶܒ݂ܝܳܢܶܗ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܕܬܪ̈ܬܝܢ ܓܓ </div>
 <div type="v" n="1">ܗܳܕ݂ܶܐ
 ܕ݁ܶܝܢ ܗܘܰܝܬ݁
@@ -73620,7 +73620,7 @@
 ܡܫܰܠܡܳܢ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܕܛܝܡܬܐܘܣ
+<div type="title" n="title"> ܀ ܕܛܝܡܬܐܘܣ
 ܕܬܪ̈ܬܝܢ ܕܕ </div>
 <div type="v" n="1">ܡܣܰܗܶܕ݂
 ܐ݈ܢܳܐ ܠܳܟ݂
@@ -73833,7 +73833,7 @@
 </div>
 <div type="bk" n="Tit">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܛܛܘܣ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
 ܥܰܒ݂ܕ݁ܶܗ
@@ -74050,7 +74050,7 @@
 ܛܳܒ݂܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܛܛܘܣ ܒܒ </div>
 <div type="v" n="1">ܐܰܢ݈ܬ݁
 ܕ݁ܶܝܢ ܡܰܠܶܠ
@@ -74213,7 +74213,7 @@
 ܒ݁ܳܟ݂܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܛܛܘܣ ܓܓ </div>
 <div type="v" n="1">ܘܰܗܘܰܝܬ݁
 ܡܰܥ݈ܗܶܕ݂
@@ -74404,7 +74404,7 @@
 </div>
 <div type="bk" n="Phm">
 
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܦܝܠܡܘܢ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܰܘܠܳܘܣ
 ܐܰܣܺܝܪܶܗ
@@ -74625,7 +74625,7 @@
 </div>
 <div type="bk" n="Heb">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܐܐ </div>
 <div type="v" n="1">ܒ݁ܟ݂ܽܠ
 ܡܢܰܘܳܢ
@@ -74780,7 +74780,7 @@
 ܚܰܝܶܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܒܒ </div>
 <div type="v" n="1">ܡܶܛܽܠ
 ܗܳܢܳܐ
@@ -75000,7 +75000,7 @@
 ܕ݁ܡܶܬ݂ܢܰܣܶܝܢ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܓܓ </div>
 <div type="v" n="1">ܡܶܟ݁ܺܝܠ
 ܐܰܚܰܝ
@@ -75186,7 +75186,7 @@
 ܗܰܝܡܶܢܘ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܕܕ </div>
 <div type="v" n="1">ܢܶܕ݂ܚܰܠ
 ܗܳܟ݂ܺܝܠ
@@ -75378,7 +75378,7 @@
 ܕ݁ܽܐܘܠܨܳܢܳܐ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܗܗ </div>
 <div type="v" n="1">ܟ݁ܽܠ ܪܰܒ݁
 ܟ݁ܽܘܡܪܶܐ
@@ -75549,7 +75549,7 @@
 ܘܒ݂ܺܝܫܬ݁ܳܐ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܘܘ </div>
 <div type="v" n="1">ܡܶܛܽܠ
 ܗܳܢܳܐ
@@ -75763,7 +75763,7 @@
 ܕ݁ܡܰܠܟ݁ܺܝܙܕ݂ܶܩ܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܙܙ </div>
 <div type="v" n="1">ܗܳܢܳܐ
 ܕ݁ܶܝܢ
@@ -76079,7 +76079,7 @@
 ܠܥܳܠܰܡ܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܚܚ </div>
 <div type="v" n="1">ܪܺܝܫܳܐ
 ܕ݁ܶܝܢ
@@ -76266,7 +76266,7 @@
 ܠܰܚܒ݂ܳܠܳܐ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܛܛ </div>
 <div type="v" n="1">ܒ݁ܩܰܕ݂ܡܳܝܬ݁ܳܐ
 ܕ݁ܶܝܢ ܐܺܝܬ݂
@@ -76629,7 +76629,7 @@
 ܠܶܗ܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܝܝ </div>
 <div type="v" n="1">ܢܳܡܽܘܣܳܐ
 ܓ݁ܶܝܪ
@@ -77035,7 +77035,7 @@
 ܢܰܦ݂ܫܰܢ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܝܐܐ </div>
 <div type="v" n="1">ܐܺܝܬ݂ܶܝܗ
 ܕ݁ܶܝܢ
@@ -77513,7 +77513,7 @@
 ܢܶܬ݂ܓ݁ܰܡܪܽܘܢ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܝܒܒ </div>
 <div type="v" n="1">ܡܶܛܽܠ
 ܗܳܢܳܐ ܐܳܦ݂
@@ -77861,7 +77861,7 @@
 ܐܳܟ݂ܶܠܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀ ܕܠܘܬ
+<div type="title" n="title"> ܀ ܕܠܘܬ
 ܥܒܪ̈ܝܐ ܝܓܓ </div>
 <div type="v" n="1">ܚܽܘܒ݁ܳܐ
 ܕ݁ܰܐܚܶܐ
@@ -78134,7 +78134,7 @@
 </div>
 <div type="bk" n="Jam">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܥܩܘܒ ܐܐ </div>
 <div type="v" n="1">ܝܰܥܩܽܘܒ݂
 ܥܰܒ݂ܕ݁ܶܗ
@@ -78411,7 +78411,7 @@
 ܛܽܘܠܫܳܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܥܩܘܒ ܒܒ </div>
 <div type="v" n="1">ܐܰܚܰܝ ܠܳܐ
 ܒ݁ܡܰܣܰܒ݂
@@ -78704,7 +78704,7 @@
 ܡܺܝܬ݂ܳܐ ܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܥܩܘܒ ܓܓ </div>
 <div type="v" n="1">ܠܳܐ
 ܣܰܓ݁ܺܝܶܐܐ
@@ -78912,7 +78912,7 @@
 ܫܠܳܡܳܐ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܥܩܘܒ ܕܕ </div>
 <div type="v" n="1">ܡܶܢ
 ܐܰܝܟ݁ܳܐ ܐܺܝܬ݂
@@ -79105,7 +79105,7 @@
 ܠܶܗ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܥܩܘܒ ܗܗ </div>
 <div type="v" n="1">ܐܳܘ
 ܥܰܬ݁ܺܝܪܶܐ
@@ -79341,7 +79341,7 @@
 </div>
 <div type="bk" n="1Pe">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܦܛܪܘܣ ܐܐ </div>
 <div type="v" n="1">ܦ݁ܶܛܪܳܘܣ
 ܫܠܺܝܚܳܐ
@@ -79667,7 +79667,7 @@
 ܕ݁ܶܐܣܬ݁ܰܒ݁ܰܪܬ݁ܽܘܢ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܦܛܪܘܣ ܒܒ </div>
 <div type="v" n="1">ܐܰܢܺܝܚܘ
 ܗܳܟ݂ܺܝܠ
@@ -79978,7 +79978,7 @@
 ܕ݁ܢܰܦ݂ܫܳܬ݂ܟ݂ܽܘܢ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܦܛܪܘܣ ܓܓ </div>
 <div type="v" n="1">ܗܳܟ݂ܰܢܳܐ
 ܐܳܦ݂
@@ -80284,7 +80284,7 @@
 ܘܚܰܝܠܰܘܳܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܦܛܪܘܣ ܕܕ </div>
 <div type="v" n="1">ܐܶܢ
 ܡܫܺܝܚܳܐ
@@ -80508,7 +80508,7 @@
 ܡܗܰܝܡܢܳܐ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܦܛܪܘܣ ܗܗ </div>
 <div type="v" n="1">ܒ݁ܳܥܶܐ
 ܐ݈ܢܳܐ ܕ݁ܶܝܢ
@@ -80682,7 +80682,7 @@
 </div>
 <div type="bk" n="2Pe">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܬܪ̈ܬܝܢ
 ܕܦܛܪܘܣ ܐܐ </div>
 <div type="v" n="1">ܫܶܡܥܽܘܢ
@@ -80969,7 +80969,7 @@
 ܕ݁ܰܐܠܳܗܳܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܬܪ̈ܬܝܢ
 ܕܦܛܪܘܣ ܒܒ </div>
 <div type="v" n="1">ܗܘܰܘ ܕ݁ܶܝܢ
@@ -81286,7 +81286,7 @@
 ܕ݁ܰܣܝܳܢܳܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܬܪ̈ܬܝܢ
 ܕܦܛܪܘܣ ܓܓ </div>
 <div type="v" n="1">ܗܳܕ݂ܶܐ ܡܶܢ
@@ -81556,7 +81556,7 @@
 </div>
 <div type="bk" n="1Jn">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܘܚܢܢ ܐܐ </div>
 <div type="v" n="1">ܡܣܰܒ݁ܪܺܝܢܰܢ
 ܠܟ݂ܽܘܢ ܠܗܰܘ
@@ -81672,7 +81672,7 @@
 ܠܘܳܬ݂ܰܢ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܘܚܢܢ ܒܒ </div>
 <div type="v" n="1">ܒ݁ܢܰܝ
 ܗܳܠܶܝܢ
@@ -82020,7 +82020,7 @@
 ܐܺܝܬ݂ܰܘܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܘܚܢܢ ܓܓ </div>
 <div type="v" n="1">ܘܰܚܙܰܘ
 ܕ݁ܰܟ݂ܡܳܐ
@@ -82276,7 +82276,7 @@
 ܠܰܢ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܘܚܢܢ ܕܕ </div>
 <div type="v" n="1">ܚܰܒ݁ܺܝܒ݂ܰܝ
 ܠܳܐ ܠܟ݂ܽܠ
@@ -82524,7 +82524,7 @@
 ܠܰܐܚܽܘܗ݈ܝ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܘܚܢܢ ܗܗ </div>
 <div type="v" n="1">ܟ݁ܽܠ
 ܕ݁ܰܡܗܰܝܡܶܢ
@@ -82757,7 +82757,7 @@
 </div>
 <div type="bk" n="2Jn">
 
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܬܪ̈ܬܢܢ
 ܕܝܘܚܢܢ ܫܠܝܚܐ
 ܐܐ </div>
@@ -82923,7 +82923,7 @@
 </div>
 <div type="bk" n="3Jn">
 
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܬܠܬ ܕܝܘܚܢܢ
 ܫܠܝܚܐ ܐܐ </div>
 <div type="v" n="1">ܩܰܫܺܝܫܳܐ
@@ -83095,7 +83095,7 @@
 </div>
 <div type="bk" n="Jud">
 
-<div type="title" n="t"> ܀ ܐܓܪܬܐ
+<div type="title" n="title"> ܀ ܐܓܪܬܐ
 ܕܝܗܘܕܐ ܐܐ </div>
 <div type="v" n="1">ܝܺܗܽܘܕ݂ܳܐ
 ܥܰܒ݂ܕ݁ܳܐ
@@ -83452,7 +83452,7 @@
 </div>
 <div type="bk" n="Re">
 <div type="ch" n="1">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܐܐ </div>
 <div type="v" n="1">ܓ݁ܶܠܝܳܢܳܐ
 ܕ݁ܝܶܫܽܘܥ
@@ -83701,7 +83701,7 @@
 ܥܺܕ݂ܳܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="2">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܒܒ </div>
 <div type="v" n="1">ܘܰܠܡܰܠܰܐܟ݂ܳܐ
 ܕ݁ܰܒ݂ܥܺܕ݈݁ܬ݁ܳܐ
@@ -84063,7 +84063,7 @@
 ܠܥܺܕ݂ܳܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="3">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܓܓ </div>
 <div type="v" n="1">ܘܰܠܡܰܠܰܐܟ݂ܳܐ
 ܕ݁ܰܒ݂ܥܺܕ݈݁ܬ݁ܳܐ
@@ -84345,7 +84345,7 @@
 ܠܥܺܕ݂ܳܬ݂ܳܐ܂</div>
 </div>
 <div type="ch" n="4">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܕܕ </div>
 <div type="v" n="1">ܡܶܢ
 ܒ݁ܳܬ݂ܰܪ
@@ -84532,7 +84532,7 @@
 ܘܶܐܬ݂ܒ݁ܪܺܝ܂</div>
 </div>
 <div type="ch" n="5">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܗܗ </div>
 <div type="v" n="1">ܘܰܚܙܺܝܬ݂
 ܥܰܠ ܝܰܡܺܝܢܶܗ
@@ -84724,7 +84724,7 @@
 ܘܰܣܓ݂ܶܕ݂ܘ܂</div>
 </div>
 <div type="ch" n="6">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܘܘ </div>
 <div type="v" n="1">ܘܰܚܙܺܝܬ݂
 ܟ݁ܰܕ݂ ܦ݁ܬ݂ܰܚ
@@ -84948,7 +84948,7 @@
 ܠܰܡܩܳܡ܂</div>
 </div>
 <div type="ch" n="7">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܙܙ </div>
 <div type="v" n="1">ܘܡܶܢ
 ܒ݁ܳܬ݂ܰܪ
@@ -85182,7 +85182,7 @@
 ܥܰܝܢܰܝܗܽܘܢ܂</div>
 </div>
 <div type="ch" n="8">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܚܚ </div>
 <div type="v" n="1">ܘܟ݂ܰܕ݂
 ܦ݁ܬ݂ܰܚ
@@ -85344,7 +85344,7 @@
 ܠܡܰܙܥܳܩܽܘ܂</div>
 </div>
 <div type="ch" n="9">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܛܛ </div>
 <div type="v" n="1">ܘܰܕ݂ܚܰܡܫܳܐ
 ܙܥܰܩ ܘܰܚܙܺܝܬ݂
@@ -85600,7 +85600,7 @@
 ܙܳܢܝܽܘܬ݂ܗܽܘܢ܂</div>
 </div>
 <div type="ch" n="10">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܝ </div>
 <div type="v" n="1">ܘܰܚܙܺܝܬ݂
 ܐ݈ܚܪܺܢܳܐ
@@ -85738,7 +85738,7 @@
 ܣܰܓ݁ܺܝܶܐܐ܂</div>
 </div>
 <div type="ch" n="11">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܐܐ </div>
 <div type="v" n="1">ܘܶܐܬ݂ܺܝܗܶܒ݂
 ܠܺܝ ܩܰܢܝܳܐ
@@ -86009,7 +86009,7 @@
 ܪܰܒ݁ܳܐ܂</div>
 </div>
 <div type="ch" n="12">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܒܒ </div>
 <div type="v" n="1">ܘܳܐܬ݂ܳܐ
 ܪܰܒ݁ܬ݂ܳܐ
@@ -86235,7 +86235,7 @@
 ܕ݁ܝܶܫܽܘܥ܂</div>
 </div>
 <div type="ch" n="13">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܓܓ </div>
 <div type="v" n="1">ܘܩܳܡܶܬ݂
 ܥܰܠ ܚܳܠܳܐ
@@ -86478,7 +86478,7 @@
 ܘܫܶܬ݂܂</div>
 </div>
 <div type="ch" n="14">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܕܕ </div>
 <div type="v" n="1">ܘܰܚܙܺܝܬ݂
 ܘܗܳܐ ܐܶܡܪܳܐ
@@ -86772,7 +86772,7 @@
 ܐܶܣܛܕ݂ܰܘܳܢ܂</div>
 </div>
 <div type="ch" n="15">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܗܗ </div>
 <div type="v" n="1">ܘܰܚܙܺܝܬ݂
 ܐ݈ܚܪܺܬ݂ܳܐ
@@ -86901,7 +86901,7 @@
 ܡܰܠܰܐܟ݂ܺܝܢ܂</div>
 </div>
 <div type="ch" n="16">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܘܘ </div>
 <div type="v" n="1">ܘܫܶܡܥܶܬ݂
 ܩܳܠܳܐ ܪܰܒ݁ܳܐ
@@ -87154,7 +87154,7 @@
 ܛܳܒ݂܂</div>
 </div>
 <div type="ch" n="17">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܙܙ </div>
 <div type="v" n="1">ܘܶܐܬ݂ܳܐ
 ܚܰܕ݂ ܡܶܢ
@@ -87405,7 +87405,7 @@
 ܕ݁ܰܐܪܥܳܐ܂</div>
 </div>
 <div type="ch" n="18">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܚܚ </div>
 <div type="v" n="1">ܘܡܶܢ
 ܒ݁ܳܬ݂ܰܪ
@@ -87732,7 +87732,7 @@
 ܥܰܠ ܐܰܪܥܳܐ܂</div>
 </div>
 <div type="ch" n="19">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܝܛܛ </div>
 <div type="v" n="1">ܘܡܶܢ
 ܒ݁ܳܬ݂ܰܪ
@@ -88026,7 +88026,7 @@
 ܒ݁ܶܣܪܗܽܘܢ܂</div>
 </div>
 <div type="ch" n="20">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܟܟ </div>
 <div type="v" n="1">ܘܰܚܙܺܝܬ݂
 ܐ݈ܚܪܺܢܳܐ
@@ -88236,7 +88236,7 @@
 ܕ݁ܢܽܘܪܳܐ܂</div>
 </div>
 <div type="ch" n="21">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܟܐܐ </div>
 <div type="v" n="1">ܘܰܚܙܺܝܬ݂
 ܫܡܰܝܳܐ
@@ -88576,7 +88576,7 @@
 ܕ݁ܶܐܡܪܳܐ܂</div>
 </div>
 <div type="ch" n="22">
-<div type="title" n="t"> ܀ ܓܢܝܢܐ
+<div type="title" n="title"> ܀ ܓܢܝܢܐ
 ܕܝܘܚܢܢ ܟܒܒ </div>
 <div type="v" n="1">ܘܚܰܘܝܰܢܝ
 ܢܰܗܪܳܐ

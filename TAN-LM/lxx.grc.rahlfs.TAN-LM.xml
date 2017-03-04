@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-LM.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-LM.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-LM xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev"
+   id="tag:kalvesmaki.com,2014:lxx-grc-rahlfs-morph-ccat">
+   <head>
+      <name>Lexico-morphological data for Rahlfs's edition of the Septuagint</name>
+      <rights-excluding-sources include="HEAD"/>
+      <inclusion xml:id="HEAD">
+         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
+         <name>Div-based alignment of multiple versions of the Bible</name>
+         <location href="../TAN-A-div/HEAD.bible.TAN-A-div.xml"
+            when-accessed="2016-04-01T12:54:11.259-04:00"/>
+      </inclusion>
+      <!--<source>
+         <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
+         <name>SBL Greek New Testament, transcribed in TAN-T format</name>
+         <location href="../nt.grc.sbl-2010.xml" when-accessed="2016-04-01T12:55:00.979-04:00"/>
+      </source>-->
+      <source>
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Rahlfs' edition of the Septuagint, transcribed in TAN-T format</name>
+         <location href="../lxx.grc.rahlfs.xml" when-accessed="2016-04-17T21:36:46.981-04:00"/>
+      </source>
+      <declarations>
+         <token-definition which="general"/>
+         <lexicon xml:id="LSJ">
+            <for-lang>grc</for-lang>
+            <IRI>http://lccn.loc.gov/95032369</IRI>
+            <name xml:lang="eng">Liddell-Scott-Jones, 9th ed. plus rev. supplement</name>
+         </lexicon>
+         <lexicon xml:id="Lampe">
+            <for-lang>grc</for-lang>
+            <IRI>http://lccn.loc.gov/77372171</IRI>
+            <name xml:lang="eng">G.H.W. Lampe, A Patristic Greek Lexicon, Oxford 1961.</name>
+         </lexicon>
+         <morphology xml:id="Perseus">
+            <for-lang>grc</for-lang>
+            <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
+            <name xml:lang="eng">Perseus Greek morphology</name>
+            <location href="../../LM/TAN-mor/grc.kalvesmaki.com,2014.1.xml"
+               when-accessed="2016-03-16-04:00"/>
+            <location
+               href="https://raw.githubusercontent.com/Arithmeticus/TAN-lexico-morphology/master/TAN-R-mor/grc.kalvesmaki.com%2C2014.1.xml"
+               when-accessed="2015-08-05-04:00"/>
+         </morphology>
+      </declarations>
+      <agent include="HEAD"/>
+      <role include="HEAD"/>
+      <change when="2016-04-17" who="kalvesmaki">started file</change>
+   </head>
+   <body lexicon="LSJ" morphology="Perseus"></body>
+</TAN-LM>

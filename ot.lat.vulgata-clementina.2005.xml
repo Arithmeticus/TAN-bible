@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-T.rnc"  type="application/relax-ng-compact-syntax" ?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-T.sch"  type="application/xml"  schematypens="http://purl.oclc.org/dsdl/schematron" ?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:bible.ot.lat.vulgata-clementina.2005" TAN-version="1">
+<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc"  type="application/relax-ng-compact-syntax" ?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch"  type="application/xml"  schematypens="http://purl.oclc.org/dsdl/schematron" ?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:bible.ot.lat.vulgata-clementina.2005" TAN-version="1 dev">
    <head>
       <name>Old Testament, Latin: Vulgata Clementina</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/ot.lat.vulgata-clementina.2005.xml"/>

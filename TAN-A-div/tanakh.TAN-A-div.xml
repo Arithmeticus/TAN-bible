@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki@gmail.com,2014:tanakh.TAN-A-div">
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns"
+   TAN-version="1 dev"
+   id="tag:kalvesmaki@gmail.com,2014:tanakh.TAN-A-div">
    <head>
       <name>Div-based alignment of multiple versions of the Tanakh</name>
       <desc>This file takes the "Old Testament" preserved in very different traditions--Hebrew,
          Septuagint, and late Christian--and both reconciles differences and facilitates alignment.
       </desc>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/tanakh.TAN-A-div.xml"/>
+      <!--<master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/tanakh.TAN-A-div.xml"/>-->
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
@@ -37,123 +39,479 @@
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>
+      <change when="2016-12-08" who="kalvesmaki">Updated to new schema; refined realignment of Ps. 9</change>
       <change when="2015-10-12" who="kalvesmaki">Started file</change>
    </head>
-    <body>
-       <equate-works src="bhs ot-kjv lxx"/>
-       <comment when="2015-09-03" who="kalvesmaki">I retain traditional names for LXX books</comment>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="1Sm"/>
-          <div-ref src="lxx" ref="1Kgdms"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="2Sm"/>
-          <div-ref src="lxx" ref="2Kgdms"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="1Kgs"/>
-          <div-ref src="lxx" ref="3Kgdms"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="2Kgs"/>
-          <div-ref src="lxx" ref="4Kgdms"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Ezra"/>
-          <div-ref src="lxx" ref="1Esd"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Neh"/>
-          <div-ref src="lxx" ref="2Esd"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Ps 9 1 - Ps 10 18"/>
-          <div-ref src="lxx" ref="Ps 9 2 - Ps 9 39"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Ps 11 - Ps 113, Ps 117 - Ps 146"/>
-          <div-ref src="lxx" ref="Ps 10 - Ps 112, Ps 116 - Ps 145"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Ps 114 1 - Ps 115 18"/>
-          <div-ref src="lxx" ref="Ps 113:1 - Ps 113:26"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Ps 116 1 - Ps 116 13"/>
-          <div-ref src="lxx" ref="Ps 114 1 - Ps 115 4"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Ps 116 15 - Ps 116 19"/>
-          <div-ref src="lxx" ref="Ps 115 6 - Ps 115 10"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Ps 147 1 - Ps 147 20"/>
-          <div-ref src="lxx" ref="Ps 146 1 - Ps 147 9"/>
-       </realign>
-       <!-- The next items are cases where the bho and lxx are numbered identically, so the kjv is brought into conformity with them -->
-       <realign>
-          <anchor-div-ref src="lxx" ref="Mal 3 19 - Mal 3 24"/>
-          <div-ref src="ot-kjv" ref="Mal 4 1 - Mal 4 6"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="lxx" ref="Joel 3 1 - Joel 3 5"/>
-          <div-ref src="ot-kjv" ref="Joel 2 28 - Joel 2 32"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="lxx" ref="Joel 4 1 - Joel 4 21"/>
-          <div-ref src="ot-kjv" ref="Joel 3 1 - Joel 3 21"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="lxx" ref="Hos 2 1 - Hos 2 25"/>
-          <div-ref src="ot-kjv" ref="Hos 1 10 - Hos 2 23"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 49 34 - Jer 49 39"/>
-          <div-ref src="lxx" ref="Jer 25 14 - Jer 25 19"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 49 34"/>
-          <div-ref src="lxx" ref="Jer 25 20"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 46 2 - Jer 46 28"/>
-          <div-ref src="lxx" ref="Jer 26 2 - Jer 26 28"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 50 - Jer 51"/>
-          <div-ref src="lxx" ref="Jer 27 - Jer 28"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 47"/>
-          <div-ref src="lxx" ref="Jer 29"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 49 7 - Jer 49 22"/>
-          <div-ref src="lxx" ref="Jer 30 1 - Jer 30 16"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 49 1 - Jer 49 5"/>
-          <div-ref src="lxx" ref="Jer 30 17 - Jer 30 21"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 49 28 - Jer 49 33"/>
-          <div-ref src="lxx" ref="Jer 30 23 - Jer 30 28"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 49 23 - Jer 49 27"/>
-          <div-ref src="lxx" ref="Jer 30 29 - Jer 30 33"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 48 1 - Jer 48 44"/>
-          <div-ref src="lxx" ref="Jer 31 1 - Jer 31 44"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 25 - Jer 43"/>
-          <div-ref src="lxx" ref="Jer 32 - Jer 50"/>
-       </realign>
-       <realign>
-          <anchor-div-ref src="ot-kjv" ref="Jer 44 1 - Jer 45 5"/>
-          <div-ref src="lxx" ref="Jer 51 1 - Jer 51 35"/>
-       </realign>
-    </body>
+   <body>
+      <equate-works work="bhs ot-kjv lxx"/>
+      <!-- test -->
+      <realign>
+         <div-ref src="lxx" ref="Gen 1 1 - 4 2"/>
+      </realign>
+      <!-- test -->
+      <comment when="2015-09-03" who="kalvesmaki">I retain traditional names for LXX books</comment>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="1Sm"/>
+         <div-ref src="lxx" ref="1Kgdms"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="2Sm"/>
+         <div-ref src="lxx" ref="2Kgdms"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="1Kgs"/>
+         <div-ref src="lxx" ref="3Kgdms"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="2Kgs"/>
+         <div-ref src="lxx" ref="4Kgdms"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ezra"/>
+         <div-ref src="lxx" ref="1Esd"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Neh"/>
+         <div-ref src="lxx" ref="2Esd"/>
+      </realign>
+            <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 3 1-8"/>
+         <div-ref src="bhs lxx" ref="Ps 3 2-9"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 4 1-8"/>
+         <div-ref src="bhs lxx" ref="Ps 4 2-9"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 5 1-12"/>
+         <div-ref src="bhs lxx" ref="Ps 5 2-13"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 6 1-10"/>
+         <div-ref src="bhs lxx" ref="Ps 6 2-11"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 7 1-17"/>
+         <div-ref src="bhs lxx" ref="Ps 7 2-18"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 8 1-9"/>
+         <div-ref src="bhs lxx" ref="Ps 8 2-10"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 9 1-20"/>
+         <div-ref src="bhs lxx" ref="Ps 9 2-21"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="bhs" ref="Ps 10 1-18"/>
+         <div-ref src="lxx" ref="Ps 9 22-39"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 12 1-8"/>
+         <div-ref src="bhs" ref="Ps 12 2-9"/>
+         <div-ref src="lxx" ref="Ps 11 2-9"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 18 1-50"/>
+         <div-ref src="bhs" ref="Ps 18 2-51"/>
+         <div-ref src="lxx" ref="Ps 17 2-51"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 19 1-14"/>
+         <div-ref src="bhs" ref="Ps 19 2-15"/>
+         <div-ref src="lxx" ref="Ps 18 2-15"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 20 1-9"/>
+         <div-ref src="bhs" ref="Ps 20 2-10"/>
+         <div-ref src="lxx" ref="Ps 19 2-10"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 21 1-13"/>
+         <div-ref src="bhs" ref="Ps 21 2-14"/>
+         <div-ref src="lxx" ref="Ps 20 2-14"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 22 1-31"/>
+         <div-ref src="bhs" ref="Ps 22 2-32"/>
+         <div-ref src="lxx" ref="Ps 21 2-32"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 30 1-12"/>
+         <div-ref src="bhs" ref="Ps 30 2-13"/>
+         <div-ref src="lxx" ref="Ps 29 2-13"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 31 1-24"/>
+         <div-ref src="bhs" ref="Ps 31 2-25"/>
+         <div-ref src="lxx" ref="Ps 30 2-25"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 34 1-22"/>
+         <div-ref src="bhs" ref="ps 34 2-23"/>
+         <div-ref src="lxx" ref="Ps 33 2-23"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 36 1-12"/>
+         <div-ref src="bhs" ref="ps 36 2-13"/>
+         <div-ref src="lxx" ref="Ps 35 2-13"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 38 1-22"/>
+         <div-ref src="bhs" ref="ps 38 2-23"/>
+         <div-ref src="lxx" ref="Ps 37 2-23"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 39 1-13"/>
+         <div-ref src="bhs" ref="ps 39 2-14"/>
+         <div-ref src="lxx" ref="Ps 38 2-14"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 40 1-17"/>
+         <div-ref src="bhs" ref="ps 40 2-18"/>
+         <div-ref src="lxx" ref="Ps 39 2-18"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 41 1-13"/>
+         <div-ref src="bhs" ref="ps 41 2-14"/>
+         <div-ref src="lxx" ref="Ps 40 2-14"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 42 1-11"/>
+         <div-ref src="bhs" ref="ps 42 2-12"/>
+         <div-ref src="lxx" ref="Ps 41 2-12"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 44 1-26"/>
+         <div-ref src="bhs" ref="ps 44 2-27"/>
+         <div-ref src="lxx" ref="Ps 43 2-27"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 45 1-17"/>
+         <div-ref src="bhs" ref="ps 45 2-18"/>
+         <div-ref src="lxx" ref="Ps 44 2-18"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 46 1-11"/>
+         <div-ref src="bhs" ref="ps 46 2-12"/>
+         <div-ref src="lxx" ref="Ps 45 2-12"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 47 1-9"/>
+         <div-ref src="bhs" ref="ps 47 2-10"/>
+         <div-ref src="lxx" ref="Ps 46 2-10"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 48 1-14"/>
+         <div-ref src="bhs" ref="ps 48 2-15"/>
+         <div-ref src="lxx" ref="Ps 47 2-15"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 49 1-20"/>
+         <div-ref src="bhs" ref="ps 49 2-21"/>
+         <div-ref src="lxx" ref="Ps 48 2-21"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 51 1-19"/>
+         <div-ref src="bhs" ref="ps 51 3-21"/>
+         <div-ref src="lxx" ref="Ps 50 3-21"/>
+      </realign>
+      <realign>
+         <div-ref src="bhs" ref="ps 51 1-2"/>
+         <div-ref src="lxx" ref="Ps 50 1-2"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 52 1-9"/>
+         <div-ref src="bhs" ref="ps 52 3-11"/>
+         <div-ref src="lxx" ref="Ps 51 3-11"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 53 1-6"/>
+         <div-ref src="bhs" ref="ps 53 2-7"/>
+         <div-ref src="lxx" ref="Ps 52 2-7"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 54 1-7"/>
+         <div-ref src="bhs" ref="ps 54 3-9"/>
+         <div-ref src="lxx" ref="Ps 53 3-9"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 55 1-23"/>
+         <div-ref src="bhs" ref="ps 55 2-24"/>
+         <div-ref src="lxx" ref="Ps 54 2-24"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 56 1-13"/>
+         <div-ref src="bhs" ref="ps 56 2-14"/>
+         <div-ref src="lxx" ref="Ps 55 2-14"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 57 1-11"/>
+         <div-ref src="bhs" ref="ps 57 2-12"/>
+         <div-ref src="lxx" ref="Ps 56 2-12"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 58 1-11"/>
+         <div-ref src="bhs" ref="ps 58 2-12"/>
+         <div-ref src="lxx" ref="Ps 57 2-12"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 59 1-17"/>
+         <div-ref src="bhs" ref="ps 59 2-18"/>
+         <div-ref src="lxx" ref="Ps 58 2-18"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 60 1-12"/>
+         <div-ref src="bhs" ref="ps 60 3-14"/>
+         <div-ref src="lxx" ref="Ps 59 3-14"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 61 1-8"/>
+         <div-ref src="bhs" ref="ps 61 2-9"/>
+         <div-ref src="lxx" ref="Ps 60 2-9"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 62 1-12"/>
+         <div-ref src="bhs" ref="ps 62 2-13"/>
+         <div-ref src="lxx" ref="Ps 61 2-13"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 63 1-11"/>
+         <div-ref src="bhs" ref="ps 63 2-12"/>
+         <div-ref src="lxx" ref="Ps 62 2-12"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 64 1-10"/>
+         <div-ref src="bhs" ref="ps 64 2-11"/>
+         <div-ref src="lxx" ref="Ps 63 2-11"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 65 1-13"/>
+         <div-ref src="bhs" ref="ps 65 2-14"/>
+         <div-ref src="lxx" ref="Ps 64 2-14"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 67 1-7"/>
+         <div-ref src="bhs" ref="ps 67 2-8"/>
+         <div-ref src="lxx" ref="Ps 66 2-8"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 68 1-35"/>
+         <div-ref src="bhs" ref="ps 68 2-36"/>
+         <div-ref src="lxx" ref="Ps 67 2-36"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 69 1-36"/>
+         <div-ref src="bhs" ref="ps 69 2-37"/>
+         <div-ref src="lxx" ref="Ps 68 2-37"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 70 1-5"/>
+         <div-ref src="bhs" ref="ps 70 2-6"/>
+         <div-ref src="lxx" ref="Ps 69 2-6"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 75 1-10"/>
+         <div-ref src="bhs" ref="ps 75 2-11"/>
+         <div-ref src="lxx" ref="Ps 74 2-11"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 76 1-12"/>
+         <div-ref src="bhs" ref="ps 76 2-13"/>
+         <div-ref src="lxx" ref="Ps 75 2-13"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 77 1-20"/>
+         <div-ref src="bhs" ref="ps 77 2-21"/>
+         <div-ref src="lxx" ref="Ps 76 2-21"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 80 1-19"/>
+         <div-ref src="bhs" ref="ps 80 2-20"/>
+         <div-ref src="lxx" ref="Ps 79 2-20"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 81 1-16"/>
+         <div-ref src="bhs" ref="ps 81 2-17"/>
+         <div-ref src="lxx" ref="Ps 80 2-17"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 83 1-18"/>
+         <div-ref src="bhs" ref="ps 83 2-19"/>
+         <div-ref src="lxx" ref="Ps 82 2-19"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 84 1-12"/>
+         <div-ref src="bhs" ref="ps 84 2-13"/>
+         <div-ref src="lxx" ref="Ps 83 2-13"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 85 1-13"/>
+         <div-ref src="bhs" ref="ps 85 2-14"/>
+         <div-ref src="lxx" ref="Ps 84 2-14"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 88 1-18"/>
+         <div-ref src="bhs" ref="ps 88 2-19"/>
+         <div-ref src="lxx" ref="Ps 87 2-19"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 89 1-52"/>
+         <div-ref src="bhs" ref="ps 89 2-53"/>
+         <div-ref src="lxx" ref="Ps 88 2-53"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 92 1-15"/>
+         <div-ref src="bhs" ref="ps 92 2-16"/>
+         <div-ref src="lxx" ref="Ps 91 2-16"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 102 1-28"/>
+         <div-ref src="bhs" ref="ps 102 2-29"/>
+         <div-ref src="lxx" ref="Ps 101 2-29"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 108 1-13"/>
+         <div-ref src="bhs" ref="ps 108 2-14"/>
+         <div-ref src="lxx" ref="Ps 107 2-14"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 140 1-13"/>
+         <div-ref src="bhs" ref="ps 140 2-14"/>
+         <div-ref src="lxx" ref="Ps 139 2-14"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="ps 142 1-7"/>
+         <div-ref src="bhs" ref="ps 142 2-8"/>
+         <div-ref src="lxx" ref="Ps 141 2-8"/>
+      </realign>
+      
+      
+      <realign>
+         <anchor-div-ref src="bhs" ref="Ps 11-113"/>
+         <div-ref src="lxx" ref="Ps 10-112"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 114 1 - 115 18"/>
+         <div-ref src="lxx" ref="Ps 113 1-26"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 116 1 - 13"/>
+         <div-ref src="lxx" ref="Ps 114 1 - 115 4"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 116 15-19"/>
+         <div-ref src="lxx" ref="Ps 115 6-10"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 117 - 147"/>
+         <div-ref src="lxx" ref="Ps 116 - 146"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 147 12-20"/>
+         <div-ref src="lxx" ref="Ps 147 1-9"/>
+      </realign>
+
+      <!--<realign>
+         <anchor-div-ref src="bhs" ref="Ps 3 2-9"/>
+         <div-ref src="ot-kjv" ref="Ps 3 1-8"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="bhs" ref="Ps 9 2-21"/>
+         <div-ref src="ot-kjv" ref="Ps 9 1-20"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="bhs" ref="Ps 10 1-18"/>
+         <div-ref src="lxx" ref="Ps 9 22-39"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 11-113"/>
+         <div-ref src="lxx" ref="Ps 10-112"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 114 1 - 115 18"/>
+         <div-ref src="lxx" ref="Ps 113 1-26"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 116 1 - 13"/>
+         <div-ref src="lxx" ref="Ps 114 1 - 115 4"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 116 15-19"/>
+         <div-ref src="lxx" ref="Ps 115 6-10"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 117 - Ps 146"/>
+         <div-ref src="lxx" ref="Ps 116 - Ps 145"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Ps 147 1-20"/>
+         <div-ref src="lxx" ref="Ps 146 1-9"/>
+      </realign>-->
+      <!-- The next items are cases where the bho and lxx are numbered identically, so the kjv is brought into conformity with them -->
+      <realign>
+         <anchor-div-ref src="lxx" ref="Mal 3 19-24"/>
+         <div-ref src="ot-kjv" ref="Mal 4 1-6"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="lxx" ref="Joel 3 1-5"/>
+         <div-ref src="ot-kjv" ref="Joel 2 28-32"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="lxx" ref="Joel 4 1-21"/>
+         <div-ref src="ot-kjv" ref="Joel 3 1-21"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="lxx" ref="Hos 2 1-25"/>
+         <div-ref src="ot-kjv" ref="Hos 1 10 - 2 23"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 49 34-39"/>
+         <div-ref src="lxx" ref="Jer 25 14-19"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 49 34"/>
+         <div-ref src="lxx" ref="Jer 25 20"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 46"/>
+         <div-ref src="lxx" ref="Jer 26"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 50-51"/>
+         <div-ref src="lxx" ref="Jer 27-28"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 47"/>
+         <div-ref src="lxx" ref="Jer 29"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 49 7-22"/>
+         <div-ref src="lxx" ref="Jer 30 1-16"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 49 1-5"/>
+         <div-ref src="lxx" ref="Jer 30 17-21"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 49 28-33"/>
+         <div-ref src="lxx" ref="Jer 30 23-28"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 49 23-27"/>
+         <div-ref src="lxx" ref="Jer 30 29-33"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 48 1-44"/>
+         <div-ref src="lxx" ref="Jer 31 1-44"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 25-43"/>
+         <div-ref src="lxx" ref="Jer 32-50"/>
+      </realign>
+      <realign>
+         <anchor-div-ref src="ot-kjv" ref="Jer 44 1 - 45 5"/>
+         <div-ref src="lxx" ref="Jer 51 1-35"/>
+      </realign>
+   </body>
 </TAN-A-div>

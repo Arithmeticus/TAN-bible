@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Hebraicum_v01">
+<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Hebraicum_v01">
     <head>
         <name>The Latin translation of the Psalter by Jerome, based on the Hebrew</name>
         <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/psalms.lat.jerome-from-heb.xml"/>
@@ -203,7 +203,7 @@ aquarum</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
-<div type="psalm" n="IIII">
+<div type="psalm" n="IV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">VICTORI IN PSALMIS CANTICUM DAVID</div>
 </div>
@@ -769,7 +769,7 @@ septuplum</div>
 <div type="line" n="c">exultabit Iacob et laetabitur Israhel.</div>
 </div>
 </div>
-<div type="psalm" n="XIIII">
+<div type="psalm" n="XIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">CANTICUM DAVID</div>
 <div type="line" n="a">Domine quis peregrinabitur in tentorio tuo</div>
@@ -1513,7 +1513,7 @@ diebus vitae meae</div>
 <div type="line" n="c">.</div>
 </div>
 </div>
-<div type="psalm" n="XXIIII">
+<div type="psalm" n="XXIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Ad te Domine animam meam levabo</div>
@@ -2217,7 +2217,7 @@ eos</div>
 <div type="line" n="b">et non peccabunt omnes sperantes in eo.</div>
 </div>
 </div>
-<div type="psalm" n="XXXIIII">
+<div type="psalm" n="XXXIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">DAVID</div>
 <div type="line" n="a">Iudica Domine adversarios meos</div>
@@ -3081,7 +3081,7 @@ nostras ad deum alienum</div>
 <div type="line" n="b">et redime nos propter misericordiam tuam.</div>
 </div>
 </div>
-<div type="psalm" n="XLIIII">
+<div type="psalm" n="XLIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">VICTORI PRO LILIIS FILIORUM CORE ERUDITIONIS CANTICUM
 AMANTISSIMI</div>
@@ -3708,7 +3708,7 @@ ABSCONDITUS EST APUD NOS</div>
 <div type="line" n="b">et inimicos meos dispexit oculus meus.</div>
 </div>
 </div>
-<div type="psalm" n="LIIII">
+<div type="psalm" n="LIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">VICTORI IN PSALMIS ERUDITI DAVID</div>
 </div>
@@ -4297,7 +4297,7 @@ gloriam tuam</div>
 <div type="line" n="b">et exultabunt omnes recti corde.</div>
 </div>
 </div>
-<div type="psalm" n="LXIIII">
+<div type="psalm" n="LXIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">VICTORI CARMEN DAVID CANTICI</div>
 </div>
@@ -5206,7 +5206,7 @@ habitationes iniquae subrutae</div>
 <div type="line" n="b">sonitus adversariorum tuorum ascendit iugiter.</div>
 </div>
 </div>
-<div type="psalm" n="LXXIIII">
+<div type="psalm" n="LXXIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">VICTORI UT NON DISPERDAS PSALMUS ASAPH CANTICI</div>
 </div>
@@ -6073,7 +6073,7 @@ Sion</div>
 <div type="line" n="b">Domine exercituum beatus homo qui confidet in te.</div>
 </div>
 </div>
-<div type="psalm" n="LXXXIIII">
+<div type="psalm" n="LXXXIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">VICTORI FILIORUM CORE CANTICUM</div>
 </div>
@@ -6850,7 +6850,7 @@ in praecepto</div>
 <div type="line" n="c">perdet eos Dominus Deus noster.</div>
 </div>
 </div>
-<div type="psalm" n="XCIIII">
+<div type="psalm" n="XCIV">
 <div type="verse" n="1">
 <div type="line" n="a">Venite laudemus Dominum iubilemus petrae Iesu nostro</div>
 </div>
@@ -7494,7 +7494,7 @@ eis</div>
 <div type="line" n="b">benedic anima mea Domino.</div>
 </div>
 </div>
-<div type="psalm" n="CIIII">
+<div type="psalm" n="CIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Confitemini Domino invocate nomen eius</div>
@@ -8539,7 +8539,7 @@ hominum</div>
 <div type="line" n="b">.</div>
 </div>
 </div>
-<div type="psalm" n="CXIIII">
+<div type="psalm" n="CXIV">
 <div type="verse" n="1">
 <div type="line" n="a">Dilexi quoniam audies Domine vocem deprecationis meae</div>
 </div>
@@ -9548,7 +9548,7 @@ eorum</div>
 terram.</div>
 </div>
 </div>
-<div type="psalm" n="CXXIIII">
+<div type="psalm" n="CXXIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">CANTICUM GRADUUM</div>
 <div type="line" n="a">Qui confidunt in Domino quasi mons Sion inmobilis in aeternum
@@ -9831,7 +9831,7 @@ Domino</div>
 <div type="line" n="a">benedicat tibi Dominus ex Sion factor caeli et terrae.</div>
 </div>
 </div>
-<div type="psalm" n="CXXXIIII">
+<div type="psalm" n="CXXXIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~b">ALLELUIA</div>
 <div type="line" n="a">Laudate nomen Domini laudate servi Dominum</div>
@@ -10474,7 +10474,7 @@ nostris</div>
 <div type="line" n="b">beatus populus cuius Dominus Deus suus.</div>
 </div>
 </div>
-<div type="psalm" n="CXLIIII">
+<div type="psalm" n="CXLIV">
 <div type="verse" n="1">
 <div type="rubric" n="rub~a">HYMNUS DAVID</div>
 <div type="rubric" n="rub~b">ALEPH</div>

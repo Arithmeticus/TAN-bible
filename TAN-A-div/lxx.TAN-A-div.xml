@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki@gmail.com,2014:lxx.TAN-A-div">
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki@gmail.com,2014:lxx.TAN-A-div">
    <head>
       <name>Div-based alignment of multiple versions of the Septuagint</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/lxx.TAN-A-div.xml"/>
+      <!--<master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/lxx.TAN-A-div.xml"/>-->
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
@@ -31,18 +31,5 @@
       <role include="HEAD"/>
       <change when="2015-10-15" who="kalvesmaki">Started file</change>
    </head>
-    <body>
-       <!--<align>
-          <div-ref src="lxx" ref="πετειν"/>
-       </align>-->
-       <!--<realign>
-          <anchor-div-ref src="lxx" ref="Mic 4 14 - Mic 5 14"/>
-          <div-ref src="brenton" ref="Mic 5 1 - Mic 5 15"/>
-       </realign>-->
-       <align>
-          <div-ref src="lxx" ref="Mic 4"/>
-          <!--<div-ref src="lxx" ref="grabby 27"/>-->
-          <div-ref src="brenton" ref="Gen"/>
-       </align>
-    </body>
+   <body/>
 </TAN-A-div>
