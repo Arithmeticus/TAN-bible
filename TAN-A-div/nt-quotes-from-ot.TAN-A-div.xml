@@ -57,6 +57,7 @@
          </rename-div-ns>
          <token-definition src="nt-kjv nt-grc" which="general-words-only-1"/>
          <token-definition include="tanakh lxx-al"/>
+         <verb xml:id="quotes" which="quotes"/>
       </declarations>
       <agent xml:id="kalvesmaki" roles="editor">
          <IRI>http://viaf.org/viaf/299582703</IRI>
@@ -70,243 +71,243 @@
       </role>
       <change when="2015-10-15" who="kalvesmaki">Started file</change>
    </head>
-   <body>
+   <body verb="quotes" claimant="kalvesmaki">
       <equate-works work="bhs ot-kjv"/>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 1 23"/>
-         <div-ref work="lxx" ref="Isa 7 14"/>
-         <div-ref work="bhs" ref="Isa 7 14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 2:6"/>
-         <div-ref work="lxx" ref="Mic 5:1"/>
-         <div-ref work="bhs" ref="Mic 5:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 2:15"/>
-         <div-ref work="lxx" ref="Hos 11:1"/>
-         <div-ref work="bhs" ref="Hos 11:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 2:18"/>
-         <div-ref work="lxx" ref="Jer 38:15"/>
-         <div-ref work="bhs" ref="Jer 31:15"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 3:3"/>
-         <div-ref work="nt-grc" ref="Mk 1:3"/>
-         <div-ref work="nt-grc" ref="Lu 3:4 - Lu 3:6"/>
-         <div-ref work="nt-grc" ref="Jn 1:23"/>
-         <div-ref work="lxx" ref="Isa 40:3 - Isa 40:5"/>
-         <div-ref work="bhs" ref="Isa 40:3 - Isa 40:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 4:4"/>
-         <div-ref work="nt-grc" ref="Lu 4:4"/>
-         <div-ref work="lxx" ref="Deut 8:3"/>
-         <div-ref work="bhs" ref="Deut 8:3"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 4:6"/>
-         <div-ref work="nt-grc" ref="Lu 4:10 - Lu 4:11"/>
-         <div-ref work="lxx" ref="Ps 90:11 - Ps 90:12"/>
-         <div-ref work="bhs" ref="Ps 91:11 - Ps 91:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 4:7"/>
-         <div-ref work="nt-grc" ref="Mt 4:12"/>
-         <div-ref work="lxx" ref="Deut 6:16"/>
-         <div-ref work="bhs" ref="Deut 6:16"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 4:10"/>
-         <div-ref work="nt-grc" ref="Lu 4:8"/>
-         <div-ref work="lxx" ref="Deut 6:13"/>
-         <div-ref work="lxx" ref="Deut 10:20"/>
-         <div-ref work="bhs" ref="Deut 6:13"/>
-         <div-ref work="bhs" ref="Deut 10:20"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 4:15 - Mt 4:16"/>
-         <div-ref work="lxx" ref="Isa 9:1 - Isa 9:2"/>
-         <div-ref work="bhs" ref="Isa 9:1 - Isa 9:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 8:17"/>
-         <div-ref work="lxx" ref="Isa 53:4"/>
-         <div-ref work="bhs" ref="Isa 53:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 9:13"/>
-         <div-ref work="lxx" ref="Hos 6:7"/>
-         <div-ref work="bhs" ref="Hos 6:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 10:35 - Mt 10:36"/>
-         <div-ref work="lxx" ref="Mic 7:6"/>
-         <div-ref work="bhs" ref="Mic 7:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 11:10"/>
-         <div-ref work="nt-grc" ref="Mk 1:2"/>
-         <div-ref work="nt-grc" ref="Lu 7:27"/>
-         <div-ref work="lxx" ref="Mal 3:1"/>
-         <div-ref work="bhs" ref="Mal 3:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 12:18 - Mt 12:21"/>
-         <div-ref work="lxx" ref="Isa 42:1 - Isa 42:4"/>
-         <div-ref work="bhs" ref="Isa 42:1 - Isa 42:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 13:14 - Mt 13:15"/>
-         <div-ref work="nt-grc" ref="Mk 4:12"/>
-         <div-ref work="nt-grc" ref="Lu 8:10"/>
-         <div-ref work="nt-grc" ref="Jn 12:40"/>
-         <div-ref work="nt-grc" ref="Ac 28:26 - Ac 28:27"/>
-         <div-ref work="lxx" ref="Isa 6:9 - Isa 6:10"/>
-         <div-ref work="bhs" ref="Isa 6:9 - Isa 6:10"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 13:35"/>
-         <div-ref work="lxx" ref="Ps 77:2"/>
-         <div-ref work="bhs" ref="Ps 78:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 15:4"/>
-         <div-ref work="nt-grc" ref="Mk 7:10"/>
-         <div-ref work="nt-grc" ref="Eph 6:2 - Eph 6:3"/>
-         <div-ref work="lxx" ref="Exod 20:12"/>
-         <div-ref work="lxx" ref="Deut 5:16"/>
-         <div-ref work="bhs" ref="Exod 20:12"/>
-         <div-ref work="bhs" ref="Deut 5:16"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 15:4"/>
-         <div-ref work="nt-grc" ref="Mk 7:10"/>
-         <div-ref work="lxx" ref="Exod 21:16"/>
-         <div-ref work="bhs" ref="Exod 21:17"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 15:8 - Mt 15:9"/>
-         <div-ref work="nt-grc" ref="Mk 7:6 - Mk 7:7"/>
-         <div-ref work="lxx" ref="Isa 29:13"/>
-         <div-ref work="bhs" ref="Isa 29:13"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 18:16"/>
-         <div-ref work="nt-grc" ref="2Co 13:1"/>
-         <div-ref work="lxx" ref="Deut 19:15"/>
-         <div-ref work="bhs" ref="Deut 19:15"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 19:5"/>
-         <div-ref work="nt-grc" ref="Mk 10:7 - Mk 10:8"/>
-         <div-ref work="nt-grc" ref="1Co 6:16"/>
-         <div-ref work="nt-grc" ref="Eph 5:31"/>
-         <div-ref work="lxx" ref="Gen 2:24"/>
-         <div-ref work="bhs" ref="Gen 2:24"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 21:5"/>
-         <div-ref work="nt-grc" ref="Jn 12:15"/>
-         <div-ref work="lxx" ref="Zech 9:9"/>
-         <div-ref work="bhs" ref="Zech 9:9"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 21:9"/>
-         <div-ref work="nt-grc" ref="Lu 13:35"/>
-         <div-ref work="nt-grc" ref="Lu 19:38"/>
-         <div-ref work="nt-grc" ref="Jn 12:13"/>
-         <div-ref work="lxx" ref="Ps 117:26"/>
-         <div-ref work="bhs" ref="Ps 118:26"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 21:13"/>
-         <div-ref work="nt-grc" ref="Mk 11:17"/>
-         <div-ref work="lxx" ref="Isa 56:7"/>
-         <div-ref work="lxx" ref="Jer 7:11"/>
-         <div-ref work="bhs" ref="Isa 56:7"/>
-         <div-ref work="bhs" ref="Jer 7:11"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 21:16"/>
-         <div-ref work="lxx" ref="Ps 8:2"/>
-         <div-ref work="bhs" ref="Ps 8:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 21:42"/>
-         <div-ref work="nt-grc" ref="Mk 12:10 - Mk 12:11"/>
-         <div-ref work="nt-grc" ref="Lu 20:17"/>
-         <div-ref work="nt-grc" ref="Ac 4:11"/>
-         <div-ref work="nt-grc" ref="1Pe 2:7"/>
-         <div-ref work="lxx" ref="Ps 117:22 - Ps 117:23"/>
-         <div-ref work="bhs" ref="Ps 118:22 - Ps 118:23"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 22:24"/>
-         <div-ref work="lxx" ref="Deut 25:5"/>
-         <div-ref work="bhs" ref="Deut 25:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 22:32"/>
-         <div-ref work="nt-grc" ref="Mk 12:26"/>
-         <div-ref work="nt-grc" ref="Ac 7:32"/>
-         <div-ref work="lxx" ref="Exod 3:6"/>
-         <div-ref work="bhs" ref="Exod 3:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 22:37"/>
-         <div-ref work="nt-grc" ref="Mk 12:30"/>
-         <div-ref work="nt-grc" ref="Lu 10:27"/>
-         <div-ref work="lxx" ref="Deut 6:5"/>
-         <div-ref work="lxx" ref="Deut 10:12"/>
-         <div-ref work="lxx" ref="Deut 30:6"/>
-         <div-ref work="bhs" ref="Deut 6:5"/>
-         <div-ref work="bhs" ref="Deut 10:12"/>
-         <div-ref work="bhs" ref="Deut 30:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 22:39"/>
-         <div-ref work="nt-grc" ref="Mk 12:31"/>
-         <div-ref work="nt-grc" ref="Ro 13:9"/>
-         <div-ref work="nt-grc" ref="Gal 5:14"/>
-         <div-ref work="nt-grc" ref="Jam 2:8"/>
-         <div-ref work="lxx" ref="Lev 19:18"/>
-         <div-ref work="bhs" ref="Lev 19:18"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 22:44"/>
-         <div-ref work="nt-grc" ref="Mk 12:36"/>
-         <div-ref work="nt-grc" ref="Lu 20:42 - Lu 20:43"/>
-         <div-ref work="nt-grc" ref="Ac 2:34 - Ac 2:35"/>
-         <div-ref work="nt-grc" ref="Heb 1:13"/>
-         <div-ref work="lxx" ref="Ps 109:1"/>
-         <div-ref work="bhs" ref="Ps 110:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 26:31"/>
-         <div-ref work="nt-grc" ref="Mk 14:27"/>
-         <div-ref work="lxx" ref="Zech 13:7"/>
-         <div-ref work="bhs" ref="Zech 13:7"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 27:9"/>
-         <div-ref work="lxx" ref="Zech 11:12"/>
-         <div-ref work="bhs" ref="Zech 11:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 27:35"/>
-         <div-ref work="nt-grc" ref="Jn 19:24"/>
-         <div-ref work="lxx" ref="Ps 21:18"/>
-         <div-ref work="bhs" ref="Ps 22:18"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mt 27:46"/>
-         <div-ref work="nt-grc" ref="Mk 15:34"/>
-         <div-ref work="lxx" ref="Ps 21:1"/>
-         <div-ref work="bhs" ref="Ps 22:1"/>
-      </align>
+      <claim>
+         <subject work="nt-grc" ref="Mt 1 23"/>
+         <object work="lxx" ref="Isa 7 14"/>
+         <object work="bhs" ref="Isa 7 14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 2:6"/>
+         <object work="lxx" ref="Mic 5:1"/>
+         <object work="bhs" ref="Mic 5:2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 2:15"/>
+         <object work="lxx" ref="Hos 11:1"/>
+         <object work="bhs" ref="Hos 11:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 2:18"/>
+         <object work="lxx" ref="Jer 38:15"/>
+         <object work="bhs" ref="Jer 31:15"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 3:3"/>
+         <subject work="nt-grc" ref="Mk 1:3"/>
+         <subject work="nt-grc" ref="Lu 3:4-6"/>
+         <subject work="nt-grc" ref="Jn 1:23"/>
+         <object work="lxx" ref="Isa 40:3-5"/>
+         <object work="bhs" ref="Isa 40:3-5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 4:4"/>
+         <subject work="nt-grc" ref="Lu 4:4"/>
+         <object work="lxx" ref="Deut 8:3"/>
+         <object work="bhs" ref="Deut 8:3"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 4:6"/>
+         <subject work="nt-grc" ref="Lu 4:10-11"/>
+         <object work="lxx" ref="Ps 90:11-12"/>
+         <object work="bhs" ref="Ps 91:11-12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 4:7"/>
+         <subject work="nt-grc" ref="Mt 4:12"/>
+         <object work="lxx" ref="Deut 6:16"/>
+         <object work="bhs" ref="Deut 6:16"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 4:10"/>
+         <subject work="nt-grc" ref="Lu 4:8"/>
+         <object work="lxx" ref="Deut 6:13"/>
+         <object work="lxx" ref="Deut 10:20"/>
+         <object work="bhs" ref="Deut 6:13"/>
+         <object work="bhs" ref="Deut 10:20"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 4:15-16"/>
+         <object work="lxx" ref="Isa 9:1-2"/>
+         <object work="bhs" ref="Isa 9:1-2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 8:17"/>
+         <object work="lxx" ref="Isa 53:4"/>
+         <object work="bhs" ref="Isa 53:4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 9:13"/>
+         <object work="lxx" ref="Hos 6:7"/>
+         <object work="bhs" ref="Hos 6:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 10:35-36"/>
+         <object work="lxx" ref="Mic 7:6"/>
+         <object work="bhs" ref="Mic 7:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 11:10"/>
+         <subject work="nt-grc" ref="Mk 1:2"/>
+         <subject work="nt-grc" ref="Lu 7:27"/>
+         <object work="lxx" ref="Mal 3:1"/>
+         <object work="bhs" ref="Mal 3:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 12:18-21"/>
+         <object work="lxx" ref="Isa 42:1-4"/>
+         <object work="bhs" ref="Isa 42:1-4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 13:14-15"/>
+         <subject work="nt-grc" ref="Mk 4:12"/>
+         <subject work="nt-grc" ref="Lu 8:10"/>
+         <subject work="nt-grc" ref="Jn 12:40"/>
+         <subject work="nt-grc" ref="Ac 28:26-27"/>
+         <object work="lxx" ref="Isa 6:9-10"/>
+         <object work="bhs" ref="Isa 6:9-10"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 13:35"/>
+         <object work="lxx" ref="Ps 77:2"/>
+         <object work="bhs" ref="Ps 78:2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 15:4"/>
+         <subject work="nt-grc" ref="Mk 7:10"/>
+         <subject work="nt-grc" ref="Eph 6:2-3"/>
+         <object work="lxx" ref="Exod 20:12"/>
+         <object work="lxx" ref="Deut 5:16"/>
+         <object work="bhs" ref="Exod 20:12"/>
+         <object work="bhs" ref="Deut 5:16"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 15:4"/>
+         <subject work="nt-grc" ref="Mk 7:10"/>
+         <object work="lxx" ref="Exod 21:16"/>
+         <object work="bhs" ref="Exod 21:17"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 15:8-9"/>
+         <subject work="nt-grc" ref="Mk 7:6-7"/>
+         <object work="lxx" ref="Isa 29:13"/>
+         <object work="bhs" ref="Isa 29:13"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 18:16"/>
+         <subject work="nt-grc" ref="2Co 13:1"/>
+         <object work="lxx" ref="Deut 19:15"/>
+         <object work="bhs" ref="Deut 19:15"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 19:5"/>
+         <subject work="nt-grc" ref="Mk 10:7-8"/>
+         <subject work="nt-grc" ref="1Co 6:16"/>
+         <subject work="nt-grc" ref="Eph 5:31"/>
+         <object work="lxx" ref="Gen 2:24"/>
+         <object work="bhs" ref="Gen 2:24"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 21:5"/>
+         <subject work="nt-grc" ref="Jn 12:15"/>
+         <object work="lxx" ref="Zech 9:9"/>
+         <object work="bhs" ref="Zech 9:9"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 21:9"/>
+         <subject work="nt-grc" ref="Lu 13:35"/>
+         <subject work="nt-grc" ref="Lu 19:38"/>
+         <subject work="nt-grc" ref="Jn 12:13"/>
+         <object work="lxx" ref="Ps 117:26"/>
+         <object work="bhs" ref="Ps 118:26"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 21:13"/>
+         <subject work="nt-grc" ref="Mk 11:17"/>
+         <object work="lxx" ref="Isa 56:7"/>
+         <object work="lxx" ref="Jer 7:11"/>
+         <object work="bhs" ref="Isa 56:7"/>
+         <object work="bhs" ref="Jer 7:11"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 21:16"/>
+         <object work="lxx" ref="Ps 8:2"/>
+         <object work="bhs" ref="Ps 8:2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 21:42"/>
+         <subject work="nt-grc" ref="Mk 12:10-11"/>
+         <subject work="nt-grc" ref="Lu 20:17"/>
+         <subject work="nt-grc" ref="Ac 4:11"/>
+         <subject work="nt-grc" ref="1Pe 2:7"/>
+         <object work="lxx" ref="Ps 117:22-23"/>
+         <object work="bhs" ref="Ps 118:22-23"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 22:24"/>
+         <object work="lxx" ref="Deut 25:5"/>
+         <object work="bhs" ref="Deut 25:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 22:32"/>
+         <subject work="nt-grc" ref="Mk 12:26"/>
+         <subject work="nt-grc" ref="Ac 7:32"/>
+         <object work="lxx" ref="Exod 3:6"/>
+         <object work="bhs" ref="Exod 3:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 22:37"/>
+         <subject work="nt-grc" ref="Mk 12:30"/>
+         <subject work="nt-grc" ref="Lu 10:27"/>
+         <object work="lxx" ref="Deut 6:5"/>
+         <object work="lxx" ref="Deut 10:12"/>
+         <object work="lxx" ref="Deut 30:6"/>
+         <object work="bhs" ref="Deut 6:5"/>
+         <object work="bhs" ref="Deut 10:12"/>
+         <object work="bhs" ref="Deut 30:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 22:39"/>
+         <subject work="nt-grc" ref="Mk 12:31"/>
+         <subject work="nt-grc" ref="Ro 13:9"/>
+         <subject work="nt-grc" ref="Gal 5:14"/>
+         <subject work="nt-grc" ref="Jam 2:8"/>
+         <object work="lxx" ref="Lev 19:18"/>
+         <object work="bhs" ref="Lev 19:18"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 22:44"/>
+         <subject work="nt-grc" ref="Mk 12:36"/>
+         <subject work="nt-grc" ref="Lu 20:42-43"/>
+         <subject work="nt-grc" ref="Ac 2:34-35"/>
+         <subject work="nt-grc" ref="Heb 1:13"/>
+         <object work="lxx" ref="Ps 109:1"/>
+         <object work="bhs" ref="Ps 110:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 26:31"/>
+         <subject work="nt-grc" ref="Mk 14:27"/>
+         <object work="lxx" ref="Zech 13:7"/>
+         <object work="bhs" ref="Zech 13:7"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 27:9"/>
+         <object work="lxx" ref="Zech 11:12"/>
+         <object work="bhs" ref="Zech 11:12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 27:35"/>
+         <subject work="nt-grc" ref="Jn 19:24"/>
+         <object work="lxx" ref="Ps 21:18"/>
+         <object work="bhs" ref="Ps 22:18"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mt 27:46"/>
+         <subject work="nt-grc" ref="Mk 15:34"/>
+         <object work="lxx" ref="Ps 21:1"/>
+         <object work="bhs" ref="Ps 22:1"/>
+      </claim>
       <comment when="2015-11-24" who="kalvesmaki">Mk 9:44 has been sequestered by the SBL
          edition.</comment>
       <!--<align>
@@ -314,16 +315,16 @@
          <div-ref src="lxx" ref="Isa 66:24"/>
          <div-ref src="bhs" ref="Isa 66:24"/>
       </align>-->
-      <align>
-         <div-ref work="nt-grc" ref="Mk 10:6"/>
-         <div-ref work="lxx" ref="Gen 1:27"/>
-         <div-ref work="bhs" ref="Gen 1:27"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Mk 12:29"/>
-         <div-ref work="lxx" ref="Deut 6:4"/>
-         <div-ref work="bhs" ref="Deut 6:4"/>
-      </align>
+      <claim>
+         <subject work="nt-grc" ref="Mk 10:6"/>
+         <object work="lxx" ref="Gen 1:27"/>
+         <object work="bhs" ref="Gen 1:27"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Mk 12:29"/>
+         <object work="lxx" ref="Deut 6:4"/>
+         <object work="bhs" ref="Deut 6:4"/>
+      </claim>
       <comment when="2015-11-24" who="kalvesmaki">Mk 15:28 has been sequestered by the SBL
          edition.</comment>
       <!--<align>
@@ -332,875 +333,875 @@
          <div-ref work="lxx" ref="Isa 53:12"/>
          <div-ref work="bhs" ref="Isa 53:12"/>
       </align>-->
-      <align>
-         <div-ref work="nt-grc" ref="Lu 1:17"/>
-         <div-ref work="lxx" ref="Mal 3:24"/>
-         <div-ref work="bhs" ref="Mal 3:24"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Lu 2:23"/>
-         <div-ref work="lxx" ref="Exod 13:2"/>
-         <div-ref work="bhs" ref="Exod 13:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Lu 2:24"/>
-         <div-ref work="lxx" ref="Lev 12:8"/>
-         <div-ref work="bhs" ref="Lev 12:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Lu 4:18 - Lu 4:19"/>
-         <div-ref work="lxx" ref="Isa 61:1 - Isa 61:2"/>
-         <div-ref work="bhs" ref="Isa 61:1 - Isa 61:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Lu 23:30"/>
-         <div-ref work="lxx" ref="Hos 10:8"/>
-         <div-ref work="bhs" ref="Hos 10:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Lu 23:46"/>
-         <div-ref work="lxx" ref="Ps 30:5"/>
-         <div-ref work="bhs" ref="Ps 31:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jn 2:17"/>
-         <div-ref work="nt-grc" ref="Ro 15:3"/>
-         <div-ref work="lxx" ref="Ps 68:9"/>
-         <div-ref work="bhs" ref="Ps 69:9"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jn 6:45"/>
-         <div-ref work="lxx" ref="Isa 54:13"/>
-         <div-ref work="bhs" ref="Isa 54:13"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jn 10:34"/>
-         <div-ref work="lxx" ref="Ps 81:6"/>
-         <div-ref work="bhs" ref="Ps 82:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jn 12:38"/>
-         <div-ref work="nt-grc" ref="Ro 10:16"/>
-         <div-ref work="lxx" ref="Isa 53:1"/>
-         <div-ref work="bhs" ref="Isa 53:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jn 13:18"/>
-         <div-ref work="lxx" ref="Ps 40:9"/>
-         <div-ref work="bhs" ref="Ps 41:9"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jn 15:25"/>
-         <div-ref work="lxx" ref="Ps 68:4"/>
-         <div-ref work="bhs" ref="Ps 69:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jn 19:36"/>
-         <div-ref work="lxx" ref="Ps 33:20"/>
-         <div-ref work="lxx" ref="Exod 12:46"/>
-         <div-ref work="bhs" ref="Ps 34:20"/>
-         <div-ref work="bhs" ref="Exod 12:46"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jn 19:37"/>
-         <div-ref work="lxx" ref="Zech 12:10"/>
-         <div-ref work="bhs" ref="Zech 12:10"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 1:20"/>
-         <div-ref work="lxx" ref="Ps 68:25"/>
-         <div-ref work="lxx" ref="Ps 108:8"/>
-         <div-ref work="bhs" ref="Ps 69:25"/>
-         <div-ref work="bhs" ref="Ps 109:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 2:17 - Ac 2:20"/>
-         <div-ref work="nt-grc" ref="Ro 10:13"/>
-         <div-ref work="lxx" ref="Joel 3:1 - Joel 3:5"/>
-         <div-ref work="bhs" ref="Joel 3:1 - Joel 3:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 2:25 - Ac 2:28"/>
-         <div-ref work="nt-grc" ref="Ac 13:35"/>
-         <div-ref work="lxx" ref="Ps 15:8 - Ps 15:11"/>
-         <div-ref work="bhs" ref="Ps 16:8 - Ps 16:11"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 3:22 - Ac 3:23"/>
-         <div-ref work="nt-grc" ref="Ac 7:37"/>
-         <div-ref work="lxx" ref="Deut 18:15"/>
-         <div-ref work="lxx" ref="Deut 18:18 - Deut 18:19"/>
-         <div-ref work="bhs" ref="Deut 18:15"/>
-         <div-ref work="bhs" ref="Deut 18:18 - Deut 18:19"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 3:25"/>
-         <div-ref work="nt-grc" ref="Gal 3:8"/>
-         <div-ref work="lxx" ref="Gen 22:18"/>
-         <div-ref work="lxx" ref="Gen 26:4"/>
-         <div-ref work="lxx" ref="Gen 28:14"/>
-         <div-ref work="bhs" ref="Gen 22:18"/>
-         <div-ref work="bhs" ref="Gen 26:4"/>
-         <div-ref work="bhs" ref="Gen 28:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 4:25"/>
-         <div-ref work="lxx" ref="Ps 2:1 - Ps 2:2"/>
-         <div-ref work="bhs" ref="Ps 2:1 - Ps 2:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 7:3"/>
-         <div-ref work="lxx" ref="Gen 12:1"/>
-         <div-ref work="bhs" ref="Gen 12:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 7:7"/>
-         <div-ref work="lxx" ref="Gen 15:14"/>
-         <div-ref work="lxx" ref="Exod 3:12"/>
-         <div-ref work="bhs" ref="Gen 15:14"/>
-         <div-ref work="bhs" ref="Exod 3:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 7:27 - Ac 7:28"/>
-         <div-ref work="lxx" ref="Exod 2:14"/>
-         <div-ref work="bhs" ref="Exod 2:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 7:33"/>
-         <div-ref work="lxx" ref="Exod 3:5"/>
-         <div-ref work="bhs" ref="Exod 3:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 7:34"/>
-         <div-ref work="lxx" ref="Exod 3:7 - Exod 3:8"/>
-         <div-ref work="lxx" ref="Exod 3:10"/>
-         <div-ref work="bhs" ref="Exod 3:7 - Exod 3:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 7:40"/>
-         <div-ref work="lxx" ref="Exod 32:1"/>
-         <div-ref work="lxx" ref="Exod 32:23"/>
-         <div-ref work="bhs" ref="Exod 32:1"/>
-         <div-ref work="bhs" ref="Exod 32:23"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 7:42 - Ac 7:43"/>
-         <div-ref work="lxx" ref="Amos 5:25 - Amos 5:27"/>
-         <div-ref work="bhs" ref="Amos 5:25 - Amos 5:27"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 7:49 - Ac 7:50"/>
-         <div-ref work="lxx" ref="Isa 66:1 - Isa 66:2"/>
-         <div-ref work="bhs" ref="Isa 66:1 - Isa 66:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 8:32 - Ac 8:33"/>
-         <div-ref work="lxx" ref="Isa 53:7 - Isa 53:8"/>
-         <div-ref work="bhs" ref="Isa 53:7 - Isa 53:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 13:22"/>
-         <div-ref work="lxx" ref="1Kgdms 13:14"/>
-         <div-ref work="lxx" ref="Ps 88:20"/>
-         <div-ref work="bhs" ref="1Sm 13:14"/>
-         <div-ref work="bhs" ref="Ps 89:20"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 13:33"/>
-         <div-ref work="nt-grc" ref="Heb 1:5"/>
-         <div-ref work="nt-grc" ref="Heb 5:5"/>
-         <div-ref work="lxx" ref="Ps 2:7"/>
-         <div-ref work="bhs" ref="Ps 2:7"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 13:34"/>
-         <div-ref work="lxx" ref="Isa 55:3"/>
-         <div-ref work="bhs" ref="Isa 55:3"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 13:41"/>
-         <div-ref work="lxx" ref="Hab 1:5"/>
-         <div-ref work="bhs" ref="Hab 1:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 13:47"/>
-         <div-ref work="lxx" ref="Isa 42:6"/>
-         <div-ref work="lxx" ref="Isa 49:6"/>
-         <div-ref work="bhs" ref="Isa 42:6"/>
-         <div-ref work="bhs" ref="Isa 49:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 15:16 - Ac 15:17"/>
-         <div-ref work="lxx" ref="Amos 9:11 - Amos 9:12"/>
-         <div-ref work="bhs" ref="Amos 9:11 - Amos 9:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ac 23:5"/>
-         <div-ref work="lxx" ref="Exod 22:28"/>
-         <div-ref work="bhs" ref="Exod 22:28"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 1:17"/>
-         <div-ref work="nt-grc" ref="Gal 3:11"/>
-         <div-ref work="nt-grc" ref="Heb 10:37 - Heb 10:38"/>
-         <div-ref work="lxx" ref="Hab 2:3 - Hab 2:4"/>
-         <div-ref work="bhs" ref="Hab 2:3 - Hab 2:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 2:6"/>
-         <div-ref work="lxx" ref="Ps 61:12"/>
-         <div-ref work="lxx" ref="Prov 24:12"/>
-         <div-ref work="bhs" ref="Ps 62:12"/>
-         <div-ref work="bhs" ref="Prov 24:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 2:24"/>
-         <div-ref work="lxx" ref="Isa 52:5"/>
-         <div-ref work="bhs" ref="Isa 52:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 3:4"/>
-         <div-ref work="lxx" ref="Ps 50:4"/>
-         <div-ref work="bhs" ref="Ps 51:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 3:10 - Ro 3:18"/>
-         <div-ref work="lxx" ref="Ps 13:1 - Ps 13:3"/>
-         <div-ref work="lxx" ref="Ps 5:10"/>
-         <div-ref work="lxx" ref="Ps 139:4"/>
-         <div-ref work="lxx" ref="Ps 9:28"/>
-         <div-ref work="lxx" ref="Isa 59:7 - Isa 59:8"/>
-         <div-ref work="lxx" ref="Ps 35:2"/>
-         <div-ref work="bhs" ref="Ps 14:1 - Ps 14:3"/>
-         <div-ref work="bhs" ref="Ps 53:1 - Ps 53:3"/>
-         <div-ref work="bhs" ref="Ps 5:9"/>
-         <div-ref work="bhs" ref="Ps 140:3"/>
-         <div-ref work="bhs" ref="Ps 10:7"/>
-         <div-ref work="bhs" ref="Prov 1:16"/>
-         <div-ref work="bhs" ref="Isa 59:7 - Isa 59:8"/>
-         <div-ref work="bhs" ref="Ps 36:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 4:3"/>
-         <div-ref work="nt-grc" ref="Ro 4:22"/>
-         <div-ref work="nt-grc" ref="Gal 3:6"/>
-         <div-ref work="nt-grc" ref="Jam 2:23"/>
-         <div-ref work="lxx" ref="Gen 15:6"/>
-         <div-ref work="bhs" ref="Gen 15:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 4:7 - Ro 4:8"/>
-         <div-ref work="lxx" ref="Ps 31:1 - Ps 31:2"/>
-         <div-ref work="bhs" ref="Ps 32:1 - Ps 32:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 4:17"/>
-         <div-ref work="lxx" ref="Gen 17:5"/>
-         <div-ref work="bhs" ref="Gen 17:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 4:18"/>
-         <div-ref work="lxx" ref="Gen 15:5"/>
-         <div-ref work="bhs" ref="Gen 15:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 8:36"/>
-         <div-ref work="lxx" ref="Ps 43:22"/>
-         <div-ref work="bhs" ref="Ps 44:22"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:7"/>
-         <div-ref work="nt-grc" ref="Heb 11:18"/>
-         <div-ref work="lxx" ref="Gen 21:12"/>
-         <div-ref work="bhs" ref="Gen 21:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:9"/>
-         <div-ref work="lxx" ref="Gen 18:10"/>
-         <div-ref work="lxx" ref="Gen 18:14"/>
-         <div-ref work="bhs" ref="Gen 18:10"/>
-         <div-ref work="bhs" ref="Gen 18:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:12"/>
-         <div-ref work="lxx" ref="Gen 25:23"/>
-         <div-ref work="bhs" ref="Gen 25:23"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:13"/>
-         <div-ref work="lxx" ref="Mal 1:2 - Mal 1:3"/>
-         <div-ref work="bhs" ref="Mal 1:2 - Mal 1:3"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:15"/>
-         <div-ref work="lxx" ref="Exod 33:19"/>
-         <div-ref work="bhs" ref="Exod 33:19"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:17"/>
-         <div-ref work="lxx" ref="Exod 9:16"/>
-         <div-ref work="bhs" ref="Exod 9:16"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:20"/>
-         <div-ref work="lxx" ref="Isa 29:16"/>
-         <div-ref work="lxx" ref="Isa 45:9"/>
-         <div-ref work="bhs" ref="Isa 29:16"/>
-         <div-ref work="bhs" ref="Isa 45:9"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:25 - Ro 9:26"/>
-         <div-ref work="lxx" ref="Hos 2:23"/>
-         <div-ref work="lxx" ref="Hos 2:1"/>
-         <div-ref work="bhs" ref="Hos 2:23"/>
-         <div-ref work="bhs" ref="Hos 2:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:27 - Ro 9:28"/>
-         <div-ref work="lxx" ref="Isa 10:22 - Isa 10:23"/>
-         <div-ref work="bhs" ref="Isa 10:22 - Isa 10:23"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:29"/>
-         <div-ref work="lxx" ref="Isa 1:9"/>
-         <div-ref work="bhs" ref="Isa 1:9"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 9:33"/>
-         <div-ref work="nt-grc" ref="Ro 10:11"/>
-         <div-ref work="nt-grc" ref="1Pe 2:6"/>
-         <div-ref work="nt-grc" ref="1Pe 2:8"/>
-         <div-ref work="lxx" ref="Isa 8:14"/>
-         <div-ref work="lxx" ref="Isa 28:16"/>
-         <div-ref work="bhs" ref="Isa 8:14"/>
-         <div-ref work="bhs" ref="Isa 28:16"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 10:5"/>
-         <div-ref work="nt-grc" ref="Gal 3:12"/>
-         <div-ref work="lxx" ref="Lev 18:5"/>
-         <div-ref work="bhs" ref="Lev 18:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 10:6 - Ro 10:8"/>
-         <div-ref work="lxx" ref="Deut 30:12 - Deut 30:14"/>
-         <div-ref work="bhs" ref="Deut 30:12 - Deut 30:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 10:15"/>
-         <div-ref work="lxx" ref="Isa 52:7"/>
-         <div-ref work="bhs" ref="Isa 52:7"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 10:18"/>
-         <div-ref work="lxx" ref="Ps 18:4"/>
-         <div-ref work="bhs" ref="Ps 19:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 10:19"/>
-         <div-ref work="lxx" ref="Deut 32:21"/>
-         <div-ref work="bhs" ref="Deut 32:21"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 10:20"/>
-         <div-ref work="lxx" ref="Isa 65:1"/>
-         <div-ref work="bhs" ref="Isa 65:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 10:21"/>
-         <div-ref work="lxx" ref="Isa 65:2"/>
-         <div-ref work="bhs" ref="Isa 65:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 11:3"/>
-         <div-ref work="lxx" ref="3Kgdms 19:10"/>
-         <div-ref work="lxx" ref="3Kgdms 19:14"/>
-         <div-ref work="bhs" ref="1Kgs 19:10"/>
-         <div-ref work="bhs" ref="1Kgs 19:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 11:4"/>
-         <div-ref work="lxx" ref="3Kgdms 19:18"/>
-         <div-ref work="bhs" ref="1Kgs 19:18"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 11:8"/>
-         <div-ref work="lxx" ref="Deut 29:3 - Deut 29:4"/>
-         <div-ref work="bhs" ref="Deut 29:3 - Deut 29:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 11:9"/>
-         <div-ref work="lxx" ref="Ps 68:22 - Ps 68:23"/>
-         <div-ref work="bhs" ref="Ps 69:22 - Ps 69:23"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 11:26 - Ro 11:27"/>
-         <div-ref work="lxx" ref="Isa 59:20 - Isa 59:21"/>
-         <div-ref work="bhs" ref="Isa 59:20 - Isa 59:21"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 11:34 - Ro 11:35"/>
-         <div-ref work="nt-grc" ref="1Co 2:16"/>
-         <div-ref work="lxx" ref="Isa 40:13 - Isa 40:14"/>
-         <div-ref work="bhs" ref="Isa 40:13 - Isa 40:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 12:19"/>
-         <div-ref work="nt-grc" ref="Heb 10:30"/>
-         <div-ref work="lxx" ref="Deut 32:35"/>
-         <div-ref work="bhs" ref="Deut 32:35"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 12:20"/>
-         <div-ref work="lxx" ref="Prov 25:21 - Prov 25:22"/>
-         <div-ref work="bhs" ref="Prov 25:21 - Prov 25:22"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 14:11"/>
-         <div-ref work="lxx" ref="Isa 45:23 - Isa 45:24"/>
-         <div-ref work="lxx" ref="Isa 49:18"/>
-         <div-ref work="bhs" ref="Isa 45:23"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 15:9"/>
-         <div-ref work="lxx" ref="2Kgdms 22:50"/>
-         <div-ref work="lxx" ref="Ps 17:49"/>
-         <div-ref work="bhs" ref="2Sm 22:50"/>
-         <div-ref work="bhs" ref="Ps 18:49"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 15:10"/>
-         <div-ref work="nt-grc" ref="Heb 1:6"/>
-         <div-ref work="lxx" ref="Deut 32:43"/>
-         <div-ref work="bhs" ref="Deut 32:43"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 15:11"/>
-         <div-ref work="lxx" ref="Ps 116:1"/>
-         <div-ref work="bhs" ref="Ps 117:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 15:12"/>
-         <div-ref work="lxx" ref="Isa 11:10"/>
-         <div-ref work="bhs" ref="Isa 11:10"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Ro 15:21"/>
-         <div-ref work="lxx" ref="Isa 52:15"/>
-         <div-ref work="bhs" ref="Isa 52:15"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 1:19"/>
-         <div-ref work="lxx" ref="Isa 29:14"/>
-         <div-ref work="bhs" ref="Isa 29:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 1:31"/>
-         <div-ref work="nt-grc" ref="2Co 10:17"/>
-         <div-ref work="lxx" ref="Jer 9:24"/>
-         <div-ref work="bhs" ref="Jer 9:24"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 2:9"/>
-         <div-ref work="lxx" ref="Isa 64:4"/>
-         <div-ref work="bhs" ref="Isa 64:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 3:19"/>
-         <div-ref work="lxx" ref="Job 5:13"/>
-         <div-ref work="bhs" ref="Job 5:13"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 3:20"/>
-         <div-ref work="lxx" ref="Ps 93:11"/>
-         <div-ref work="bhs" ref="Ps 94:11"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 5:13"/>
-         <div-ref work="lxx" ref="Deut 17:7"/>
-         <div-ref work="bhs" ref="Deut 17:7"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 9:9"/>
-         <div-ref work="nt-grc" ref="1Tim 5:18"/>
-         <div-ref work="lxx" ref="Deut 25:4"/>
-         <div-ref work="bhs" ref="Deut 25:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 10:7"/>
-         <div-ref work="lxx" ref="Exod 32:6"/>
-         <div-ref work="bhs" ref="Exod 32:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 10:26"/>
-         <div-ref work="nt-grc" ref="1Co 10:28"/>
-         <div-ref work="lxx" ref="Ps 23:1"/>
-         <div-ref work="lxx" ref="Deut 10:14"/>
-         <div-ref work="bhs" ref="Ps 24:1"/>
-         <div-ref work="bhs" ref="Deut 10:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 14:21"/>
-         <div-ref work="lxx" ref="Isa 28:11 - Isa 28:12"/>
-         <div-ref work="bhs" ref="Isa 28:11 - Isa 28:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 15:27"/>
-         <div-ref work="nt-grc" ref="Heb 2:6 - Heb 2:8"/>
-         <div-ref work="lxx" ref="Ps 8:6"/>
-         <div-ref work="bhs" ref="Ps 8:4 - Ps 8:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 15:32"/>
-         <div-ref work="lxx" ref="Isa 22:13"/>
-         <div-ref work="bhs" ref="Isa 22:13"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 15:45"/>
-         <div-ref work="lxx" ref="Gen 2:7"/>
-         <div-ref work="bhs" ref="Gen 2:7"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 15:54"/>
-         <div-ref work="lxx" ref="Isa 25:8"/>
-         <div-ref work="bhs" ref="Isa 25:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Co 15:55"/>
-         <div-ref work="lxx" ref="Hos 13:14"/>
-         <div-ref work="bhs" ref="Hos 13:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="2Co 4:13"/>
-         <div-ref work="lxx" ref="Ps 115:1"/>
-         <div-ref work="bhs" ref="Ps 116:10"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="2Co 6:2"/>
-         <div-ref work="lxx" ref="Isa 49:8"/>
-         <div-ref work="bhs" ref="Isa 49:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="2Co 6:16"/>
-         <div-ref work="lxx" ref="Exod 29:45"/>
-         <div-ref work="lxx" ref="Lev 26:12"/>
-         <div-ref work="lxx" ref="Jer 38:1"/>
-         <div-ref work="lxx" ref="Jer 39:38"/>
-         <div-ref work="lxx" ref="Zech 8:8"/>
-         <div-ref work="lxx" ref="Ezek 36:28"/>
-         <div-ref work="lxx" ref="Ezek 37:23"/>
-         <div-ref work="lxx" ref="Ezek 37:27"/>
-         <div-ref work="bhs" ref="Exod 29:45"/>
-         <div-ref work="bhs" ref="Lev 26:12"/>
-         <div-ref work="bhs" ref="Jer 30:22"/>
-         <div-ref work="bhs" ref="Jer 31:1"/>
-         <div-ref work="bhs" ref="Jer 32:38"/>
-         <div-ref work="bhs" ref="Zech 8:8"/>
-         <div-ref work="bhs" ref="Ezek 37:27"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="2Co 6:17 - 2Co 6:18"/>
-         <div-ref work="lxx" ref="Isa 52:11"/>
-         <div-ref work="lxx" ref="Jer 23:3"/>
-         <div-ref work="lxx" ref="Jer 38:9"/>
-         <div-ref work="bhs" ref="Isa 52:11"/>
-         <div-ref work="bhs" ref="Jer 31:9"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="2Co 8:15"/>
-         <div-ref work="lxx" ref="Exod 16:18"/>
-         <div-ref work="bhs" ref="Exod 16:18"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="2Co 9:9"/>
-         <div-ref work="lxx" ref="Ps 111:9"/>
-         <div-ref work="bhs" ref="Ps 112:9"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Gal 3:10"/>
-         <div-ref work="lxx" ref="Deut 27:26"/>
-         <div-ref work="bhs" ref="Deut 27:26"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Gal 3:13"/>
-         <div-ref work="lxx" ref="Deut 21:23"/>
-         <div-ref work="bhs" ref="Deut 21:23"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Gal 4:27"/>
-         <div-ref work="lxx" ref="Isa 54:1"/>
-         <div-ref work="bhs" ref="Isa 54:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Gal 4:30"/>
-         <div-ref work="lxx" ref="Gen 21:10"/>
-         <div-ref work="bhs" ref="Gen 21:10"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Eph 4:8"/>
-         <div-ref work="lxx" ref="Ps 67:18"/>
-         <div-ref work="bhs" ref="Ps 68:18"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Eph 4:25"/>
-         <div-ref work="lxx" ref="Zech 8:16"/>
-         <div-ref work="bhs" ref="Zech 8:16"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Eph 4:26"/>
-         <div-ref work="lxx" ref="Ps 4:4"/>
-         <div-ref work="bhs" ref="Ps 4:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Eph 5:14"/>
-         <div-ref work="lxx" ref="Isa 60:1"/>
-         <div-ref work="bhs" ref="Isa 60:1"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Php 2:10 - Php 2:11"/>
-         <div-ref work="lxx" ref="Isa 45:23"/>
-         <div-ref work="bhs" ref="Isa 45:23"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="2Tim 2:19"/>
-         <div-ref work="lxx" ref="Num 16:5"/>
-         <div-ref work="bhs" ref="Num 16:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 1:5"/>
-         <div-ref work="lxx" ref="Ps 2:7"/>
-         <div-ref work="lxx" ref="2Kgdms 7:14"/>
-         <div-ref work="bhs" ref="Ps 2:7"/>
-         <div-ref work="bhs" ref="2Sm 7:14"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 1:7"/>
-         <div-ref work="lxx" ref="Ps 103:4"/>
-         <div-ref work="bhs" ref="Ps 104:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 1:8 - Heb 1:9"/>
-         <div-ref work="lxx" ref="Ps 44:6 - Ps 44:7"/>
-         <div-ref work="bhs" ref="Ps 45:6 - Ps 45:7"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 1:10 - Heb 1:12"/>
-         <div-ref work="lxx" ref="Ps 101:25 - Ps 101:28"/>
-         <div-ref work="bhs" ref="Ps 102:25 - Ps 102:27"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 2:12"/>
-         <div-ref work="lxx" ref="Ps 21:22"/>
-         <div-ref work="bhs" ref="Ps 22:22"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 2:13"/>
-         <div-ref work="lxx" ref="2Kgdms 22:3"/>
-         <div-ref work="lxx" ref="Isa 8:17 - Isa 8:18"/>
-         <div-ref work="bhs" ref="2Sm 22:3"/>
-         <div-ref work="bhs" ref="Isa 8:17 - Isa 8:18"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 3:7 - Heb 3:11"/>
-         <div-ref work="nt-grc" ref="Heb 3:15"/>
-         <div-ref work="nt-grc" ref="Heb 4:3"/>
-         <div-ref work="nt-grc" ref="Heb 4:5"/>
-         <div-ref work="nt-grc" ref="Heb 4:7"/>
-         <div-ref work="lxx" ref="Ps 94:7 - Ps 94:11"/>
-         <div-ref work="bhs" ref="Ps 95:7 - Ps 95:11"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 4:4"/>
-         <div-ref work="lxx" ref="Gen 2:2"/>
-         <div-ref work="bhs" ref="Gen 2:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 5:6"/>
-         <div-ref work="nt-grc" ref="Heb 5:10"/>
-         <div-ref work="nt-grc" ref="Heb 7:17"/>
-         <div-ref work="nt-grc" ref="Heb 7:21"/>
-         <div-ref work="lxx" ref="Ps 109:4"/>
-         <div-ref work="bhs" ref="Ps 110:4"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 6:14"/>
-         <div-ref work="lxx" ref="Gen 22:17"/>
-         <div-ref work="bhs" ref="Gen 22:17"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 8:5"/>
-         <div-ref work="lxx" ref="Exod 25:40"/>
-         <div-ref work="bhs" ref="Exod 25:40"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 8:8 - Heb 8:12"/>
-         <div-ref work="nt-grc" ref="Heb 10:16 - Heb 10:17"/>
-         <div-ref work="lxx" ref="Jer 38:31 - Jer 38:34"/>
-         <div-ref work="bhs" ref="Jer 31:31 - Jer 31:34"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 9:19 - Heb 9:20"/>
-         <div-ref work="lxx" ref="Exod 24:8"/>
-         <div-ref work="bhs" ref="Exod 24:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 10:5 - Heb 10:7"/>
-         <div-ref work="nt-grc" ref="Heb 10:8 - Heb 10:9"/>
-         <div-ref work="lxx" ref="Ps 39:6 - Ps 39:8"/>
-         <div-ref work="bhs" ref="Ps 40:6 - Ps 40:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 10:30"/>
-         <div-ref work="lxx" ref="Deut 32:36"/>
-         <div-ref work="bhs" ref="Deut 32:36"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 11:5"/>
-         <div-ref work="lxx" ref="Gen 5:24"/>
-         <div-ref work="bhs" ref="Gen 5:24"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 12:5 - Heb 12:6"/>
-         <div-ref work="lxx" ref="Prov 3:11 - Prov 3:12"/>
-         <div-ref work="bhs" ref="Prov 3:11 - Prov 3:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 12:12"/>
-         <div-ref work="lxx" ref="Isa 35:3"/>
-         <div-ref work="bhs" ref="Isa 35:3"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 12:20"/>
-         <div-ref work="lxx" ref="Exod 19:13"/>
-         <div-ref work="bhs" ref="Exod 19:13"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 12:21"/>
-         <div-ref work="lxx" ref="Deut 9:19"/>
-         <div-ref work="bhs" ref="Deut 9:19"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 12:26"/>
-         <div-ref work="lxx" ref="Hag 2:7"/>
-         <div-ref work="bhs" ref="Hag 2:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 12:29"/>
-         <div-ref work="lxx" ref="Deut 4:24"/>
-         <div-ref work="bhs" ref="Deut 4:24"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 13:5"/>
-         <div-ref work="lxx" ref="Deut 31:6"/>
-         <div-ref work="lxx" ref="Deut 31:8"/>
-         <div-ref work="lxx" ref="Josh 1:5"/>
-         <div-ref work="bhs" ref="Deut 31:6"/>
-         <div-ref work="bhs" ref="Deut 31:8"/>
-         <div-ref work="bhs" ref="Josh 1:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Heb 13:6"/>
-         <div-ref work="lxx" ref="Ps 26:1"/>
-         <div-ref work="lxx" ref="Ps 117:6"/>
-         <div-ref work="bhs" ref="Ps 27:1"/>
-         <div-ref work="bhs" ref="Ps 118:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jam 4:6"/>
-         <div-ref work="nt-grc" ref="1Pe 5:5"/>
-         <div-ref work="lxx" ref="Prov 3:34"/>
-         <div-ref work="bhs" ref="Prov 3:34"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Pe 1:16"/>
-         <div-ref work="lxx" ref="Lev 11:44 - Lev 11:45"/>
-         <div-ref work="lxx" ref="Lev 19:2"/>
-         <div-ref work="lxx" ref="Lev 20:7"/>
-         <div-ref work="bhs" ref="Lev 11:44 - Lev 11:45"/>
-         <div-ref work="bhs" ref="Lev 19:2"/>
-         <div-ref work="bhs" ref="Lev 20:7"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Pe 1:24 - 1Pe 1:25"/>
-         <div-ref work="lxx" ref="Isa 40:6 - Isa 40:8"/>
-         <div-ref work="bhs" ref="Isa 40:6 - Isa 40:8"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Pe 2:22"/>
-         <div-ref work="lxx" ref="Isa 53:9"/>
-         <div-ref work="bhs" ref="Isa 53:9"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Pe 2:24"/>
-         <div-ref work="lxx" ref="Isa 53:5"/>
-         <div-ref work="bhs" ref="Isa 53:5"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Pe 3:10 - 1Pe 3:12"/>
-         <div-ref work="lxx" ref="Ps 33:12 - Ps 33:16"/>
-         <div-ref work="bhs" ref="Ps 34:12 - Ps 34:16"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Pe 3:14"/>
-         <div-ref work="lxx" ref="Isa 8:12"/>
-         <div-ref work="bhs" ref="Isa 8:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Pe 4:8"/>
-         <div-ref work="lxx" ref="Prov 10:12"/>
-         <div-ref work="bhs" ref="Prov 10:12"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Pe 4:18"/>
-         <div-ref work="lxx" ref="Prov 11:31"/>
-         <div-ref work="bhs" ref="Prov 11:31"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="1Pe 5:7"/>
-         <div-ref work="lxx" ref="Ps 54:22"/>
-         <div-ref work="bhs" ref="Ps 55:22"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="2Pe 2:22"/>
-         <div-ref work="lxx" ref="Prov 26:11"/>
-         <div-ref work="bhs" ref="Prov 26:11"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Jud 9"/>
-         <div-ref work="lxx" ref="Zech 3:2 - Zech 3:3"/>
-         <div-ref work="bhs" ref="Zech 3:2"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Re 1:17"/>
-         <div-ref work="lxx" ref="Isa 41:4"/>
-         <div-ref work="lxx" ref="Isa 44:6"/>
-         <div-ref work="bhs" ref="Isa 41:4"/>
-         <div-ref work="bhs" ref="Isa 44:6"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Re 2:23"/>
-         <div-ref work="lxx" ref="Jer 17:10"/>
-         <div-ref work="bhs" ref="Jer 17:10"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Re 2:27"/>
-         <div-ref work="lxx" ref="Ps 2:9"/>
-         <div-ref work="bhs" ref="Ps 2:9"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Re 3:7"/>
-         <div-ref work="lxx" ref="Isa 22:22 - Isa 22:24"/>
-         <div-ref work="bhs" ref="Isa 22:22"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Re 7:16"/>
-         <div-ref work="lxx" ref="Isa 49:10"/>
-         <div-ref work="bhs" ref="Isa 49:10"/>
-      </align>
-      <align>
-         <div-ref work="nt-grc" ref="Re 21:23"/>
-         <div-ref work="lxx" ref="Isa 60:20 - Isa 60:21"/>
-         <div-ref work="bhs" ref="Isa 60:20 - Isa 60:21"/>
-      </align>
+      <claim>
+         <subject work="nt-grc" ref="Lu 1:17"/>
+         <object work="lxx" ref="Mal 3:24"/>
+         <object work="bhs" ref="Mal 3:24"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Lu 2:23"/>
+         <object work="lxx" ref="Exod 13:2"/>
+         <object work="bhs" ref="Exod 13:2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Lu 2:24"/>
+         <object work="lxx" ref="Lev 12:8"/>
+         <object work="bhs" ref="Lev 12:8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Lu 4:18-19"/>
+         <object work="lxx" ref="Isa 61:1-2"/>
+         <object work="bhs" ref="Isa 61:1-2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Lu 23:30"/>
+         <object work="lxx" ref="Hos 10:8"/>
+         <object work="bhs" ref="Hos 10:8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Lu 23:46"/>
+         <object work="lxx" ref="Ps 30:5"/>
+         <object work="bhs" ref="Ps 31:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jn 2:17"/>
+         <subject work="nt-grc" ref="Ro 15:3"/>
+         <object work="lxx" ref="Ps 68:9"/>
+         <object work="bhs" ref="Ps 69:9"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jn 6:45"/>
+         <object work="lxx" ref="Isa 54:13"/>
+         <object work="bhs" ref="Isa 54:13"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jn 10:34"/>
+         <object work="lxx" ref="Ps 81:6"/>
+         <object work="bhs" ref="Ps 82:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jn 12:38"/>
+         <subject work="nt-grc" ref="Ro 10:16"/>
+         <object work="lxx" ref="Isa 53:1"/>
+         <object work="bhs" ref="Isa 53:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jn 13:18"/>
+         <object work="lxx" ref="Ps 40:9"/>
+         <object work="bhs" ref="Ps 41:9"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jn 15:25"/>
+         <object work="lxx" ref="Ps 68:4"/>
+         <object work="bhs" ref="Ps 69:4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jn 19:36"/>
+         <object work="lxx" ref="Ps 33:20"/>
+         <object work="lxx" ref="Exod 12:46"/>
+         <object work="bhs" ref="Ps 34:20"/>
+         <object work="bhs" ref="Exod 12:46"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jn 19:37"/>
+         <object work="lxx" ref="Zech 12:10"/>
+         <object work="bhs" ref="Zech 12:10"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 1:20"/>
+         <object work="lxx" ref="Ps 68:25"/>
+         <object work="lxx" ref="Ps 108:8"/>
+         <object work="bhs" ref="Ps 69:25"/>
+         <object work="bhs" ref="Ps 109:8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 2:17-20"/>
+         <subject work="nt-grc" ref="Ro 10:13"/>
+         <object work="lxx" ref="Joel 3:1-5"/>
+         <object work="bhs" ref="Joel 3:1-5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 2:25-28"/>
+         <subject work="nt-grc" ref="Ac 13:35"/>
+         <object work="lxx" ref="Ps 15:8-11"/>
+         <object work="bhs" ref="Ps 16:8-11"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 3:22-23"/>
+         <subject work="nt-grc" ref="Ac 7:37"/>
+         <object work="lxx" ref="Deut 18:15"/>
+         <object work="lxx" ref="Deut 18:18-19"/>
+         <object work="bhs" ref="Deut 18:15"/>
+         <object work="bhs" ref="Deut 18:18-19"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 3:25"/>
+         <subject work="nt-grc" ref="Gal 3:8"/>
+         <object work="lxx" ref="Gen 22:18"/>
+         <object work="lxx" ref="Gen 26:4"/>
+         <object work="lxx" ref="Gen 28:14"/>
+         <object work="bhs" ref="Gen 22:18"/>
+         <object work="bhs" ref="Gen 26:4"/>
+         <object work="bhs" ref="Gen 28:14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 4:25"/>
+         <object work="lxx" ref="Ps 2:1-2"/>
+         <object work="bhs" ref="Ps 2:1-2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 7:3"/>
+         <object work="lxx" ref="Gen 12:1"/>
+         <object work="bhs" ref="Gen 12:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 7:7"/>
+         <object work="lxx" ref="Gen 15:14"/>
+         <object work="lxx" ref="Exod 3:12"/>
+         <object work="bhs" ref="Gen 15:14"/>
+         <object work="bhs" ref="Exod 3:12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 7:27-28"/>
+         <object work="lxx" ref="Exod 2:14"/>
+         <object work="bhs" ref="Exod 2:14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 7:33"/>
+         <object work="lxx" ref="Exod 3:5"/>
+         <object work="bhs" ref="Exod 3:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 7:34"/>
+         <object work="lxx" ref="Exod 3:7-8"/>
+         <object work="lxx" ref="Exod 3:10"/>
+         <object work="bhs" ref="Exod 3:7-8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 7:40"/>
+         <object work="lxx" ref="Exod 32:1"/>
+         <object work="lxx" ref="Exod 32:23"/>
+         <object work="bhs" ref="Exod 32:1"/>
+         <object work="bhs" ref="Exod 32:23"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 7:42-43"/>
+         <object work="lxx" ref="Amos 5:25-27"/>
+         <object work="bhs" ref="Amos 5:25-27"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 7:49-50"/>
+         <object work="lxx" ref="Isa 66:1-2"/>
+         <object work="bhs" ref="Isa 66:1-2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 8:32-33"/>
+         <object work="lxx" ref="Isa 53:7-8"/>
+         <object work="bhs" ref="Isa 53:7-8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 13:22"/>
+         <object work="lxx" ref="1Kgdms 13:14"/>
+         <object work="lxx" ref="Ps 88:20"/>
+         <object work="bhs" ref="1Sm 13:14"/>
+         <object work="bhs" ref="Ps 89:20"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 13:33"/>
+         <subject work="nt-grc" ref="Heb 1:5"/>
+         <subject work="nt-grc" ref="Heb 5:5"/>
+         <object work="lxx" ref="Ps 2:7"/>
+         <object work="bhs" ref="Ps 2:7"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 13:34"/>
+         <object work="lxx" ref="Isa 55:3"/>
+         <object work="bhs" ref="Isa 55:3"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 13:41"/>
+         <object work="lxx" ref="Hab 1:5"/>
+         <object work="bhs" ref="Hab 1:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 13:47"/>
+         <object work="lxx" ref="Isa 42:6"/>
+         <object work="lxx" ref="Isa 49:6"/>
+         <object work="bhs" ref="Isa 42:6"/>
+         <object work="bhs" ref="Isa 49:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 15:16-17"/>
+         <object work="lxx" ref="Amos 9:11-12"/>
+         <object work="bhs" ref="Amos 9:11-12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ac 23:5"/>
+         <object work="lxx" ref="Exod 22:28"/>
+         <object work="bhs" ref="Exod 22:28"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 1:17"/>
+         <subject work="nt-grc" ref="Gal 3:11"/>
+         <subject work="nt-grc" ref="Heb 10:37-38"/>
+         <object work="lxx" ref="Hab 2:3-4"/>
+         <object work="bhs" ref="Hab 2:3-4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 2:6"/>
+         <object work="lxx" ref="Ps 61:12"/>
+         <object work="lxx" ref="Prov 24:12"/>
+         <object work="bhs" ref="Ps 62:12"/>
+         <object work="bhs" ref="Prov 24:12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 2:24"/>
+         <object work="lxx" ref="Isa 52:5"/>
+         <object work="bhs" ref="Isa 52:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 3:4"/>
+         <object work="lxx" ref="Ps 50:4"/>
+         <object work="bhs" ref="Ps 51:4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 3:10-18"/>
+         <object work="lxx" ref="Ps 13:1-3"/>
+         <object work="lxx" ref="Ps 5:10"/>
+         <object work="lxx" ref="Ps 139:4"/>
+         <object work="lxx" ref="Ps 9:28"/>
+         <object work="lxx" ref="Isa 59:7-8"/>
+         <object work="lxx" ref="Ps 35:2"/>
+         <object work="bhs" ref="Ps 14:1-3"/>
+         <object work="bhs" ref="Ps 53:1-3"/>
+         <object work="bhs" ref="Ps 5:9"/>
+         <object work="bhs" ref="Ps 140:3"/>
+         <object work="bhs" ref="Ps 10:7"/>
+         <object work="bhs" ref="Prov 1:16"/>
+         <object work="bhs" ref="Isa 59:7-8"/>
+         <object work="bhs" ref="Ps 36:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 4:3"/>
+         <subject work="nt-grc" ref="Ro 4:22"/>
+         <subject work="nt-grc" ref="Gal 3:6"/>
+         <subject work="nt-grc" ref="Jam 2:23"/>
+         <object work="lxx" ref="Gen 15:6"/>
+         <object work="bhs" ref="Gen 15:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 4:7-8"/>
+         <object work="lxx" ref="Ps 31:1-2"/>
+         <object work="bhs" ref="Ps 32:1-2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 4:17"/>
+         <object work="lxx" ref="Gen 17:5"/>
+         <object work="bhs" ref="Gen 17:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 4:18"/>
+         <object work="lxx" ref="Gen 15:5"/>
+         <object work="bhs" ref="Gen 15:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 8:36"/>
+         <object work="lxx" ref="Ps 43:22"/>
+         <object work="bhs" ref="Ps 44:22"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:7"/>
+         <subject work="nt-grc" ref="Heb 11:18"/>
+         <object work="lxx" ref="Gen 21:12"/>
+         <object work="bhs" ref="Gen 21:12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:9"/>
+         <object work="lxx" ref="Gen 18:10"/>
+         <object work="lxx" ref="Gen 18:14"/>
+         <object work="bhs" ref="Gen 18:10"/>
+         <object work="bhs" ref="Gen 18:14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:12"/>
+         <object work="lxx" ref="Gen 25:23"/>
+         <object work="bhs" ref="Gen 25:23"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:13"/>
+         <object work="lxx" ref="Mal 1:2-3"/>
+         <object work="bhs" ref="Mal 1:2-3"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:15"/>
+         <object work="lxx" ref="Exod 33:19"/>
+         <object work="bhs" ref="Exod 33:19"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:17"/>
+         <object work="lxx" ref="Exod 9:16"/>
+         <object work="bhs" ref="Exod 9:16"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:20"/>
+         <object work="lxx" ref="Isa 29:16"/>
+         <object work="lxx" ref="Isa 45:9"/>
+         <object work="bhs" ref="Isa 29:16"/>
+         <object work="bhs" ref="Isa 45:9"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:25-26"/>
+         <object work="lxx" ref="Hos 2:23"/>
+         <object work="lxx" ref="Hos 2:1"/>
+         <object work="bhs" ref="Hos 2:23"/>
+         <object work="bhs" ref="Hos 2:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:27-28"/>
+         <object work="lxx" ref="Isa 10:22-23"/>
+         <object work="bhs" ref="Isa 10:22-23"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:29"/>
+         <object work="lxx" ref="Isa 1:9"/>
+         <object work="bhs" ref="Isa 1:9"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 9:33"/>
+         <subject work="nt-grc" ref="Ro 10:11"/>
+         <subject work="nt-grc" ref="1Pe 2:6"/>
+         <subject work="nt-grc" ref="1Pe 2:8"/>
+         <object work="lxx" ref="Isa 8:14"/>
+         <object work="lxx" ref="Isa 28:16"/>
+         <object work="bhs" ref="Isa 8:14"/>
+         <object work="bhs" ref="Isa 28:16"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 10:5"/>
+         <subject work="nt-grc" ref="Gal 3:12"/>
+         <object work="lxx" ref="Lev 18:5"/>
+         <object work="bhs" ref="Lev 18:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 10:6-8"/>
+         <object work="lxx" ref="Deut 30:12-14"/>
+         <object work="bhs" ref="Deut 30:12-14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 10:15"/>
+         <object work="lxx" ref="Isa 52:7"/>
+         <object work="bhs" ref="Isa 52:7"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 10:18"/>
+         <object work="lxx" ref="Ps 18:4"/>
+         <object work="bhs" ref="Ps 19:4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 10:19"/>
+         <object work="lxx" ref="Deut 32:21"/>
+         <object work="bhs" ref="Deut 32:21"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 10:20"/>
+         <object work="lxx" ref="Isa 65:1"/>
+         <object work="bhs" ref="Isa 65:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 10:21"/>
+         <object work="lxx" ref="Isa 65:2"/>
+         <object work="bhs" ref="Isa 65:2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 11:3"/>
+         <object work="lxx" ref="3Kgdms 19:10"/>
+         <object work="lxx" ref="3Kgdms 19:14"/>
+         <object work="bhs" ref="1Kgs 19:10"/>
+         <object work="bhs" ref="1Kgs 19:14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 11:4"/>
+         <object work="lxx" ref="3Kgdms 19:18"/>
+         <object work="bhs" ref="1Kgs 19:18"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 11:8"/>
+         <object work="lxx" ref="Deut 29:3-4"/>
+         <object work="bhs" ref="Deut 29:3-4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 11:9"/>
+         <object work="lxx" ref="Ps 68:22-23"/>
+         <object work="bhs" ref="Ps 69:22-23"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 11:26-27"/>
+         <object work="lxx" ref="Isa 59:20-21"/>
+         <object work="bhs" ref="Isa 59:20-21"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 11:34-35"/>
+         <subject work="nt-grc" ref="1Co 2:16"/>
+         <object work="lxx" ref="Isa 40:13-14"/>
+         <object work="bhs" ref="Isa 40:13-14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 12:19"/>
+         <subject work="nt-grc" ref="Heb 10:30"/>
+         <object work="lxx" ref="Deut 32:35"/>
+         <object work="bhs" ref="Deut 32:35"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 12:20"/>
+         <object work="lxx" ref="Prov 25:21-22"/>
+         <object work="bhs" ref="Prov 25:21-22"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 14:11"/>
+         <object work="lxx" ref="Isa 45:23-24"/>
+         <object work="lxx" ref="Isa 49:18"/>
+         <object work="bhs" ref="Isa 45:23"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 15:9"/>
+         <object work="lxx" ref="2Kgdms 22:50"/>
+         <object work="lxx" ref="Ps 17:49"/>
+         <object work="bhs" ref="2Sm 22:50"/>
+         <object work="bhs" ref="Ps 18:49"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 15:10"/>
+         <subject work="nt-grc" ref="Heb 1:6"/>
+         <object work="lxx" ref="Deut 32:43"/>
+         <object work="bhs" ref="Deut 32:43"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 15:11"/>
+         <object work="lxx" ref="Ps 116:1"/>
+         <object work="bhs" ref="Ps 117:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 15:12"/>
+         <object work="lxx" ref="Isa 11:10"/>
+         <object work="bhs" ref="Isa 11:10"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Ro 15:21"/>
+         <object work="lxx" ref="Isa 52:15"/>
+         <object work="bhs" ref="Isa 52:15"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 1:19"/>
+         <object work="lxx" ref="Isa 29:14"/>
+         <object work="bhs" ref="Isa 29:14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 1:31"/>
+         <subject work="nt-grc" ref="2Co 10:17"/>
+         <object work="lxx" ref="Jer 9:24"/>
+         <object work="bhs" ref="Jer 9:24"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 2:9"/>
+         <object work="lxx" ref="Isa 64:4"/>
+         <object work="bhs" ref="Isa 64:4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 3:19"/>
+         <object work="lxx" ref="Job 5:13"/>
+         <object work="bhs" ref="Job 5:13"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 3:20"/>
+         <object work="lxx" ref="Ps 93:11"/>
+         <object work="bhs" ref="Ps 94:11"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 5:13"/>
+         <object work="lxx" ref="Deut 17:7"/>
+         <object work="bhs" ref="Deut 17:7"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 9:9"/>
+         <subject work="nt-grc" ref="1Tim 5:18"/>
+         <object work="lxx" ref="Deut 25:4"/>
+         <object work="bhs" ref="Deut 25:4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 10:7"/>
+         <object work="lxx" ref="Exod 32:6"/>
+         <object work="bhs" ref="Exod 32:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 10:26"/>
+         <subject work="nt-grc" ref="1Co 10:28"/>
+         <object work="lxx" ref="Ps 23:1"/>
+         <object work="lxx" ref="Deut 10:14"/>
+         <object work="bhs" ref="Ps 24:1"/>
+         <object work="bhs" ref="Deut 10:14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 14:21"/>
+         <object work="lxx" ref="Isa 28:11-12"/>
+         <object work="bhs" ref="Isa 28:11-12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 15:27"/>
+         <subject work="nt-grc" ref="Heb 2:6-8"/>
+         <object work="lxx" ref="Ps 8:6"/>
+         <object work="bhs" ref="Ps 8:4-6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 15:32"/>
+         <object work="lxx" ref="Isa 22:13"/>
+         <object work="bhs" ref="Isa 22:13"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 15:45"/>
+         <object work="lxx" ref="Gen 2:7"/>
+         <object work="bhs" ref="Gen 2:7"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 15:54"/>
+         <object work="lxx" ref="Isa 25:8"/>
+         <object work="bhs" ref="Isa 25:8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Co 15:55"/>
+         <object work="lxx" ref="Hos 13:14"/>
+         <object work="bhs" ref="Hos 13:14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="2Co 4:13"/>
+         <object work="lxx" ref="Ps 115:1"/>
+         <object work="bhs" ref="Ps 116:10"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="2Co 6:2"/>
+         <object work="lxx" ref="Isa 49:8"/>
+         <object work="bhs" ref="Isa 49:8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="2Co 6:16"/>
+         <object work="lxx" ref="Exod 29:45"/>
+         <object work="lxx" ref="Lev 26:12"/>
+         <object work="lxx" ref="Jer 38:1"/>
+         <object work="lxx" ref="Jer 39:38"/>
+         <object work="lxx" ref="Zech 8:8"/>
+         <object work="lxx" ref="Ezek 36:28"/>
+         <object work="lxx" ref="Ezek 37:23"/>
+         <object work="lxx" ref="Ezek 37:27"/>
+         <object work="bhs" ref="Exod 29:45"/>
+         <object work="bhs" ref="Lev 26:12"/>
+         <object work="bhs" ref="Jer 30:22"/>
+         <object work="bhs" ref="Jer 31:1"/>
+         <object work="bhs" ref="Jer 32:38"/>
+         <object work="bhs" ref="Zech 8:8"/>
+         <object work="bhs" ref="Ezek 37:27"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="2Co 6:17-18"/>
+         <object work="lxx" ref="Isa 52:11"/>
+         <object work="lxx" ref="Jer 23:3"/>
+         <object work="lxx" ref="Jer 38:9"/>
+         <object work="bhs" ref="Isa 52:11"/>
+         <object work="bhs" ref="Jer 31:9"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="2Co 8:15"/>
+         <object work="lxx" ref="Exod 16:18"/>
+         <object work="bhs" ref="Exod 16:18"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="2Co 9:9"/>
+         <object work="lxx" ref="Ps 111:9"/>
+         <object work="bhs" ref="Ps 112:9"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Gal 3:10"/>
+         <object work="lxx" ref="Deut 27:26"/>
+         <object work="bhs" ref="Deut 27:26"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Gal 3:13"/>
+         <object work="lxx" ref="Deut 21:23"/>
+         <object work="bhs" ref="Deut 21:23"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Gal 4:27"/>
+         <object work="lxx" ref="Isa 54:1"/>
+         <object work="bhs" ref="Isa 54:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Gal 4:30"/>
+         <object work="lxx" ref="Gen 21:10"/>
+         <object work="bhs" ref="Gen 21:10"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Eph 4:8"/>
+         <object work="lxx" ref="Ps 67:18"/>
+         <object work="bhs" ref="Ps 68:18"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Eph 4:25"/>
+         <object work="lxx" ref="Zech 8:16"/>
+         <object work="bhs" ref="Zech 8:16"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Eph 4:26"/>
+         <object work="lxx" ref="Ps 4:4"/>
+         <object work="bhs" ref="Ps 4:4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Eph 5:14"/>
+         <object work="lxx" ref="Isa 60:1"/>
+         <object work="bhs" ref="Isa 60:1"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Php 2:10-11"/>
+         <object work="lxx" ref="Isa 45:23"/>
+         <object work="bhs" ref="Isa 45:23"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="2Tim 2:19"/>
+         <object work="lxx" ref="Num 16:5"/>
+         <object work="bhs" ref="Num 16:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 1:5"/>
+         <object work="lxx" ref="Ps 2:7"/>
+         <object work="lxx" ref="2Kgdms 7:14"/>
+         <object work="bhs" ref="Ps 2:7"/>
+         <object work="bhs" ref="2Sm 7:14"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 1:7"/>
+         <object work="lxx" ref="Ps 103:4"/>
+         <object work="bhs" ref="Ps 104:4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 1:8-9"/>
+         <object work="lxx" ref="Ps 44:6-7"/>
+         <object work="bhs" ref="Ps 45:6-7"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 1:10-12"/>
+         <object work="lxx" ref="Ps 101:25-28"/>
+         <object work="bhs" ref="Ps 102:25-27"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 2:12"/>
+         <object work="lxx" ref="Ps 21:22"/>
+         <object work="bhs" ref="Ps 22:22"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 2:13"/>
+         <object work="lxx" ref="2Kgdms 22:3"/>
+         <object work="lxx" ref="Isa 8:17-18"/>
+         <object work="bhs" ref="2Sm 22:3"/>
+         <object work="bhs" ref="Isa 8:17-18"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 3:7-11"/>
+         <subject work="nt-grc" ref="Heb 3:15"/>
+         <subject work="nt-grc" ref="Heb 4:3"/>
+         <subject work="nt-grc" ref="Heb 4:5"/>
+         <subject work="nt-grc" ref="Heb 4:7"/>
+         <object work="lxx" ref="Ps 94:7-11"/>
+         <object work="bhs" ref="Ps 95:7-11"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 4:4"/>
+         <object work="lxx" ref="Gen 2:2"/>
+         <object work="bhs" ref="Gen 2:2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 5:6"/>
+         <subject work="nt-grc" ref="Heb 5:10"/>
+         <subject work="nt-grc" ref="Heb 7:17"/>
+         <subject work="nt-grc" ref="Heb 7:21"/>
+         <object work="lxx" ref="Ps 109:4"/>
+         <object work="bhs" ref="Ps 110:4"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 6:14"/>
+         <object work="lxx" ref="Gen 22:17"/>
+         <object work="bhs" ref="Gen 22:17"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 8:5"/>
+         <object work="lxx" ref="Exod 25:40"/>
+         <object work="bhs" ref="Exod 25:40"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 8:8-12"/>
+         <subject work="nt-grc" ref="Heb 10:16-17"/>
+         <object work="lxx" ref="Jer 38:31-34"/>
+         <object work="bhs" ref="Jer 31:31-34"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 9:19-20"/>
+         <object work="lxx" ref="Exod 24:8"/>
+         <object work="bhs" ref="Exod 24:8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 10:5-7"/>
+         <subject work="nt-grc" ref="Heb 10:8-9"/>
+         <object work="lxx" ref="Ps 39:6-8"/>
+         <object work="bhs" ref="Ps 40:6-8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 10:30"/>
+         <object work="lxx" ref="Deut 32:36"/>
+         <object work="bhs" ref="Deut 32:36"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 11:5"/>
+         <object work="lxx" ref="Gen 5:24"/>
+         <object work="bhs" ref="Gen 5:24"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 12:5-6"/>
+         <object work="lxx" ref="Prov 3:11-12"/>
+         <object work="bhs" ref="Prov 3:11-12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 12:12"/>
+         <object work="lxx" ref="Isa 35:3"/>
+         <object work="bhs" ref="Isa 35:3"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 12:20"/>
+         <object work="lxx" ref="Exod 19:13"/>
+         <object work="bhs" ref="Exod 19:13"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 12:21"/>
+         <object work="lxx" ref="Deut 9:19"/>
+         <object work="bhs" ref="Deut 9:19"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 12:26"/>
+         <object work="lxx" ref="Hag 2:7"/>
+         <object work="bhs" ref="Hag 2:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 12:29"/>
+         <object work="lxx" ref="Deut 4:24"/>
+         <object work="bhs" ref="Deut 4:24"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 13:5"/>
+         <object work="lxx" ref="Deut 31:6"/>
+         <object work="lxx" ref="Deut 31:8"/>
+         <object work="lxx" ref="Josh 1:5"/>
+         <object work="bhs" ref="Deut 31:6"/>
+         <object work="bhs" ref="Deut 31:8"/>
+         <object work="bhs" ref="Josh 1:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Heb 13:6"/>
+         <object work="lxx" ref="Ps 26:1"/>
+         <object work="lxx" ref="Ps 117:6"/>
+         <object work="bhs" ref="Ps 27:1"/>
+         <object work="bhs" ref="Ps 118:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jam 4:6"/>
+         <subject work="nt-grc" ref="1Pe 5:5"/>
+         <object work="lxx" ref="Prov 3:34"/>
+         <object work="bhs" ref="Prov 3:34"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Pe 1:16"/>
+         <object work="lxx" ref="Lev 11:44-45"/>
+         <object work="lxx" ref="Lev 19:2"/>
+         <object work="lxx" ref="Lev 20:7"/>
+         <object work="bhs" ref="Lev 11:44-45"/>
+         <object work="bhs" ref="Lev 19:2"/>
+         <object work="bhs" ref="Lev 20:7"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Pe 1:24-25"/>
+         <object work="lxx" ref="Isa 40:6-8"/>
+         <object work="bhs" ref="Isa 40:6-8"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Pe 2:22"/>
+         <object work="lxx" ref="Isa 53:9"/>
+         <object work="bhs" ref="Isa 53:9"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Pe 2:24"/>
+         <object work="lxx" ref="Isa 53:5"/>
+         <object work="bhs" ref="Isa 53:5"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Pe 3:10-12"/>
+         <object work="lxx" ref="Ps 33:12-16"/>
+         <object work="bhs" ref="Ps 34:12-16"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Pe 3:14"/>
+         <object work="lxx" ref="Isa 8:12"/>
+         <object work="bhs" ref="Isa 8:12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Pe 4:8"/>
+         <object work="lxx" ref="Prov 10:12"/>
+         <object work="bhs" ref="Prov 10:12"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Pe 4:18"/>
+         <object work="lxx" ref="Prov 11:31"/>
+         <object work="bhs" ref="Prov 11:31"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="1Pe 5:7"/>
+         <object work="lxx" ref="Ps 54:22"/>
+         <object work="bhs" ref="Ps 55:22"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="2Pe 2:22"/>
+         <object work="lxx" ref="Prov 26:11"/>
+         <object work="bhs" ref="Prov 26:11"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Jud 9"/>
+         <object work="lxx" ref="Zech 3:2-3"/>
+         <object work="bhs" ref="Zech 3:2"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Re 1:17"/>
+         <object work="lxx" ref="Isa 41:4"/>
+         <object work="lxx" ref="Isa 44:6"/>
+         <object work="bhs" ref="Isa 41:4"/>
+         <object work="bhs" ref="Isa 44:6"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Re 2:23"/>
+         <object work="lxx" ref="Jer 17:10"/>
+         <object work="bhs" ref="Jer 17:10"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Re 2:27"/>
+         <object work="lxx" ref="Ps 2:9"/>
+         <object work="bhs" ref="Ps 2:9"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Re 3:7"/>
+         <object work="lxx" ref="Isa 22:22-24"/>
+         <object work="bhs" ref="Isa 22:22"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Re 7:16"/>
+         <object work="lxx" ref="Isa 49:10"/>
+         <object work="bhs" ref="Isa 49:10"/>
+      </claim>
+      <claim>
+         <subject work="nt-grc" ref="Re 21:23"/>
+         <object work="lxx" ref="Isa 60:20-21"/>
+         <object work="bhs" ref="Isa 60:20-21"/>
+      </claim>
    </body>
 </TAN-A-div>
