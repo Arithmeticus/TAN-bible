@@ -1,104 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001">
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001">
    <head>
       <name>SBL Greek New Testament, transcribed in TAN-T format</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml"/>
-      <rights-excluding-sources include="HEAD"/>
-      <inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
-         <name>Div-based alignment of multiple versions of the Bible</name>
-         <location href="TAN-A-div/HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
-      </inclusion>
-      <inclusion xml:id="BIBLE">
-         <IRI>tag:kalvesmaki.com,2014:bible-eng-kjv.1760.TAN-T.001</IRI>
-         <name>King James Version of the Bible (including apocrypha), transcribed in TAN-T
-            format</name>
-         <location href="BIBLE.eng.kjv.1760.xml" when-accessed="2015-10-12-04:00"/>
-      </inclusion>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml"/>
+      <license which="by-sa_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
+      </key>
       <source>
          <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.xml</IRI>
          <name>Society of Biblical Literature's 2010 edition of the Greek New Testament </name>
-         <rights-source-only>
-            <IRI>urn:uuid:b5113444-ba0b-4823-bb79-e3bd793473bb</IRI>
-            <name>Customized license</name>
-            <desc>Copyright 2010 by the Society of Biblical Literature and Logos Bible Software. You
-               may freely distribute the SBL Greek New Testament (SBLGNT), but you are not permitted
-               to sell it on its own, either in print or electronic format. If the SBLGNT
-               constitutes less than 25 percent of the content of a larger print or electronic work,
-               you may sell it as part of that work. If the SBLGNT will constitute more than 25
-               percent of the content of a larger print or electronic work that you wish to sell,
-               you must secure written permission or secure a licensing agreement to do so prior to
-               publication. All permissions and licensing requests should be addressed to: Rights
-               and Permissions Office Society of Biblical Literature 825 Houston Mill Road, Suite
-               350 Atlanta, GA 30329 USA If you give away the SBLGNT for use with a commercial
-               product or sell a print or electronic work containing more than 500 verses from the
-               SBLGNT, you must annually report the number of units sold, distributed, and/or
-               downloaded to the Society of Biblical Literature’s Rights and Permissions Office. You
-               must always attribute quotations from the SBLGNT. If you quote fewer than 100 verses
-               of the SBLGNT in a single print or electronic work, you can attribute it by simply
-               adding "SBLGNT" after the quotation. Use of 100 or more verses in a single work must
-               be accompanied by the following statement: Scripture quotations marked SBLGNT are
-               from the SBL Greek New Testament. Copyright © 2010 Society of Biblical Literature and
-               Logos Bible Software. With online or electronic quotations, link "SBLGNT" and "SBL
-               Greek New Testament" to http://sblgnt.com, "Society of Biblical Literature" to
-               http://www.sbl-site.org, and "Logos Bible Software" to http://www.logos.com. The
-               SBLGNT may not be used in a Greek-English diglot without a license, regardless of
-               whether such work will be sold or given away. Diglots containing the SBLGNT and a
-               language other than English may be produced for free distribution.</desc>
-            <comment when="2014-05-06" who="kalvesmaki">Rights for the source are detailed at the SBL
-               site, http://sblgnt.com/license/, accessed 2014-05-06. To the best of my knowledge, this
-               reuse of the source as a TAN-T file conforms to that agreement. </comment>
-         </rights-source-only>
+         <desc>Copyright 2010 by the Society of Biblical Literature and Logos Bible Software. You
+            may freely distribute the SBL Greek New Testament (SBLGNT), but you are not permitted to
+            sell it on its own, either in print or electronic format. If the SBLGNT constitutes less
+            than 25 percent of the content of a larger print or electronic work, you may sell it as
+            part of that work. If the SBLGNT will constitute more than 25 percent of the content of
+            a larger print or electronic work that you wish to sell, you must secure written
+            permission or secure a licensing agreement to do so prior to publication. All
+            permissions and licensing requests should be addressed to: Rights and Permissions Office
+            Society of Biblical Literature 825 Houston Mill Road, Suite 350 Atlanta, GA 30329 USA If
+            you give away the SBLGNT for use with a commercial product or sell a print or electronic
+            work containing more than 500 verses from the SBLGNT, you must annually report the
+            number of units sold, distributed, and/or downloaded to the Society of Biblical
+            Literature’s Rights and Permissions Office. You must always attribute quotations from
+            the SBLGNT. If you quote fewer than 100 verses of the SBLGNT in a single print or
+            electronic work, you can attribute it by simply adding "SBLGNT" after the quotation. Use
+            of 100 or more verses in a single work must be accompanied by the following statement:
+            Scripture quotations marked SBLGNT are from the SBL Greek New Testament. Copyright ©
+            2010 Society of Biblical Literature and Logos Bible Software. With online or electronic
+            quotations, link "SBLGNT" and "SBL Greek New Testament" to http://sblgnt.com, "Society
+            of Biblical Literature" to http://www.sbl-site.org, and "Logos Bible Software" to
+            http://www.logos.com. The SBLGNT may not be used in a Greek-English diglot without a
+            license, regardless of whether such work will be sold or given away. Diglots containing
+            the SBLGNT and a language other than English may be produced for free
+            distribution.</desc>
+         <comment when="2014-05-06" who="kalvesmaki">Rights for the source are detailed at the SBL
+            site, http://sblgnt.com/license/, accessed 2014-05-06. To the best of my knowledge, this
+            reuse of the source as a TAN-T file conforms to that agreement. </comment>
       </source>
-      <see-also>
-         <relationship which="class 2"/>
+      <see-also relationship="class-2">
          <IRI>tag:kalvesmaki.com,2014:sblgnt-morph-01</IRI>
          <name>Lexico-morphological data for the SBL Greek New Testament</name>
-         <location
-            href="TAN-LM/nt.grc-sbl-2010-TAN-LM.xml"
+         <location href="TAN-LM/nt.grc-sbl-2010-TAN-LM.xml"
             when-accessed="2016-04-12T19:34:46.03-04:00"/>
       </see-also>
-      <declarations>
-         <work>
-            <IRI>http://dbpedia.org/resource/New_testament</IRI>
-            <name>New Testament</name>
-         </work>
-         <div-type include="BIBLE"/>
-         <filter>
-            <comment when="2014-05-07" who="kalvesmaki">I have retained punctuation, even U+2E00
-               RIGHT ANGLE SUBSTITUTION MARKER, despite the anachronism.</comment>
-            <normalization>
-               <IRI>urn:uuid:86d354ff-89c2-4004-a814-85366ca682a1</IRI>
-               <name>Put book and all its children elements in a TAN-compliant hierarchy of divs.
-               </name>
-            </normalization>
-            <normalization>
-               <IRI>urn:uuid:97aaaf20-d5fb-11e3-8c79-0002a5d5c51b</IRI>
-               <name>All p elements removed (but their descendants retained).</name>
-            </normalization>
-            <normalization>
-               <IRI>urn:uuid:307e189c-1636-4bc0-ba8e-3a28f6889d30</IRI>
-               <name>all chapter-verse numerals suppressed (text nodes of verse-number
-                  element)</name>
-            </normalization>
-            <normalization>
-               <IRI>tag:kalvesmaki.com,2014:norm:space</IRI>
-               <name>Normalized white space per oXygen XML settings.</name>
-            </normalization>
-         </filter>
-      </declarations>
-      <agent include="HEAD"/>
-      <role include="HEAD"/>
+      <definitions>
+         <work which="New Testament"/>
+         <div-type xml:id="bk" which="book"/>
+         <div-type xml:id="title" which="title"/>
+         <div-type xml:id="ch" which="chapter"/>
+         <div-type xml:id="v" which="verse (scripture)"/>
+         <relationship which="class 2" xml:id="class-2"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+            <desc>Stylesheet at:
+               ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
+         </algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+
+      </definitions>
+      <alter>
+         <comment when="2014-05-07" who="kalvesmaki">I have retained punctuation, even U+2E00 RIGHT
+            ANGLE SUBSTITUTION MARKER, despite the anachronism.</comment>
+         <normalization>
+            <IRI>urn:uuid:86d354ff-89c2-4004-a814-85366ca682a1</IRI>
+            <name>Put book and all its children elements in a TAN-compliant hierarchy of divs.
+            </name>
+         </normalization>
+         <normalization>
+            <IRI>urn:uuid:97aaaf20-d5fb-11e3-8c79-0002a5d5c51b</IRI>
+            <name>All p elements removed (but their descendants retained).</name>
+         </normalization>
+         <normalization>
+            <IRI>urn:uuid:307e189c-1636-4bc0-ba8e-3a28f6889d30</IRI>
+            <name>all chapter-verse numerals suppressed (text nodes of verse-number element)</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:norm:space</IRI>
+            <name>Normalized white space per oXygen XML settings.</name>
+         </normalization>
+      </alter>
+      <resp who="kalvesmaki" roles="editor"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <change when="2015-08-08" who="kalvesmaki">Replaced all blank @n with values, so compact
          syntax can be used.</change>
       <change when="2015-06-11" who="kalvesmaki">Restored verses from faulty transformation</change>
       <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation
          schema</change>
       <change when="2014-05-06" who="kalvesmaki">Started file.</change>
+      <change who="xslt1" when="2017-12-04T21:52:10.952-05:00">TAN file updated to 2018
+         schemas.</change>
    </head>
 <body xml:lang="grc" in-progress="false">
 <div type="bk" n="Mt">

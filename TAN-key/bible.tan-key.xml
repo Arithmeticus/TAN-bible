@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-key xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:TAN-key:bible">
+    <head>
+        <name>General vocabulary for the Bible project</name>
+        <desc>This file is also meant to be the master point of inclusion for project metadata such as rights, person, role</desc>
+        <license which="by-sa_4.0"/>
+        <licensor who="kalvesmaki"/>
+        <definitions>
+            <person xml:id="kalvesmaki">
+                <IRI>http://viaf.org/viaf/299582703</IRI>
+                <IRI>tag:kalvesmaki.com,2014:self</IRI>
+                <name xml:lang="eng">Joel Kalvesmaki</name>
+            </person>
+            <role which="creator" xml:id="creator"/>
+            <role xml:id="stylesheet1" which="stylesheet"/>
+        </definitions>
+        <resp roles="creator" who="kalvesmaki"/>
+        <change who="kalvesmaki" when="2017-12-02T16:26:16.45-05:00">Started file.</change>
+    </head>
+    <body in-progress="true">
+        
+        <group affects-element="person">
+            <item>
+                <IRI>http://viaf.org/viaf/299582703</IRI>
+                <IRI>tag:kalvesmaki.com,2014:self</IRI>
+                <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+                <name>Joel Kalvesmaki</name>
+            </item>
+        </group>
+        <group affects-element="scriptum source see-also">
+            <item>
+                <IRI>http://id.lib.harvard.edu/aleph/012287584/catalog</IRI>
+                <IRI>urn:uuid:d851b3b0-59a0-11e4-8ed6-0800200c9a66</IRI>
+                <name>King James Version, Francis Parris 1760 edition</name>
+                <name>kjv 1760</name>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:source:bible.lat.vulgata-clementina.2005</IRI>
+                <name>Revision of 1946 edition of the Vulgate by Colunga and Turrado.</name>
+                <name>Vulgata 2005</name>
+                <name>Vulgate 2005</name>
+                <desc>Revision organized by the Clementine Text Project,
+                    http://vulsearch.sourceforge.net/</desc>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:auxiliary:unboundbible</IRI>
+                <name>Unbound Bible</name>
+                <location href="https://unbound.biola.edu/" when-accessed="2015-10-12"/>
+            </item>
+        </group>
+        <group affects-element="work">
+            <item>
+                <IRI>http://dbpedia.org/resource/Bible</IRI>
+                <name>Bible</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Tanakh</IRI>
+                <name>Tanakh</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Old_Testament</IRI>
+                <name>Old Testament</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Septuagint</IRI>
+                <name>Septuagint</name>
+                <name>LXX</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/New_testament</IRI>
+                <name>New Testament</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Apocrypha</IRI>
+                <name>Apocrypha</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Genesis</IRI>
+                <name xml:lang="eng">Ge</name>
+                <name>Gn</name>
+                <name xml:lang="eng">Gen</name>
+                <name xml:lang="spa">Gén</name>
+                <name xml:lang="eng">Genesis</name>
+                <name xml:lang="spa">Génesis</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Exodus</IRI>
+                <name xml:lang="eng">Ex</name>
+                <name xml:lang="spa">Éx</name>
+                <name xml:lang="eng">Exod</name>
+                <name xml:lang="spa">Éxod</name>
+                <name xml:lang="spa">Éxodo</name>
+                <name xml:lang="eng">Exodus</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Leviticus</IRI>
+                <name>Lv</name>
+                <name xml:lang="eng">Le</name>
+                <name>Lev</name>
+                <name xml:lang="spa">Levítico</name>
+                <name xml:lang="eng">Leviticus</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Numbers</IRI>
+                <name>Nm</name>
+                <name xml:lang="eng">Nu</name>
+                <name xml:lang="eng">Num</name>
+                <name xml:lang="spa">Núm</name>
+                <name xml:lang="eng">Numbers</name>
+                <name xml:lang="spa">Números</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Deuteronomy</IRI>
+                <name>Dt</name>
+                <name xml:lang="eng">De</name>
+                <name xml:lang="eng">Du</name>
+                <name>Deut</name>
+                <name xml:lang="eng">Deuteronomy</name>
+                <name xml:lang="spa">Deuteronomio</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Joshua</IRI>
+                <name>Jos</name>
+                <name xml:lang="eng">Josh</name>
+                <name xml:lang="spa">Josué</name>
+                <name xml:lang="eng">Joshua</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Judges</IRI>
+                <name xml:lang="spa">Jc</name>
+                <name xml:lang="eng">Jdg</name>
+                <name xml:lang="eng">Jgs</name>
+                <name xml:lang="spa">Jue</name>
+                <name xml:lang="eng">Judg</name>
+                <name xml:lang="eng">Judges</name>
+                <name xml:lang="spa">Jueces</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Ruth</IRI>
+                <name xml:lang="eng">Ru</name>
+                <name xml:lang="spa">Rt</name>
+                <name xml:lang="spa">Rut</name>
+                <name xml:lang="eng">Ruth</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/1_Samuel</IRI>
+                <name xml:lang="eng">1Sm</name>
+                <name xml:lang="eng">1Sa</name>
+                <name xml:lang="spa">1 Sm</name>
+                <name>1 Sam</name>
+                <name>1 Samuel</name>
+                <name xml:lang="eng">1 Kingdoms</name>
+                <name xml:lang="eng">1 Kgdms</name>
+                <name xml:lang="eng">1Kgdms</name>
+                <desc>1 Kingdoms is the LXX name for the book, not to be confused with 1 Kings,
+                    which the LXX calls 3 Kingdoms.</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/2_Samuel</IRI>
+                <name xml:lang="eng">2Sm</name>
+                <name xml:lang="eng">2Sa</name>
+                <name xml:lang="spa">2 Sm</name>
+                <name>2 Sam</name>
+                <name>2 Samuel</name>
+                <name xml:lang="eng">2 Kingdoms</name>
+                <name xml:lang="eng">2 Kgdms</name>
+                <name xml:lang="eng">2Kgdms</name>
+                <desc>2 Kingdoms is the LXX name for the book, not to be confused with 2 Kings,
+                    which the LXX calls 2 Kingdoms.</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/1_Kings</IRI>
+                <name xml:lang="eng">1Kg</name>
+                <name xml:lang="eng">1Ki</name>
+                <name xml:lang="eng">1Kgs</name>
+                <name xml:lang="spa">1 Re</name>
+                <name xml:lang="eng">1 Kgs</name>
+                <name xml:lang="eng">1 Kings</name>
+                <name xml:lang="spa">1 Reyes</name>
+                <name xml:lang="eng">3 Kingdoms</name>
+                <name xml:lang="eng">3 Kgdms</name>
+                <name xml:lang="eng">3Kgdms</name>
+                <desc>'Kings' is the name commonly given, but 'Kingdoms' is the term used by the
+                    LXX. The distinction is fortuitous, since the LXX book numbering differs too.
+                    E.g., 1 Kings = 3 Kingdoms.</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/2_Kings</IRI>
+                <name xml:lang="eng">2Kg</name>
+                <name xml:lang="eng">2Ki</name>
+                <name xml:lang="eng">2Kgs</name>
+                <name xml:lang="spa">2 Re</name>
+                <name xml:lang="eng">2 Kgs</name>
+                <name xml:lang="eng">2 Kings</name>
+                <name xml:lang="spa">2 Reyes</name>
+                <name xml:lang="eng">4 Kingdoms</name>
+                <name xml:lang="eng">4 Kgdms</name>
+                <name xml:lang="eng">4Kgdms</name>
+                <desc>'Kings' is the name commonly given, but 'Kingdoms' is the term used by the
+                    LXX. The distinction is fortuitous, since the LXX book numbering differs too.
+                    E.g., 1 Kings = 3 Kingdoms.</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/1_Chronicles</IRI>
+                <name xml:lang="eng">1Ch</name>
+                <name xml:lang="spa">1 Cr</name>
+                <name xml:lang="eng">1 Chr</name>
+                <name xml:lang="eng">1Chr</name>
+                <name xml:lang="spa">1 Cró</name>
+                <name xml:lang="eng">1 Chron</name>
+                <name xml:lang="spa">1 Crónicas</name>
+                <name xml:lang="eng">1 Chronicles</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/2_Chronicles</IRI>
+                <name xml:lang="eng">2Ch</name>
+                <name xml:lang="spa">2 Cr</name>
+                <name xml:lang="eng">2 Chr</name>
+                <name xml:lang="eng">2Chr</name>
+                <name xml:lang="spa">2 Cró</name>
+                <name xml:lang="eng">2 Chron</name>
+                <name xml:lang="spa">2 Crónicas</name>
+                <name xml:lang="eng">2 Chronicles</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Ezra</IRI>
+                <name xml:lang="eng">Ezr</name>
+                <name xml:lang="spa">Esd</name>
+                <name xml:lang="eng">Ezra</name>
+                <name xml:lang="spa">Esdras</name>
+                <name>1 Esdras</name>
+                <name>1Esd</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Nehemiah</IRI>
+                <name>Ne</name>
+                <name>Neh</name>
+                <name xml:lang="eng">Nehemiah</name>
+                <name xml:lang="spa">Nehemías</name>
+                <name>2 Esdras</name>
+                <name>2Esd</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Tobit</IRI>
+                <name xml:lang="eng">Tb</name>
+                <name>Tob</name>
+                <name xml:lang="eng">Tobit</name>
+                <name xml:lang="spa">Tobías</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Judith</IRI>
+                <name>Jdt</name>
+                <name xml:lang="eng">Jth</name>
+                <name xml:lang="spa">Judit</name>
+                <name xml:lang="eng">Judith</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Esther</IRI>
+                <name>Est</name>
+                <name xml:lang="eng">Esth</name>
+                <name xml:lang="spa">Ester</name>
+                <name xml:lang="eng">Esther</name>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:work:bible:additions-to-esther</IRI>
+                <name>AddEsth</name>
+                <name xml:lang="eng">Additions to Esther</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/1_Maccabees</IRI>
+                <name xml:lang="eng">1Mc</name>
+                <name xml:lang="eng">1Ma</name>
+                <name xml:lang="spa">1 Mac</name>
+                <name xml:lang="eng">1 Macc</name>
+                <name xml:lang="spa">1Mac</name>
+                <name xml:lang="eng">1Macc</name>
+                <name xml:lang="spa">1 Macabeos</name>
+                <name xml:lang="eng">1 Maccabees</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/2_Maccabees</IRI>
+                <name xml:lang="eng">2Mc</name>
+                <name xml:lang="eng">2Ma</name>
+                <name xml:lang="spa">2 Mac</name>
+                <name xml:lang="eng">2 Macc</name>
+                <name xml:lang="spa">2Mac</name>
+                <name xml:lang="eng">2Macc</name>
+                <name xml:lang="spa">2 Macabeos</name>
+                <name xml:lang="eng">2 Maccabees</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/3_Maccabees</IRI>
+                <name xml:lang="eng">3Mc</name>
+                <name xml:lang="eng">3Ma</name>
+                <name xml:lang="spa">3 Mac</name>
+                <name xml:lang="eng">3 Macc</name>
+                <name xml:lang="spa">3Mac</name>
+                <name xml:lang="eng">3Macc</name>
+                <name xml:lang="spa">3 Macabeos</name>
+                <name xml:lang="eng">3 Maccabees</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/4_Maccabees</IRI>
+                <name xml:lang="eng">4Mc</name>
+                <name xml:lang="eng">4Ma</name>
+                <name xml:lang="spa">4 Mac</name>
+                <name xml:lang="eng">4 Macc</name>
+                <name xml:lang="spa">4Mac</name>
+                <name xml:lang="eng">4Macc</name>
+                <name xml:lang="spa">4 Macabeos</name>
+                <name xml:lang="eng">4 Maccabees</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Job</IRI>
+                <name xml:lang="eng">Jb</name>
+                <name>Job</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Psalms</IRI>
+                <name xml:lang="eng">Ps</name>
+                <name xml:lang="spa">Sal</name>
+                <name xml:lang="eng">Psalms</name>
+                <name xml:lang="spa">Salmos</name>
+                <name xml:lang="eng">Pss</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Odes_(Bible)</IRI>
+                <name xml:lang="eng">Odes</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Psalms_of_Solomon</IRI>
+                <name xml:lang="eng">PsSol</name>
+                <name xml:lang="eng">Psalms of Solomon</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Proverbs</IRI>
+                <name>Pr</name>
+                <name xml:lang="eng">Prv</name>
+                <name xml:lang="spa">Pro</name>
+                <name>Prov</name>
+                <name xml:lang="eng">Proverbs</name>
+                <name xml:lang="spa">Proverbios</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Ecclesiastes</IRI>
+                <name>Ec</name>
+                <name xml:lang="eng">Qoh</name>
+                <name xml:lang="spa">Ecl</name>
+                <name xml:lang="eng">Eccl</name>
+                <name xml:lang="eng">Eccles</name>
+                <name xml:lang="eng">Qoheleth</name>
+                <name xml:lang="spa">Eclesiastés</name>
+                <name xml:lang="eng">Ecclesiastes</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Song_of_Songs</IRI>
+                <name xml:lang="eng">SS</name>
+                <name xml:lang="eng">Sg</name>
+                <name xml:lang="eng">Can</name>
+                <name xml:lang="eng">Song</name>
+                <name>Cant</name>
+                <name xml:lang="eng">Song of Songs</name>
+                <name xml:lang="eng">Canticle of Canticles</name>
+                <name xml:lang="spa">Cantar de los Cantares</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Wisdom</IRI>
+                <name xml:lang="eng">Ws</name>
+                <name xml:lang="eng">Wis</name>
+                <name xml:lang="spa">Sab</name>
+                <name xml:lang="eng">Wisdom</name>
+                <name xml:lang="spa">Sabiduría</name>
+                <name xml:lang="eng">Wisdom of Solomon</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Sirach</IRI>
+                <name>Sir</name>
+                <name xml:lang="eng">Sirach</name>
+                <name xml:lang="eng">Ecclus</name>
+                <name xml:lang="spa">Si o Eclo</name>
+                <name xml:lang="eng">Ecclesiasticus</name>
+                <name xml:lang="spa">Sirácideso Eclesiástico</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Isaiah</IRI>
+                <name>Is</name>
+                <name xml:lang="eng">Isa</name>
+                <name xml:lang="eng">Isaiah</name>
+                <name xml:lang="spa">Isaías</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Jeremiah</IRI>
+                <name xml:lang="eng">Je</name>
+                <name xml:lang="spa">Jr</name>
+                <name>Jer</name>
+                <name xml:lang="eng">Jeremiah</name>
+                <name xml:lang="spa">Jeremías</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Letter_of_Jeremiah</IRI>
+                <name>EpJer</name>
+                <name>Epistle of Jeremiah</name>
+                <name>Letter of Jeremiah</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Lamentations</IRI>
+                <name xml:lang="eng">La</name>
+                <name>Lam</name>
+                <name xml:lang="eng">Lamentations</name>
+                <name xml:lang="spa">Lamentaciones</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Baruch</IRI>
+                <name>Ba</name>
+                <name>Bar</name>
+                <name xml:lang="spa">Baruc</name>
+                <name xml:lang="eng">Baruch</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Ezekiel</IRI>
+                <name>Ez</name>
+                <name xml:lang="eng">Ezk</name>
+                <name xml:lang="eng">Ezek</name>
+                <name xml:lang="eng">Ezekiel</name>
+                <name xml:lang="spa">Ezequiel</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Daniel</IRI>
+                <name>Dn</name>
+                <name xml:lang="eng">Da</name>
+                <name>Dan</name>
+                <name>Daniel</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Prayer_of_Azariah</IRI>
+                <name>PrAzar</name>
+                <name>Prayer of Azariah</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Susanna_(Book_of_Daniel)</IRI>
+                <name>Sus</name>
+                <name>Susanna</name>
+                <name>Shoshana</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Bel_and_the_Dragon</IRI>
+                <name>Bel</name>
+                <name>Bel and the Dragon</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Prayer_of_Manasseh</IRI>
+                <name>Man</name>
+                <name>PrMan</name>
+                <name>Prayer of Manasseh</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Song_of_the_Three_Holy_Children</IRI>
+                <name>S3Y</name>
+                <name>Song of the Three Youths</name>
+                <name>Song of the Three Holy Children</name>
+                <name>Song of the Three Holy Youths</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Hosea</IRI>
+                <name xml:lang="eng">Ho</name>
+                <name xml:lang="spa">Os</name>
+                <name xml:lang="eng">Hos</name>
+                <name xml:lang="eng">Hosea</name>
+                <name xml:lang="spa">Oseas</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Joel</IRI>
+                <name>Jl</name>
+                <name xml:lang="eng">Joe</name>
+                <name>Joel</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Amos</IRI>
+                <name>Am</name>
+                <name xml:lang="eng">Amos</name>
+                <name xml:lang="spa">Amós</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Obadiah</IRI>
+                <name xml:lang="eng">Ob</name>
+                <name xml:lang="spa">Abd</name>
+                <name xml:lang="eng">Obad</name>
+                <name xml:lang="spa">Abdías</name>
+                <name xml:lang="eng">Obadiah</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Jonah</IRI>
+                <name>Jon</name>
+                <name xml:lang="eng">Jonah</name>
+                <name xml:lang="spa">Jonás</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Micah</IRI>
+                <name>Mi</name>
+                <name xml:lang="eng">Mic</name>
+                <name xml:lang="spa">Miq</name>
+                <name xml:lang="eng">Micah</name>
+                <name xml:lang="spa">Miqueas</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Nahum</IRI>
+                <name>Na</name>
+                <name>Nah</name>
+                <name xml:lang="eng">Nahum</name>
+                <name xml:lang="spa">Nahún</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Habakkuk</IRI>
+                <name xml:lang="eng">Hb</name>
+                <name>Hab</name>
+                <name xml:lang="spa">Habacuc</name>
+                <name xml:lang="eng">Habakkuk</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Zephaniah</IRI>
+                <name xml:lang="eng">Zep</name>
+                <name xml:lang="spa">Sof</name>
+                <name xml:lang="eng">Zeph</name>
+                <name xml:lang="spa">Sofonías</name>
+                <name xml:lang="eng">Zephaniah</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Haggai</IRI>
+                <name xml:lang="eng">Hg</name>
+                <name xml:lang="spa">Ag</name>
+                <name xml:lang="eng">Hag</name>
+                <name xml:lang="spa">Ageo</name>
+                <name xml:lang="eng">Haggai</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Zechariah</IRI>
+                <name xml:lang="spa">Za</name>
+                <name xml:lang="eng">Zec</name>
+                <name xml:lang="spa">Zac</name>
+                <name xml:lang="eng">Zech</name>
+                <name xml:lang="spa">Zacarías</name>
+                <name xml:lang="eng">Zechariah</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Malachi</IRI>
+                <name xml:lang="eng">Ml</name>
+                <name>Mal</name>
+                <name xml:lang="eng">Malachi</name>
+                <name xml:lang="spa">Malaquías</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Gospel_of_Matthew</IRI>
+                <name>Mt</name>
+                <name xml:lang="eng">Mat</name>
+                <name xml:lang="eng">Matt</name>
+                <name xml:lang="spa">Mateo</name>
+                <name xml:lang="eng">Matthew</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Gospel_of_Mark</IRI>
+                <name xml:lang="eng">Mk</name>
+                <name xml:lang="spa">Mc</name>
+                <name xml:lang="eng">Mar</name>
+                <name xml:lang="eng">Mark</name>
+                <name xml:lang="spa">Marcos</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Gospel_of_Luke</IRI>
+                <name xml:lang="eng">Lk</name>
+                <name xml:lang="eng">Lu</name>
+                <name xml:lang="spa">Lc</name>
+                <name xml:lang="eng">Luke</name>
+                <name xml:lang="spa">Lucas</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Gospel_of_John</IRI>
+                <name>Jn</name>
+                <name xml:lang="eng">Jo</name>
+                <name xml:lang="eng">John</name>
+                <name xml:lang="spa">Juan</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Acts_of_the_Apostles</IRI>
+                <name xml:lang="eng">Ac</name>
+                <name xml:lang="spa">Hch</name>
+                <name xml:lang="eng">Acts</name>
+                <name xml:lang="spa">Hech</name>
+                <name xml:lang="eng">Acts of the Apostles</name>
+                <name xml:lang="spa">Hechos de los Apóstoles</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_to_the_Romans</IRI>
+                <name xml:lang="eng">Rm</name>
+                <name xml:lang="eng">Ro</name>
+                <name>Rom</name>
+                <name xml:lang="eng">Romans</name>
+                <name xml:lang="spa">Romanos</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/First_Epistle_to_the_Corinthians</IRI>
+                <name xml:lang="spa">1 Co</name>
+                <name>1 Cor</name>
+                <name xml:lang="spa">1Co</name>
+                <name>1Cor</name>
+                <name xml:lang="eng">1C</name>
+                <name xml:lang="spa">1 Corintios</name>
+                <name xml:lang="eng">1 Corinthians</name>
+                <name xml:lang="eng">1Corinthians</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Second_Epistle_to_the_Corinthians</IRI>
+                <name xml:lang="spa">2 Co</name>
+                <name>2 Cor</name>
+                <name xml:lang="spa">2Co</name>
+                <name>2Cor</name>
+                <name xml:lang="eng">2C</name>
+                <name xml:lang="spa">2 Corintios</name>
+                <name xml:lang="eng">2 Corinthians</name>
+                <name xml:lang="eng">2Corinthians</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_to_the_Galatians</IRI>
+                <name xml:lang="eng">Ga</name>
+                <name xml:lang="eng">Gal</name>
+                <name xml:lang="spa">Gál</name>
+                <name xml:lang="spa">Gálatas</name>
+                <name xml:lang="eng">Galatians</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_to_the_Ephesians</IRI>
+                <name xml:lang="eng">Ep</name>
+                <name xml:lang="spa">Ef</name>
+                <name xml:lang="eng">Eph</name>
+                <name xml:lang="spa">Efesios</name>
+                <name xml:lang="eng">Ephesians</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_to_the_Philippians</IRI>
+                <name xml:lang="eng">Php</name>
+                <name xml:lang="spa">Fil</name>
+                <name xml:lang="spa">Flp</name>
+                <name xml:lang="eng">Phil</name>
+                <name xml:lang="spa">Filipenses</name>
+                <name xml:lang="eng">Philippians</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_to_the_Colossians</IRI>
+                <name xml:lang="eng">Co</name>
+                <name>Col</name>
+                <name xml:lang="eng">Colossians</name>
+                <name xml:lang="spa">Colosenses</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/First_Epistle_to_the_Thessalonians</IRI>
+                <name xml:lang="eng">1Th</name>
+                <name xml:lang="spa">1 Tes</name>
+                <name xml:lang="eng">1 Thes</name>
+                <name xml:lang="eng">1 Thess</name>
+                <name xml:lang="spa">1Tes</name>
+                <name xml:lang="eng">1Thes</name>
+                <name xml:lang="eng">1Thess</name>
+                <name xml:lang="eng">1 Thessalonians</name>
+                <name xml:lang="eng">1Thessalonians</name>
+                <name xml:lang="spa">1 Tesalonicenses</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Second_Epistle_to_the_Thessalonians</IRI>
+                <name xml:lang="eng">2Th</name>
+                <name xml:lang="spa">2 Tes</name>
+                <name xml:lang="eng">2 Thes</name>
+                <name xml:lang="eng">2 Thess</name>
+                <name xml:lang="spa">2Tes</name>
+                <name xml:lang="eng">2Thes</name>
+                <name xml:lang="eng">2Thess</name>
+                <name xml:lang="eng">2 Thessalonians</name>
+                <name xml:lang="eng">2Thessalonians</name>
+                <name xml:lang="spa">2 Tesalonicenses</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/First_Epistle_to_Timothy</IRI>
+                <name xml:lang="eng">1T</name>
+                <name xml:lang="eng">1 Tm</name>
+                <name xml:lang="eng">1 Ti</name>
+                <name>1 Tim</name>
+                <name xml:lang="eng">1Tm</name>
+                <name xml:lang="eng">1Ti</name>
+                <name>1Tim</name>
+                <name xml:lang="eng">1 Timothy</name>
+                <name xml:lang="eng">1Timothy</name>
+                <name xml:lang="spa">1 Timoteo</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Second_Epistle_to_Timothy</IRI>
+                <name xml:lang="eng">2T</name>
+                <name xml:lang="eng">2 Tm</name>
+                <name xml:lang="eng">2 Ti</name>
+                <name>2 Tim</name>
+                <name xml:lang="eng">2Tm</name>
+                <name xml:lang="eng">2Ti</name>
+                <name>2Tim</name>
+                <name xml:lang="eng">2 Timothy</name>
+                <name xml:lang="eng">2Timothy</name>
+                <name xml:lang="spa">2 Timoteo</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_to_Titus</IRI>
+                <name>Ti</name>
+                <name>Tit</name>
+                <name xml:lang="spa">Tito</name>
+                <name xml:lang="eng">Titus</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_to_Philemon</IRI>
+                <name xml:lang="eng">Phm</name>
+                <name xml:lang="spa">Flm</name>
+                <name xml:lang="eng">Phlm</name>
+                <name xml:lang="spa">Filem</name>
+                <name xml:lang="eng">Philem</name>
+                <name xml:lang="spa">Filemón</name>
+                <name xml:lang="eng">Philemon</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_to_the_Hebrews</IRI>
+                <name xml:lang="eng">He</name>
+                <name>Heb</name>
+                <name xml:lang="eng">Hebrews</name>
+                <name xml:lang="spa">Hebreos</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_of_James</IRI>
+                <name xml:lang="eng">Ja</name>
+                <name xml:lang="spa">St</name>
+                <name xml:lang="eng">Jas</name>
+                <name xml:lang="eng">Jam</name>
+                <name xml:lang="spa">Sant</name>
+                <name xml:lang="spa">Stgo</name>
+                <name xml:lang="eng">James</name>
+                <name xml:lang="spa">Santiago</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/First_Epistle_of_Peter</IRI>
+                <name xml:lang="eng">1P</name>
+                <name xml:lang="eng">1 Pt</name>
+                <name xml:lang="spa">1 Pe</name>
+                <name xml:lang="eng">1 Pet</name>
+                <name xml:lang="eng">1Pt</name>
+                <name xml:lang="spa">1Pe</name>
+                <name xml:lang="eng">1Pet</name>
+                <name xml:lang="eng">1 Peter</name>
+                <name xml:lang="eng">1Peter</name>
+                <name xml:lang="spa">1 Pedro</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Second_Epistle_of_Peter</IRI>
+                <name xml:lang="eng">2P</name>
+                <name xml:lang="eng">2 Pt</name>
+                <name xml:lang="spa">2 Pe</name>
+                <name xml:lang="eng">2 Pet</name>
+                <name xml:lang="eng">2Pt</name>
+                <name xml:lang="spa">2Pe</name>
+                <name xml:lang="eng">2Pet</name>
+                <name xml:lang="eng">2 Peter</name>
+                <name xml:lang="eng">2Peter</name>
+                <name xml:lang="spa">2 Pedro</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/First_Epistle_of_John</IRI>
+                <name xml:lang="eng">1J</name>
+                <name>1 Jn</name>
+                <name xml:lang="eng">1 Jo</name>
+                <name>1Jn</name>
+                <name xml:lang="eng">1Jo</name>
+                <name xml:lang="eng">1 John</name>
+                <name xml:lang="eng">1John</name>
+                <name xml:lang="spa">1 Juan</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Second_Epistle_of_John</IRI>
+                <name xml:lang="eng">2J</name>
+                <name>2 Jn</name>
+                <name xml:lang="eng">2 Jo</name>
+                <name>2Jn</name>
+                <name xml:lang="eng">2Jo</name>
+                <name xml:lang="eng">2 John</name>
+                <name xml:lang="eng">2John</name>
+                <name xml:lang="spa">2 Juan</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Third_Epistle_of_John</IRI>
+                <name xml:lang="eng">3J</name>
+                <name>3 Jn</name>
+                <name xml:lang="eng">3 Jo</name>
+                <name>3Jn</name>
+                <name xml:lang="eng">3Jo</name>
+                <name xml:lang="eng">3 John</name>
+                <name xml:lang="eng">3John</name>
+                <name xml:lang="spa">3 Juan</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Epistle_of_Jude</IRI>
+                <name xml:lang="eng">Ju</name>
+                <name xml:lang="spa">Jds</name>
+                <name xml:lang="spa">Jud</name>
+                <name xml:lang="eng">Jude</name>
+                <name xml:lang="spa">Judas</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Book_of_Revelation</IRI>
+                <name xml:lang="eng">Re</name>
+                <name xml:lang="eng">Rv</name>
+                <name>Ap</name>
+                <name xml:lang="eng">Rev</name>
+                <name>Apoc</name>
+                <name xml:lang="eng">Revelation</name>
+                <name xml:lang="eng">Apocalypse</name>
+                <name xml:lang="spa">Apocalipsis</name>
+                <name xml:lang="eng">Revelation to John</name>
+                <name xml:lang="spa">Apocalipsis de Juan</name>
+            </item>
+        </group>
+        <group affects-element="lexicon">
+            <item>
+                <IRI>http://lccn.loc.gov/95032369</IRI>
+                <name xml:lang="eng">Liddell-Scott-Jones, 9th ed. plus rev. supplement</name>
+                <name>LSJ</name>
+            </item>
+            <item>
+                <IRI>http://lccn.loc.gov/77372171</IRI>
+                <name xml:lang="eng">G.H.W. Lampe, A Patristic Greek Lexicon, Oxford 1961.</name>
+                <name>Lampe</name>
+            </item>
+        </group>
+        <group affects-element="morphology">
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
+                <name xml:lang="eng">Perseus Greek morphology</name>
+                <location href="../../LM/TAN-mor/grc.kalvesmaki.com,2014.1.xml" when-accessed="2016-03-16-04:00"/>
+                <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-lexico-morphology/master/TAN-R-mor/grc.kalvesmaki.com%2C2014.1.xml" when-accessed="2015-08-05-04:00"/>
+            </item>
+        </group>
+    </body>
+</TAN-key>

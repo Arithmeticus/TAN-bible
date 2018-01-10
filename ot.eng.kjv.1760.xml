@@ -1,38 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:ot-eng-kjv.1760">
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:ot-eng-kjv.1760">
    <head>
       <name>Old Testament, King James Version of the Bible, 1760 edition</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/ot.eng.kjv.1760.xml"/>
-      <rights-excluding-sources include="HEAD"/>
-      <inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
-         <name>Div-based alignment of multiple versions of the Bible</name>
-         <location href="TAN-A-div/HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
-      </inclusion>
-      <inclusion xml:id="BIBLE">
-         <IRI>tag:kalvesmaki.com,2014:bible-eng-kjv.1760.TAN-T.001</IRI>
-         <name>King James Version of the Bible (including apocrypha), transcribed in TAN-T
-            format</name>
-         <location href="BIBLE.eng.kjv.1760.xml" when-accessed="2015-10-09-04:00"/>
-      </inclusion>
-      <source include="BIBLE"/>
-      <see-also include="BIBLE"/>
-      <declarations>
-         <work>
-            <IRI>http://dbpedia.org/resource/Old_Testament</IRI>
-            <name>Old Testament</name>
-         </work>
-         <div-type include="BIBLE"/>
-         
-         
-      </declarations>
-      <agent include="HEAD"/>
-      <role include="HEAD"/>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/ot.eng.kjv.1760.xml"/>
+      <license which="by-sa_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
+      </key>
+      <source which="kjv 1760"/>
+      <definitions>
+         <work which="old testament"/>
+         <div-type xml:id="bk" which="book"/>
+         <div-type xml:id="ch" which="chapter"/>
+         <div-type xml:id="v" which="verse (scripture)"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+            <desc>Stylesheet at:
+               ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
+         </algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet1" which="stylesheet"/>
+      </definitions>
+      <resp who="kalvesmaki" roles="editor"/>
+      <resp who="xslt1" roles="stylesheet1"/>
       <change when="2015-10-12" who="kalvesmaki">Started file.</change>
+      <change who="xslt1" when="2017-12-04T15:30:15.102-05:00">TAN file updated to 2018
+         schemas.</change>
    </head>
    <body xml:lang="eng" in-progress="false">
 <div n="Gen" type="bk">

@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev"
-   id="tag:kalvesmaki.com,2014:bible-eng-kjv.1760.TAN-T.001">
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:bible-eng-kjv.1760.TAN-T.001">
    <head>
       <name>King James Version of the Bible (including apocrypha), transcribed in TAN-T
          format</name>
-      <master-location
-         href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/BIBLE.eng.kjv.1760.xml"/>
-      <rights-excluding-sources rights-holder="kalvesmaki">
-         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
-         <name>Creative Commons Attribution 4.0 International License</name>
-         <desc>Exclusive of rights held and licenses offered by rightsholders of the source or
-            sources listed below, this data file, insofar as it constitutes an independent work, is
-            licensed under a Creative Commons Attribution 4.0 International License.</desc>
-      </rights-excluding-sources>
-      <inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
-         <name>Div-based alignment of multiple versions of the Bible</name>
-         <location href="TAN-A-div/HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
-      </inclusion>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/BIBLE.eng.kjv.1760.xml"/>
+      <license which="by-sa_4.0"/>
+      <licensor who="kalvesmaki"/>
       <inclusion xml:id="ot">
          <IRI>tag:kalvesmaki.com,2014:ot-eng-kjv.1760</IRI>
          <name>Old Testament, King James Version of the Bible, 1760 edition</name>
@@ -37,46 +25,38 @@
          <name>New Testament, King James Version of the Bible, 1760 edition</name>
          <location href="nt.eng.kjv.1760.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
-      <source>
-         <IRI>http://id.lib.harvard.edu/aleph/012287584/catalog</IRI>
-         <IRI>urn:uuid:d851b3b0-59a0-11e4-8ed6-0800200c9a66</IRI>
-         <name>King James Version, Francis Parris 1760 edition</name>
-      </source>
-      <see-also>
-         <relationship which="auxiliary"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-03"/>
+      </key>
+      <source which="kjv 1760"/>
+      <see-also relationship="auxiliary">
          <IRI>tag:kalvesmaki.com,2014:auxiliary:ccat</IRI>
          <name>Biblical texts supplied by Center for Computer Analysis of Texts (CCAT) at the
             University of Pennsylvania</name>
-         <location href="http://ccat.sas.upenn.edu/gopher/text/religion/biblical/"
-            when-accessed="2015-10-09"/>
+         <location href="http://ccat.sas.upenn.edu/gopher/text/religion/biblical/" when-accessed="2015-10-09"/>
       </see-also>
-      <see-also>
-         <relationship which="auxiliary"/>
+      <see-also relationship="auxiliary">
          <IRI>tag:kalvesmaki.com,2014:auxiliary:unboundbible</IRI>
          <name>Unbound Bible</name>
          <location href="https://unbound.biola.edu/" when-accessed="2015-10-12"/>
       </see-also>
-      <comment when="2015-10-12" who="kalvesmaki">Items retrieved from Unbound Bible, which drew
-         their material, oftentimes from the CCAT.</comment>
-      <declarations>
-         <work>
-            <IRI>http://dbpedia.org/resource/Bible</IRI>
-            <name>Bible</name>
-         </work>
-         <div-type xml:id="bk" which="book"/>
-         <div-type xml:id="ch" which="chapter"/>
-         <div-type xml:id="line" which="line (verse)"/>
-         <div-type xml:id="epigraph" which="epigraph"/>
-         <div-type xml:id="prologue" which="prologue"/>
-         <div-type xml:id="title" which="title"/>
-         <div-type xml:id="v" which="verse (scripture)"/>
-         <div-type xml:id="pt" which="part"/>
-         <filter/>
-      </declarations>
-      <agent include="HEAD"/>
-      <role include="HEAD"/>
+      <comment when="2015-10-12" who="kalvesmaki">Items retrieved from Unbound Bible, which drew their material oftentimes from the CCAT.</comment>
+      <definitions>
+         <work which="Bible"/>
+         <div-type include="ot apocr nt"/>
+         <relationship which="auxiliary" xml:id="auxiliary"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <resp roles="editor" who="kalvesmaki"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <change when="2015-10-01" who="kalvesmaki">Revised in light of inclusions.</change>
       <change when="2014-10-21" who="kalvesmaki">Started file.</change>
+      <change who="xslt1" when="2017-12-02T18:11:49.026-05:00">TAN file updated to 2018 schemas.</change>
    </head>
    <body xml:lang="eng" in-progress="false">
       <div include="ot"/>

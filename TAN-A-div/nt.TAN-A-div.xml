@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki@gmail.com,2014:nt.TAN-A-div.1">
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki@gmail.com,2014:nt.TAN-A-div.1">
     <head>
         <name>A New Hexapla: The New Testament in Five Ancient Languages (Greek, Latin, Syriac, Coptic, and Gothic) and One Modern (English)</name>
         <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/nt.TAN-A-div.xml"/>
-        <rights-excluding-sources include="HEAD"/>
-        <inclusion xml:id="HEAD">
-            <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
-            <name>Div-based alignment of multiple versions of the Bible</name>
-            <location href="HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
-        </inclusion>
+        <license which="by-sa_4.0"/>
+        <licensor who="kalvesmaki"/>
+        <key>
+            <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+            <name>General vocabulary for the Bible project</name>
+            <location href="../TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
+        </key>
+        
         <source xml:id="nt-grc">
             <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
             <name>Greek New Testament, SBL edition</name>
@@ -43,69 +45,70 @@
             <name>Bible (including apocrypha), King James Version</name>
             <location href="../nt.eng.kjv.1760.xml" when-accessed="2014-10-23"/>
         </source>
-        <declarations>
-            <!--<token-definition src="nt-grc nt-syr nt-cop nt-lat" which="general-words-only-1"/>-->
-            <!--<token-definition src="nt-kjv" which="general-1"/>-->
-            <comment when="2015-09-02" who="kalvesmaki">Renaming assumes nt-grc as the
-                benchmark.</comment>
-            <rename-div-ns src="nt-kjv nt-lat" div-type-ref="bk" ed-when="2016-02-19" ed-who="kalvesmaki">
-                <rename old="Matt" new="Mt"/>
-                <rename old="Mark" new="Mk"/>
-                <rename old="Luke" new="Lu"/>
-                <rename old="John" new="Jn"/>
-                <rename old="Acts" new="Ac"/>
-                <rename old="Rom" new="Ro"/>
-                <rename old="1Cor" new="1Co"/>
-                <rename old="2Cor" new="2Co"/>
-                <rename old="Phil" new="Php"/>
-                <rename old="1Thess" new="1Th"/>
-                <rename old="2Thess" new="2Th"/>
-                <rename old="Titus" new="Tit"/>
-                <rename old="Phlm" new="Phm"/>
-                <rename old="Jas" new="Jam"/>
-                <rename old="1Pet" new="1Pe"/>
-                <rename old="2Pet" new="2Pe"/>
-                <rename old="1John" new="1Jn"/>
-                <rename old="2John" new="2Jn"/>
-                <rename old="3John" new="3Jn"/>
-                <rename old="Jude" new="Jud"/>
-                <rename old="Rev" new="Re"/>
-            </rename-div-ns>
-            <rename-div-ns src="nt-cop" div-type-ref="bk">
-                <rename old="Matthew" new="Mt"/>
-                <rename old="Mark" new="Mk"/>
-                <rename old="Luke" new="Lu"/>
-                <rename old="John" new="Jn"/>
-                <rename old="Acts" new="Ac"/>
-                <rename old="Romans" new="Ro"/>
-                <rename old="1Corinthians" new="1Co"/>
-                <rename old="2Corinthians" new="2Co"/>
-                <rename old="Galatians" new="Gal"/>
-                <rename old="Ephesians" new="Eph"/>
-                <rename old="Philippians" new="Php"/>
-                <rename old="Colossians" new="Col"/>
-                <rename old="1Thessalonians" new="1Th"/>
-                <rename old="2Thessalonians" new="2Th"/>
-                <rename old="1Timothy" new="1Tim"/>
-                <rename old="2Timothy" new="2Tim"/>
-                <rename old="Titus" new="Tit"/>
-                <rename old="Philemon" new="Phm"/>
-                <rename old="Hebrews" new="Heb"/>
-                <rename old="James" new="Jam"/>
-                <rename old="1Peter" new="1Pe"/>
-                <rename old="2Peter" new="2Pe"/>
-                <rename old="1John" new="1Jn"/>
-                <rename old="2John" new="2Jn"/>
-                <rename old="3John" new="3Jn"/>
-                <rename old="Jude" new="Jud"/>
-                <rename old="Revelation" new="Re"/>
-            </rename-div-ns>
-        </declarations>
-        <agent include="HEAD"/>
-        <role include="HEAD"/>
+        <definitions>
+            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+            <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+            <role xml:id="stylesheet" which="stylesheet"/>
+            <role xml:id="editor" which="editor"/>
+        </definitions>
+        <alter src="nt-kjv">
+            <rename ref="Matt" new="Mt"/>
+            <rename ref="Mark" new="Mk"/>
+            <rename ref="Luke" new="Lu"/>
+            <rename ref="John" new="Jn"/>
+            <rename ref="Acts" new="Ac"/>
+            <rename ref="Rom" new="Ro"/>
+            <rename ref="1Cor" new="1Co"/>
+            <rename ref="2Cor" new="2Co"/>
+            <rename ref="Phil" new="Php"/>
+            <rename ref="1Thess" new="1Th"/>
+            <rename ref="2Thess" new="2Th"/>
+            <rename ref="Titus" new="Tit"/>
+            <rename ref="Phlm" new="Phm"/>
+            <rename ref="Jas" new="Jam"/>
+            <rename ref="1Pet" new="1Pe"/>
+            <rename ref="2Pet" new="2Pe"/>
+            <rename ref="1John" new="1Jn"/>
+            <rename ref="2John" new="2Jn"/>
+            <rename ref="3John" new="3Jn"/>
+            <rename ref="Jude" new="Jud"/>
+            <rename ref="Rev" new="Re"/>
+        </alter>
+        <alter src="nt-lat">
+            <rename ref="Matthew" new="Mt"/>
+            <rename ref="Mark" new="Mk"/>
+            <rename ref="Luke" new="Lu"/>
+            <rename ref="John" new="Jn"/>
+            <rename ref="Acts" new="Ac"/>
+            <rename ref="Romans" new="Ro"/>
+            <rename ref="1Corinthians" new="1Co"/>
+            <rename ref="2Corinthians" new="2Co"/>
+            <rename ref="Galatians" new="Gal"/>
+            <rename ref="Ephesians" new="Eph"/>
+            <rename ref="Philippians" new="Php"/>
+            <rename ref="Colossians" new="Col"/>
+            <rename ref="1Thessalonians" new="1Th"/>
+            <rename ref="2Thessalonians" new="2Th"/>
+            <rename ref="1Timothy" new="1Tim"/>
+            <rename ref="2Timothy" new="2Tim"/>
+            <rename ref="Titus" new="Tit"/>
+            <rename ref="Philemon" new="Phm"/>
+            <rename ref="Hebrews" new="Heb"/>
+            <rename ref="James" new="Jam"/>
+            <rename ref="1Peter" new="1Pe"/>
+            <rename ref="2Peter" new="2Pe"/>
+            <rename ref="1John" new="1Jn"/>
+            <rename ref="2John" new="2Jn"/>
+            <rename ref="3John" new="3Jn"/>
+            <rename ref="Jude" new="Jud"/>
+            <rename ref="Revelation" new="Re"/>
+        </alter>
+        <resp who="kalvesmaki" roles="editor"/>
+        <resp who="xslt1" roles="stylesheet"/>
         <change when="2015-10-01" who="kalvesmaki">Adapted for inclusions.</change>
         <change when="2015-09-15" who="kalvesmaki">Corrected typo in "Philippians"</change>
         <change when="2014-10-23" who="kalvesmaki">Started file</change>
+        <change who="xslt1" when="2017-12-14T18:18:56.382-05:00">TAN file updated to 2018 schemas.</change>
     </head>
     <body/>
 </TAN-A-div>

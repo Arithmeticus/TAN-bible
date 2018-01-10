@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc"  type="application/relax-ng-compact-syntax" ?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch"  type="application/xml"  schematypens="http://purl.oclc.org/dsdl/schematron" ?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:bible.apocr.lat.vulgata-clementina.2005" TAN-version="1 dev">
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"  type="application/relax-ng-compact-syntax" ?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"  type="application/xml"  schematypens="http://purl.oclc.org/dsdl/schematron" ?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:bible.apocr.lat.vulgata-clementina.2005" TAN-version="2018">
    <head>
       <name>Apocrypha, Latin: Vulgata Clementina</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/apocr.lat.vulgata-clementina.2005.xml"/>
-      <rights-excluding-sources include="HEAD"/>
-      <inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
-         <name>Div-based alignment of multiple versions of the Bible</name>
-         <location href="TAN-A-div/HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
-      </inclusion>
-      <inclusion xml:id="BIBLE">
-         <IRI>tag:kalvesmaki.com,2014:bible.lat.vulgata-clementina.2005</IRI>
-         <name>Latin: Vulgata Clementina</name>
-         <location href="bible.lat.vulgata-clementina.2005.xml" when-accessed="2016-02-19-05:00"/>
-      </inclusion>
-      <source include="BIBLE"/>
-      <see-also include="BIBLE"/>
-      <declarations>
-         <work>
-            <IRI>http://dbpedia.org/resource/Apocrypha</IRI>
-            <name>Apocrypha</name>
-         </work>
-         <div-type include="BIBLE"/>
-      </declarations>
-      <agent include="HEAD"/>
-      <role include="HEAD"/>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/apocr.lat.vulgata-clementina.2005.xml"/>
+      <license which="by-sa_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-03"/>
+      </key>
+      <source which="vulgate 2005"/>
+      <definitions>
+         <work which="apocrypha"></work>
+         <div-type xml:id="bk" which="book"/>
+         <div-type xml:id="ch" which="chapter"/>
+         <div-type xml:id="v" which="verse (scripture)"/>
+         <div-type xml:id="pr" which="prologue"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+            <desc>Stylesheet at:
+               ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
+         </algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <resp who="xslt1" roles="stylesheet"/>
       <change who="kalvesmaki" when="2016-02-19">Generated file</change>
+      <change who="xslt1" when="2017-12-04T15:57:50.447-05:00">TAN file updated to 2018
+         schemas.</change>
    </head>
    <body xml:lang="lat">
 <div n="Tob" type="bk">
@@ -1530,7 +1536,7 @@
 </div>
 <div n="Sir" type="bk">
 <div n="1" type="ch">
-<div n="0" type="v">PROLOGUS. Multorum nobis et magnorum per legem, et prophetas, aliosque qui secuti sunt illos, sapientia demonstrata est, in quibus oportet laudare Israël doctrinæ et sapientiæ causa, quia non solum ipsos loquentes necesse est esse peritos, sed etiam extraneos posse et dicentes et scribentes doctissimos fieri. Avus meus Jesus, postquam se amplius dedit ad diligentiam lectionis legis, et prophetarum, et aliorum librorum qui nobis a parentibus nostris traditi sunt, voluit et ipse scribere aliquid horum quæ ad doctrinam et sapientiam pertinent, ut desiderantes discere, et illorum periti facti, magis magisque attendant animo, et confirmentur ad legitimam vitam. Hortor itaque venire vos cum benevolentia, et attentiori studio lectionem facere, et veniam habere in illis, in quibus videmur, sequentes imaginem sapientiæ, deficere in verborum compositione. Nam deficiunt verba hebraica, quando fuerint translata ad alteram linguam : non autem solum hæc, sed et ipsa lex, et prophetæ, ceteraque aliorum librorum non parvam habent differentiam quando inter se dicuntur. Nam in octavo et trigesimo anno temporibus Ptolemæi Evergetis regis, postquam perveni in Ægyptum, et cum multum temporis ibi fuissem, inveni ibi libros relictos, non parvæ neque contemnendæ doctrinæ. Itaque bonum et necessarium putavi et ipse aliquam addere diligentiam et laborem interpretandi librum istum : et multa vigilia attuli doctrinam in spatio temporis, ad illa quæ ad finem ducunt, librum istum dare, et illis qui volunt animum intendere, et discere quemadmodum oporteat instituere mores, qui secundum legem Domini proposuerint vitam agere. </div>
+<div n="pr" type="pr">PROLOGUS. Multorum nobis et magnorum per legem, et prophetas, aliosque qui secuti sunt illos, sapientia demonstrata est, in quibus oportet laudare Israël doctrinæ et sapientiæ causa, quia non solum ipsos loquentes necesse est esse peritos, sed etiam extraneos posse et dicentes et scribentes doctissimos fieri. Avus meus Jesus, postquam se amplius dedit ad diligentiam lectionis legis, et prophetarum, et aliorum librorum qui nobis a parentibus nostris traditi sunt, voluit et ipse scribere aliquid horum quæ ad doctrinam et sapientiam pertinent, ut desiderantes discere, et illorum periti facti, magis magisque attendant animo, et confirmentur ad legitimam vitam. Hortor itaque venire vos cum benevolentia, et attentiori studio lectionem facere, et veniam habere in illis, in quibus videmur, sequentes imaginem sapientiæ, deficere in verborum compositione. Nam deficiunt verba hebraica, quando fuerint translata ad alteram linguam : non autem solum hæc, sed et ipsa lex, et prophetæ, ceteraque aliorum librorum non parvam habent differentiam quando inter se dicuntur. Nam in octavo et trigesimo anno temporibus Ptolemæi Evergetis regis, postquam perveni in Ægyptum, et cum multum temporis ibi fuissem, inveni ibi libros relictos, non parvæ neque contemnendæ doctrinæ. Itaque bonum et necessarium putavi et ipse aliquam addere diligentiam et laborem interpretandi librum istum : et multa vigilia attuli doctrinam in spatio temporis, ad illa quæ ad finem ducunt, librum istum dare, et illis qui volunt animum intendere, et discere quemadmodum oporteat instituere mores, qui secundum legem Domini proposuerint vitam agere. </div>
 <div n="1" type="v">Omnis sapientia a Domino Deo est : et cum illo fuit semper, et est ante ævum.</div>
 <div n="2" type="v">Arenam maris, et pluviæ guttas, et dies sæculi, quis dinumeravit ? altitudinem cæli, et latitudinem terræ, et profundum abyssi, quis dimensus est ?</div>
 <div n="3" type="v">sapientiam Dei præcedentem omnia, quis investigavit ?</div>

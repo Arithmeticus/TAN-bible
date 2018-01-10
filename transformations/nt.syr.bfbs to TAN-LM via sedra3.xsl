@@ -5,7 +5,7 @@
    version="3.0">
 
    <xsl:output indent="yes"/>
-   <xsl:include href="../../../library/TAN-1-dev/functions/TAN-core-functions.xsl"/>
+   <xsl:include href="../../../library/TAN-2018/functions/TAN-core-functions.xsl"/>
    <!-- , 'roots.csv', 'lexemes.csv' -->
    <!--<xsl:param name="filenames" select="('words.csv')" as="xs:string*"/>-->
    <xsl:variable name="raw-syr-nt" as="xs:string*"

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div">
+   <head>
+      <name>Div-based alignment of multiple versions of the Bible</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/bible.div.1.xml"/>
+      <license which="by-sa_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="../TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
+      </key>
+      <inclusion xml:id="nt">
+         <IRI>tag:kalvesmaki@gmail.com,2014:nt.TAN-A-div.1</IRI>
+         <name>Div-based alignment of multiple versions of the New Testament</name>
+         <location href="nt.TAN-A-div.xml" when-accessed="2015-10-01"/>
+      </inclusion>
+      <inclusion xml:id="tanakh">
+         <IRI>tag:kalvesmaki.com,2014:tanakh.TAN-A-div</IRI>
+         <name>Div-based alignment of multiple versions of the Tanakh</name>
+         <location href="tanakh.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
+      </inclusion>
+      <source include="nt tanakh"/>
+      <source xml:id="bible-ara">
+         <IRI>tag:kalvesmaki.com,2014:bible.ara.svd.1865</IRI>
+         <name>Arabic: Smith &amp; Van Dyke</name>
+         <location href="../bible.ara.smith-and-van-dyke.1865.xml" when-accessed="2015-10-12-04:00"/>
+      </source>
+      <source xml:id="bible-fra">
+         <IRI>tag:kalvesmaki.com,2014:bible.fra.ostervald.1996</IRI>
+         <name>Bible, French translation by Ostervald (1996 revision)</name>
+         <location href="../bible.fra.ostervald.1996.xml" when-accessed="2015-10-12-04:00"/>
+      </source>
+      <source xml:id="bible-lat">
+         <IRI>tag:kalvesmaki.com,2014:bible.lat.vulgata-clementina.2005</IRI>
+         <name>Latin: Vulgata Clementina</name>
+         <location href="../bible.lat.vulgata-clementina.2005.xml" when-accessed="2015-10-12-04:00"/>
+      </source>
+      <definitions>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <alter include="nt"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <resp who="xslt1" roles="stylesheet"/>
+      <change when="2015-10-01" who="kalvesmaki">Adapted for inclusions.</change>
+      <change when="2015-09-03" who="kalvesmaki">Altered aligns to realigns, added Psalm
+         realigns.</change>
+      <change when="2014-10-23" who="kalvesmaki">Started file</change>
+      <change who="xslt1" when="2017-12-02T16:23:13.77-05:00">TAN file updated to 2018 schemas.</change>
+      <comment when="2015-08-06" who="kalvesmaki">File does not yet reconcile Septuagint and
+         non-Septuagint reference systems.</comment>
+   </head>
+   <body/>
+</TAN-A-div>

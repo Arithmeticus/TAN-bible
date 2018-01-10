@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-LM.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:lxx-grc-rahlfs-morph-ccat">
+   <head>
+      <name>Lexico-morphological data for Rahlfs's edition of the Septuagint</name>
+      <license which="by-sa_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="../TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
+      </key>
+      <source>
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Rahlfs' edition of the Septuagint, transcribed in TAN-T format</name>
+         <location href="../lxx.grc.rahlfs.xml" when-accessed="2016-04-17T21:36:46.981-04:00"/>
+      </source>
+      <definitions>
+         <token-definition which="letters"/>
+         <lexicon xml:id="LSJ">
+            <IRI>http://lccn.loc.gov/95032369</IRI>
+            <name xml:lang="eng">Liddell-Scott-Jones, 9th ed. plus rev. supplement</name>
+         </lexicon>
+         <lexicon xml:id="Lampe">
+            <IRI>http://lccn.loc.gov/77372171</IRI>
+            <name xml:lang="eng">G.H.W. Lampe, A Patristic Greek Lexicon, Oxford 1961.</name>
+         </lexicon>
+         <morphology xml:id="Perseus">
+            <for-lang>grc</for-lang>
+            <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
+            <name xml:lang="eng">Perseus Greek morphology</name>
+            <location href="../../LM/TAN-mor/grc.kalvesmaki.com,2014.1.xml" when-accessed="2016-03-16-04:00"/>
+            <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-lexico-morphology/master/TAN-R-mor/grc.kalvesmaki.com%2C2014.1.xml" when-accessed="2015-08-05-04:00"/>
+         </morphology>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <resp who="kalvesmaki" roles="editor"/>
+      <resp who="xslt1" roles="stylesheet"/>
+      <change when="2016-04-17" who="kalvesmaki">started file</change>
+      <change who="xslt1" when="2017-12-05T06:18:48.41-05:00">TAN file updated to 2018 schemas.</change>
+   </head>
+   <body lexicon="LSJ" morphology="Perseus"/>
+</TAN-A-lm>

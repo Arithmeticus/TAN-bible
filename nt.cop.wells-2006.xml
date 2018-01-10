@@ -1,72 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:nt-cop-cs-2015-03">
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:nt-cop-cs-2015-03">
    <head>
       <name>Coptic Scriptorium Coptic New Testament</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.cop.cs-2015-03-13.xml"/>
-      <rights-excluding-sources include="HEAD"/>
-      <inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
-         <name>Div-based alignment of multiple versions of the Bible</name>
-         <location href="TAN-A-div/HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
-      </inclusion>
-      <inclusion xml:id="BIBLE">
-         <IRI>tag:kalvesmaki.com,2014:bible-eng-kjv.1760.TAN-T.001</IRI>
-         <name>King James Version of the Bible (including apocrypha), transcribed in TAN-T
-            format</name>
-         <location href="BIBLE.eng.kjv.1760.xml" when-accessed="2015-10-12-04:00"/>
-      </inclusion>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.cop.cs-2015-03-13.xml"/>
+      <license which="by-sa_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
+      </key>
       <source>
          <IRI>tag:kalvesmaki.com,2014:nt-cop-wells-2006</IRI>
          <name>Sahidic Coptic New Testament collated by J. Warren Wells</name>
          <desc>For more details see https://unbound.biola.edu/ and </desc>
-         <rights-source-only ed-when="2015-08-05" ed-who="kalvesmaki">
-            <IRI>urn:uuid:ca3a0eed-d581-42b1-9bea-0a5dffec81c6</IRI>
-            <name>Copyright held, but under what conditions unclear</name>
-            <desc>From Unbound Bible: "Sahidica - A New Edition of the New Testament in Sahidic
-               Coptic" Copyright (c)2000-2006 by J Warren Wells. All rights reserved. For more
-               information visit www.sahidica.org.</desc>
-         </rights-source-only>
       </source>
-      <see-also>
-         <relationship which="auxiliary"/>
-         <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03.coptic_nt_sahidic_lower_utf8_tokenized_1.1.1.txt</IRI>
-         <name>Coptic Scriptorium's tokenized rendering of Unbound Bible's Sahidic Coptic New
-            Testament</name>
-      </see-also>
-      <declarations>
+      <definitions>
          <work>
             <IRI>http://dbpedia.org/resource/New_testament</IRI>
             <name>New Testament</name>
          </work>
-         <div-type include="BIBLE"/>
-         <filter>
-            <normalization>
-               <IRI>urn:uuid:faade5c0-c96a-11e4-8731-1681e6b88ec1</IRI>
-               <name>converted div-like elements to TAN divs</name>
-            </normalization>
-            <normalization>
-               <IRI>urn:uuid:faade192-c96a-11e4-8731-1681e6b88ec1</IRI>
-               <name>removed non TAN-T attributes</name>
-            </normalization>
-            <normalization>
-               <IRI>urn:uuid:faade854-c96a-11e4-8731-1681e6b88ec1</IRI>
-               <name>Renamed duplicate verse names: Mark 16.9b</name>
-            </normalization>
-         </filter>
-         
-         
-         
-      </declarations>
-      <agent include="HEAD"/>
-      <role include="HEAD"/>
+         <div-type xml:id="bk" which="book"/>
+         <div-type xml:id="title" which="title"/>
+         <div-type xml:id="ch" which="chapter"/>
+         <div-type xml:id="v" which="verse (scripture)"/>
+         <relationship which="auxiliary" xml:id="auxiliary"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+            <desc>Stylesheet at:
+               ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
+         </algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <alter>
+         <normalization>
+            <IRI>urn:uuid:faade5c0-c96a-11e4-8731-1681e6b88ec1</IRI>
+            <name>converted div-like elements to TAN divs</name>
+         </normalization>
+         <normalization>
+            <IRI>urn:uuid:faade192-c96a-11e4-8731-1681e6b88ec1</IRI>
+            <name>removed non TAN-T attributes</name>
+         </normalization>
+         <normalization>
+            <IRI>urn:uuid:faade854-c96a-11e4-8731-1681e6b88ec1</IRI>
+            <name>Renamed duplicate verse names: Mark 16.9b</name>
+         </normalization>
+      </alter>
+      <resp who="kalvesmaki" roles="editor"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <change when="2015-03-13" who="kalvesmaki">Started file.</change>
+      <change who="xslt1" when="2017-12-30T13:58:33.054-05:00">TAN file updated to 2018
+         schemas.</change>
       <comment when="2015-03-13" who="kalvesmaki">John 8.1-11 missing in source.</comment>
-      <comment when="2015-03-13" who="kalvesmaki">Tokenization optimized for either larger word-spaced tokens or smaller ZWJ-spaced tokens. 
-         The latter are encoded as entities ​</comment>
+      <comment when="2015-03-13" who="kalvesmaki">Tokenization optimized for either larger
+         word-spaced tokens or smaller ZWJ-spaced tokens. The latter are encoded as entities
+         ​</comment>
    </head>
    <body xml:lang="cop" in-progress="false">
 <div type="bk" n="Matthew"><div type="ch" n="1">

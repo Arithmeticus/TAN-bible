@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki@gmail.com,2014:lxx.TAN-A-div">
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki@gmail.com,2014:lxx.TAN-A-div">
    <head>
       <name>Div-based alignment of multiple versions of the Septuagint</name>
       <!--<master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/lxx.TAN-A-div.xml"/>-->
-      <rights-excluding-sources include="HEAD"/>
-      <inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div</IRI>
-         <name>Div-based alignment of multiple versions of the Bible</name>
-         <location href="HEAD.bible.TAN-A-div.xml" when-accessed="2015-10-02-04:00"/>
-      </inclusion>
+      <license which="by-sa_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="../TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
+      </key>
       <source xml:id="lxx">
          <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
          <name>Greek Septuagint, Rahlfs's edition</name>
@@ -23,13 +24,16 @@
          <name>Brenton's English translation of the Septuagint</name>
          <location href="../lxx.eng.brenton.1851.xml" when-accessed="2014-10-23"/>
       </source>
-      <declarations>
-         <token-definition src="lxx" which="general-words-only-1"/>
-         <token-definition src="brenton" which="general-1"/>
-      </declarations>
-      <agent include="HEAD"/>
-      <role include="HEAD"/>
+      <definitions>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+      </definitions>
+      <resp who="kalvesmaki" roles="editor"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <change when="2015-10-15" who="kalvesmaki">Started file</change>
+      <change who="xslt1" when="2017-12-14T18:18:53.534-05:00">TAN file updated to 2018 schemas.</change>
    </head>
    <body/>
 </TAN-A-div>

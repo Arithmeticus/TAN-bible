@@ -5,7 +5,7 @@
    exclude-result-prefixes="xs tan fn tei" version="3.0">
 
    <xsl:output indent="yes"/>
-   <xsl:include href="../../../library/TAN-1-dev/functions/TAN-core-functions.xsl"/>
+   <xsl:include href="../../../library/TAN-2018/functions/TAN-core-functions.xsl"/>
    <xsl:variable name="current-base-uri" select="static-base-uri()"/>
    <xsl:variable name="source-abs-uri"
       select="resolve-uri('../../../pre-TAN/got/gotica.xml.zip', $current-base-uri)"/>
