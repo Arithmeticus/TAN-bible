@@ -51,7 +51,7 @@
             <role xml:id="stylesheet" which="stylesheet"/>
             <role xml:id="editor" which="editor"/>
         </definitions>
-        <alter src="nt-kjv">
+        <alter src="nt-kjv nt-lat">
             <rename ref="Matt" new="Mt"/>
             <rename ref="Mark" new="Mk"/>
             <rename ref="Luke" new="Lu"/>
@@ -74,7 +74,7 @@
             <rename ref="Jude" new="Jud"/>
             <rename ref="Rev" new="Re"/>
         </alter>
-        <alter src="nt-lat">
+        <!--<alter src="nt-lat">
             <rename ref="Matthew" new="Mt"/>
             <rename ref="Mark" new="Mk"/>
             <rename ref="Luke" new="Lu"/>
@@ -102,7 +102,7 @@
             <rename ref="3John" new="3Jn"/>
             <rename ref="Jude" new="Jud"/>
             <rename ref="Revelation" new="Re"/>
-        </alter>
+        </alter>-->
         <resp who="kalvesmaki" roles="editor"/>
         <resp who="xslt1" roles="stylesheet"/>
         <change when="2015-10-01" who="kalvesmaki">Adapted for inclusions.</change>

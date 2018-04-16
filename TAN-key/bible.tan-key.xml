@@ -836,8 +836,8 @@
             <item>
                 <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
                 <name xml:lang="eng">Perseus Greek morphology</name>
-                <location href="../../LM/TAN-mor/grc.kalvesmaki.com,2014.1.xml" when-accessed="2016-03-16-04:00"/>
-                <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-lexico-morphology/master/TAN-R-mor/grc.kalvesmaki.com%2C2014.1.xml" when-accessed="2015-08-05-04:00"/>
+                <location href="../../../library-lm/grc/grc.kalvesmaki.com,2014.1.xml" when-accessed="2018-03-22"/>
+                <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-lexico-morphology/master/TAN-mor/grc.kalvesmaki.com%2C2014.1.xml" when-accessed="2015-08-05-04:00"/>
             </item>
         </group>
     </body>

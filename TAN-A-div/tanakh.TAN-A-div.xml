@@ -21,15 +21,15 @@
          <name>Hebrew OT: BHS (Consonants &amp; Vowels)</name>
          <location href="../tanakh.hbo.bhs.1987.xml" when-accessed="2015-10-12-04:00"/>
       </source>
-      <source xml:id="ot-kjv">
-         <IRI>tag:kalvesmaki.com,2014:ot-eng-kjv.1760</IRI>
-         <name>Old Testament, King James Version of the Bible, 1760 edition</name>
-         <location href="../ot.eng.kjv.1760.xml" when-accessed="2015-10-12-04:00"/>
-      </source>
       <source xml:id="lxx">
          <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
          <name>Greek Septuagint, Rahlfs's edition</name>
          <location href="../lxx.grc.rahlfs.xml" when-accessed="2014-10-23"/>
+      </source>
+      <source xml:id="ot-kjv">
+         <IRI>tag:kalvesmaki.com,2014:ot-eng-kjv.1760</IRI>
+         <name>Old Testament, King James Version of the Bible, 1760 edition</name>
+         <location href="../ot.eng.kjv.1760.xml" when-accessed="2015-10-12-04:00"/>
       </source>
       <definitions>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
@@ -38,7 +38,7 @@
          <role xml:id="stylesheet" which="stylesheet"/>
       </definitions>
       <alter src="bhs ot-kjv lxx">
-         <equate works=""/>
+         <!--<equate works=""/>-->
          <equate n="1Kgdms 1Sm"/>
          <equate n="2Kgdms 2Sm"/>
          <equate n="3Kgdms 1Kgs"/>
