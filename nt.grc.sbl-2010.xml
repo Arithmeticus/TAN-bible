@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001">
    <head>
       <name>SBL Greek New Testament, transcribed in TAN-T format</name>
       <master-location
          href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml"/>
-      <license which="by-sa_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <license which="by-sa_4.0" licensor="kalvesmaki"/>
+      <work which="New Testament"/>
+      <vocabulary which="bible eng" accessed-when="2019-05-24"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
          <name>General vocabulary for the Bible project</name>
-         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
-      </key>
+         <location href="TAN-voc/bible.tan-voc.xml" accessed-when="2017-12-02"/>
+      </vocabulary>
       <source>
          <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.xml</IRI>
          <name>Society of Biblical Literature's 2010 edition of the Greek New Testament </name>
@@ -46,31 +45,13 @@
             site, http://sblgnt.com/license/, accessed 2014-05-06. To the best of my knowledge, this
             reuse of the source as a TAN-T file conforms to that agreement. </comment>
       </source>
-      <see-also relationship="class-2">
+      <annotation>
          <IRI>tag:kalvesmaki.com,2014:sblgnt-morph-01</IRI>
          <name>Lexico-morphological data for the SBL Greek New Testament</name>
-         <location href="TAN-LM/nt.grc-sbl-2010-TAN-LM.xml"
-            when-accessed="2016-04-12T19:34:46.03-04:00"/>
-      </see-also>
-      <definitions>
-         <work which="New Testament"/>
-         <div-type xml:id="bk" which="book"/>
-         <div-type xml:id="title" which="title"/>
-         <div-type xml:id="ch" which="chapter"/>
-         <div-type xml:id="v" which="verse (scripture)"/>
-         <relationship which="class 2" xml:id="class-2"/>
-         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <algorithm xml:id="xslt1">
-            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
-            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
-            <desc>Stylesheet at:
-               ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
-         </algorithm>
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
-
-      </definitions>
-      <alter>
+         <location href="TAN-A-lm/nt.grc-sbl-2010.TAN-A-lm.xml"
+            accessed-when="2016-04-12T19:34:46.03-04:00"/>
+      </annotation>
+      <adjustments>
          <comment when="2014-05-07" who="kalvesmaki">I have retained punctuation, even U+2E00 RIGHT
             ANGLE SUBSTITUTION MARKER, despite the anachronism.</comment>
          <normalization>
@@ -90,19 +71,24 @@
             <IRI>tag:kalvesmaki.com,2014:norm:space</IRI>
             <name>Normalized white space per oXygen XML settings.</name>
          </normalization>
-      </alter>
+      </adjustments>
+      <vocabulary-key>
+         <div-type xml:id="bk" which="book"/>
+         <div-type xml:id="ch" which="chapter"/>
+         <div-type xml:id="v" which="verse (scripture)"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
       <resp who="kalvesmaki" roles="editor"/>
-      <resp who="xslt1" roles="stylesheet"/>
       <change when="2015-08-08" who="kalvesmaki">Replaced all blank @n with values, so compact
          syntax can be used.</change>
       <change when="2015-06-11" who="kalvesmaki">Restored verses from faulty transformation</change>
       <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation
          schema</change>
       <change when="2014-05-06" who="kalvesmaki">Started file.</change>
-      <change who="xslt1" when="2017-12-04T21:52:10.952-05:00">TAN file updated to 2018
-         schemas.</change>
+      <to-do/>
    </head>
-<body xml:lang="grc" in-progress="false">
+<body xml:lang="grc">
 <div type="bk" n="Mt">
 <div type="title" n="title">ΚΑΤΑ ΜΑΘΘΑΙΟΝ</div>
 <div type="ch" n="1"><div type="v" n="1">Βίβλος γενέσεως Ἰησοῦ χριστοῦ υἱοῦ Δαυὶδ υἱοῦ Ἀβραάμ.</div><div type="v" n="2">Ἀβραὰμ ἐγέννησεν τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησεν τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησεν τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,</div><div type="v" n="3">Ἰούδας δὲ ἐγέννησεν τὸν Φαρὲς καὶ τὸν Ζάρα ἐκ τῆς Θαμάρ, Φαρὲς δὲ ἐγέννησεν τὸν Ἑσρώμ, Ἑσρὼμ δὲ ἐγέννησεν τὸν Ἀράμ,</div><div type="v" n="4">Ἀρὰμ δὲ ἐγέννησεν τὸν Ἀμιναδάβ, Ἀμιναδὰβ δὲ ἐγέννησεν τὸν Ναασσών, Ναασσὼν δὲ ἐγέννησεν τὸν Σαλμών,</div><div type="v" n="5">Σαλμὼν δὲ ἐγέννησεν τὸν Βόες ἐκ τῆς Ῥαχάβ, Βόες⸃ δὲ ἐγέννησεν τὸν Ἰωβὴδ ἐκ τῆς Ῥούθ, Ἰωβὴδ⸃ δὲ ἐγέννησεν τὸν Ἰεσσαί,</div><div type="v" n="6">Ἰεσσαὶ δὲ ἐγέννησεν τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ἐγέννησεν τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,</div><div type="v" n="7">Σολομὼν δὲ ἐγέννησεν τὸν Ῥοβοάμ, Ῥοβοὰμ δὲ ἐγέννησεν τὸν Ἀβιά, Ἀβιὰ δὲ ἐγέννησεν τὸν Ἀσάφ,</div><div type="v" n="8">Ἀσὰφ⸃ δὲ ἐγέννησεν τὸν Ἰωσαφάτ, Ἰωσαφὰτ δὲ ἐγέννησεν τὸν Ἰωράμ, Ἰωρὰμ δὲ ἐγέννησεν τὸν Ὀζίαν,</div><div type="v" n="9">Ὀζίας δὲ ἐγέννησεν τὸν Ἰωαθάμ, Ἰωαθὰμ δὲ ἐγέννησεν τὸν Ἀχάζ, Ἀχὰζ δὲ ἐγέννησεν τὸν Ἑζεκίαν,</div><div type="v" n="10">Ἑζεκίας δὲ ἐγέννησεν τὸν Μανασσῆ, Μανασσῆς δὲ ἐγέννησεν τὸν Ἀμώς, Ἀμὼς⸃ δὲ ἐγέννησεν τὸν Ἰωσίαν,</div><div type="v" n="11">Ἰωσίας δὲ ἐγέννησεν τὸν Ἰεχονίαν καὶ τοὺς ἀδελφοὺς αὐτοῦ ἐπὶ τῆς μετοικεσίας Βαβυλῶνος.</div><div type="v" n="12">Μετὰ δὲ τὴν μετοικεσίαν Βαβυλῶνος Ἰεχονίας ἐγέννησεν τὸν Σαλαθιήλ, Σαλαθιὴλ δὲ ἐγέννησεν τὸν Ζοροβαβέλ,</div><div type="v" n="13">Ζοροβαβὲλ δὲ ἐγέννησεν τὸν Ἀβιούδ, Ἀβιοὺδ δὲ ἐγέννησεν τὸν Ἐλιακίμ, Ἐλιακὶμ δὲ ἐγέννησεν τὸν Ἀζώρ,</div><div type="v" n="14">Ἀζὼρ δὲ ἐγέννησεν τὸν Σαδώκ, Σαδὼκ δὲ ἐγέννησεν τὸν Ἀχίμ, Ἀχὶμ δὲ ἐγέννησεν τὸν Ἐλιούδ,</div><div type="v" n="15">Ἐλιοὺδ δὲ ἐγέννησεν τὸν Ἐλεάζαρ, Ἐλεάζαρ δὲ ἐγέννησεν τὸν Ματθάν, Ματθὰν δὲ ἐγέννησεν τὸν Ἰακώβ,</div><div type="v" n="16">Ἰακὼβ δὲ ἐγέννησεν τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος χριστός.</div><div type="v" n="17">Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ χριστοῦ γενεαὶ δεκατέσσαρες.</div><div type="v" n="18">Τοῦ δὲ Ἰησοῦ χριστοῦ ἡ γένεσις οὕτως ἦν. μνηστευθείσης τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ πνεύματος ἁγίου.</div><div type="v" n="19">Ἰωσὴφ δὲ ὁ ἀνὴρ αὐτῆς, δίκαιος ὢν καὶ μὴ θέλων αὐτὴν δειγματίσαι, ἐβουλήθη λάθρᾳ ἀπολῦσαι αὐτήν.</div><div type="v" n="20">ταῦτα δὲ αὐτοῦ ἐνθυμηθέντος ἰδοὺ ἄγγελος κυρίου κατ’ ὄναρ ἐφάνη αὐτῷ λέγων· Ἰωσὴφ υἱὸς Δαυίδ, μὴ φοβηθῇς παραλαβεῖν Μαρίαν τὴν γυναῖκά σου, τὸ γὰρ ἐν αὐτῇ γεννηθὲν ἐκ πνεύματός ἐστιν ἁγίου·</div><div type="v" n="21">τέξεται δὲ υἱὸν καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰησοῦν, αὐτὸς γὰρ σώσει τὸν λαὸν αὐτοῦ ἀπὸ τῶν ἁμαρτιῶν αὐτῶν.</div><div type="v" n="22">τοῦτο δὲ ὅλον γέγονεν ἵνα πληρωθῇ τὸ ῥηθὲν ὑπὸ κυρίου διὰ τοῦ προφήτου λέγοντος·</div><div type="v" n="23">Ἰδοὺ ἡ παρθένος ἐν γαστρὶ ἕξει καὶ τέξεται υἱόν, καὶ καλέσουσιν τὸ ὄνομα αὐτοῦ Ἐμμανουήλ· ὅ ἐστιν μεθερμηνευόμενον Μεθ’ ἡμῶν ὁ θεός.</div><div type="v" n="24">ἐγερθεὶς δὲ ὁ Ἰωσὴφ ἀπὸ τοῦ ὕπνου ἐποίησεν ὡς προσέταξεν αὐτῷ ὁ ἄγγελος κυρίου καὶ παρέλαβεν τὴν γυναῖκα αὐτοῦ·</div><div type="v" n="25">καὶ οὐκ ἐγίνωσκεν αὐτὴν ἕως οὗ ἔτεκεν υἱόν· καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Ἰησοῦν.</div></div>

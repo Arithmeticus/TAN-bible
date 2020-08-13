@@ -1,53 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"  type="application/relax-ng-compact-syntax" ?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"  type="application/xml"  schematypens="http://purl.oclc.org/dsdl/schematron" ?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:bible.lat.vulgata-clementina.2005" TAN-version="2018">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc"  type="application/relax-ng-compact-syntax" ?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch"  type="application/xml"  schematypens="http://purl.oclc.org/dsdl/schematron" ?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:bible.lat.vulgata-clementina.2005" TAN-version="2020">
    <head>
       <name>Latin: Vulgata Clementina</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/bible.lat.vulgata-clementina.2005.xml"/>
-      <license which="by-sa_4.0"/>
-      <licensor who="kalvesmaki"/>
+      <license which="by 4.0" licensor="kalvesmaki"/>
+      <work which="Bible"/>
       <inclusion xml:id="ot">
          <IRI>tag:kalvesmaki.com,2014:bible.ot.lat.vulgata-clementina.2005</IRI>
          <name>Old Testament, Latin: Vulgata Clementina</name>
-         <location href="ot.lat.vulgata-clementina.2005.xml" when-accessed="2016-02-19-05:00"/>
+         <location href="ot.lat.vulgata-clementina.2005.xml" accessed-when="2016-02-19-05:00"/>
       </inclusion>
       <inclusion xml:id="nt">
          <IRI>tag:kalvesmaki.com,2014:bible.nt.lat.vulgata-clementina.2005</IRI>
          <name>New Testament, Latin: Vulgata Clementina</name>
-         <location href="nt.lat.vulgata-clementina.2005.xml" when-accessed="2016-02-20-05:00"/>
+         <location href="nt.lat.vulgata-clementina.2005.xml" accessed-when="2016-02-20-05:00"/>
       </inclusion>
       <inclusion xml:id="apocr">
          <IRI>tag:kalvesmaki.com,2014:bible.apocr.lat.vulgata-clementina.2005</IRI>
          <name>Apocrypha, Latin: Vulgata Clementina</name>
-         <location href="apocr.lat.vulgata-clementina.2005.xml" when-accessed="2016-02-20-05:00"/>
+         <location href="apocr.lat.vulgata-clementina.2005.xml" accessed-when="2016-02-20-05:00"/>
       </inclusion>
-      <key>
+      <vocabulary which="bible eng" accessed-when="2019-05-24"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
          <name>General vocabulary for the Bible project</name>
-         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-03"/>
-      </key>
+         <location href="TAN-voc/bible.tan-voc.xml" accessed-when="2017-12-03"/>
+      </vocabulary>
       <source which="vulgate 2005"/>
-      <see-also which="Unbound Bible" relationship="auxiliary"/>
-      <definitions>
-         <work which="Bible"/>
-         <div-type include="ot nt apocr"/>
-         <relationship which="auxiliary" xml:id="auxiliary"/>
-         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
-         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
-      </definitions>
-      <alter>
+      <adjustments>
          <comment when="2015-10-12" who="kalvesmaki">From the source: Typographical errors have
             been corrected, and spelling and puctuation have been modernized. </comment>
-      </alter>
+      </adjustments>
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
       <resp who="kalvesmaki" roles="editor"/>
-      <resp who="xslt1" roles="stylesheet"/>
+      <change when="2020-01-30" who="kalvesmaki">Removed Online Bible as see-also because no
+         document can be pointed to.</change>
       <change who="kalvesmaki" when="2015-09-16T08:37:05.977-04:00">Generated file</change>
-      <change who="xslt1" when="2017-12-04T16:00:03.684-05:00">TAN file updated to 2018 schemas.</change>
+      <to-do/>
    </head>
    <body xml:lang="lat">
       <div include="ot"/>

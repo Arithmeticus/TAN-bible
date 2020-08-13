@@ -1,41 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"  type="application/relax-ng-compact-syntax" ?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"  type="application/xml"  schematypens="http://purl.oclc.org/dsdl/schematron" ?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:bible.ot.lat.vulgata-clementina.2005" TAN-version="2018">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc"  type="application/relax-ng-compact-syntax" ?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch"  type="application/xml"  schematypens="http://purl.oclc.org/dsdl/schematron" ?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:bible.ot.lat.vulgata-clementina.2005" TAN-version="2020">
    <head>
       <name>Old Testament, Latin: Vulgata Clementina</name>
       <master-location
          href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/ot.lat.vulgata-clementina.2005.xml"/>
-      <license which="by-sa_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <license which="by-sa_4.0" licensor="kalvesmaki"/>
+      <work which="Old Testament"/>
+      <vocabulary which="bible eng" accessed-when="2019-05-24"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
          <name>General vocabulary for the Bible project</name>
-         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-03"/>
-      </key>
+         <location href="TAN-voc/bible.tan-voc.xml" accessed-when="2017-12-03"/>
+      </vocabulary>
       <source which="Vulgate 2005"/>
-      <definitions>
-         <work which="Old Testament"/>
+      <vocabulary-key>
          <div-type xml:id="bk" which="book"/>
          <div-type xml:id="ch" which="chapter"/>
          <div-type xml:id="v" which="verse (scripture)"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
-         <algorithm xml:id="xslt1">
-            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
-            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
-            <desc>Stylesheet at:
-               ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
-         </algorithm>
-      </definitions>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
       <resp who="kalvesmaki" roles="editor"/>
-      <resp who="xslt1" roles="stylesheet"/>
       <change who="kalvesmaki" when="2016-02-19">Generated file</change>
-      <change who="xslt1" when="2017-12-04T16:32:47.741-05:00">TAN file updated to 2018
-         schemas.</change>
+      <to-do/>
    </head>
    <body xml:lang="lat">
 <div n="Gen" type="bk">

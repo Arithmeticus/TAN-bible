@@ -1,46 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Hebraicum_v01">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:bible_ps_lat_Jerome_Hebraicum_v01">
     <head>
         <name>The Latin translation of the Psalter by Jerome, based on the Hebrew</name>
         <master-location
             href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/psalms.lat.jerome-from-heb.xml"/>
-        <license which="by_4.0"/>
-        <licensor who="kalvesmaki"/>
-        <key>
+        <license which="by_4.0" licensor="kalvesmaki"/>
+        <work which="Psalms"/>
+        <vocabulary which="bible eng" accessed-when="2019-05-24"/>
+        <vocabulary>
             <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
             <name>General vocabulary for the Bible project</name>
-            <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
-        </key>
+            <location href="TAN-voc/bible.tan-voc.xml" accessed-when="2017-12-02"/>
+        </vocabulary>
         <source>
             <IRI>urn:uuid:809b6116-d076-4dfd-8ea7-ea5624f0cd99</IRI>
             <name>Transcription of Weber's critical edition, using musall.de transcription as an
                 auxiliary</name>
             <location href="http://www.liberpsalmorum.info/Psalterium%20Hebraicum.html"
-                when-accessed="2014-05-24"/>
+                accessed-when="2014-05-24"/>
         </source>
-        <definitions>
-            <work which="Psalms"/>
-            <div-type xml:id="title" which="title"/>
-            <div-type xml:id="psalm" which="psalm"/>
-            <div-type xml:id="verse" which="verse (scripture)"/>
-            <div-type xml:id="line" which="line (poetry)"/>
-            <div-type xml:id="rubric" which="rubric"/>
-            <div-type xml:id="explicit" which="explicit"/>
-            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-            <algorithm xml:id="xslt1">
-                <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
-                <name>Stylesheet to populate a TAN-A-div file from collections.</name>
-                <desc>Stylesheet at:
-                    ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
-            </algorithm>
-            <role xml:id="editor" which="editor"></role>
-            <role xml:id="stylesheet" which="stylesheet"/>
-        </definitions>
-        <alter>
+        <adjustments>
             <normalization>
                 <IRI>tag:textalign.net,2015:normalization:html-to-tan-t</IRI>
                 <name>converted from HTML to TAN-T format</name>
@@ -49,15 +30,20 @@
                 <IRI>tag:textalign.net,2015:normalization:reference-numbers-suppress</IRI>
                 <name>suppressed reference numbers</name>
             </normalization>
-        </alter>
+        </adjustments>
+        <vocabulary-key>
+            <div-type xml:id="verse" which="verse (scripture)"/>
+            <div-type xml:id="line" which="line (poetry)"/>
+            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+        </vocabulary-key>
+        <file-resp who="kalvesmaki"/>
         <resp roles="editor" who="kalvesmaki"/>
-        <resp who="xslt1" roles="stylesheet"/>
         <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation
             schema</change>
         <change when="2014-05-24" who="kalvesmaki">Started TAN-T file.</change>
-        <change who="xslt1" when="2017-12-04T22:22:48.856-05:00">TAN file updated to 2018
-            schemas.</change>
-        <change who="kalvesmaki" when="2018-01-04">Converted numbering of lines from letter numerals to Arabic.</change>
+        <change who="kalvesmaki" when="2018-01-04">Converted numbering of lines from letter numerals
+            to Arabic.</change>
+        <to-do/>
     </head>
     <body xml:lang="lat">
 <div type="title" n="ti">INCIPIT LIBER PSALMORUM IUXTA HEBRAICUM TRANSLATUS</div>

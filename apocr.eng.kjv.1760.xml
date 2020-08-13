@@ -1,45 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:apocr-eng-kjv.1760">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:apocr-eng-kjv.1760">
    <head>
       <name>Apocrypha, King James Version of the Bible, 1760 edition</name>
       <master-location
          href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/apocr.eng.kjv.1760.xml"/>
-      <license which="by-sa_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <license which="by 4.0" licensor="kalvesmaki"/>
+      <n-alias div-type="bk"/>
+      <work which="apocrypha"/>
+      <vocabulary which="bible eng" accessed-when="2019-05-24"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
          <name>General vocabulary for the Bible project</name>
-         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-02"/>
-      </key>
+         <location href="TAN-voc/bible.tan-voc.xml" accessed-when="2017-12-02"/>
+      </vocabulary>
       <source which="kjv 1760"/>
-      <definitions>
-         <work which="apocrypha"/>
+      <adjustments/>
+      <vocabulary-key>
          <div-type xml:id="bk" which="book"/>
          <div-type xml:id="ch" which="chapter"/>
          <div-type xml:id="v" which="verse (scripture)"/>
          <div-type xml:id="pr" which="prologue"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <algorithm xml:id="xslt1">
-            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
-            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
-            <desc>Stylesheet at:
-               ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
-         </algorithm>
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
-      </definitions>
-      <alter/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
       <resp who="kalvesmaki" roles="editor"/>
-      <resp who="xslt1" roles="stylesheet"/>
       <change when="2015-10-12" who="kalvesmaki">Started file.</change>
-      <change who="xslt1" when="2017-12-02T16:14:32.691-05:00">TAN file updated to 2018
-         schemas.</change>
+      <to-do/>
    </head>
-   <body xml:lang="eng" in-progress="false">
+   <body xml:lang="eng">
 <div n="Tob" type="bk">
 <div n="1" type="ch">
 <div n="1" type="v">The book of the words of Tobit, son of Tobiel, the son of Ananiel,

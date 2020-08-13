@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:nt.TAN-A.1">
+    <head>
+        <name>A New Hexapla: The New Testament in Five Ancient Languages (Greek, Latin, Syriac, Coptic, and Gothic) and One Modern (English)</name>
+        <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A/nt.TAN-A.xml"/>
+        <license which="by-sa_4.0" licensor="kalvesmaki"/>
+        <vocabulary>
+            <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+            <name>General vocabulary for the Bible project</name>
+            <location href="../TAN-voc/bible.tan-voc.xml" accessed-when="2017-12-02"/>
+        </vocabulary>
+        <vocabulary which="bible eng" accessed-when="2019-05-27"/>
+        <source xml:id="nt-grc">
+            <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
+            <name>Greek New Testament, SBL edition</name>
+            <location href="../NT.grc.sbl-2010.xml" accessed-when="2014-10-23"/>
+        </source>
+        <source xml:id="nt-lat">
+            <IRI>tag:kalvesmaki.com,2014:bible.nt.lat.vulgata-clementina.2005</IRI>
+            <name>New Testament, Latin: Vulgata Clementina</name>
+            <location href="../nt.lat.vulgata-clementina.2005.xml" accessed-when="2016-02-20-05:00"/>
+        </source>
+        <source xml:id="nt-syr">
+            <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
+            <name>1905 Bible Society Syriac New Testament</name>
+            <location href="../nt.syr.bfbs-1905.xml" accessed-when="2014-11-04"/>
+        </source>
+        <source xml:id="nt-cop">
+            <IRI>tag:kalvesmaki.com,2014:nt-cop-cs-2015-03</IRI>
+            <name>Coptic New Testament, CS edition</name>
+            <location href="../nt.cop.wells-2006.xml" accessed-when="2015-03-13"/>
+        </source>
+        <source xml:id="nt-got">
+            <IRI>tag:kalvesmaki.com,2014:bible_nt_got_2004</IRI>
+            <name>Gothic New Testament</name>
+            <location href="../nt.got.2004.xml" accessed-when="2016-05-23T22:00:07.203-04:00"/>
+        </source>
+        <source xml:id="nt-kjv">
+            <IRI>tag:kalvesmaki.com,2014:nt-eng-kjv.1760</IRI>
+            <name>Bible (including apocrypha), King James Version</name>
+            <location href="../nt.eng.kjv.1760.xml" accessed-when="2014-10-23"/>
+        </source>
+        <vocabulary-key>
+            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+        </vocabulary-key>
+        <file-resp who="kalvesmaki"/>
+        <resp who="kalvesmaki" roles="editor"/>
+        
+        <change when="2020-07-15" who="kalvesmaki">Finished to-do list.</change>
+        <change when="2019-05-26" who="kalvesmaki">Replaced adjustments with TAN's extra vocabulary</change>
+        <change when="2015-10-01" who="kalvesmaki">Adapted for inclusions.</change>
+        <change when="2015-09-15" who="kalvesmaki">Corrected typo in "Philippians"</change>
+        <change when="2014-10-23" who="kalvesmaki">Started file</change>
+        <to-do/>
+    </head>
+    <body/>
+</TAN-A>

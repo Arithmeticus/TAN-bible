@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:lxx.TAN-A">
+   <head>
+      <name>Div-based alignment of multiple versions of the Septuagint</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A/lxx.TAN-A.xml"/>
+      <license which="by 4.0" licensor="kalvesmaki"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="../TAN-voc/bible.tan-voc.xml" accessed-when="2017-12-02"/>
+      </vocabulary>
+      <source xml:id="lxx">
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Greek Septuagint, Rahlfs's edition</name>
+         <location href="../lxx.grc.rahlfs.xml" accessed-when="2018-09-02"/>
+      </source>
+      <source xml:id="brenton">
+         <IRI>tag:kalvesmaki.com,2014:lxx-eng-1851-brenton</IRI>
+         <name>Brenton's English translation of the Septuagint</name>
+         <location href="../lxx.eng.brenton.1851.xml" accessed-when="2014-10-23"/>
+      </source>
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp who="kalvesmaki" roles="editor"/>
+      <change when="2015-10-15" who="kalvesmaki">Started file</change>
+      <to-do/>
+   </head>
+   <body/>
+</TAN-A>

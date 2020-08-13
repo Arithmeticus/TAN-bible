@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2018" id="tag:kalvesmaki.com,2014:bible_nt_got_2004">
+<?xml-model href="../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:bible_nt_got_2004">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -225,20 +223,21 @@
    </teiHeader>
    <head xmlns="tag:textalign.net,2015:ns">
       <name>Gothic New Testament</name>
-      <license which="by-sa_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.got.2004.xml"/>
+      <license which="by-sa_4.0" licensor="kalvesmaki"/>
+      <work which="New Testament"/>
+      <vocabulary which="eng bible" accessed-when="2019-05-24"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
          <name>General vocabulary for the Bible project</name>
-         <location href="TAN-key/bible.TAN-key.xml" when-accessed="2017-12-03"/>
-      </key>
+         <location href="TAN-voc/bible.tan-voc.xml" accessed-when="2017-12-03"/>
+      </vocabulary>
       <source>
          <IRI>https://lccn.loc.gov/35009965</IRI>
          <name>Die gotische Bibel / hrsg. von Wilhelm Streitberg. 2., verb. Aufl. Heidelberg:
             Winter, 1919-1928.</name>
       </source>
-      <definitions>
-         <work which="New Testament"/>
+      <vocabulary-key>
          <div-type xml:id="bk" which="book"/>
          <div-type xml:id="ch" which="chapter"/>
          <div-type xml:id="v" which="verse (scripture)"/>
@@ -247,25 +246,12 @@
             <name>Tom De Herdt</name>
          </person>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <algorithm xml:id="style">
-            <IRI>tag:kalvesmaki.com,2015:stylesheet:got-nt-to-tan-tei</IRI>
-            <name>Stylesheet to transform the TEI version of the Gothic New Testament to the TAN-TEI
-            format</name>
-         </algorithm>
-         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
-         <role xml:id="converter">
-            <IRI>tag:kalvesmaki.com,2015:role:tan-converter</IRI>
-            <name>The role of converting data from a non-TAN format to TAN.</name>
-         </role>
-      </definitions>
-      <resp roles="editor" who="TDH kalvesmaki"/>
-      <resp roles="converter" who="style"/>
-      <resp who="xslt1" roles="stylesheet"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="TDH"/>
       <change when="2016-05-09-04:00" who="kalvesmaki">Started file</change>
       <change when="2016-05-23T21:58:05.667-04:00" who="TDH">Data replaced by source files.</change>
-      <change who="xslt1" when="2017-12-04T21:38:45.171-05:00">TAN file updated to 2018 schemas.</change>
+      <to-do/>
    </head>
    <text>
       <body xml:lang="got">

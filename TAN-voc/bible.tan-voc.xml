@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-voc xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:TAN-key:bible">
+    <head>
+        <name>General vocabulary for the Bible project</name>
+        <desc>This file is also meant to be the master point of inclusion for project metadata such as rights, person, role</desc>
+        <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-voc/bible.tan-voc.xml"/>
+        <license which="by 4.0" licensor="kalvesmaki"/>
+        <vocabulary-key>
+            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+        </vocabulary-key>
+        <file-resp who="kalvesmaki"/>
+        <resp roles="creator" who="kalvesmaki"/>
+        <change who="kalvesmaki" when="2017-12-02T16:26:16.45-05:00">Started file.</change>
+        <change when="2018-09-20" who="kalvesmaki">Deleted work group, since new TAN extra
+            vocabulary includes @n aliases defined as works</change>
+        <change when="2019-05-21" who="kalvesmaki">Added item: auxiliary</change>
+        <change when="2020-01-30" who="kalvesmaki">Changed Online Bible to organization, not scriptum/see-also</change>
+        <to-do/>
+    </head>
+    <body>
+        <group affects-element="person">
+            <item>
+                <IRI>http://viaf.org/viaf/299582703</IRI>
+                <IRI>tag:kalvesmaki.com,2014:self</IRI>
+                <IRI>tag:kalvesmaki.com,2015:self</IRI>
+                <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+                <name>Joel Kalvesmaki</name>
+            </item>
+        </group>
+        <group affects-element="relationship">
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:vocabulary:relationship:auxiliary</IRI>
+                <name>auxiliary</name>
+                <desc>A digital service or resource that provided an auxiliary role in making the source or data available.</desc>
+            </item>
+        </group>
+        <group affects-element="organization">
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:auxiliary:unboundbible</IRI>
+                <name>Unbound Bible</name>
+                <desc>Biola University's online resource making available Bibles in multiple
+                    languages, https://unbound.biola.edu</desc>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:organization:catss</IRI>
+                <name>CATSS</name>
+                <name>Computer-Assisted Tools for Septuagint Studies</name>
+            </item>
+        </group>
+        <group affects-element="scriptum source see-also">
+            <item>
+                <IRI>http://id.lib.harvard.edu/aleph/012287584/catalog</IRI>
+                <IRI>urn:uuid:d851b3b0-59a0-11e4-8ed6-0800200c9a66</IRI>
+                <name>King James Version, Francis Parris 1760 edition</name>
+                <name>kjv 1760</name>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:source:bible.lat.vulgata-clementina.2005</IRI>
+                <name>Revision of 1946 edition of the Vulgate by Colunga and Turrado.</name>
+                <name>Vulgata 2005</name>
+                <name>Vulgate 2005</name>
+                <desc>Revision organized by the Clementine Text Project,
+                    http://vulsearch.sourceforge.net/</desc>
+            </item>
+        </group>
+        <group affects-element="lexicon">
+            <item>
+                <IRI>http://lccn.loc.gov/95032369</IRI>
+                <name xml:lang="eng">Liddell-Scott-Jones, 9th ed. plus rev. supplement</name>
+                <name>LSJ</name>
+            </item>
+            <item>
+                <IRI>http://lccn.loc.gov/77372171</IRI>
+                <name xml:lang="eng">G.H.W. Lampe, A Patristic Greek Lexicon, Oxford 1961.</name>
+                <name>Lampe</name>
+            </item>
+            <item>
+                <IRI>http://id.lib.harvard.edu/alma/990095757010203941/catalog</IRI>
+                <name xml:lang="eng">Lust et al.</name>
+                <desc>Greek-English lexicon of the Septuagint
+                    Lust, J. (Johan) / Rev. ed. / Stuttgart : Deutsche Bibelgesellschaft
+                    c2003</desc>
+            </item>
+        </group>
+        <group affects-element="morphology">
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
+                <name xml:lang="eng">Perseus Greek morphology</name>
+                <location href="../../../library-lm/grc/grc.perseus.tan-mor.xml" accessed-when="2018-03-22"/>
+                <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-lexico-morphology/master/grc/grc.perseus.tan-mor.xml" accessed-when="2015-08-05-04:00"/>
+            </item>
+        </group>
+    </body>
+</TAN-voc>

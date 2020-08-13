@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:bible.TAN-A-div">
+   <head>
+      <name>Div-based alignment of multiple versions of the Bible</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A-div/bible.div.1.xml"/>
+      <license which="by 4.0" licensor="kalvesmaki"/>
+      <vocabulary which="eng bible" accessed-when="2019-05-25"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
+         <name>General vocabulary for the Bible project</name>
+         <location href="../TAN-voc/bible.tan-voc.xml" accessed-when="2017-12-02"/>
+      </vocabulary>
+      <inclusion xml:id="nt">
+         <IRI>tag:kalvesmaki@gmail.com,2014:nt.TAN-A.1</IRI>
+         <name>Div-based alignment of multiple versions of the New Testament</name>
+         <location href="nt.TAN-A.xml" accessed-when="2015-10-01"/>
+      </inclusion>
+      <inclusion xml:id="tanakh">
+         <IRI>tag:kalvesmaki.com,2014:tanakh.TAN-A</IRI>
+         <name>Div-based alignment of multiple versions of the Tanakh</name>
+         <location href="tanakh.TAN-A.xml" accessed-when="2015-10-12-04:00"/>
+      </inclusion>
+      <source include="nt tanakh"/>
+      <source xml:id="bible-ara">
+         <IRI>tag:kalvesmaki.com,2014:bible.ara.svd.1865</IRI>
+         <name>Arabic: Smith &amp; Van Dyke</name>
+         <location href="../bible.ara.smith-and-van-dyke.1865.xml" accessed-when="2015-10-12-04:00"/>
+      </source>
+      <source xml:id="bible-fra">
+         <IRI>tag:kalvesmaki.com,2014:bible.fra.ostervald.1996</IRI>
+         <name>Bible, French translation by Ostervald (1996 revision)</name>
+         <location href="../bible.fra.ostervald.1996.xml" accessed-when="2015-10-12-04:00"/>
+      </source>
+      <source xml:id="bible-lat">
+         <IRI>tag:kalvesmaki.com,2014:bible.lat.vulgata-clementina.2005</IRI>
+         <name>Latin: Vulgata Clementina</name>
+         <location href="../bible.lat.vulgata-clementina.2005.xml" accessed-when="2015-10-12-04:00"/>
+      </source>
+      <adjustments include="tanakh"/>
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2015-10-01" who="kalvesmaki">Adapted for inclusions.</change>
+      <change when="2015-09-03" who="kalvesmaki">Altered aligns to realigns, added Psalm
+         realigns.</change>
+      <change when="2014-10-23" who="kalvesmaki">Started file</change>
+      <to-do>
+         <comment who="kalvesmaki" when="2018-09-02">Tanakh insertions of adjustments need to be checked.</comment>
+      </to-do>
+   </head>
+   <body/>
+</TAN-A>
