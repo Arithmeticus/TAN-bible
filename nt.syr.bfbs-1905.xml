@@ -8,6 +8,7 @@
       <master-location
          href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml"/>
       <license which="by-sa_4.0" licensor="kalvesmaki"/>
+      <n-alias div-type="bk"/>
       <work which="New Testament"/>
       <vocabulary which="bible eng" accessed-when="2019-05-24"/>
       <vocabulary>

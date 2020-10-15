@@ -7,6 +7,7 @@
       <master-location
          href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.eng.kjv.1760.xml"/>
       <license which="by-sa_4.0" licensor="kalvesmaki"/>
+      <n-alias div-type="bk"/>
       <work which="new testament"/>
       <vocabulary which="bible eng" accessed-when="2019-05-24"/>
       <vocabulary>
