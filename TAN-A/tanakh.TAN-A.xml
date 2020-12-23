@@ -8,6 +8,7 @@
          Septuagint, and late Christian--and both reconciles differences and facilitates alignment. </desc>
       <!--<master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/TAN-A/tanakh.TAN-A.xml"/>-->
       <license which="by 4.0" licensor="kalvesmaki"/>
+      <numerals priority="letters"/>
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:TAN-key:bible</IRI>
          <name>General vocabulary for the Bible project</name>
@@ -28,17 +29,290 @@
          <name>Old Testament, King James Version of the Bible, 1760 edition</name>
          <location href="../ot.eng.kjv.1760.xml" accessed-when="2015-10-12-04:00"/>
       </source>
-      <adjustments src="bhs ot-kjv lxx">
-         <equate n="1Kgdms 1Sm"/>
-         <equate n="2Kgdms 2Sm"/>
-         <equate n="3Kgdms 1Kgs"/>
-         <equate n="4Kgdms 2Kgs"/>
-         <equate n="1Esd Ezra"/>
-         <equate n="2Esd Neh"/>
+      
+      <adjustments src="ot-kjv bhs">
+         <!-- Obadiah has only one chapter, so sources that preserve the chapter should be skipped -->
+         <skip ref="Ob 1"/>
       </adjustments>
+      
+      <!-- English, German/French, Hebrew, and Septuagint numbering systems differ from each other. The
+      following system converts English and LXX numbering systems to the Hebrew numbering system. -->
+      
+      <adjustments src="ot-kjv">
+         <rename ref="Gen 31 55" new="Gen 32 1"/>
+         <rename ref="Gen 32 1-32" by="1"/>
+         <rename ref="Ex 8 1-4" new="Ex 7 26-29"/>
+         <rename ref="Ex 8 5-32" by="-4"/>
+         <rename ref="Ex 22 1" new="Ex 21 37"/>
+         <rename ref="Ex 22 2-31" by="-1"/>
+         <rename ref="Lev 6 1-7" new="Lev 5 20-26"/>
+         <rename ref="Lev 6 8-30" by="-7"/>
+         <rename ref="Num 16 36-50" new="Num 17 1-15"/>
+         <rename ref="Num 17 1-13" by="15"/>
+         <rename ref="Num 29 40" new="Num 30 1"/>
+         <rename ref="Num 30 1-16" by="1"/>
+         <rename ref="Dt 12 32" new="Dt 13 1"/>
+         <rename ref="Dt 13 1-18" by="1"/>
+         <rename ref="Dt 22 30" new="Dt 23 1"/>
+         <rename ref="Dt 23 1-25" by="1"/>
+         <rename ref="Dt 29 1" new="Dt 28 69"/>
+         <rename ref="Dt 29 2-29" by="-1"/>
+         <rename ref="1Sam 21 1-15" by="1"/>
+         <rename ref="1Sam 23 29" new="1Sam 24 1"/>
+         <rename ref="1Sam 24 1-22" by="1"/>
+         <rename ref="2Sam 18 33" new="2Sam 19 1"/>
+         <rename ref="2Sam 19 1-43" by="1"/>
+         <rename ref="1Ki 4 21-34" new="1Ki 5 1-14"/>
+         <rename ref="1Ki 5 1-18" by="14"/>
+         <rename ref="1Ki 22 44-53" by="1"/>
+         <rename ref="2Ki 11 21" new="2Ki 12 1"/>
+         <rename ref="2Ki 12 1-21" by="1"/>
+         <rename ref="1Chr 6 1-15" new="1Chr 5 27-41"/>
+         <rename ref="1Chr 6 16-81" by="-15"/>
+         <rename ref="1Chr 12 5-40" by="1"/>
+         <rename ref="2Chr 2 1" new="2Chr 1 18"/>
+         <rename ref="2Chr 2 2-18" by="-1"/>
+         <rename ref="2Chr 14 1" new="2Chr 13 23"/>
+         <rename ref="2Chr 14 2-15" by="-1"/>
+         <rename ref="Neh 4 1-6" new="Neh 3 33-38"/>
+         <rename ref="Neh 4 7-23" by="-6"/>
+         <rename ref="Neh 9 38" new="Neh 10 1"/>
+         <rename ref="Neh 10 1-39" by="1"/>
+         <rename ref="Job 41 1-8" new="Job 40 25-32"/>
+         <rename ref="Job 41 9-34" by="-8"/>
+         
+         <!-- The KJV used does not have the titles; if it did, then each of the 
+         subsequente renames would include a counterpart for the title, moving 
+         each one to verse one (or two! see below). -->
+         <rename ref="Ps 3 1-8" by="1"/>
+         <rename ref="Ps 4 1-8" by="1"/>
+         <rename ref="Ps 5 1-12" by="1"/>
+         <rename ref="Ps 6 1-10" by="1"/>
+         <rename ref="Ps 7 1-17" by="1"/>
+         <rename ref="Ps 8 1-9" by="1"/>
+         <rename ref="Ps 9 1-20" by="1"/>
+         <rename ref="Ps 12 1-8" by="1"/>
+         <rename ref="Ps 13 1-5" by="1" priority="1"/>
+         <rename ref="Ps 18 1-50" by="1"/>
+         <rename ref="Ps 19 1-14" by="1"/>
+         <rename ref="Ps 20 1-9" by="1"/>
+         <rename ref="Ps 21 1-13" by="1"/>
+         <rename ref="Ps 22 1-31" by="1"/>
+         <rename ref="Ps 30 1-12" by="1"/>
+         <rename ref="Ps 31 1-24" by="1"/>
+         <rename ref="Ps 34 1-22" by="1"/>
+         <rename ref="Ps 36 1-12" by="1"/>
+         <rename ref="Ps 38 1-22" by="1"/>
+         <rename ref="Ps 39 1-13" by="1"/>
+         <rename ref="Ps 40 1-17" by="1"/>
+         <rename ref="Ps 41 1-13" by="1"/>
+         <rename ref="Ps 42 1-11" by="1"/>
+         <rename ref="Ps 44 1-26" by="1"/>
+         <rename ref="Ps 45 1-17" by="1"/>
+         <rename ref="Ps 46 1-11" by="1"/>
+         <rename ref="Ps 47 1-9" by="1"/>
+         <rename ref="Ps 48 1-14" by="1"/>
+         <rename ref="Ps 49 1-20" by="1"/>
+         <rename ref="Ps 51 1-19" by="2"/>
+         <rename ref="Ps 52 1-9" by="2"/>
+         <rename ref="Ps 53 1-6" by="1"/>
+         <rename ref="Ps 54 1-7" by="2"/>
+         <rename ref="Ps 55 1-23" by="1"/>
+         <rename ref="Ps 56 1-13" by="1"/>
+         <rename ref="Ps 57 1-11" by="1"/>
+         <rename ref="Ps 58 1-11" by="1"/>
+         <rename ref="Ps 59 1-17" by="1"/>
+         <rename ref="Ps 60 1-12" by="2"/>
+         <rename ref="Ps 61 1-8" by="1"/>
+         <rename ref="Ps 62 1-12" by="1"/>
+         <rename ref="Ps 63 1-11" by="1"/>
+         <rename ref="Ps 64 1-10" by="1"/>
+         
+         <rename ref="Ps 65 1-13" by="1"/>
+         <rename ref="Ps 67 1-7" by="1"/>
+         <rename ref="Ps 68 1-35" by="1"/>
+         <rename ref="Ps 69 1-36" by="1"/>
+         <rename ref="Ps 70 1-5" by="1"/>
+         <rename ref="Ps 76 1-12" by="1"/>
+         <rename ref="Ps 77 1-20" by="1"/>
+         <rename ref="Ps 80 1-19" by="1"/>
+         <rename ref="Ps 81 1-16" by="1"/>
+         <rename ref="Ps 83 1-18" by="1"/>
+         <rename ref="Ps 84 1-12" by="1"/>
+         <rename ref="Ps 85 1-13" by="1"/>
+         <rename ref="Ps 88 1-18" by="1"/>
+         <rename ref="Ps 89 1-52" by="1"/>
+         <rename ref="Ps 92 1-15" by="1"/>
+         <rename ref="Ps 102 1-28" by="1"/>
+         <rename ref="Ps 108 1-13" by="1"/>
+         <rename ref="Ps 140 1-13" by="1"/>
+         <rename ref="Ps 142 1-7" by="1"/>
+         
+         <rename ref="Eccl 5 1" new="Eccl 4 17"/>
+         <rename ref="Eccl 5 2-20" new="Eccl 5 1-19"/>
+         <rename ref="Song 6 13" new="Song 7 1"/>
+         <rename ref="Song 7 1-13" by="1"/>
+         <rename ref="Is 9 1" new="Is 8 23"/>
+         <rename ref="Is 9 2-21" by="-1"/>
+         <rename ref="Is 64 1" new="Is 63 19"/>
+         <rename ref="Is 64 2-12" by="-1"/>
+         
+         <rename ref="Jer 9 1" new="Jer 8 23"/>
+         <rename ref="Jer 9 2-21" by="-1"/>
+         
+         <rename ref="Ezek 20 45-49" new="Ezek 21 1-5"/>
+         <rename ref="Ezek 21 1-32" by="5"/>
+         
+         <rename ref="Dan 4 1-3" new="Dan 3 31-33"/>
+         <rename ref="Dan 4 4-37" by="-3"/>
+         <rename ref="Dan 5 31" new="Dan 6 1"/>
+         <rename ref="Dan 6 1-28" by="1"/>
+         
+         <rename ref="Hos 1 10-11" new="Hos 2 1-2"/>
+         <rename ref="Hos 2 1-23" by="2"/>
+         <rename ref="Hos 11 12" new="Hos 12 1"/>
+         <rename ref="Hos 12 1-14" by="1"/>
+         <rename ref="Hos 13 16" new="Hos 14 1"/>
+         <rename ref="Hos 14 1-9" by="1"/>
+         
+         <rename ref="Joel 2 28-32" new="Joel 3 1-5"/>
+         <rename ref="Joel 3" by="1"/>
+         
+         <rename ref="Jon 1 17" new="Jon 2 1"/>
+         <rename ref="Jon 2 1-10" by="1"/>
+         
+         <rename ref="Micah 5 1" new="Micah 4 14"/>
+         <rename ref="Micah 5 2-15" by="-1"/>
+         
+         <rename ref="Nah 1 15" new="Nah 2 1"/>
+         <rename ref="Nah 2 1-13" by="1"/>
+         
+         <rename ref="Zech 1 18-21" new="Zech 2 1-4"/>
+         <rename ref="Zech 2 1-13" by="4"/>
+         
+         <rename ref="Mal 4 1-6" new="Mal 3 19-24"/>
+         
+      </adjustments>
+      
+      <adjustments src="ot-kjv">
+         <reassign>
+            <passage ref="Num 26 1">
+               <from-tok pos="1"/>
+               <through-tok pos="7"/>
+            </passage>
+            <to ref="Num 25 19"/>
+         </reassign>
+         <reassign>
+            <passage ref="1Sam 20 42">
+               <from-tok val="And" pos="2"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="1Sam 21 1"/>
+         </reassign>
+         <reassign priority="1">
+            <passage ref="1Ki 18 33">
+               <from-tok val="and" pos="3"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="1Ki 18 34"/>
+         </reassign>
+         <reassign priority="1">
+            <passage ref="1Ki 20 2">
+               <from-tok val="and" pos="1"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="1Ki 20 3"/>
+         </reassign>
+         <reassign>
+            <passage ref="1Ki 22 22">
+               <from-tok pos="1"/>
+               <through-tok val="Wherewith" pos="1"/>
+            </passage>
+            <to ref="1Ki 22 21"/>
+         </reassign>
+         <reassign>
+            <passage ref="1Ki 22 43">
+               <from-tok val="nevertheless" pos="1"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="1Ki 22 44"/>
+         </reassign>
+         <reassign priority="1">
+            <passage ref="1Chr 12 4">
+               <from-tok val="and" pos="2"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="1Chr 12 5"/>
+         </reassign>
+      </adjustments>
+      
       <adjustments src="lxx">
-
-         <!-- This alignment file converts Seputagint and Septuagint-derived references to the later, more familiar system. -->
+         <rename ref="Ex 20 13-14" by="1"/>
+         <rename ref="Ex 20 15" by="-2"/>
+         <rename ref="Ex 36 9-38" new="Ex 39 2-31"/>
+         <rename ref="Ex 37 1-2" new="Ex 36 8-9"/>
+         <rename ref="Ex 37 3-6" new="Ex 36 35-38"/>
+         <rename ref="Ex 37 7-21" new="Ex 38 9-23"/>
+         <rename ref="Ex 38 1-3" new="Ex 37 1-3"/>
+         <rename ref="Ex 38 4-9" new="Ex 37 5-10"/>
+         <rename ref="Ex 38 10" new="Ex 37 13"/>
+         <rename ref="Ex 38 11-13" new="Ex 37 15-17"/>
+         <rename ref="Ex 38 14" new="Ex 37 18"/>
+         <rename ref="Ex 38 15" new="Ex 37 18"/>
+         <comment when="2020-12-01" who="kalvesmaki">Exodus 38.16 LXX roughly corresponds to Ex 37
+            19-22, and no single way of realigning is satisfactory. The approach below puts the verse
+            in the proper text stream, but does not align it with any single verse.
+         </comment>
+         <rename ref="Ex 38 16" new="Ex 37 21a"/>
+         <rename ref="Ex 38 17" new="Ex 37 23"/>
+         <rename ref="Ex 38 21" new="Ex 38 20"/>
+         <comment when="2020-12-01" who="kalvesmaki">The following only roughly corresponds to
+            38.1-2, so it is here placed between the two relevant verses.</comment>
+         <rename ref="Ex 38 22" new="Ex 38 1a"/>
+         <rename ref="Ex 38 23" new="Ex 38 3"/>
+         <rename ref="Ex 38 25" new="Ex 37 29"/>
+         <rename ref="Ex 38 26" new="Ex 38 8"/>
+         <rename ref="Ex 39 1-8" new="Ex 38 24-31"/>
+         <rename ref="Ex 39 9" new="Ex 38 30"/>
+         <rename ref="Ex 39 10" new="Ex 39 32"/>
+         <rename ref="Ex 39 11" new="Ex 39 32"/>
+         <rename ref="Ex 39 12" new="Ex 39 1"/>
+         <rename ref="Ex 39 13" new="Ex 39 33"/>
+         <rename ref="Num 1 24-25" by="12"/>
+         <rename ref="Num 1 26-37" by="-2"/>
+         <rename ref="Num 26 15-23" by="4"/>
+         <rename ref="Num 26 24-27" by="-9"/>
+         <rename ref="Num 26 28-31" by="16"/>
+         <rename ref="Num 26 32-47" by="-4"/>
+         <rename ref="Josh 9 2a-2f" new="Josh 8 30-35"/>
+         <rename ref="Josh 19 47" by="1"/>
+         <rename ref="Josh 19 48" by="-1"/>
+         <rename ref="3Kgdms 2 46f" new="3Kgdms 5 4" priority="2"/>
+         <rename ref="3Kgdms 4 17-18" by="1"/>
+         <rename ref="3Kgdms 4 19" by="-2"/>
+         <rename ref="3Kgdms 6 1a-b" new="3Kgdms 5 31-32"/>
+         <rename ref="3Kgdms 6 1c-d" new="3Kgdms 6 37-38"/>
+         <rename ref="3Kgdms 7 1-6" by="12"/>
+         <rename ref="3Kgdms 7 7" by="14"/>
+         <rename ref="3Kgdms 7 8-9" by="11"/>
+         <rename ref="3Kgdms 7 10-11" by="13"/>
+         <rename ref="3Kgdms 7 12" by="14"/>
+         <rename ref="3Kgdms 7 13" by="12"/>
+         <rename ref="3Kgdms 7 14-17" by="13"/>
+         <rename ref="3Kgdms 7 18-31" by="14"/>
+         <rename ref="3Kgdms 7 32" by="15"/>
+         <rename ref="3Kgdms 7 33" by="13"/>
+         <rename ref="3Kgdms 7 34-37" by="14"/>
+         <rename ref="3Kgdms 7 38-49" by="-37"/>
+         <rename ref="3Kgdms 7 50" by="-49"/>
+         <rename ref="3Kgdms 11 5" by="2"/>
+         <rename ref="3Kgdms 11 6" by="-1"/>
+         <rename ref="3Kgdms 11 8" by="-2"/>
+         <rename ref="3Kgdms 11 7" by="1"/>
+         <rename ref="3Kgdms 20" by="1"/>
+         <rename ref="3Kgdms 21" by="-1"/>
+         <rename ref="2Esd 1-10" new="Ezra 1-10"/>
+         <rename ref="2Esd 11-23" new="Neh 1-13"/>
          
          <rename ref="Ps 9 22-39" new="Ps 10 1-18"/>
          <rename ref="Ps 10-112" by="1"/>
@@ -50,285 +324,230 @@
          <rename ref="Ps 116-146" by="1"/>
          <rename ref="Ps 147 1-9" new="Ps 147 12-20"/>
          
-         <!-- there is almost an exact 1:1 correspondence between the LXX and MT adjustments of titles and verses, but the 
-         chapter numbers differ, so they need to be handled separately -->
-         <rename ref="Ps 11 1" new="Ps 12 title"/>
-         <rename ref="Ps 17 1" new="Ps 18 title"/>
-         <rename ref="Ps 18 1" new="Ps 19 title"/>
-         <rename ref="Ps 19 1" new="Ps 20 title"/>
-         <rename ref="Ps 20 1" new="Ps 21 title"/>
-         <rename ref="Ps 21 1" new="Ps 22 title"/>
-         <rename ref="Ps 29 1" new="Ps 30 title"/>
-         <rename ref="Ps 30 1" new="Ps 31 title"/>
-         <rename ref="Ps 33 1" new="Ps 34 title"/>
-         <rename ref="Ps 35 1" new="Ps 36 title"/>
-         <rename ref="Ps 37 1" new="Ps 38 title"/>
-         <rename ref="Ps 38 1" new="Ps 39 title"/>
-         <rename ref="Ps 39 1" new="Ps 40 title"/>
-         <rename ref="ps 40 1" new="ps 41 title"/>
-         <rename ref="ps 41 1" new="ps 42 title"/>
-         <rename ref="ps 43 1" new="ps 44 title"/>
-         <rename ref="ps 44 1" new="ps 45 title"/>
-         <rename ref="ps 45 1" new="ps 46 title"/>
-         <rename ref="ps 46 1" new="ps 47 title"/>
-         <rename ref="ps 47 1" new="ps 48 title"/>
-         <rename ref="ps 48 1" new="ps 49 title"/>
-         <rename ref="ps 50 1" new="ps 51 title 1"/>
-         <rename ref="ps 50 2" new="ps 51 title 2"/>
-         <rename ref="ps 51 1" new="ps 52 title 1"/>
-         <rename ref="ps 51 2" new="ps 52 title 2"/>
-         <rename ref="ps 52 1" new="ps 53 title"/>
-         <rename ref="ps 53 1" new="ps 54 title 1"/>
-         <rename ref="ps 53 2" new="ps 54 title 2"/>
-         <rename ref="ps 54 1" new="ps 55 title"/>
-         <rename ref="ps 55 1" new="ps 56 title"/>
-         <rename ref="ps 56 1" new="ps 57 title"/>
-         <rename ref="ps 57 1" new="ps 58 title"/>
-         <rename ref="ps 58 1" new="ps 59 title"/>
-         <rename ref="ps 59 1" new="ps 60 title 1"/>
-         <rename ref="ps 59 2" new="ps 60 title 2"/>
-         <rename ref="ps 60 1" new="ps 61 title"/>
-         <rename ref="ps 61 1" new="ps 62 title"/>
-         <rename ref="ps 62 1" new="ps 63 title"/>
-         <rename ref="ps 63 1" new="ps 64 title"/>
-         <rename ref="ps 64 1" new="ps 65 title"/>
-         <rename ref="ps 66 1" new="ps 67 title"/>
-         <rename ref="ps 67 1" new="ps 68 title"/>
-         <rename ref="ps 68 1" new="ps 69 title"/>
-         <rename ref="ps 69 1" new="ps 70 title"/>
-         <rename ref="ps 74 1" new="ps 75 title"/>
-         <rename ref="ps 75 1" new="ps 76 title"/>
-         <rename ref="ps 76 1" new="ps 77 title"/>
-         <rename ref="ps 79 1" new="ps 80 title"/>
-         <rename ref="ps 80 1" new="ps 81 title"/>
-         <rename ref="ps 82 1" new="ps 83 title"/>
-         <rename ref="ps 83 1" new="ps 84 title"/>
-         <rename ref="ps 84 1" new="ps 85 title"/>
-         <rename ref="ps 87 1" new="ps 88 title"/>
-         <rename ref="ps 88 1" new="ps 89 title"/>
-         <rename ref="ps 91 1" new="ps 92 title"/>
-         <rename ref="ps 101 1" new="ps 102 title"/>
-         <rename ref="ps 107 1" new="ps 108 title"/>
-         <rename ref="ps 139 1" new="ps 140 title"/>
-         <rename ref="ps 141 1" new="ps 142 title"/>
-         <!-- The corresponding verses get shifted up by one -->
-         <rename ref="Ps 11 2-9" new="Ps 12 1-8"/>
-         <rename ref="Ps 17 2-51" new="Ps 18 1-50"/>
-         <rename ref="Ps 18 2-15" new="Ps 19 1-14"/>
-         <rename ref="Ps 19 2-10" new="Ps 20 1-9"/>
-         <rename ref="Ps 20 2-14" new="Ps 21 1-13"/>
-         <rename ref="Ps 21 2-32" new="Ps 22 1-31"/>
-         <rename ref="Ps 29 2-13" new="Ps 30 1-12"/>
-         <rename ref="Ps 30 2-25" new="Ps 31 1-24"/>
-         <rename ref="ps 33 2-23" new="ps 34 1-22"/>
-         <rename ref="ps 35 2-13" new="ps 36 1-12"/>
-         <rename ref="ps 37 2-23" new="ps 37 1-22"/>
-         <rename ref="ps 38 2-14" new="ps 38 1-13"/>
-         <rename ref="ps 39 2-18" new="ps 40 1-17"/>
-         <rename ref="ps 40 2-14" new="ps 41 1-13"/>
-         <rename ref="ps 41 2-12" new="ps 42 1-11"/>
-         <rename ref="ps 43 2-27" new="ps 44 1-26"/>
-         <rename ref="ps 44 2-18" new="ps 45 1-17"/>
-         <rename ref="ps 45 2-12" new="ps 46 1-11"/>
-         <rename ref="ps 46 2-10" new="ps 47 1-9"/>
-         <rename ref="ps 47 2-15" new="ps 48 1-14"/>
-         <rename ref="ps 48 2-21" new="ps 49 1-20"/>
-         <rename ref="ps 50 3-21" new="ps 51 1-19"/>
-         <rename ref="ps 51 3-11" new="ps 52 1-9"/>
-         <rename ref="ps 52 2-7" new="ps 53 1-6"/>
-         <rename ref="ps 53 3-9" new="ps 54 1-7"/>
-         <rename ref="ps 54 2-24" new="ps 55 1-23"/>
-         <rename ref="ps 55 2-14" new="ps 56 1-13"/>
-         <rename ref="ps 56 2-12" new="ps 57 1-11"/>
-         <rename ref="ps 57 2-12" new="ps 58 1-11"/>
-         <rename ref="ps 58 2-18" new="ps 59 1-17"/>
-         <rename ref="ps 59 3-14" new="ps 60 1-12"/>
-         <rename ref="ps 60 2-9" new="ps 61 1-8"/>
-         <rename ref="ps 61 2-13" new="ps 62 1-12"/>
-         <rename ref="ps 62 2-12" new="ps 63 1-11"/>
-         <rename ref="ps 63 2-11" new="ps 64 1-10"/>
-         <rename ref="ps 64 2-14" new="ps 65 1-13"/>
-         <rename ref="ps 66 2-8" new="ps 67 1-7"/>
-         <rename ref="ps 67 2-36" new="ps 68 1-35"/>
-         <rename ref="ps 68 2-37" new="ps 69 1-36"/>
-         <rename ref="ps 69 2-6" new="ps 70 1-5"/>
-         <rename ref="ps 74 2-11" new="ps 75 1-10"/>
-         <rename ref="ps 75 2-13" new="ps 76 1-12"/>
-         <rename ref="ps 76 2-21" new="ps 77 1-20"/>
-         <rename ref="ps 79 2-20" new="ps 80 1-19"/>
-         <rename ref="ps 80 2-17" new="ps 81 1-16"/>
-         <rename ref="ps 82 2-19" new="ps 83 1-18"/>
-         <rename ref="ps 83 2-13" new="ps 84 1-12"/>
-         <rename ref="ps 84 2-14" new="ps 85 1-13"/>
-         <rename ref="ps 87 2-19" new="ps 88 1-18"/>
-         <rename ref="ps 88 2-53" new="ps 89 1-52"/>
-         <rename ref="ps 91 2-16" new="ps 92 1-15"/>
-         <rename ref="ps 101 2-29" new="ps 102 1-28"/>
-         <rename ref="ps 107 2-14" new="ps 108 1-13"/>
-         <rename ref="ps 139 2-14" new="ps 140 1-13"/>
-         <rename ref="ps 141 2-8" new="ps 142 1-7"/>
+         <comment when="2020-12-08" who="kalvesmaki">Proverbs 15 has several verses that target
+            verses in 16, some of which already exist, and are said by Rahlfs not to be in the
+            Masoretic. I have opted to deal with this ambiguity by avoiding conflation, as
+            below.</comment>
+         <rename ref="Pr 15 27a" new="Pr 16 6"/>
+         <rename ref="Pr 15 28a" new="Pr 16 7"/>
+         <rename ref="Pr 15 29a" new="Pr 16 8"/>
+         <rename ref="Pr 15 29b" new="Pr 16 9"/>
+         <rename ref="Pr 16 2" new="Pr 16 2a"/>
+         <rename ref="Pr 16 7" new="Pr 16 7a"/>
+         <rename ref="Pr 16 8" new="Pr 16 8a"/>
+         <rename ref="Pr 16 9" new="Pr 16 4"/>
+         <rename ref="Pr 20 9a" new="Pr 20 20"/>
+         <rename ref="Pr 20 9b" new="Pr 20 21"/>
+         <rename ref="Pr 20 9c" new="Pr 20 22"/>
+         <rename ref="Pr 31 25" by="1"/>
+         <rename ref="Pr 31 26" by="-1"/>
          
-         
-         <rename ref="Jer 25 14-19" new="Jer 49 34-39"/>
-         <rename ref="Jer 25 20" new="Jer 49 34"/>
+         <rename ref="Jer 25 14" new="Jer 49 34" priority="1"/>
+         <rename ref="Jer 25 15-19" new="Jer 49 35-39"/>
          <rename ref="Jer 26" new="Jer 46"/>
-         <rename ref="Jer 27-28" new="Jer 50-51"/>
-         <rename ref="Jer 29" new="Jer 47"/>
-         <rename ref="Jer 30 1-16" new="Jer 49 7-22"/>
-         <rename ref="Jer 30 17-21" new="Jer 49 1-5"/>
-         <rename ref="Jer 30 23-28" new="Jer 49 28-33"/>
-         <rename ref="Jer 30 29-33" new="Jer 49 23-27"/>
-         <rename ref="Jer 31" new="Jer 48"/>
-         <rename ref="Jer 32-51" new="Jer 25-44"/>
-         <rename ref="Jer 44 1-5" new="Jer 45 1-5"/>
+         <rename ref="Jer 27-28" by="23"/>
+         <rename ref="Jer 29 1-7" new="Jer 47 1-7"/>
+         <rename ref="Jer 30 1-16" by="6"/>
+         <rename ref="Jer 30 17-21" by="-16"/>
+         <rename ref="Jer 30 23-28" by="5"/>
+         <rename ref="Jer 30 29-33" by="-6"/>
+         <rename ref="Jer 31" by="17"/>
+         <rename ref="Jer 32" new="Jer 25"/>
+         <rename ref="Jer 33, 35-37, 39-50" by="-7"/>
+         <rename ref="Jer 34" new="Jer 27"/>
+         <rename ref="Jer 38 1-40" new="Jer 31 1-34, 37, 35, 36, 38-40"/>
+         <rename ref="Jer 51 1-30" new="Jer 44 1-30"/>
+         <rename ref="Jer 51 31-35" new="Jer 45 1-5"/>
+         
+         <rename ref="Ezek 7 7-9" by="-4"/>
+         <rename ref="Ezek 7 3-6" by="3"/>
+         
+         <rename ref="Dan 4 1-3" new="Dan 3 31-33"/>
+         <rename ref="Dan 4 4-37" by="-3"/>
+         
+         <equate n="Judg JudgA"/>
+         <equate n="Dan DanTh"/>
+         <equate n="Bel BelTh"/>
+         
       </adjustments>
       
-      <adjustments src="bhs lxx">
-         <!-- Psalms verse renumbering; common between BHS and LXX -->
-         <rename ref="Ps 3 1" new="Ps 3 title"/>
-         <rename ref="Ps 3 2-9" by="-1"/>
-         <rename ref="Ps 4 1" new="Ps 4 title"/>
-         <rename ref="Ps 4 2-9" by="-1"/>
-         <rename ref="Ps 5 1" new="Ps 5 title"/>
-         <rename ref="Ps 5 2-13" by="-1"/>
-         <rename ref="Ps 6 1" new="Ps 6 title"/>
-         <rename ref="Ps 6 2-11" by="-1"/>
-         <rename ref="Ps 7 1" new="Ps 7 title"/>
-         <rename ref="Ps 7 2-18" by="-1"/>
-         <rename ref="Ps 8 1" new="Ps 8 title"/>
-         <rename ref="Ps 8 2-10" by="-1"/>
-         <rename ref="Ps 9 1" new="Ps 9 title"/>
-         <rename ref="Ps 9 2-21" by="-1"/>
+      <adjustments src="lxx">
+         <reassign priority="-1">
+            <passage ref="Gen 31 44">
+               <from-tok val="ἰδὲ"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="Gen 31 50"/>
+         </reassign>
+         <reassign priority="1">
+            <passage ref="Gen 31 46">
+               <from-tok val="καὶ" pos="5"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="Gen 31 48"/>
+         </reassign>
+         <reassign priority="1">
+            <passage ref="Gen 31 48">
+               <from-tok val="εἶπεν" pos="1"/>
+               <through-tok val="σοῦ" pos="1"/>
+            </passage>
+            <to ref="Gen 31 51"/>
+         </reassign>
+         <reassign priority="1">
+            <passage ref="Gen 31 48">
+               <from-tok val="μαρτυρεῖ" pos="1"/>
+               <through-tok val="αὕτη" pos="2"/>
+            </passage>
+            <to ref="Gen 31 52"/>
+         </reassign>
+         <reassign>
+            <passage ref="Gen 35 16">
+               <from-tok val="ἔπηξεν" pos="1"/>
+               <through-tok val="Γαδερ" pos="1"/>
+            </passage>
+            <to ref="Gen 35 21"/>
+         </reassign>
          
-         <rename ref="Mal 3 19-24" new="Mal 4 1-6"/>
+         <reassign>
+            <passage ref="Ex 35 12a">
+               <from-tok pos="1"/>
+               <through-tok val="αὐτῆς" pos="1"/>
+            </passage>
+            <to ref="Ex 35 17"/>
+         </reassign>
+         <reassign>
+            <passage ref="Ex 35 12a">
+               <from-tok val="καὶ" pos="4"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="Ex 35 15"/>
+         </reassign>
+         <reassign priority="-1">
+            <passage ref="Ex 36 8">
+               <from-tok val="τὰς" pos="1"/>
+               <through-tok val="Μωυσῇ" pos="1"/>
+            </passage>
+            <to ref="Ex 39 1"/>
+         </reassign>
+         <reassign>
+            <passage ref="Ex 38 24">
+               <from-tok pos="1"/>
+               <through-tok val="αὐτοῦ" pos="1"/>
+            </passage>
+            <to ref="Ex 38 4"/>
+         </reassign>
+         <reassign>
+            <passage ref="Ex 38 24">
+               <from-tok val="καὶ" pos="1"/>
+               <through-tok val="μοχλοῖς" pos="1"/>
+            </passage>
+            <to ref="Ex 38 5"/>
+         </reassign>
+         <reassign>
+            <passage ref="Ex 38 24">
+               <from-tok val="εὐρεῖς" pos="1"/>
+               <through-tok val="αὐτοῖς" pos="1"/>
+            </passage>
+            <to ref="Ex 38 7"/>
+         </reassign>
+         <reassign>
+            <passage ref="Ex 38 27">
+               <from-tok pos="1"/>
+               <through-tok val="αὐτοῦ" pos="1"/>
+            </passage>
+            <to ref="Ex 40 30"/>
+         </reassign>
+         <reassign>
+            <passage ref="Ex 38 27">
+               <from-tok val="Μωυσῆς" pos="1"/>
+               <through-tok val="πόδας" pos="1"/>
+            </passage>
+            <to ref="Ex 40 31"/>
+         </reassign>
+         <reassign>
+            <passage ref="Ex 38 27">
+               <from-tok val="εἰσπορευομένων" pos="1"/>
+               <through-tok val="Μωυσῇ" pos="1"/>
+            </passage>
+            <to ref="Ex 40 32"/>
+         </reassign>
          
-         <rename ref="Joel 3 1-5" new="Joel 2 28-32"/>
-         <rename ref="Joel 4" by="-1"/>
+         <reassign>
+            <passage ref="Num 6 23">
+               <from-tok val="οὕτως" pos="1"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="Num 6 27"/>
+         </reassign>
          
-         <rename ref="Hos 2 1-2" new="Hos 1 10-11"/>
-         <rename ref="Hos 2 3-25" by="-2"/>
+         <reassign>
+            <passage ref="3Kgdms 5 1">
+               <from-tok pos="1"/>
+               <through-tok val="λόγον" pos="1"/>
+            </passage>
+            <to ref="1Kgdms 5 7"/>
+         </reassign>
+         <reassign>
+            <passage ref="3Kgdms 5 1">
+               <from-tok val="καὶ" pos="3"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="1Kgdms 5 8"/>
+         </reassign>
+         <reassign priority="1">
+            <passage ref="3Kgdms 2 46g">
+               <from-tok pos="1"/>
+               <through-tok val="κυκλόθεν" pos="1"/>
+            </passage>
+            <to ref="1Kgdms 4 5"/>
+         </reassign>
+         <reassign>
+            <passage ref="3Kgdms 2 46g">
+               <from-tok val="καὶ" pos="2"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="1Kgdms 4 6"/>
+         </reassign>
+         
+         <reassign priority="1">
+            <passage ref="Prov 1 10">
+               <from-tok val="ἐὰν" pos="1"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="Prov 1 11"/>
+         </reassign>
+         <reassign priority="1">
+            <passage ref="Prov 3 3">
+               <from-tok val="καὶ" pos="2"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="Prov 3 4"/>
+         </reassign>
+         <reassign>
+            <passage ref="Prov 4 5">
+               <from-tok pos="1"/>
+               <through-tok val="ἐντολάς" pos="1"/>
+            </passage>
+            <to ref="Prov 4 4"/>
+         </reassign>
+         <reassign>
+            <passage ref="Prov 8 24">
+               <from-tok pos="1"/>
+               <through-tok val="ποιῆσαι" pos="1"/>
+            </passage>
+            <to ref="Prov 8 23"/>
+         </reassign>
+         <reassign priority="1">
+            <passage ref="Prov 22 17">
+               <from-tok val="ὅτι" pos="1"/>
+               <through-tok pos="last"/>
+            </passage>
+            <to ref="Prov 22 18"/>
+         </reassign>
+         
       </adjustments>
+
       
-      <adjustments src="bhs">
-         <!-- The BHS, like the LXX, counts the inscription as verse one, but it also differs from the LXX 
-            in most Psalms by 1, so it's just clearer to keep it separate from the LXX's re-versification
-            adjustments. -->
-         <rename ref="Ps 12 1" new="Ps 12 title"/>
-         <rename ref="Ps 12 2-9" by="-1"/>
-         <rename ref="Ps 18 1" new="Ps 18 title"/>
-         <rename ref="Ps 18 2-51" by="-1"/>
-         <rename ref="Ps 19 1" new="Ps 19 title"/>
-         <rename ref="Ps 19 2-15" by="-1"/>
-         <rename ref="Ps 20 1" new="Ps 20 title"/>
-         <rename ref="Ps 20 2-10" by="-1"/>
-         <rename ref="Ps 21 1" new="Ps 21 title"/>
-         <rename ref="Ps 21 2-14" by="-1"/>
-         <rename ref="Ps 22 1" new="Ps 22 title"/>
-         <rename ref="Ps 22 2-32" by="-1"/>
-         <rename ref="Ps 30 1" new="Ps 30 title"/>
-         <rename ref="Ps 30 2-13" by="-1"/>
-         <rename ref="Ps 31 1" new="Ps 31 title"/>
-         <rename ref="Ps 31 2-25" by="-1"/>
-         <rename ref="Ps 34 1" new="Ps 34 title"/>
-         <rename ref="ps 34 2-23" by="-1"/>
-         <rename ref="Ps 36 1" new="Ps 36 title"/>
-         <rename ref="ps 36 2-13" by="-1"/>
-         <rename ref="Ps 38 1" new="Ps 38 title"/>
-         <rename ref="ps 38 2-23" by="-1"/>
-         <rename ref="Ps 39 1" new="Ps 39 title"/>
-         <rename ref="ps 39 2-14" by="-1"/>
-         <rename ref="Ps 40 1" new="Ps 40 title"/>
-         <rename ref="ps 40 2-18" by="-1"/>
-         <rename ref="ps 41 1" new="ps 41 title"/>
-         <rename ref="ps 41 2-14" by="-1"/>
-         <rename ref="ps 42 1" new="ps 42 title"/>
-         <rename ref="ps 42 2-12" by="-1"/>
-         <rename ref="ps 44 1" new="ps 44 title"/>
-         <rename ref="ps 44 2-27" by="-1"/>
-         <rename ref="ps 45 1" new="ps 45 title"/>
-         <rename ref="ps 45 2-18" by="-1"/>
-         <rename ref="ps 46 1" new="ps 46 title"/>
-         <rename ref="ps 46 2-12" by="-1"/>
-         <rename ref="ps 47 1" new="ps 47 title"/>
-         <rename ref="ps 47 2-10" by="-1"/>
-         <rename ref="ps 48 1" new="ps 48 title"/>
-         <rename ref="ps 48 2-15" by="-1"/>
-         <rename ref="ps 49 1" new="ps 49 title"/>
-         <rename ref="ps 49 2-21" by="-1"/>
-         <rename ref="ps 51 1" new="ps 51 title 1"/>
-         <rename ref="ps 51 2" new="ps 51 title 2"/>
-         <rename ref="ps 51 3-21" by="-2"/>
-         <rename ref="ps 52 1" new="ps 52 title 1"/>
-         <rename ref="ps 52 2" new="ps 52 title 2"/>
-         <rename ref="ps 52 3-11" by="-2"/>
-         <rename ref="ps 53 1" new="ps 53 title"/>
-         <rename ref="ps 53 2-7" by="-1"/>
-         <rename ref="ps 54 1" new="ps 54 title 1"/>
-         <rename ref="ps 54 2" new="ps 54 title 2"/>
-         <rename ref="ps 54 3-9" by="-2"/>
-         <rename ref="ps 55 1" new="ps 55 title"/>
-         <rename ref="ps 55 2-24" by="-1"/>
-         <rename ref="ps 56 1" new="ps 56 title"/>
-         <rename ref="ps 56 2-14" by="-1"/>
-         <rename ref="ps 57 1" new="ps 57 title"/>
-         <rename ref="ps 57 2-12" by="-1"/>
-         <rename ref="ps 58 1" new="ps 58 title"/>
-         <rename ref="ps 58 2-12" by="-1"/>
-         <rename ref="ps 59 1" new="ps 59 title"/>
-         <rename ref="ps 59 2-18" by="-1"/>
-         <rename ref="ps 60 1" new="ps 60 title 1"/>
-         <rename ref="ps 60 2" new="ps 60 title 2"/>
-         <rename ref="ps 60 3-14" by="-2"/>
-         <rename ref="ps 61 1" new="ps 61 title"/>
-         <rename ref="ps 61 2-9" by="-1"/>
-         <rename ref="ps 62 1" new="ps 62 title"/>
-         <rename ref="ps 62 2-13" by="-1"/>
-         <rename ref="ps 63 1" new="ps 63 title"/>
-         <rename ref="ps 63 2-12" by="-1"/>
-         <rename ref="ps 64 1" new="ps 64 title"/>
-         <rename ref="ps 64 2-11" by="-1"/>
-         <rename ref="ps 65 1" new="ps 65 title"/>
-         <rename ref="ps 65 2-14" by="-1"/>
-         <rename ref="ps 67 1" new="ps 67 title"/>
-         <rename ref="ps 67 2-8" by="-1"/>
-         <rename ref="ps 68 1" new="ps 68 title"/>
-         <rename ref="ps 68 2-36" by="-1"/>
-         <rename ref="ps 69 1" new="ps 69 title"/>
-         <rename ref="ps 69 2-37" by="-1"/>
-         <rename ref="ps 70 1" new="ps 70 title"/>
-         <rename ref="ps 70 2-6" by="-1"/>
-         <rename ref="ps 75 1" new="ps 75 title"/>
-         <rename ref="ps 75 2-11" by="-1"/>
-         <rename ref="ps 76 1" new="ps 76 title"/>
-         <rename ref="ps 76 2-13" by="-1"/>
-         <rename ref="ps 77 1" new="ps 77 title"/>
-         <rename ref="ps 77 2-21" by="-1"/>
-         <rename ref="ps 80 1" new="ps 80 title"/>
-         <rename ref="ps 80 2-20" by="-1"/>
-         <rename ref="ps 81 1" new="ps 81 title"/>
-         <rename ref="ps 81 2-17" by="-1"/>
-         <rename ref="ps 83 1" new="ps 83 title"/>
-         <rename ref="ps 83 2-19" by="-1"/>
-         <rename ref="ps 84 1" new="ps 84 title"/>
-         <rename ref="ps 84 2-13" by="-1"/>
-         <rename ref="ps 85 1" new="ps 85 title"/>
-         <rename ref="ps 85 2-14" by="-1"/>
-         <rename ref="ps 88 1" new="ps 88 title"/>
-         <rename ref="ps 88 2-19" by="-1"/>
-         <rename ref="ps 89 1" new="ps 89 title"/>
-         <rename ref="ps 89 2-53" by="-1"/>
-         <rename ref="ps 92 1" new="ps 92 title"/>
-         <rename ref="ps 92 2-16" by="-1"/>
-         <rename ref="ps 102 1" new="ps 102 title"/>
-         <rename ref="ps 102 2-29" by="-1"/>
-         <rename ref="ps 108 1" new="ps 108 title"/>
-         <rename ref="ps 108 2-14" by="-1"/>
-         <rename ref="ps 140 1" new="ps 140 title"/>
-         <rename ref="ps 140 2-14" by="-1"/>
-         <rename ref="ps 142 1" new="ps 142 title"/>
-         <rename ref="ps 142 2-8" by="-1"/>
-         
-      </adjustments>
       <vocabulary-key>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
