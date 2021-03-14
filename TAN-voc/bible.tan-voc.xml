@@ -27,6 +27,18 @@
                 <IRI>tag:kalvesmaki.com,2015:self</IRI>
                 <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
                 <name>Joel Kalvesmaki</name>
+                <name>Kalvesmaki</name>
+            </item>
+            <item>
+                <IRI>https://orcid.org/0000-0001-7609-4689</IRI>
+                <name>RB ter Haar Romeny</name>
+                <name>Bas ter Haar Romeny</name>
+                <name>Romeny</name>
+            </item>
+            <item>
+                <IRI>https://orcid.org/0000-0002-3142-5752</IRI>
+                <name>Wido van Peursen</name>
+                <name>van Peursen</name>
             </item>
         </group>
         <group affects-element="relationship">
@@ -48,6 +60,11 @@
                 <name>CATSS</name>
                 <name>Computer-Assisted Tools for Septuagint Studies</name>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:organization:etcbc</IRI>
+                <name>ETCBC</name>
+                <name>Eep Talstra Centre for Bible and Computer</name>
+            </item>
         </group>
         <group affects-element="scriptum source see-also">
             <item>
@@ -63,6 +80,12 @@
                 <name>Vulgate 2005</name>
                 <desc>Revision organized by the Clementine Text Project,
                     http://vulsearch.sourceforge.net/</desc>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:source:leiden-peshitta</IRI>
+                <name>Leiden Peshitta</name>
+                <desc>Digital Leiden Peshitta, produced by the Eep Talstra Centre for Bible and
+                    Computer, all versions</desc>
             </item>
         </group>
         <group affects-element="lexicon">
